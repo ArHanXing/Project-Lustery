@@ -12,3 +12,10 @@
 /attribute VMHanXing justarod:player.lubricating modifier add 123
 /attribute VMHanXing justarod:player.lubricating modifier add 1 123
 /attribute VMHanXing justarod:player.lubricating modifier add 1 123 add_value
+/attribute VMHanXing justarod:player.develop_rate get
+/attribute VMHanXing justarod:player.develop_rate base
+/attribute VMHanXing justarod:player.develop_rate base get
+/attribute VMHanXing justarod:player.develop_rate modifier value get
+/attribute VMHanXing justarod:player.develop_rate modifier
+/attribute VMHanXing justarod:player.develop_rate modifier add
+/attribute VMHanXing justarod:player.develop_rate modifier add __1 10 add_multiplied_total
