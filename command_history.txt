@@ -1,0 +1,14 @@
+/kjs reload startup-scripts
+/reload
+/kjs reload startup-scripts
+/reload
+/kjs reload startup-scripts
+/reload
+/attribute VMHanXing
+/attribute VMHanXing justarod:player.lubricating
+/attribute VMHanXing justarod:player.lubricating get
+/attribute VMHanXing justarod:generic.max_power get
+/attribute VMHanXing justarod:player.lubricating get
+/attribute VMHanXing justarod:player.lubricating modifier add 123
+/attribute VMHanXing justarod:player.lubricating modifier add 1 123
+/attribute VMHanXing justarod:player.lubricating modifier add 1 123 add_value

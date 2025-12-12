@@ -1,0 +1,27 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:mekanism:sps_casing",
+    {
+      "type": "mekanism_chemical",
+      "id": "mekanism:antimatter",
+      "amount": 1000
+    },
+    "item:mekanism:pellet_antimatter",
+    "item:mekanism_extras:naquadah_reactor_casing",
+    "item:sgjourney:naquadah_rod",
+    "item:sgjourney:vial{\"sgjourney:fluid\":{amount:250,id:\"sgjourney:liquid_naquadah\"}}",
+    "item:sgjourney:naquadah_alloy",
+    "item:sgjourney:raw_naquadah",
+    "item:sgjourney:naquadah",
+    "item:mekmm:basic_lathing_factory"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
