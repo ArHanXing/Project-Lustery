@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "none",
+        "module": "commonjs",
         "target": "ES2015",
         "lib": [
             "ES5",
@@ -14,7 +14,7 @@
             "../../.probe/packages",
             "../../.probe/startup"
         ],
-        "baseUrl": "../../.probe/packages",
+        "baseUrl": "../../.probe/startup/probe-types",
         "skipLibCheck": true,
         "moduleResolution": "node",
         "allowJs": true,
