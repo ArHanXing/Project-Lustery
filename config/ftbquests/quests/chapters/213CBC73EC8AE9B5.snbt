@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "213CBC73EC8AE9B5"
+	group: ""
+	icon: {
+		id: "modular_machinery_reborn:modularium"
+	}
+	id: "213CBC73EC8AE9B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1020AF69968E1C14"
+			rewards: [
+				{
+					id: "6B7ACC149C3722D1"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2292D7463C5643EF"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C05F60F0810F600"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1020AF69968E1C14"]
+			id: "60D6731F00C6EEBC"
+			rewards: [{
+				count: 16
+				id: "216D50C4DA1CE73C"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0C6B4D6D2D70F616"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+}

@@ -20,3 +20,11 @@
 /attribute VMHanXing justarod:player.develop_rate modifier add
 /attribute VMHanXing justarod:player.develop_rate modifier add __1 10 add_multiplied_total
 /probejs dump
+/attribute VMHanXing justarod:player.develop_rate modifier remove _11
+/attribute VMHanXing justarod:player.develop_rate modifier remove
+/attribute VMHanXing justarod:player.develop_rate modifier
+/attribute VMHanXing justarod:player.develop_rate
+/attribute VMHanXing justarod:player.develop_rate get
+/attribute VMHanXing justarod:generic.max_power base
+/attribute VMHanXing justarod:generic.max_power base get
+/attribute VMHanXing justarod:generic.max_power get

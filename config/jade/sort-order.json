@@ -86,5 +86,9 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
-  "minecraft:zombie_villager": null
+  "minecraft:zombie_villager": null,
+  "modular_machinery_reborn:hatch_component_provider": null,
+  "modular_machinery_reborn:hatch_server_data_provider": null,
+  "modular_machinery_reborn:machine_component_provider": null,
+  "modular_machinery_reborn:machine_server_data_provider": null
 }

@@ -99,5 +99,9 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "modular_machinery_reborn": {
+    "machine_component_provider": true,
+    "hatch_component_provider": true
   }
 }
