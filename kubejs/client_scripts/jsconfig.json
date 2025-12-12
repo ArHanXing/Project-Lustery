@@ -5,7 +5,7 @@
         null
     ],
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "none",
         "moduleResolution": "node",
         "allowJs": true,
         "checkJs": false,
@@ -14,7 +14,7 @@
         "noEmit": true,
         "assumeChangesOnlyAffectDirectDependencies": true,
         "rootDir": ".",
-        "baseUrl": "../../.probe/client/probe-types",
+        "baseUrl": "../../.probe/packages",
         "skipLibCheck": true,
         "skipDefaultLibCheck": true,
         "lib": [

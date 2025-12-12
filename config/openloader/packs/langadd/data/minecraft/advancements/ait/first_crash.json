@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:ait/first_demat",
+    "criteria": {
+        "first_crash": {
+            "conditions": {},
+            "trigger": "ait:tardis_crash"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "通过不小心让你的塔迪斯坠毁来第一次拥抱时空之混沌."
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "时间涡流"
+        }
+    },
+    "requirements": [
+        [
+            "first_crash"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

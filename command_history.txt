@@ -19,3 +19,4 @@
 /attribute VMHanXing justarod:player.develop_rate modifier
 /attribute VMHanXing justarod:player.develop_rate modifier add
 /attribute VMHanXing justarod:player.develop_rate modifier add __1 10 add_multiplied_total
+/probejs dump

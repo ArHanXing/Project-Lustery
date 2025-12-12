@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:ait/root",
+    "criteria": {
+        "enter_tardis": {
+            "conditions": {
+                "to": "ait:tardis_dimension"
+            },
+            "trigger": "minecraft:changed_dimension"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "第一次进入塔迪斯"
+        },
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+            "item": "ait:tardis_item"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "它是怎么容纳这些的？"
+        }
+    },
+    "requirements": [
+        [
+            "enter_tardis"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:ait/iron_key",
+    "criteria": {
+        "gold_key": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ait:gold_key"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": {
+            "text": "获得黄金钥匙"
+        },
+        "frame": "task",
+        "hidden": true,
+        "icon": {
+            "item": "ait:gold_key"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "黄金守门人"
+        }
+    },
+    "requirements": [
+        [
+            "gold_key"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

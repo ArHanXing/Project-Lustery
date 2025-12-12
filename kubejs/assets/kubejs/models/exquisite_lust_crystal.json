@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/gem_exquisite/gem_exquisite",
-    "layer1": "kubejs:item/gem_exquisite/gem_exquisite_secondary",
-    "layer2": "kubejs:item/gem_exquisite/gem_exquisite_overlay"
-  }
-}

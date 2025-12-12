@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","openloader/D:\\Games\\Minecraft\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\星门之旅模组个人汉化包 by xiaoMOSS.zip","file/AE2 GUI.zip"]
+incompatibleResourcePacks:["openloader/D:\\Games\\Minecraft\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\星门之旅模组个人汉化包 by xiaoMOSS.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -102,15 +102,15 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -123,15 +123,15 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
-key_key.toneko.lie:key.keyboard.i
-key_key.toneko.get_down:key.keyboard.o
-key_key.toneko.ride:key.keyboard.k
-key_key.toneko.quirk:key.keyboard.j
+key_key.toneko.lie:key.keyboard.unknown
+key_key.toneko.get_down:key.keyboard.unknown
+key_key.toneko.ride:key.keyboard.unknown
+key_key.toneko.quirk:key.keyboard.unknown
 key_key.toneko.speed:key.keyboard.unknown
 key_key.toneko.jump:key.keyboard.unknown
 key_key.toneko.vision:key.keyboard.unknown
 key_key.toneko.ride_head:key.keyboard.unknown
-key_key.toneko.roulette:key.keyboard.z
+key_key.toneko.roulette:key.keyboard.unknown
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -142,12 +142,12 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
-key_key.guideme.guide:key.keyboard.g
+key_key.guideme.guide:key.keyboard.w
 key_tfmg.keyinfo.transmission_shift_up:key.keyboard.v
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c
 key_tfmg.keyinfo.custom_button:key.keyboard.b
 key_tfmg.keyinfo.engine_start:key.keyboard.i
-key_key.draconicevolution.place_item:key.keyboard.p
+key_key.draconicevolution.place_item:key.keyboard.unknown
 key_key.draconicevolution.tool_config:key.keyboard.c
 key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown

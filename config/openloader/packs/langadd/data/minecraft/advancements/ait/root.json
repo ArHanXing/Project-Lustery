@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "place_coral": {
+            "conditions": {},
+            "trigger": "ait:place_coral"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "background": "minecraft:textures/entity/end_portal.png",
+        "description": {
+            "text": "种植时间之种——塔迪斯珊瑚"
+        },
+        "frame": "task",
+        "hidden": true,
+        "icon": {
+            "item": "ait:coral_plant"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "园艺大师"
+        }
+    },
+    "requirements": [
+        [
+            "place_coral"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

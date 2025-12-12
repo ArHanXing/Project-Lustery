@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/gem_defective/gem_chipped",
-    "layer1": "kubejs:item/gem_defective/gem_chipped_secondary",
-    "layer2": "kubejs:item/gem_defective/gem_chipped_overlay"
-  }
-}

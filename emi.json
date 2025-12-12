@@ -1,6 +1,28 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:tfmg:steel_fluid_tank",
+    "item:mekmm:ultimate_max_chemical_tank",
+    "item:mekanism:dynamic_tank",
+    {
+      "type": "fluid",
+      "id": "tfmg:molten_steel",
+      "amount": 0
+    },
+    "item:enderio:weather_crystal",
+    "item:jaopca:circuits.weather_crystal",
+    "item:jaopca:circuits.infused_entro",
+    "item:jaopca:circuits.draconium_awakened",
+    "item:jaopca:circuits.draconium",
+    "item:jaopca:circuits.dark_steel",
+    "item:enderio:copper_alloy_ingot",
+    "item:jaopca:circuits.copper_alloy",
+    "item:jaopca:circuits.conductive_alloy",
+    "item:jaopca:circuits.brass",
+    "item:jaopca:circuits.bronze",
+    "item:jaopca:circuits.plastic",
+    "item:jaopca:processors.redstone_alloy",
+    "item:jaopca:circuits.redstone_alloy",
     "item:mekanism:sps_casing",
     {
       "type": "mekanism_chemical",
