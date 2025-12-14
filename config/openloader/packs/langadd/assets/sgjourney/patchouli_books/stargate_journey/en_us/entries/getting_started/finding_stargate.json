@@ -1,0 +1,21 @@
+{
+	"name": "寻找星门",
+	"icon": "minecraft:filled_map",
+	"sortnum": 2,
+	"category": "sgjourney:getting_started",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "与考古学家村民交易，直到解锁最高级别的大师交易：星门位置地图。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "地图上的 X 标记了地点，向下挖掘并找到内部封存着埋藏星门的建筑结构。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "在埋藏星门的上方，应有一个刻着通往阿比多斯地址的碑文（你可以右键点击它，获得一串数字形式的地址）。将其带走，你会需要它。"
+		}
+	]
+}
