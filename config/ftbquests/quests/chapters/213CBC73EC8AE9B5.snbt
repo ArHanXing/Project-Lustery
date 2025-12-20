@@ -73,12 +73,50 @@
 		{
 			dependencies: ["08C580D1FB595294"]
 			id: "73B99B599999B9A9"
+			rewards: [{
+				count: 16
+				id: "70E0754E483309B5"
+				item: {
+					count: 1
+					id: "kubejs:defective_lust_crystal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50BA118F374A0979"
 				item: { count: 1, id: "justarod:primitive_rod" }
 				type: "item"
 			}]
 			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73B99B599999B9A9"]
+			id: "78920A0D30298E13"
+			rewards: [{
+				id: "0179A0F965C73507"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:blueprint"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "45DA7E7E75385615"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:t0.primitive_ore_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "2D4762DEEEF5EFEC"
+					item: { count: 1, id: "minecraft:smooth_stone" }
+					type: "item"
+				}
+			]
+			x: 6.0d
 			y: -0.5d
 		}
 	]

@@ -39,3 +39,5 @@
 /mmr log
 /kjs hand
 /mmr log
+/kjs reload server-scripts
+/reload
