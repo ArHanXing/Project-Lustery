@@ -121,6 +121,9 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.ftbultimine:key.keyboard.grave.accent
+key_ftbultimine.change_shape.next:key.keyboard.up
+key_ftbultimine.change_shape.prev:key.keyboard.down
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.m
 key_key.toneko.lie:key.keyboard.unknown
@@ -177,6 +180,7 @@ key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.extendedae.viewpattern:key.keyboard.p
+key_key.extendedae.set_amount:key.mouse.middle
 key_darksteel.upgrade.flight.keybind:key.keyboard.g
 key_darksteel.upgrade.nightvision.keybind:key.keyboard.v
 key_key.ponder.ponder:key.keyboard.w
@@ -184,6 +188,11 @@ key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_key.modular_machinery_reborn.structure_mode_change:key.keyboard.minus
+key_key.inventoryhud.toggle:key.keyboard.i
+key_key.inventoryhud.openconfig:key.keyboard.o
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.modernui.openCenter:key.keyboard.k:CONTROL
 key_key.modernui.zoom:key.keyboard.c
 soundCategory_master:1.0

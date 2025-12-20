@@ -28,3 +28,14 @@
 /attribute VMHanXing justarod:generic.max_power base
 /attribute VMHanXing justarod:generic.max_power base get
 /attribute VMHanXing justarod:generic.max_power get
+/attribute VMHanXing justarod:player.develop_rate modifier remove
+/kill
+/modularmachinery log
+/mmr log
+/kjs reload
+/kjs reload server-scripts
+/kjs reload startup-scripts
+/reload
+/mmr log
+/kjs hand
+/mmr log

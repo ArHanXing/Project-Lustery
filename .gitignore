@@ -11,3 +11,7 @@
 /logs
 kubejs/_source_gtceu
 
+/fabricloader.log
+/command_history.txt
+/usercache.json
+/usernamecache.json

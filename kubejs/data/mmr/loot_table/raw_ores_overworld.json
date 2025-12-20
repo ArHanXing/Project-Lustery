@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:raw_tin",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tfmg:raw_nickel",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:raw_lead",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:raw_osmium",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:raw_uranium",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
