@@ -41,3 +41,5 @@
 /mmr log
 /kjs reload server-scripts
 /reload
+/loot give VMHanXing loot mmr:raw_ores_overworld
+/mmr log

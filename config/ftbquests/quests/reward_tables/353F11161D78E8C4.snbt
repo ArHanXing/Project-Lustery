@@ -1,0 +1,151 @@
+{
+	id: "353F11161D78E8C4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 256
+			id: "2F185DC5C3144F68"
+			item: {
+				count: 1
+				id: "minecraft:white_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "34CD214C1D92682C"
+			item: {
+				count: 1
+				id: "minecraft:light_gray_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "4DE5202D339C8189"
+			item: {
+				count: 1
+				id: "minecraft:gray_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "6EF68B4FF5FAC369"
+			item: {
+				count: 1
+				id: "minecraft:black_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "7FAEFAD632E1E1CC"
+			item: {
+				count: 1
+				id: "minecraft:brown_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "000B9C319D18DB10"
+			item: {
+				count: 1
+				id: "minecraft:red_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "12C1692CF749939E"
+			item: {
+				count: 1
+				id: "minecraft:orange_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "3C36A9F691193963"
+			item: {
+				count: 1
+				id: "minecraft:yellow_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "56C5350ACB2E3FA6"
+			item: {
+				count: 1
+				id: "minecraft:lime_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "718A0B8608791A31"
+			item: {
+				count: 1
+				id: "minecraft:green_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "7A3A704043FE170F"
+			item: {
+				count: 1
+				id: "minecraft:cyan_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "5C577A35175E27F3"
+			item: {
+				count: 1
+				id: "minecraft:light_blue_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "1D1908CEE9EB4B7D"
+			item: {
+				count: 1
+				id: "minecraft:blue_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "2543247200A0A719"
+			item: {
+				count: 1
+				id: "minecraft:purple_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "603BD2BCDAC3B651"
+			item: {
+				count: 1
+				id: "minecraft:magenta_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "5E0A3AAE43E9FD3B"
+			item: {
+				count: 1
+				id: "minecraft:pink_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "1F6E24D502FACFD6"
+			item: {
+				count: 1
+				id: "tfmg:white_rebar_concrete"
+			}
+		}
+		{
+			count: 256
+			id: "7EE9803AA92C260A"
+			item: {
+				count: 1
+				id: "minecraft:sea_lantern"
+			}
+		}
+	]
+}

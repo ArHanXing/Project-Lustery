@@ -82,6 +82,8 @@
 				}
 				type: "item"
 			}]
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "50BA118F374A0979"
 				item: { count: 1, id: "justarod:primitive_rod" }
@@ -92,15 +94,56 @@
 		}
 		{
 			dependencies: ["73B99B599999B9A9"]
-			id: "78920A0D30298E13"
-			rewards: [{
-				id: "0179A0F965C73507"
-				item: {
-					count: 1
-					id: "modular_machinery_reborn:blueprint"
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:t0.primitive_ore_washer"
 				}
-				type: "item"
-			}]
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "78920A0D30298E13"
+			rewards: [
+				{
+					id: "0179A0F965C73507"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:blueprint"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "315E890D371F0BD9"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:inputbus_tiny"
+					}
+					type: "item"
+				}
+				{
+					id: "37F8CC31B150D2BA"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:inputbus_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "300544E77719A279"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:outputbus_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "32369E288AF84846"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:parallel_hatch_medium"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -116,8 +159,69 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 9.0d
 			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78920A0D30298E13"]
+			icon: {
+				id: "minecraft:white_concrete_powder"
+			}
+			id: "4D1ADAB53824835F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38D546F4C84BC517"
+				table_id: 3836804194224367812L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "529E45A940B2FCAB"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["304082115F880753"]
+			id: "4777334215341177"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5C8B599990A84F45"
+					item: { count: 1, id: "create:large_water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71FFD52AFAA5584B"
+					item: { count: 1, id: "create:water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78920A0D30298E13"]
+			id: "304082115F880753"
+			rewards: [{
+				count: 16
+				id: "649B9B7026A8E97E"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "601AE7C875116604"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
 		}
 	]
 }

@@ -52,6 +52,11 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 8
         }
       ]
     }
