@@ -6,6 +6,17 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:diorite",
+    "item:minecraft:andesite",
+    "item:enderio:monster_token",
+    "item:mekanismgenerators:bio_generator",
+    "item:createaddition:biomass_pellet",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t0.primitive_ore_washer\"}",
+    {
+      "type": "item",
+      "id": "kubejs:sifted_ore",
+      "amount": 4
+    },
     "item:draconicevolution:awakened_draconium_dust",
     "item:draconicevolution:awakened_draconium_ingot",
     "item:draconicevolution:chaotic_energy_core",
@@ -26,8 +37,6 @@
     "item:minecraft:amethyst_block",
     "item:minecraft:purpur_block",
     "item:create:andesite_alloy",
-    "item:minecraft:diorite",
-    "item:minecraft:andesite",
     "item:create:shaft",
     "item:create:water_wheel",
     "item:minecraft:quartz",
@@ -45,7 +54,6 @@
     "item:minecraft:anvil",
     "item:create:windmill_bearing",
     "item:create:large_water_wheel",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t0.primitive_ore_washer\"}",
     "item:enderio:cold_fire_igniter{\"enderio:item_fluid_content\":{amount:1000,id:\"enderio:fluid_vapor_of_levity_still\"}}",
     "item:tfmg:fireclay_ball",
     "item:tfmg:fireproof_brick",
@@ -92,7 +100,6 @@
       "amount": 0
     },
     "item:justarod:primitive_rod",
-    "item:kubejs:sifted_ore",
     "item:tfmg:raw_nickel",
     "item:minecraft:dirt",
     "item:modular_machinery_reborn:blueprint",

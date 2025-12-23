@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:10.0
 graphicsMode:1
-guiScale:3
+guiScale:2
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/AE2 GUI.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
 incompatibleResourcePacks:["openloader/D:\\Games\\Minecraft\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\星门之旅模组个人汉化包 by xiaoMOSS.zip"]
 lastServer:
 lang:zh_cn

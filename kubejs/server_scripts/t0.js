@@ -36,17 +36,11 @@ ServerEvents.recipes(e =>{
     mme.machine_recipe("mmr:t0.primitive_ore_washer",20)
         .width(150)
         .height(180)
-        .requireItem("kubejs:sifted_ore",10,10)
+        .requireItem(Item.of("kubejs:sifted_ore",4),10,10)
         .lootTable('mmr:raw_ores_overworld',2,100,10)
+        .lootTable('mmr:raw_ores_overworld',2,120,10)
+        .lootTable('mmr:raw_ores_overworld',2,100,30)
         .id("t0.mmr.pow.wash_sifted_ore")
-
-    mme.machine_recipe("mmr:t0.primitive_ore_washer",20)
-        .width(150)
-        .height(180)
-        .requireItem("kubejs:sifted_ore",10,10)
-        .requireItem("minecraft:dirt",30,10)
-        .produceItem("minecraft:coal",100,10)
-        .id("t0.mmr.pow.test_wash")
 
     e.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t0.primitive_ore_washer"]',[
         'ABA',

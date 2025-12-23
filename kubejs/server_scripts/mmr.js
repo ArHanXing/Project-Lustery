@@ -13,8 +13,7 @@ MMREvents.machines(e =>{
             "a":[
                 "minecraft:cobblestone",
                 "#modular_machinery_reborn:inputbus",
-                "#modular_machinery_reborn:outputbus",
-                "#modular_machinery_reborn:parallelhatch"
+                "#modular_machinery_reborn:outputbus"
             ],
             "b":["minecraft:smooth_stone"],
             "c":["minecraft:air"],
