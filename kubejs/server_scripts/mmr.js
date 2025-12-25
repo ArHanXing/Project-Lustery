@@ -27,12 +27,13 @@ MMREvents.machines(e =>{
             .pattern([
                 ["aaaaa","aaaaa","aaaaa","aaaaa"],
                 ["azmza","aebda","acbca","abbba"],
-                ["aaaaa","afffa","afffa","aaaaa"]])
+                ["azzza","afffa","afffa","aaaaa"]])
             .keys({
                 "z":[
                     "minecraft:cobblestone",     
                     "#modular_machinery_reborn:inputbus",
-                    "#modular_machinery_reborn:outputbus"
+                    "#modular_machinery_reborn:outputbus",
+                    "#modular_machinery_reborn:parallelhatch"
                 ],
                 "b":["create:andesite_alloy_block"],
                 "c":["create:mechanical_drill"],

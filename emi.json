@@ -6,6 +6,7 @@
     }
   ],
   "lookup_history": [
+    "item:tfmg:plastic_sheet",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t0.primitive_ore_washer\"}",
     "item:jaopca:gears.tin",
     "item:jaopca:gears.silicon",

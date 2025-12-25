@@ -1,5 +1,3 @@
-/attribute VMHanXing justarod:generic.max_power get
-/attribute VMHanXing justarod:player.develop_rate modifier remove
 /kill
 /modularmachinery log
 /mmr log
@@ -48,3 +46,5 @@
 /mmr log
 /reload
 /mmr log
+/kjs reload server-scripts
+/reload
