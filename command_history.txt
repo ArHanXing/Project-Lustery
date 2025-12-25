@@ -1,31 +1,3 @@
-/reload
-/kjs reload startup-scripts
-/reload
-/kjs reload startup-scripts
-/reload
-/attribute VMHanXing
-/attribute VMHanXing justarod:player.lubricating
-/attribute VMHanXing justarod:player.lubricating get
-/attribute VMHanXing justarod:generic.max_power get
-/attribute VMHanXing justarod:player.lubricating get
-/attribute VMHanXing justarod:player.lubricating modifier add 123
-/attribute VMHanXing justarod:player.lubricating modifier add 1 123
-/attribute VMHanXing justarod:player.lubricating modifier add 1 123 add_value
-/attribute VMHanXing justarod:player.develop_rate get
-/attribute VMHanXing justarod:player.develop_rate base
-/attribute VMHanXing justarod:player.develop_rate base get
-/attribute VMHanXing justarod:player.develop_rate modifier value get
-/attribute VMHanXing justarod:player.develop_rate modifier
-/attribute VMHanXing justarod:player.develop_rate modifier add
-/attribute VMHanXing justarod:player.develop_rate modifier add __1 10 add_multiplied_total
-/probejs dump
-/attribute VMHanXing justarod:player.develop_rate modifier remove _11
-/attribute VMHanXing justarod:player.develop_rate modifier remove
-/attribute VMHanXing justarod:player.develop_rate modifier
-/attribute VMHanXing justarod:player.develop_rate
-/attribute VMHanXing justarod:player.develop_rate get
-/attribute VMHanXing justarod:generic.max_power base
-/attribute VMHanXing justarod:generic.max_power base get
 /attribute VMHanXing justarod:generic.max_power get
 /attribute VMHanXing justarod:player.develop_rate modifier remove
 /kill
@@ -48,3 +20,31 @@
 /reload
 /kjs reload server-scripts
 /reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs hand
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/kjs reload server-scripts
+/reload
+/mmr log
+/kjs reload server-scripts
+/mmr log
+/reload
+/mmr log

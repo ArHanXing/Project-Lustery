@@ -35,7 +35,7 @@ chatLinksPrompt:true
 discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
-showSubtitles:false
+showSubtitles:true
 directionalAudio:false
 touchscreen:false
 bobView:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
-incompatibleResourcePacks:["openloader/D:\\Games\\Minecraft\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\星门之旅模组个人汉化包 by xiaoMOSS.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","openloader/D:\\cppjr\\MinGW-7.3.0-Windows\\mingw64\\x86_64-w64-mingw32\\exec\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\langadd","file/AE2 GUI.zip"]
+incompatibleResourcePacks:["openloader/D:\\cppjr\\MinGW-7.3.0-Windows\\mingw64\\x86_64-w64-mingw32\\exec\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\langadd"]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -195,16 +195,16 @@ key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.modernui.openCenter:key.keyboard.k:CONTROL
 key_key.modernui.zoom:key.keyboard.c
-soundCategory_master:1.0
-soundCategory_music:1.0
-soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
-soundCategory_voice:1.0
+soundCategory_master:0.5198675496688742
+soundCategory_music:0.0
+soundCategory_record:0.6056338028169014
+soundCategory_weather:0.0
+soundCategory_block:0.4084507042253521
+soundCategory_hostile:0.0
+soundCategory_neutral:0.0
+soundCategory_player:0.0
+soundCategory_ambient:0.0
+soundCategory_voice:0.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

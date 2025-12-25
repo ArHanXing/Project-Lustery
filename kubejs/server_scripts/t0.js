@@ -51,4 +51,14 @@ ServerEvents.recipes(e =>{
         B:"minecraft:stick",
         C:"#minecraft:planks"
     })
+
+    e.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t0.primitive_stone_crusher"]',[
+        'A A',
+        'ACA',
+        'BBB'
+    ],{
+        A:"minecraft:smooth_stone",
+        B:'#c:gears',
+        C:'create:andesite_casing'
+    })
 });
