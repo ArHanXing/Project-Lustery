@@ -78,15 +78,18 @@
     "registry_name.special": false,
     "block_states": false,
     "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
+    "block_face": true,
+    "coordinates": true,
+    "registry_name": "ADVANCED_TOOLTIPS",
     "block_properties": false,
     "mod_name": true
   },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,

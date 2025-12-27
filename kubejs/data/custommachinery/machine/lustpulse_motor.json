@@ -1,0 +1,55 @@
+{
+    "name": {
+        "text": "欲能脉冲引擎"
+    },
+    "appearance": {
+        "block": "kubejs:machine/lustpulse_motor",
+        "item":"kubejs:machine/lustpulse_motor"
+    },
+    "componets": [
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 10000,
+            "id": "lpmotor_storage",
+            "mode": "input"
+        },
+        {
+        "type": "custommachinery:contraption",
+        "config": {
+            "default": "none",
+            "front":"both"
+            }
+        },
+        {
+            "type": "custommachinery:item_fluid",
+            "id": "fluidInput",
+            "mode": "input"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:background",
+            "width": 200,
+            "height": 150
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 20,
+            "y": 20,
+            "id": "lpmotor_storage",
+            "tooltips": "每10s消耗10mB粗质淫液"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 50,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 10,
+            "y": 10,
+            "text": "§d欲能脉冲引擎"
+        }       
+    ]
+
+}

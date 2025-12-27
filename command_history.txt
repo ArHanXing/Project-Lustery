@@ -1,13 +1,3 @@
-/kill
-/modularmachinery log
-/mmr log
-/kjs reload
-/kjs reload server-scripts
-/kjs reload startup-scripts
-/reload
-/mmr log
-/kjs hand
-/mmr log
 /kjs reload server-scripts
 /reload
 /loot give VMHanXing loot mmr:raw_ores_overworld
@@ -47,4 +37,14 @@
 /reload
 /mmr log
 /kjs reload server-scripts
+/reload
+/setblock 5 6 -7 minecraft:spawner
+/ftbquests reload
+/ftbquests editing_mode
+/ftbquests locked
+/ftbquests locked false
+/summon toneko:crystal_neko
+/summon toneko:adventurer_neko
+/custommachinery log
+/neoforge tps
 /reload

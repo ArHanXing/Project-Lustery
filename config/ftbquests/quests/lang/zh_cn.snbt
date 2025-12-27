@@ -1,4 +1,5 @@
 {
+	chapter.213CBC73EC8AE9B5.chapter_subtitle: ["“但我也发现，生命的冲动本身就是一种高能燃料。”"]
 	chapter.213CBC73EC8AE9B5.title: "初始化"
 	file.0000000000000001.title: "无名之旅，欲能之空"
 	quest.1020AF69968E1C14.quest_desc: [
@@ -10,9 +11,20 @@
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
 	quest.304082115F880753.title: "古法安山岩"
 	quest.4777334215341177.quest_desc: ["仅仅是小小杯的应力量"]
-	quest.4777334215341177.title: "水能！"
+	quest.4777334215341177.title: "过去的花"
 	quest.4D1ADAB53824835F.quest_desc: ["显然："]
 	quest.4D1ADAB53824835F.title: "无限的建材"
+	quest.51554E7F74A31424.quest_desc: [
+		"&7&o&m随着神代科技的丧失，你竟然沦落到用铁和带点微量元素的石头简单融在一起做合金了！&r"
+		"用于一些传动，例如传动杆和齿轮。"
+		""
+		"相信它对你而言还是太大了。"
+	]
+	quest.55F64209D8199AE7.quest_desc: [
+		"现在你不需要为刷不了安山岩而痛苦了。"
+		""
+		"&m“漂亮！略微有些先祖风范...什么叫动力钻头？”&r"
+	]
 	quest.60D6731F00C6EEBC.quest_desc: [""]
 	quest.60D6731F00C6EEBC.title: "原石"
 	quest.73B99B599999B9A9.quest_desc: [
@@ -25,10 +37,10 @@
 	]
 	quest.73B99B599999B9A9.quest_subtitle: "你的第一份淫能"
 	quest.78920A0D30298E13.quest_desc: [
+		"&b洗矿机&r！从你&d新鲜产出的淫能结晶&r中产出粗矿。"
 		"此外你需要8个不同的仓室放在底部，来进行多方块的输入输出"
 		""
-		"产生粗矿。"
-		"由于MMR的限制，这个多方块不支持并行"
+		"由于MMR的限制，这个多方块不支持并行。不过它“自带4并行”&m（作者只是翻倍了产出）&r"
 	]
 	reward_table.353F11161D78E8C4.title: "t0:建筑材料"
 }

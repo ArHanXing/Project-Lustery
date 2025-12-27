@@ -6,7 +6,7 @@ ItemEvents.modifyTooltips(e =>{
         ],
         [
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t0.primitive_stone_crusher"]',
-            ['一般通过0动力碎岩机','允许使用§b并行控制仓§r']
+            ['无限无消耗地产出一些石头','允许使用§b并行控制仓§r']
         ]
     ]
 

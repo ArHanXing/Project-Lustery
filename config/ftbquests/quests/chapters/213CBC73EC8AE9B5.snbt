@@ -171,12 +171,21 @@
 				id: "529E45A940B2FCAB"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["304082115F880753"]
 			id: "4777334215341177"
+			rewards: [{
+				count: 16
+				id: "39D331FD96F17E5C"
+				item: {
+					count: 1
+					id: "kubejs:normal_lust_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -191,9 +200,14 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "575B81FACC376075"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
 			]
-			x: 6.5d
-			y: 4.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["78920A0D30298E13"]
@@ -213,6 +227,46 @@
 				type: "item"
 			}]
 			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["304082115F880753"]
+			id: "51554E7F74A31424"
+			rewards: [{
+				count: 16
+				id: "0C8497C0B56A9DEC"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CEE896B32552956"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					id: "088EF6E2D63A49F2"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51554E7F74A31424"]
+			id: "55F64209D8199AE7"
+			optional: true
+			size: 2.0d
+			tasks: [{
+				id: "039F3616C63D09D4"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t0.primitive_stone_crusher" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 14.0d
 			y: 2.5d
 		}
 	]

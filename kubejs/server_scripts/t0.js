@@ -61,11 +61,4 @@ ServerEvents.recipes(e =>{
         B:'#c:gears',
         C:'create:andesite_casing'
     })
-
-    mme.machine_recipe("mmr:t0.primitive_stone_crusher",10)
-        .width(150)
-        .height(180)
-        .requireItem(Item.of("minecraft:andesite",1),10,10)
-        .produceItem(Item.of("minecraft:andesite",4),100,10)
-        .id("t0.mmr.psc.andesite")
 });
