@@ -260,6 +260,14 @@
 			dependencies: ["51554E7F74A31424"]
 			id: "55F64209D8199AE7"
 			optional: true
+			rewards: [{
+				id: "5D278F2A933FECFB"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:parallel_hatch_medium"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "039F3616C63D09D4"
@@ -267,7 +275,19 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51554E7F74A31424"]
+			id: "51F43D0531613403"
+			size: 1.5d
+			tasks: [{
+				id: "6BC00A2E598924BE"
+				item: { count: 1, id: "justarod:redstone_rod" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 5.25d
 		}
 	]
 }
