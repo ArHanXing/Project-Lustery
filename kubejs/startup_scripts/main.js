@@ -14,7 +14,6 @@ StartupEvents.registry("item",e=>{
 
 StartupEvents.registry("fluid",e=>{
     e.create("kubejs:lewd_basic")
-        .displayName("粗质淫液")
         .stillTexture('kubejs:fluid/lewd_basic_still')
         .flowingTexture('kubejs:fluid/lewd_basic_flow')
 })

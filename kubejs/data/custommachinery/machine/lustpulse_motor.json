@@ -1,55 +1,67 @@
 {
-    "name": {
-        "text": "欲能脉冲引擎"
+  "name": {
+    "text": {
+      "translate": "欲能脉冲引擎"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "kubejs:machine/lustpulse_motor",
+    "custommachinery:item": "kubejs:machine/lustpulse_motor"
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "whitelist": "kubejs:lewd_basic",
+      "id": "input",
+      "capacity": 10000
     },
-    "appearance": {
-        "block": "kubejs:machine/lustpulse_motor",
-        "item":"kubejs:machine/lustpulse_motor"
+    {
+      "type": "custommachinery:item_fluid",
+      "tanks": "input",
+      "id": "input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 200,
+      "height": 150
     },
-    "componets": [
-        {
-            "type": "custommachinery:fluid",
-            "capacity": 10000,
-            "id": "lpmotor_storage",
-            "mode": "input"
-        },
-        {
-        "type": "custommachinery:contraption",
-        "config": {
-            "default": "none",
-            "front":"both"
-            }
-        },
-        {
-            "type": "custommachinery:item_fluid",
-            "id": "fluidInput",
-            "mode": "input"
+    {
+      "type": "custommachinery:fluid",
+      "id": "input",
+      "x": 21,
+      "y": 20
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 20,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 50,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 10,
+      "y": 10,
+      "text": {
+        "text": {
+          "translate": "欲能脉冲引擎"
         }
-    ],
-    "gui": [
-        {
-            "type": "custommachinery:background",
-            "width": 200,
-            "height": 150
-        },
-        {
-            "type": "custommachinery:fluid",
-            "x": 20,
-            "y": 20,
-            "id": "lpmotor_storage",
-            "tooltips": "每10s消耗10mB粗质淫液"
-        },
-        {
-            "type": "custommachinery:progress",
-            "x": 50,
-            "y": 30
-        },
-        {
-            "type": "custommachinery:text",
-            "x": 10,
-            "y": 10,
-            "text": "§d欲能脉冲引擎"
-        }       
-    ]
-
+      }
+    }
+  ]
 }

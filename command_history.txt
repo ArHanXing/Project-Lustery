@@ -1,26 +1,5 @@
 /kjs reload server-scripts
 /reload
-/loot give VMHanXing loot mmr:raw_ores_overworld
-/mmr log
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs hand
-/kjs reload server-scripts
-/reload
 /kjs reload server-scripts
 /reload
 /kjs reload server-scripts
@@ -48,3 +27,24 @@
 /custommachinery log
 /neoforge tps
 /reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/cm create
+/reload
+/cm create
+/reload
+/cm create
+/reload
+/cm create
+/reload
+/kjs hand
+/kjs errors
+/kjs errors server
+/kjs errors startup
+/kjs persistent-data
+/kjs persistent-data entity VMHanXing
+/kjs persistent-data entity VMHanXing get
+/kjs persistent-data entity VMHanXing get *
+/bcore_client

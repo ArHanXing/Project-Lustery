@@ -58,7 +58,18 @@ ServerEvents.recipes(e =>{
         'BBB'
     ],{
         A:"minecraft:smooth_stone",
-        B:'#c:gears',
+        B:'jaopca:gears.copper',
         C:'create:andesite_casing'
     })
+
+    e.shaped('custommachinery:lustpulse_motor'),[
+        'ADA',
+        'ACA',
+        'BBB'
+    ],{
+        A:"create:andesite_casing",
+        B:"create:shaft",
+        C:"justarod:redstone_rod",
+        D:""
+    }
 });
