@@ -6,6 +6,9 @@
     }
   ],
   "lookup_history": [
+    "item:create:precision_mechanism",
+    "item:create_connected:kinetic_battery",
+    "item:custommachinery:lustpulse_motor",
     "item:justarod:redstone_rod",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t0.primitive_stone_crusher\"}",
     {

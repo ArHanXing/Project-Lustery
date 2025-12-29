@@ -4,12 +4,6 @@
 /reload
 /kjs reload server-scripts
 /reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
 /mmr log
 /kjs reload server-scripts
 /mmr log
@@ -48,3 +42,9 @@
 /kjs persistent-data entity VMHanXing get
 /kjs persistent-data entity VMHanXing get *
 /bcore_client
+/kjs hand
+/cm log
+/time query day
+/time query daytime
+/time set midnight
+/weather clear
