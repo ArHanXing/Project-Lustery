@@ -1,7 +1,8 @@
 ServerEvents.recipes(e => {
     const mmc = e.recipes.custommachinery
-
+    /*
     // from deepseek.
+    // 第一版。周期性变化，但是不那么顺滑（
     const config = {
         cyclesPerDay: 24,     // 一天内的循环次数
         recipesPerCycle: 10,  // 每个周期的配方数量
@@ -58,5 +59,14 @@ ServerEvents.recipes(e => {
             .requireTime("("+recipe.startTime+","+recipe.endTime+"]");
         console.log(`[LPE] 添加周期：${recipe.startTime} to ${recipe.endTime} with rpm ${recipe.suOutput}`);
     });
+    */
+    mmc.custom_machine("custommachinery:lustpulse_motor", 200)
+        .requireFluid(Fluid.of("kubejs:lewd_basic",10), "input")
+        .produceSU(recipe.suOutput,256)
+        .resetOnError()
+        .requireFunctionOnStart("_lpe_func")
+    
+})
+CustomMachineryEvents.recipeFunction("_lpe_func",e => {
 
 })
