@@ -10,16 +10,6 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "metallic"
-
-[create]
-	#The default byproduct material to output in Create's crushing.
-	byproduct = "minecraft:cobblestone"
-
-[enderio]
-	#The default byproduct material to output in Ender IO's sagmill.
-	byproduct = "minecraft:cobblestone"
-
-[mekanism]
-	#The default base to use in Mekanism's Combiner to recreate ores.
-	oreBase = "#c:cobblestone/normal"
+	modelType = "crystal"
+	#The color of this material.
+	color = 0x52B76E

@@ -1,9 +1,5 @@
 /kjs reload server-scripts
 /reload
-/kjs reload server-scripts
-/reload
-/kjs reload server-scripts
-/reload
 /mmr log
 /kjs reload server-scripts
 /mmr log
@@ -48,3 +44,7 @@
 /time query daytime
 /time set midnight
 /weather clear
+/effect give VMHanXing justarod:estrus
+/effect give VMHanXing justarod:orgasm
+/kjs reload server-scripts
+/reload

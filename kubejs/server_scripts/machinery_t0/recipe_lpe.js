@@ -67,6 +67,48 @@ ServerEvents.recipes(e => {
         .requireFunctionOnStart("_lpe_func")
     
 })
-CustomMachineryEvents.recipeFunction("_lpe_func",e => {
-
+CustomMachineryEvents.recipeFunction("_lpe_func",event => {
+    let tile = event.tile;
+    let level = tile.level;
+    let pos = tile.getBlockPos();
+    
+    // 1. 设置检查范围（以机器为中心的半径）
+    let radius = 8; // 8格范围，可以根据需要调整
+    
+    // 2. 获取范围内的所有玩家
+    let players = level.getEntitiesWithin(AABB.of(
+        pos.x - radius, pos.y - radius, pos.z - radius,
+        pos.x + radius, pos.y + radius, pos.z + radius
+    )).filter(entity => entity.getType() == "minecraft:player");
+    
+    // 3. 检查玩家是否具有特定效果
+    // 这里以"速度"效果为例，您可以根据需要修改
+    let requiredEffect = "justarod:orgasm"; // 效果ID
+    let minAmplifier = 0; // 最小等级（0=I级，1=II级...）
+    let minDuration = 1; // 最小剩余时间（ticks）
+    
+    // 4. 遍历玩家检查效果
+    let hasValidPlayer = false;
+    for (let player of players) {
+        let effects = player.getActiveEffects();
+        
+        // 检查玩家是否有指定的效果
+        if (effects.has(requiredEffect)) {
+            let effect = effects.get(requiredEffect);
+            
+            // 检查效果等级和持续时间
+            if (effect.getAmplifier() >= minAmplifier && 
+                effect.getDuration() >= minDuration) {
+                hasValidPlayer = true;
+                break;
+            }
+        }
+    }
+    
+    // 5. 根据结果返回成功或失败
+    if (hasValidPlayer) {
+        event.success(); // 有符合条件的玩家，继续处理配方
+    } else {
+        event.error("未能检测到合适玩家"); // 没有符合条件的玩家，停止处理
+    }
 })
