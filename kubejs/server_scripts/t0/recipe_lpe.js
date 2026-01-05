@@ -1,8 +1,8 @@
 ServerEvents.recipes(e => {
     const mmc = e.recipes.custommachinery
-    /*
+    
     // from deepseek.
-    // 第一版。周期性变化，但是不那么顺滑（
+    // 周期性变化，但是不那么顺滑（
     const config = {
         cyclesPerDay: 24,     // 一天内的循环次数
         recipesPerCycle: 10,  // 每个周期的配方数量
@@ -46,27 +46,29 @@ ServerEvents.recipes(e => {
         });
     }
 
-    console.log(`[LPE] 配置：每天 ${cyclesPerDay} 个周期，共 ${totalRecipes} 个配方`);
-    console.log(`[LPE] 周期长度：${cycleLength} ticks`);
+    //console.log(`[LPE] 配置：每天 ${cyclesPerDay} 个周期，共 ${totalRecipes} 个配方`);
+    //console.log(`[LPE] 周期长度：${cycleLength} ticks`);
 
     recipes.forEach((recipe, index) => {
         mmc.custom_machine("custommachinery:lustpulse_motor", 200)
-            .requireFluid(Fluid.of("kubejs:lewd_basic",10), "input")
+            .requireFluid(Fluid.of("kubejs:lewd_basic",1), "input")
             .produceSU(recipe.suOutput,256)
-            .requireEntities(1,10,"toneko:adventurer_neko",true)
+            //.requireEntities(1,10,"toneko:adventurer_neko",true)
             .hide()
             .resetOnError()
             .requireTime("("+recipe.startTime+","+recipe.endTime+"]");
-        console.log(`[LPE] 添加周期：${recipe.startTime} to ${recipe.endTime} with rpm ${recipe.suOutput}`);
+        //console.log(`[LPE] 添加周期：${recipe.startTime} to ${recipe.endTime} with rpm ${recipe.suOutput}`);
     });
-    */
+    
+    /*
     mmc.custom_machine("custommachinery:lustpulse_motor", 200)
         .requireFluid(Fluid.of("kubejs:lewd_basic",10), "input")
         .produceSU(recipe.suOutput,256)
         .resetOnError()
         .requireFunctionOnStart("_lpe_func")
-    
+    */
 })
+/*
 CustomMachineryEvents.recipeFunction("_lpe_func",event => {
     let tile = event.tile;
     let level = tile.level;
@@ -112,3 +114,4 @@ CustomMachineryEvents.recipeFunction("_lpe_func",event => {
         event.error("未能检测到合适玩家"); // 没有符合条件的玩家，停止处理
     }
 })
+*/
