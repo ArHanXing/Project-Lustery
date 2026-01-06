@@ -27,16 +27,28 @@
 | §o | 斜体 | 是 |
 | §r | 重置 | 是 | 
 ## 大纲
+作者眼高手低，这里的设计会严重超前于实际内容。（
 [如果你想看灵感来源](https://gemini.google.com/share/3b265bc64000)
-- t1 机械动力飞速版。mek线缆，CCA电力。
-- t2 TFMG。淫能发电。
-## 机器缩写速查
-cmy：Custom Machinery
+[如果你想看灵感来源 #2](https://chat.deepseek.com/share/3v26gvv9dwwf3yt0nj)
+- t1 机械动力飞速版，CCA
+这个阶段就能解锁AE的存储功能和电线，不过现在并不会有用电的大机器，电能的唯一来源是应力
+- t2 工业长路
+炼油，化工，下单！
+- t3 MEK，星门之旅
+- t4 mekExtra，戴森球
+- t5a 龙之研究
+假结局。
+- t5b 新生魔艺
+从这里解锁t6，当然内容未定。
+- t6b 击败混沌龙，无尽贪婪
+什么，科技包都有boss了？
+## 缩写
+cm：Custom Machinery
 
 mmr: Modular Machine Reborn
 | 缩写 | 真名！ | 来源 |
 | ----- | ----- | ----- |
-| lpe | 淫能脉冲引擎 | cmy |
+| lpe | 淫能脉冲引擎 | cm |
 | pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
 
