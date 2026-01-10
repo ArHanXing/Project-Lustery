@@ -6,6 +6,7 @@
     }
   ],
   "lookup_history": [
+    "item:tfmg:aluminum_cogwheel",
     "item:create:empty_blaze_burner",
     "item:jaopca:gears.copper",
     "item:create:spout",
@@ -235,7 +236,6 @@
     "item:jaopca:gears.brass",
     "item:jaopca:gears.aluminum",
     "item:tfmg:aluminum_ingot",
-    "item:tfmg:aluminum_cogwheel",
     "item:tfmg:large_aluminum_cogwheel",
     "item:jaopca:gears.steel",
     "#item:c:gears",
