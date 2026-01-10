@@ -25,6 +25,7 @@
 		""
 		"&m“漂亮！略微有些先祖风范...什么叫动力钻头？”&r"
 	]
+	quest.55F64209D8199AE7.title: "原始碎岩机"
 	quest.60D6731F00C6EEBC.quest_desc: [""]
 	quest.60D6731F00C6EEBC.title: "原石"
 	quest.73B99B599999B9A9.quest_desc: [
@@ -42,5 +43,6 @@
 		""
 		"由于MMR的限制，这个多方块不支持并行。不过它“自带4并行”&m（作者只是翻倍了产出）&r"
 	]
+	quest.78920A0D30298E13.title: "洗矿"
 	reward_table.353F11161D78E8C4.title: "t0:建筑材料"
 }

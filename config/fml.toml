@@ -13,9 +13,9 @@ disableOptimizedDFU = true
 #Early window provider
 earlyWindowProvider = "fmlearlywindow"
 #Early window width
-earlyWindowWidth = 1366
+earlyWindowWidth = 1054
 #Early window height
-earlyWindowHeight = 768
+earlyWindowHeight = 597
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Early window starts maximized

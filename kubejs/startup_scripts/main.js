@@ -8,14 +8,20 @@ StartupEvents.registry("item",e=>{
     e.create("kubejs:defective_lust_crystal")
     e.create("kubejs:normal_lust_crystal")
     e.create("kubejs:exquisite_lust_crystal")
+    e.create("kubejs:fusion_defective_lust_crystal")
+    e.create("kubejs:fusion_normal_lust_crystal")
+    e.create("kubejs:fusion_exquisite_lust_crystal")
 
     e.create("kubejs:sifted_ore")
+
+    e.create("kubejs:wrought_iron_ingot")
 })
 
 StartupEvents.registry("fluid",e=>{
     e.create("kubejs:lewd_basic")
         .stillTexture('kubejs:fluid/lewd_basic_still')
         .flowingTexture('kubejs:fluid/lewd_basic_flow')
+        .displayName('粗质淫液')
 })
 
 StartupEvents.registry("block",e=>{

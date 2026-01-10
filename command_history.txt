@@ -1,28 +1,3 @@
-/kjs reload server-scripts
-/reload
-/mmr log
-/kjs reload server-scripts
-/mmr log
-/reload
-/mmr log
-/kjs reload server-scripts
-/reload
-/setblock 5 6 -7 minecraft:spawner
-/ftbquests reload
-/ftbquests editing_mode
-/ftbquests locked
-/ftbquests locked false
-/summon toneko:crystal_neko
-/summon toneko:adventurer_neko
-/custommachinery log
-/neoforge tps
-/reload
-/kjs hand
-/reload
-/kjs hand
-/reload
-/cm create
-/reload
 /cm create
 /reload
 /cm create
@@ -48,3 +23,28 @@
 /effect give VMHanXing justarod:orgasm
 /kjs reload server-scripts
 /reload
+/kjs hand
+/kjs reload server-scripts
+/reload
+/kjs dump events
+/kjs dump registry
+/kjs dump registry neoforge:fluid_type
+/kjs dump registry neoforge:fluid_ingredient_type
+/kjs dump registry minecraft:fluid
+/kjs dump registry minecraft:item
+/kjs dump registry minecraft:fluid
+/kjs help
+/execute in minecraft:the_end run tp VMHanXing 0 100 0
+/execute in minecraft:the_nether run tp VMHanXing 0 100 0
+/locate biome tbm_nether:forests/wailing_forest
+/tp @s 712 93 -1321
+/reload
+/mmr reload
+/reload
+/kjs reload server-scripts
+/reload
+/kjs persistent-data entity
+/kjs persistent-data entity VMHanXing
+/kjs persistent-data entity VMHanXing get
+/kjs persistent-data entity VMHanXing get *
+/kjs dump registry minecraft:attribute

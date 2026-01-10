@@ -68,7 +68,7 @@
 	#Can be one to four values representing top left, top right, bottom right and bottom left color.
 	#Multiple values produce a gradient effect, whereas one value produces a solid color.
 	#If less than 4 are provided, repeat the last value.
-	colorStroke = ["#FFC2D0D6", "#FFE7DAE5", "#FFCCDAC8", "#FFC8B9AC"]
+	colorStroke = ["#FFAADCF0", "#FFDAD0F4", "#FFFFC3F7", "#FFDAD0F4"]
 	#The cycle time of tooltip border color in milliseconds. (0 = OFF)
 	# Default: 1000
 	# Range: 0 ~ 5000

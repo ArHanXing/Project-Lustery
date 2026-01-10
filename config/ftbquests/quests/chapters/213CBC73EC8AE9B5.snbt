@@ -83,7 +83,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "50BA118F374A0979"
 				item: { count: 1, id: "justarod:primitive_rod" }
@@ -96,7 +96,7 @@
 			dependencies: ["73B99B599999B9A9"]
 			icon: {
 				components: {
-					"modular_machinery_reborn:machine": "mmr:t0.primitive_ore_washer"
+					"modular_machinery_reborn:machine": "mmr:t1.primitive_ore_washer"
 				}
 				id: "modular_machinery_reborn:controller"
 			}
@@ -137,21 +137,21 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			tasks: [
-				{
-					id: "45DA7E7E75385615"
-					item: { components: { "modular_machinery_reborn:machine": "mmr:t0.primitive_ore_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
-					type: "item"
-				}
 				{
 					count: 24L
 					id: "2D4762DEEEF5EFEC"
 					item: { count: 1, id: "minecraft:smooth_stone" }
 					type: "item"
 				}
+				{
+					id: "66E7E0CBBCF4A63C"
+					item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_ore_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
 			]
-			x: 9.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -171,8 +171,8 @@
 				id: "529E45A940B2FCAB"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["304082115F880753"]
@@ -203,11 +203,12 @@
 				{
 					id: "575B81FACC376075"
 					item: { count: 1, id: "create:windmill_bearing" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 1.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["78920A0D30298E13"]
@@ -226,8 +227,8 @@
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["304082115F880753"]
@@ -253,8 +254,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 1.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["51554E7F74A31424"]
@@ -268,14 +269,14 @@
 				}
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
-				id: "039F3616C63D09D4"
-				item: { components: { "modular_machinery_reborn:machine": "mmr:t0.primitive_stone_crusher" }, count: 1, id: "modular_machinery_reborn:controller" }
+				id: "3241F078C485F65C"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_stone_crusher" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51554E7F74A31424"]
@@ -286,8 +287,19 @@
 				item: { count: 1, id: "justarod:redstone_rod" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 5.25d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4777334215341177"]
+			id: "7A954BF2218F5DE3"
+			tasks: [{
+				id: "0A470521C37BB03F"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
 		}
 	]
 }
