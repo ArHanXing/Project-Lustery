@@ -1,0 +1,186 @@
+{
+    data: [],
+    palette: [],
+    changes: [
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.lewd_refining_tower",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_truss"
+                    },
+                    f: {
+                        item: "create:fluid_pipe"
+                    },
+                    i: {
+                        item: "tfmg:cast_iron_fluid_tank"
+                    },
+                    j: {
+                        item: "create:industrial_iron_block"
+                    },
+                    r: {
+                        item: "justarod:redstone_rod"
+                    }
+                },
+                pattern: [
+                    "crc",
+                    "fif",
+                    "j j"
+                ],
+                result: {
+                    components: {
+                        "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower"
+                    },
+                    count: 1,
+                    id: "modular_machinery_reborn:controller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.infwater",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "kubejs:defective_lust_crystal"
+                    },
+                    i: {
+                        item: "minecraft:iron_ingot"
+                    },
+                    w: {
+                        item: "minecraft:water_bucket"
+                    }
+                },
+                pattern: [
+                    "did",
+                    "iwi",
+                    " i "
+                ],
+                result: {
+                    components: {
+                        "mekanism:fluids": {
+                            fluid_tanks: [
+                                {
+                                    amount: 2147483647,
+                                    id: "minecraft:water"
+                                }
+                            ]
+                        }
+                    },
+                    count: 1,
+                    id: "mekanism:creative_fluid_tank"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.create/blaze_burner",
+            originalId: "create:crafting/kinetics/empty_blaze_burner",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    A: {
+                        tag: "c:netherracks"
+                    },
+                    I: {
+                        tag: "c:plates/iron"
+                    }
+                },
+                pattern: [
+                    " I ",
+                    "IAI",
+                    " I "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:empty_blaze_burner"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_truss"
+                    },
+                    i: {
+                        tag: "c:plates/iron"
+                    },
+                    n: {
+                        item: "minecraft:nether_brick"
+                    }
+                },
+                pattern: [
+                    "nin",
+                    "ici",
+                    "nin"
+                ],
+                result: {
+                    count: 1,
+                    id: "create:empty_blaze_burner"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/t1.create/spout",
+            originalId: "create:crafting/kinetics/spout",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    P: {
+                        item: "minecraft:dried_kelp"
+                    },
+                    T: {
+                        item: "create:copper_casing"
+                    }
+                },
+                pattern: [
+                    "T",
+                    "P"
+                ],
+                result: {
+                    count: 1,
+                    id: "create:spout"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "create:copper_casing"
+                    },
+                    f: {
+                        item: "create:fluid_pipe"
+                    },
+                    g: {
+                        item: "jaopca:gears.copper"
+                    }
+                },
+                pattern: [
+                    "c  ",
+                    "f  ",
+                    "g  "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:spout"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        }
+    ]
+}

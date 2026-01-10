@@ -1,4 +1,12 @@
 {
+	"jaopca.material.cneko": "水晶猫猫",
+	"jaopca.material.dimensaurum": "万界金",
+	"jaopca.material.copper_alloy":"硅铜合金",
+	"jaopca.material.infused_entro":"恩特罗",
+	"jaopca.material.plastic": "塑料",
+	"jaopca.material.draconium": "龙素",
+	"jaopca.material.draconium_awakened": "觉醒龙素",
+
 	"jaopca.material.activated_carbon": "活性炭",
 	"jaopca.material.adamantine": "亚德曼",
 	"jaopca.material.adamantite": "精金",
@@ -180,7 +188,6 @@
 	"jaopca.material.constantan": "康铜",
 	"jaopca.material.cooperite": "谢尔顿矿",
 	"jaopca.material.copper": "铜",
-	"jaopca.material.copper_alloy": "",
 	"jaopca.material.copper_carbonate": "",
 	"jaopca.material.coral": "珊瑚",
 	"jaopca.material.corrupted": "腐化金属",
@@ -382,7 +389,6 @@
 	"jaopca.material.indium_phosphide": "磷化铟",
 	"jaopca.material.indium_tin_barium_titanium_cuprate": "铟锡钡钛铜氧合金",
 	"jaopca.material.inert_metal_mixture": "惰性金属混合物",
-	"jaopca.material.infused_entro": "",
 	"jaopca.material.insanite": "",
 	"jaopca.material.invar": "殷钢",
 	"jaopca.material.iodine": "碘",

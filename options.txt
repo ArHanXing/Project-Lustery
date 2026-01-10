@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/AE2 GUI.zip","openloader/D:\\cppjr\\MinGW-7.3.0-Windows\\mingw64\\x86_64-w64-mingw32\\exec\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\langadd","file/key_language_pack.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/AE2 GUI.zip"]
 incompatibleResourcePacks:["openloader/D:\\cppjr\\MinGW-7.3.0-Windows\\mingw64\\x86_64-w64-mingw32\\exec\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\langadd"]
 lastServer:
 lang:zh_cn

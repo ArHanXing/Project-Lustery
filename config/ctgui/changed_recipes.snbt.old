@@ -1,0 +1,85 @@
+{
+    data: [],
+    palette: [],
+    changes: [
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.lewd_refining_tower",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_truss"
+                    },
+                    f: {
+                        item: "create:fluid_pipe"
+                    },
+                    i: {
+                        item: "tfmg:cast_iron_fluid_tank"
+                    },
+                    q: {
+                        item: "create:industrial_iron_block"
+                    },
+                    r: {
+                        item: "justarod:redstone_rod"
+                    }
+                },
+                pattern: [
+                    "crc",
+                    "fif",
+                    "q q"
+                ],
+                result: {
+                    components: {
+                        "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower"
+                    },
+                    count: 1,
+                    id: "modular_machinery_reborn:controller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.infwater",
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "kubejs:defective_lust_crystal"
+                    },
+                    i: {
+                        item: "minecraft:iron_ingot"
+                    },
+                    w: {
+                        item: "minecraft:water_bucket"
+                    }
+                },
+                pattern: [
+                    "did",
+                    "iwi",
+                    " i "
+                ],
+                result: {
+                    components: {
+                        "mekanism:fluids": {
+                            fluid_tanks: [
+                                {
+                                    amount: 2147483647,
+                                    id: "minecraft:water"
+                                }
+                            ]
+                        }
+                    },
+                    count: 1,
+                    id: "mekanism:creative_fluid_tank"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        }
+    ]
+}

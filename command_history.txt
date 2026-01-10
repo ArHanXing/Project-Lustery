@@ -1,9 +1,3 @@
-/cm create
-/reload
-/cm create
-/reload
-/cm create
-/reload
 /kjs hand
 /kjs errors
 /kjs errors server
@@ -48,3 +42,9 @@
 /kjs persistent-data entity VMHanXing get
 /kjs persistent-data entity VMHanXing get *
 /kjs dump registry minecraft:attribute
+/crafttweaker recipes
+/kjs hand
+/reload
+/kjs hand
+/reload
+/mmr reload

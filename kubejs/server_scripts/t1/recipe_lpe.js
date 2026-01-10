@@ -4,7 +4,7 @@ ServerEvents.recipes(e => {
     // from deepseek.
     // 周期性变化，但是不那么顺滑（
     const config = {
-        cyclesPerDay: 24,     // 一天内的循环次数
+        cyclesPerDay: 240,     // 一天内的循环次数
         recipesPerCycle: 10,  // 每个周期的配方数量
         suMin: 32,           // 最小SU值
         suMax: 96,           // 最大SU值

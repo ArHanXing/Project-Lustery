@@ -48,10 +48,20 @@ cm：Custom Machinery
 mmr: Modular Machine Reborn
 | 缩写 | 真名！ | 来源 |
 | ----- | ----- | ----- |
-| lpe | 淫能脉冲引擎 | cm |
 | pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
-
+| lpe | 淫能脉冲引擎 | cm |
+| mrt | 淫液精炼塔 | mmr |
+## jaopca的`zh_cn.json`常常被改
+```json
+	"jaopca.material.cneko": "水晶猫猫",
+	"jaopca.material.dimensaurum": "万界金",
+	"jaopca.material.copper_alloy":"硅铜合金",
+	"jaopca.material.infused_entro":"恩特罗",
+	"jaopca.material.plastic": "塑料",
+	"jaopca.material.draconium": "龙素",
+	"jaopca.material.draconium_awakened": "觉醒龙素",
+```
 ## tools
 ```cpp
 //JAOPCA的色号转换

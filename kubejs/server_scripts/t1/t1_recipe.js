@@ -31,7 +31,7 @@ ServerEvents.recipes(e =>{
 
     e.shapeless(Item.of('kubejs:sifted_ore',2),[
         'kubejs:defective_lust_crystal','#c:cobblestones'
-    ]).id('t0.kjs.sifted_ore')
+    ]).id('t1.kjs.sifted_ore')
 
     mme.machine_recipe("mmr:t1.primitive_ore_washer",20)
         .width(150)
@@ -40,7 +40,7 @@ ServerEvents.recipes(e =>{
         .lootTable('mmr:raw_ores_overworld',2,100,10)
         .lootTable('mmr:raw_ores_overworld',2,120,10)
         .lootTable('mmr:raw_ores_overworld',2,100,30)
-        .id("t0.mmr.pow.wash_sifted_ore")
+        .id("t1.mmr.pow.wash_sifted_ore")
 
     e.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_ore_washer"]',[
         'ABA',
@@ -73,5 +73,22 @@ ServerEvents.recipes(e =>{
         C:'minecraft:flint'
     }).id('t1.jar.redstone_rod');
 
+    //由于作者回心转意（被/ct recipes诱惑） 所以除了MMR和CM配方之外的都不会再用KJS写 哈哈哈（
+
+    mme.machine_recipe("mmr:t1.lewd_refining_tower",60)
+        .width(150)
+        .height(180)
+        .requireFluid(Fluid.of("kubejs:lewd_basic",3000),10,10)
+        .requireItem(Item.of("kubejs:fusion_defective_lust_crystal",10),30,10)
+        .produceFluid(Fluid.of("minecraft:lava",500),100,10)
+        .id("t1.mmr.lrt.lava")
+
+    mme.machine_recipe("mmr:t1.lewd_refining_tower",10)
+        .width(150)
+        .height(180)
+        .requireItem(Item.of("kubejs:defective_lust_crystal",4),10,10)
+        .produceFluid(Fluid.of("kubejs:lewd_basic",100),100,10)
+        .id("t1.mmr.lrt.lewd.t1_nofusion")
+    
     
 });

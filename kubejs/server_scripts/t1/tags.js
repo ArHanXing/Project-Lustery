@@ -11,9 +11,6 @@ ServerEvents.tags('item',event=>{
         //event.add(thx,'modular_machinery_reborn:casing_plain');
     });
     
-    event.add("c:ingots","kubejs:wrought_iron_ingot")
-    event.add("c:ingots/wrought_iron","kubejs:wrought_iron_ingot")
-
     event.add("c:ingots","toneko:neko_ingot")
     event.add("c:ingots/cneko","toneko:neko_ingot")
 

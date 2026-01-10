@@ -1,16 +1,17 @@
 {
     "comment1":"几把kjs7，让不让我好好注册流体了？",
     
-    "item.kubejs.defective_lust_crystal": "缺陷的欲望水晶",
-    "item.kubejs.normal_lust_crystal": "平凡的欲望水晶",
-    "item.kubejs.exquisite_lust_crystal": "精致的欲望水晶",
-    "item.kubejs.fusion_defective_lust_crystal": "缺陷的聚合水晶",
-    "item.kubejs.fusion_normal_lust_crystal": "平凡的聚合水晶",
-    "item.kubejs.fusion_exquisite_lust_crystal": "精致的聚合水晶",
+    "item.kubejs.defective_lust_crystal": "缺陷的欲望宝石",
+    "item.kubejs.normal_lust_crystal": "欲望宝石",
+    "item.kubejs.exquisite_lust_crystal": "精致的欲望宝石",
+    "item.kubejs.fusion_defective_lust_crystal": "缺陷的聚合欲望宝石",
+    "item.kubejs.fusion_normal_lust_crystal": "聚合欲望宝石",
+    "item.kubejs.fusion_exquisite_lust_crystal": "精致的聚合欲望宝石",
 
-    "item.kubejs.sifted_ore":"主世界矿团",
+    "item.kubejs.sifted_ore":"§a主世界§r裂缝贫矿团",
 
-    "fluid.kubejs.lewd_basic":"粗质淫液",
-    "fluid.kubejs.flowing_lewd_basic":"粗质淫液",
+    "fluid.kubejs.example_fluid":"中文fluid，问好来自zh_cn.json",
+    "fluid.kubejs.example_fluid_eng":"洋文Fluid, 自zh_cn.json问天地好在。",
+
     "item.kubejs.lewd_basic_bucket":"粗质淫液桶"
 }

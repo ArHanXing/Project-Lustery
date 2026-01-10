@@ -48,28 +48,24 @@ MMREvents.machines(e =>{
         .structure(
             MMRStructureBuilder.create()
             .pattern([
-                ["a   a","     ","  a  ","     ","a   a"],
-                ["a   a","     ","  a  ","     ","a   a"],
-                ["ddmdd","bcccb","bcccb","bcccb","bbbbb"],
-                ["ddddd","e   e","e   e","e   e","ceeeb"],
-                ["cbbbc","bh hb","bh hb","bh hb","cbbbb"],
-                ["     "," i i ","     "," i i ","     "],
-                ["     "," i i ","     "," i i ","     "],
-                ["     "," i i ","     "," i i ","     "],
-                ["     "," i i ","     "," i i ","     "]])
+                ["aaa","a  ","aaa"],
+                ["bmb","b  ","aaa"],
+                ["cdc","c c","ccc"],
+                ["cdc","c c","ccc"],
+                ["cdc","c c","ccc"],
+                ["cdc","c c","ccc"],
+                ["cdc","c c","ccc"]
+            ])
             .keys({
-                "a":["tfmg:copper_truss[axis=y+waterlogged=false]"],
-                "b":["create:andesite_alloy_block"],
-                "c":["create:industrial_iron_block"],
-                "d":[
+                "a":["create:industrial_iron_block"],
+                "b":[
                     "modular_machinery_reborn:casing_plain",     
                     "#modular_machinery_reborn:inputbus",
                     "#modular_machinery_reborn:outputbus",
-                    "#modular_machinery_reborn:parallelhatch"
+                    "#modular_machinery_reborn:fluidinputhatch"
                 ],
-                "e":["tfmg:coke_oven"],
-                "h":["tfmg:nickel_truss[axis=x+waterlogged=false]"],
-                "i":["tfmg:nickel_truss[axis=y+waterlogged=false]"]}
-            ))
+                "c":["create:copper_casing"],
+                "d":["#modular_machinery_reborn:fluidoutputhatch"]
+            }))
 })
 
