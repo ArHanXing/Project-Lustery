@@ -1,0 +1,119 @@
+{
+  "name": {
+    "text": {
+      "translate": "裂隙发生机"
+    }
+  },
+  "appearance": {},
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input0"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input1"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input2"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input3"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 220,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input0",
+      "x": 40,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 60,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 60,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 10,
+      "y": 20
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 10,
+      "y": 10,
+      "text": {
+        "text": {
+          "translate": "裂隙发生机"
+        }
+      }
+    }
+  ]
+}

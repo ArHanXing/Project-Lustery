@@ -13,6 +13,8 @@ StartupEvents.registry("item",e=>{
     e.create("kubejs:fusion_exquisite_lust_crystal")
 
     e.create("kubejs:sifted_ore")
+
+    e.create('kubejs:rift_cataclyst')
 })
 
 StartupEvents.registry("fluid",e=>{

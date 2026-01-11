@@ -67,5 +67,7 @@ MMREvents.machines(e =>{
                 "c":["create:copper_casing"],
                 "d":["#modular_machinery_reborn:fluidoutputhatch"]
             }))
+    
+    e.create("mmr:t1.")
 })
 

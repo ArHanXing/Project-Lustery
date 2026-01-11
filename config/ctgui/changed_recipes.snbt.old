@@ -15,10 +15,10 @@
                         item: "create:fluid_pipe"
                     },
                     i: {
-                        item: "tfmg:cast_iron_fluid_tank"
-                    },
-                    q: {
                         item: "create:industrial_iron_block"
+                    },
+                    k: {
+                        item: "tfmg:cast_iron_fluid_tank"
                     },
                     r: {
                         item: "justarod:redstone_rod"
@@ -26,8 +26,8 @@
                 },
                 pattern: [
                     "crc",
-                    "fif",
-                    "q q"
+                    "fkf",
+                    "i i"
                 ],
                 result: {
                     components: {
@@ -75,6 +75,585 @@
                     },
                     count: 1,
                     id: "mekanism:creative_fluid_tank"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.create/blaze_burner",
+            originalId: "create:crafting/kinetics/empty_blaze_burner",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    i: {
+                        tag: "c:plates/iron"
+                    },
+                    n: {
+                        tag: "c:netherracks"
+                    }
+                },
+                pattern: [
+                    " i ",
+                    "ini",
+                    " i "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:empty_blaze_burner"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_truss"
+                    },
+                    i: {
+                        tag: "c:plates/iron"
+                    },
+                    n: {
+                        item: "minecraft:nether_brick"
+                    }
+                },
+                pattern: [
+                    "nin",
+                    "ici",
+                    "nin"
+                ],
+                result: {
+                    count: 1,
+                    id: "create:empty_blaze_burner"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.create/spout",
+            originalId: "create:crafting/kinetics/spout",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "create:copper_casing"
+                    },
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    }
+                },
+                pattern: [
+                    "c  ",
+                    "d  ",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:spout"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "create:copper_casing"
+                    },
+                    f: {
+                        item: "create:fluid_pipe"
+                    },
+                    g: {
+                        item: "jaopca:gears.copper"
+                    }
+                },
+                pattern: [
+                    "c  ",
+                    "f  ",
+                    "g  "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:spout"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.create/fluid_tank",
+            originalId: "create:crafting/kinetics/fluid_tank",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    B: {
+                        tag: "c:plates/copper"
+                    },
+                    C: {
+                        tag: "c:barrels/wooden"
+                    }
+                },
+                pattern: [
+                    "B",
+                    "C",
+                    "B"
+                ],
+                result: {
+                    count: 1,
+                    id: "create:fluid_tank"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        tag: "c:plates/copper"
+                    },
+                    l: {
+                        item: "create:copper_sheet"
+                    },
+                    p: {
+                        item: "tfmg:copper_frame"
+                    }
+                },
+                pattern: [
+                    "c l",
+                    " p ",
+                    "c l"
+                ],
+                result: {
+                    count: 1,
+                    id: "create:fluid_tank"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/steel_frame",
+            originalId: "tfmg:crafting/materials/steel_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/steel"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:steel_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "tfmg:rebar"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:steel_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/aluminum_frame",
+            originalId: "tfmg:crafting/materials/aluminum_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/aluminum"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:aluminum_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.aluminum"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:aluminum_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/cast_iron_frame",
+            originalId: "tfmg:crafting/materials/cast_iron_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/cast_iron"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:cast_iron_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.cast_iron"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:cast_iron_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/lead_frame",
+            originalId: "tfmg:crafting/materials/lead_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/lead"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:lead_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.lead"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:lead_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/nickel_frame",
+            originalId: "tfmg:crafting/materials/nickel_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/nickel"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:nickel_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.nickel"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:nickel_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/constantan_frame",
+            originalId: "tfmg:crafting/materials/constantan_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/constantan"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:constantan_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.constantan"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:constantan_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/copper_frame",
+            originalId: "tfmg:crafting/materials/copper_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/copper"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:copper_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "createaddition:copper_rod"
+                    }
+                },
+                pattern: [
+                    "c c",
+                    " c ",
+                    "c c"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:copper_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/zinc_frame",
+            originalId: "tfmg:crafting/materials/zinc_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/zinc"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:zinc_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    r: {
+                        item: "jaopca:rods.zinc"
+                    }
+                },
+                pattern: [
+                    "r r",
+                    " r ",
+                    "r r"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:zinc_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.tfmg/crafting/materials/brass_frame",
+            originalId: "tfmg:crafting/materials/brass_frame",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    N: {
+                        tag: "c:nuggets/brass"
+                    }
+                },
+                pattern: [
+                    "NNN",
+                    "N N",
+                    "NNN"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:brass_frame"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "createaddition:brass_rod"
+                    }
+                },
+                pattern: [
+                    "b b",
+                    " b ",
+                    "b b"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:brass_frame"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/uni.create/brass_rod",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_ingot"
+                    }
+                },
+                pattern: [
+                    " b ",
+                    " b ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "createaddition:brass_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/crafting/uni.create/iron_rod",
+            recipe: {
+                category: "misc",
+                key: {
+                    i: {
+                        item: "minecraft:iron_ingot"
+                    }
+                },
+                pattern: [
+                    " i ",
+                    " i ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "createaddition:iron_rod"
                 }
             },
             recipeType: "minecraft:crafting",

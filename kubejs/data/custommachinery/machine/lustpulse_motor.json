@@ -38,6 +38,17 @@
       "height": 150
     },
     {
+      "type": "custommachinery:config",
+      "x": 160,
+      "y": 10
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 40,
+      "y": 50,
+      "tanks": "input"
+    },
+    {
       "type": "custommachinery:fluid",
       "id": "input",
       "x": 21,
@@ -54,9 +65,14 @@
       "y": 30
     },
     {
+      "type": "custommachinery:status",
+      "x": 60,
+      "y": 5
+    },
+    {
       "type": "custommachinery:text",
-      "x": 10,
-      "y": 10,
+      "x": 5,
+      "y": 5,
       "text": {
         "text": {
           "translate": "欲能脉冲引擎"

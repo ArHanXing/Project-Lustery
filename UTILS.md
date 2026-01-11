@@ -51,7 +51,8 @@ mmr: Modular Machine Reborn
 | pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
 | lpe | 淫能脉冲引擎 | cm |
-| mrt | 淫液精炼塔 | mmr |
+| lrt | 淫液精炼塔 | mmr |
+| rg | 裂隙发生机 | cm |
 ## jaopca的`zh_cn.json`常常被改
 ```json
 	"jaopca.material.cneko": "水晶猫猫",

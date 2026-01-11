@@ -365,5 +365,90 @@
 			x: 8.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["777420784254FFA5"]
+			id: "4C4300A3E506BBC3"
+			tasks: [{
+				id: "6347CE50090A31F3"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C4300A3E506BBC3"]
+			id: "605E632A46B3EBD9"
+			tasks: [{
+				id: "5F6540F9ABAF501E"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["605E632A46B3EBD9"]
+			id: "4070C185C5B9C1FB"
+			tasks: [{
+				id: "04AF182AB3366E4E"
+				item: { count: 1, id: "custommachinery:lustpulse_motor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0320E4693A9BC209"]
+			id: "0558BC9554C9A56F"
+			tasks: [{
+				id: "7158FBC71B8A1AA1"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0320E4693A9BC209"]
+			id: "355358C737B941E1"
+			rewards: [
+				{
+					id: "6B8113CC8D2A6C33"
+					item: {
+						count: 1
+						id: "mekanism:basic_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "5C65D4262DAC4BE3"
+					item: {
+						count: 1
+						id: "mekanism:basic_bin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79ED1C01DF9A4873"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "7AB249EAE50A78FA"
+					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					id: "31AFC24B3A0DF649"
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
 	]
 }

@@ -22,7 +22,14 @@ function chemicalFormat(str) {
     // 将每个数字转换为下标
     return match.split('').map(num => subscriptMap[num] || num).join('');
   });
-  return '§6'+result+'§r';
+  return '§e'+result+'§r';
+}
+function easyforms(namesp,str){
+    return [
+        namesp+':'+str+'_ingot',
+        namesp+':'+str+'_block',
+        namesp+':raw_'+str
+    ]
 }
 ItemEvents.modifyTooltips(e =>{
     const tooltipPairs = [
@@ -52,11 +59,14 @@ ItemEvents.modifyTooltips(e =>{
 
     const elementPairs = [
         [
-            ['minecraft:iron_ingot','minecraft:iron_nugget','minecraft:iron_block','minecraft:raw_iron','create:iron_sheet','mekanism:dust_iron'],
+            [easyforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
             'Fe'
         ],[
             ['tfmg:cast_iron_block','tfmg:cast_iron_ingot'],
             'Fe100C'
+        ],[
+            ['create:andesite_alloy','create:andesite_alloy_block'],
+            'Fe3Al2Si2O7'
         ]
     ]
     //他妈的 这才是ChemicalHelper（？

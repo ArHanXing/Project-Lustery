@@ -1,7 +1,3 @@
-/kjs hand
-/kjs errors
-/kjs errors server
-/kjs errors startup
 /kjs persistent-data
 /kjs persistent-data entity VMHanXing
 /kjs persistent-data entity VMHanXing get
@@ -48,3 +44,7 @@
 /kjs hand
 /reload
 /mmr reload
+/cm create
+/cm reload
+/reload
+/cm create

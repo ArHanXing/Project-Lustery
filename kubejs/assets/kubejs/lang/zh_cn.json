@@ -13,5 +13,7 @@
     "fluid.kubejs.example_fluid":"中文fluid，问好来自zh_cn.json",
     "fluid.kubejs.example_fluid_eng":"洋文Fluid, 自zh_cn.json问天地好在。",
 
-    "item.kubejs.lewd_basic_bucket":"粗质淫液桶"
+    "item.kubejs.lewd_basic_bucket":"粗质淫液桶",
+    "block.kubejs.dimrift":"维度裂隙",
+    "item.kubejs.rift_cataclyst":"维度触媒"
 }
