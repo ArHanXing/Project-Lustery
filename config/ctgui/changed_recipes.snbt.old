@@ -190,17 +190,17 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    B: {
-                        tag: "c:plates/copper"
-                    },
-                    C: {
+                    b: {
                         tag: "c:barrels/wooden"
+                    },
+                    c: {
+                        tag: "c:plates/copper"
                     }
                 },
                 pattern: [
-                    "B",
-                    "C",
-                    "B"
+                    "c  ",
+                    "b  ",
+                    "c  "
                 ],
                 result: {
                     count: 1,
@@ -210,20 +210,20 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "tfmg:copper_frame"
+                    },
                     c: {
                         tag: "c:plates/copper"
                     },
-                    l: {
+                    g: {
                         item: "create:copper_sheet"
-                    },
-                    p: {
-                        item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c l",
-                    " p ",
-                    "c l"
+                    "c g",
+                    " b ",
+                    "c g"
                 ],
                 result: {
                     count: 1,
@@ -235,20 +235,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/steel_frame",
             originalId: "tfmg:crafting/materials/steel_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    n: {
                         tag: "c:nuggets/steel"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "nnn",
+                    "n n",
+                    "nnn"
                 ],
                 result: {
                     count: 4,
@@ -277,20 +277,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/aluminum_frame",
             originalId: "tfmg:crafting/materials/aluminum_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    a: {
                         tag: "c:nuggets/aluminum"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "aaa",
+                    "a a",
+                    "aaa"
                 ],
                 result: {
                     count: 4,
@@ -319,20 +319,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/cast_iron_frame",
             originalId: "tfmg:crafting/materials/cast_iron_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    c: {
                         tag: "c:nuggets/cast_iron"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "ccc",
+                    "c c",
+                    "ccc"
                 ],
                 result: {
                     count: 4,
@@ -361,20 +361,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/lead_frame",
             originalId: "tfmg:crafting/materials/lead_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    n: {
                         tag: "c:nuggets/lead"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "nnn",
+                    "n n",
+                    "nnn"
                 ],
                 result: {
                     count: 4,
@@ -403,20 +403,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/nickel_frame",
             originalId: "tfmg:crafting/materials/nickel_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    n: {
                         tag: "c:nuggets/nickel"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "nnn",
+                    "n n",
+                    "nnn"
                 ],
                 result: {
                     count: 4,
@@ -445,20 +445,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/constantan_frame",
             originalId: "tfmg:crafting/materials/constantan_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    c: {
                         tag: "c:nuggets/constantan"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "ccc",
+                    "c c",
+                    "ccc"
                 ],
                 result: {
                     count: 4,
@@ -487,20 +487,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/copper_frame",
             originalId: "tfmg:crafting/materials/copper_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    c: {
                         tag: "c:nuggets/copper"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "ccc",
+                    "c c",
+                    "ccc"
                 ],
                 result: {
                     count: 4,
@@ -529,20 +529,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/zinc_frame",
             originalId: "tfmg:crafting/materials/zinc_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    z: {
                         tag: "c:nuggets/zinc"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "zzz",
+                    "z z",
+                    "zzz"
                 ],
                 result: {
                     count: 4,
@@ -571,20 +571,20 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.tfmg/crafting/materials/brass_frame",
             originalId: "tfmg:crafting/materials/brass_frame",
             originalRecipe: {
                 category: "misc",
                 key: {
-                    N: {
+                    b: {
                         tag: "c:nuggets/brass"
                     }
                 },
                 pattern: [
-                    "NNN",
-                    "N N",
-                    "NNN"
+                    "bbb",
+                    "b b",
+                    "bbb"
                 ],
                 result: {
                     count: 4,
@@ -613,7 +613,7 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/uni.create/brass_rod",
             recipe: {
                 category: "misc",
@@ -623,8 +623,8 @@
                     }
                 },
                 pattern: [
-                    " b ",
-                    " b ",
+                    "b  ",
+                    "b  ",
                     "   "
                 ],
                 result: {
@@ -637,7 +637,7 @@
             type: "ADDED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/crafting/uni.create/iron_rod",
             recipe: {
                 category: "misc",
@@ -647,13 +647,232 @@
                     }
                 },
                 pattern: [
-                    " i ",
-                    " i ",
+                    "i  ",
+                    "i  ",
                     "   "
                 ],
                 result: {
                     count: 2,
                     id: "createaddition:iron_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.cca/electrum_rod",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "createaddition:electrum_ingot"
+                    }
+                },
+                pattern: [
+                    " e ",
+                    " e ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "createaddition:electrum_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.cca/copper_rod",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:copper_ingot"
+                    }
+                },
+                pattern: [
+                    " c ",
+                    " c ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "createaddition:copper_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.cca/gold_rod",
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        item: "minecraft:gold_ingot"
+                    }
+                },
+                pattern: [
+                    " g ",
+                    " g ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "createaddition:gold_rod"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.lpe",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_sheet"
+                    },
+                    f: {
+                        item: "kubejs:fusion_normal_lust_crystal"
+                    },
+                    r: {
+                        item: "justarod:redstone_rod"
+                    },
+                    s: {
+                        item: "create:shaft"
+                    },
+                    u: {
+                        item: "tfmg:brass_pipe"
+                    }
+                },
+                pattern: [
+                    "bub",
+                    "srs",
+                    "fbf"
+                ],
+                result: {
+                    count: 1,
+                    id: "custommachinery:lustpulse_motor"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:bucket"
+                    },
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    }
+                },
+                pattern: [
+                    "cbc",
+                    "   ",
+                    "   "
+                ],
+                result: {
+                    count: 4,
+                    id: "mekanism:basic_mechanical_pipe"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.mekanism/transmitter/universal_cable/basic",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    },
+                    n: {
+                        item: "minecraft:copper_ingot"
+                    }
+                },
+                pattern: [
+                    "cnc",
+                    "   ",
+                    "   "
+                ],
+                result: {
+                    count: 4,
+                    id: "mekanism:basic_universal_cable"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    },
+                    g: {
+                        tag: "c:gears"
+                    }
+                },
+                pattern: [
+                    "cgc",
+                    "   ",
+                    "   "
+                ],
+                result: {
+                    count: 4,
+                    id: "mekanism:basic_logistical_transporter"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.mekanism/bin/basic",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_sheet"
+                    },
+                    i: {
+                        item: "createaddition:iron_rod"
+                    },
+                    r: {
+                        tag: "mekanism:alloys/basic"
+                    }
+                },
+                pattern: [
+                    "c c",
+                    "rir",
+                    "c c"
+                ],
+                result: {
+                    count: 1,
+                    id: "mekanism:basic_bin"
                 }
             },
             recipeType: "minecraft:crafting",

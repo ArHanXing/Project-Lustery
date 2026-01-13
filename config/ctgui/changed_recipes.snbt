@@ -17,16 +17,16 @@
                     i: {
                         item: "create:industrial_iron_block"
                     },
-                    k: {
-                        item: "tfmg:cast_iron_fluid_tank"
-                    },
                     r: {
                         item: "justarod:redstone_rod"
+                    },
+                    y: {
+                        item: "tfmg:cast_iron_fluid_tank"
                     }
                 },
                 pattern: [
                     "crc",
-                    "fkf",
+                    "fyf",
                     "i i"
                 ],
                 result: {
@@ -210,20 +210,20 @@
             recipe: {
                 category: "misc",
                 key: {
-                    b: {
-                        item: "tfmg:copper_frame"
-                    },
                     c: {
                         tag: "c:plates/copper"
                     },
-                    g: {
+                    v: {
                         item: "create:copper_sheet"
+                    },
+                    w: {
+                        item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c g",
-                    " b ",
-                    "c g"
+                    "c v",
+                    " w ",
+                    "c v"
                 ],
                 result: {
                     count: 1,
@@ -671,8 +671,8 @@
                     }
                 },
                 pattern: [
-                    " e ",
-                    " e ",
+                    "e  ",
+                    "e  ",
                     "   "
                 ],
                 result: {
@@ -695,8 +695,8 @@
                     }
                 },
                 pattern: [
-                    " c ",
-                    " c ",
+                    "c  ",
+                    "c  ",
                     "   "
                 ],
                 result: {
@@ -719,8 +719,8 @@
                     }
                 },
                 pattern: [
-                    " g ",
-                    " g ",
+                    "g  ",
+                    "g  ",
                     "   "
                 ],
                 result: {
@@ -744,18 +744,18 @@
                     f: {
                         item: "kubejs:fusion_normal_lust_crystal"
                     },
+                    o: {
+                        item: "tfmg:brass_pipe"
+                    },
                     r: {
                         item: "justarod:redstone_rod"
                     },
                     s: {
                         item: "create:shaft"
-                    },
-                    u: {
-                        item: "tfmg:brass_pipe"
                     }
                 },
                 pattern: [
-                    "bub",
+                    "bob",
                     "srs",
                     "fbf"
                 ],
@@ -804,12 +804,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    n: {
+                    w: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cnc",
+                    "cwc",
                     "   ",
                     "   "
                 ],

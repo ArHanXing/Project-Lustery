@@ -10,10 +10,11 @@
 
     "item.kubejs.sifted_ore":"§a主世界§r裂缝贫矿团",
 
-    "fluid.kubejs.example_fluid":"中文fluid，问好来自zh_cn.json",
-    "fluid.kubejs.example_fluid_eng":"洋文Fluid, 自zh_cn.json问天地好在。",
-
     "item.kubejs.lewd_basic_bucket":"粗质淫液桶",
+    "fluid.kubejs.lewd_basic":"粗质淫液",
+    "block.kubejs.lewd_basic":"粗质淫液",
+    "fluid_type.kubejs.lewd_basic":"粗质淫液",
+
     "block.kubejs.dimrift":"维度裂隙",
     "item.kubejs.rift_cataclyst":"维度触媒"
 }

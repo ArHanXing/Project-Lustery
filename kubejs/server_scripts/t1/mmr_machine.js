@@ -48,8 +48,8 @@ MMREvents.machines(e =>{
         .structure(
             MMRStructureBuilder.create()
             .pattern([
-                ["aaa","a  ","aaa"],
-                ["bmb","b  ","aaa"],
+                ["aaa","aaa","aaa"],
+                ["bmb","b b","aaa"],
                 ["cdc","c c","ccc"],
                 ["cdc","c c","ccc"],
                 ["cdc","c c","ccc"],

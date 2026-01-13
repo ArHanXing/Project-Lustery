@@ -18,6 +18,19 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "mekanism_chemical",
+      "id": "mekanism:polonium",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "mekanism:dust_fluorite",
+      "amount": 14
+    },
+    "item:mekanism:fluorite_ore",
+    "#item:c:ores/fluorite",
+    "item:minecraft:cobblestone",
     "item:tfmg:cast_iron_ingot",
     "fluid:tfmg:creosote",
     "item:tfmg:coal_coke",
@@ -281,7 +294,6 @@
     "item:create:powdered_obsidian",
     "item:create:stock_ticker",
     "item:create_connected:control_chip",
-    "item:minecraft:cobblestone",
     "item:minecraft:andesite",
     {
       "type": "fluid",
