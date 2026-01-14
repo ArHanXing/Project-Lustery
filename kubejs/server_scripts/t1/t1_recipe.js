@@ -70,7 +70,7 @@ ServerEvents.recipes(e =>{
     ],{
         A:'jaopca:rods.osmium',
         B:'justarod:primitive_rod',
-        C:'minecraft:flint'
+        C:'tfmg:cast_iron_ingot'
     }).id('t1.jar.redstone_rod');
 
     //由于作者回心转意（被/ct recipes诱惑） 所以除了MMR和CM配方之外的都不会再用KJS写 哈哈哈（

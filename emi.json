@@ -19,6 +19,20 @@
   ],
   "lookup_history": [
     {
+      "type": "fluid",
+      "id": "kubejs:lewd_basic",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "tfmg:coke_oven",
+      "amount": 2
+    },
+    "item:tfmg:cast_iron_ingot",
+    "item:justarod:redstone_rod",
+    "item:justarod:primitive_rod",
+    "item:create_connected:kinetic_battery",
+    {
       "type": "mekanism_chemical",
       "id": "mekanism:polonium",
       "amount": 1000
@@ -31,7 +45,6 @@
     "item:mekanism:fluorite_ore",
     "#item:c:ores/fluorite",
     "item:minecraft:cobblestone",
-    "item:tfmg:cast_iron_ingot",
     "fluid:tfmg:creosote",
     "item:tfmg:coal_coke",
     "item:tfmg:blast_stove",
@@ -48,10 +61,8 @@
     "item:mekanism:basic_bin",
     "item:mekanism:basic_fluid_tank",
     "item:mekanism:advanced_fluid_tank",
-    "item:create_connected:kinetic_battery",
     "item:create:brass_casing",
     "item:create:precision_mechanism",
-    "item:tfmg:coke_oven",
     "item:minecraft:coal",
     "item:mekanism:basic_pressurized_tube",
     "item:mekanism:basic_logistical_transporter",
@@ -165,11 +176,6 @@
     "item:kubejs:lewd_basic_bucket",
     {
       "type": "fluid",
-      "id": "kubejs:lewd_basic",
-      "amount": 3000
-    },
-    {
-      "type": "fluid",
       "id": "minecraft:lava",
       "amount": 1000
     },
@@ -226,7 +232,6 @@
     "mekanism_chemical:mekanism:uranium_hexafluoride",
     "mekanism_chemical:mekanism_extras:naquadah_hexafluoride",
     "item:kubejs:example_fluid_bucket",
-    "item:justarod:redstone_rod",
     "mekanism_chemical:mekanism_extras:shining",
     "mekanism_chemical:mekanism:pink",
     "mekanism_chemical:mekanism:purple",
@@ -257,7 +262,6 @@
     "item:modular_machinery_reborn:casing_reinforced",
     "item:tfmg:nickel_truss",
     "item:tfmg:copycat_cable_block",
-    "item:justarod:primitive_rod",
     "item:create:rose_quartz_tiles",
     "item:create_connected:copycat_box",
     "item:create_connected:copycat_block",
