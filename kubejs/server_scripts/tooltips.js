@@ -48,6 +48,9 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.lewd_refining_tower"]',
             ['Tier-§c1','回归原体吧!']
+        ],[
+            'custommachinery:rift_generator',
+            ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r。']
         ]
     ]
 

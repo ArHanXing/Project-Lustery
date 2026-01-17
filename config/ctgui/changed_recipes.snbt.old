@@ -14,19 +14,19 @@
                     f: {
                         item: "create:fluid_pipe"
                     },
+                    g: {
+                        item: "tfmg:cast_iron_fluid_tank"
+                    },
                     i: {
                         item: "create:industrial_iron_block"
                     },
                     r: {
                         item: "justarod:redstone_rod"
-                    },
-                    y: {
-                        item: "tfmg:cast_iron_fluid_tank"
                     }
                 },
                 pattern: [
                     "crc",
-                    "fyf",
+                    "fgf",
                     "i i"
                 ],
                 result: {
@@ -213,17 +213,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    v: {
+                    e: {
                         item: "create:copper_sheet"
                     },
-                    w: {
+                    z: {
                         item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c v",
-                    " w ",
-                    "c v"
+                    "c e",
+                    " z ",
+                    "c e"
                 ],
                 result: {
                     count: 1,
@@ -744,7 +744,7 @@
                     f: {
                         item: "kubejs:fusion_normal_lust_crystal"
                     },
-                    o: {
+                    j: {
                         item: "tfmg:brass_pipe"
                     },
                     r: {
@@ -755,7 +755,7 @@
                     }
                 },
                 pattern: [
-                    "bob",
+                    "bjb",
                     "srs",
                     "fbf"
                 ],
@@ -804,12 +804,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    w: {
+                    g: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cwc",
+                    "cgc",
                     "   ",
                     "   "
                 ],

@@ -56,7 +56,9 @@
 	#List of item tags that should not be added.
 	blacklist = []
 	#List of item tags that should be considered as defined.
-	customDefined = []
+	customDefined = [
+		"c:ingots/cneko"
+	]
 
 #Configurations related to fluid tags.
 [fluidTags]

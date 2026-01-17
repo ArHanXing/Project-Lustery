@@ -1,7 +1,3 @@
-/kjs persistent-data
-/kjs persistent-data entity VMHanXing
-/kjs persistent-data entity VMHanXing get
-/kjs persistent-data entity VMHanXing get *
 /bcore_client
 /kjs hand
 /cm log
@@ -48,3 +44,7 @@
 /cm reload
 /reload
 /cm create
+/effect clear
+/cm create
+/kjs hand
+/reload

@@ -9,3 +9,5 @@ using GPLv3 for using of JustARod.
 - HgTlPbBi 陪我吹水以及贡献
 - MMR、CM的作者，方糕组的KJS教程
 
+## 部分材质来源
+- GT Refreshed

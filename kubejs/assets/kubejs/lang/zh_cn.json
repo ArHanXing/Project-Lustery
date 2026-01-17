@@ -1,6 +1,4 @@
 {
-    "comment1":"几把kjs7，让不让我好好注册流体了？",
-    
     "item.kubejs.defective_lust_crystal": "缺陷的欲望宝石",
     "item.kubejs.normal_lust_crystal": "欲望宝石",
     "item.kubejs.exquisite_lust_crystal": "精致的欲望宝石",
@@ -15,6 +13,6 @@
     "block.kubejs.lewd_basic":"粗质淫液",
     "fluid_type.kubejs.lewd_basic":"粗质淫液",
 
-    "block.kubejs.dimrift":"维度裂隙",
-    "item.kubejs.rift_cataclyst":"维度触媒"
+    "block.kubejs.dimrift":"§9半稳定§r维度裂隙",
+    "item.kubejs.rift_cataclyst":"裂隙触媒"
 }

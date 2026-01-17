@@ -93,16 +93,16 @@ craftingTable.addShaped("ctgui/new/crafting/uni.create/iron_rod", <item:createad
     [<item:minecraft:iron_ingot>]]);
 
 craftingTable.addShaped("ctgui/new/uni.cca/electrum_rod", <item:createaddition:electrum_rod> * 2, [
-    [IIngredientEmpty.getInstance(), <item:createaddition:electrum_ingot>],
-    [IIngredientEmpty.getInstance(), <item:createaddition:electrum_ingot>]]);
+    [<item:createaddition:electrum_ingot>],
+    [<item:createaddition:electrum_ingot>]]);
 
 craftingTable.addShaped("ctgui/new/uni.cca/copper_rod", <item:createaddition:copper_rod> * 2, [
-    [IIngredientEmpty.getInstance(), <item:minecraft:copper_ingot>],
-    [IIngredientEmpty.getInstance(), <item:minecraft:copper_ingot>]]);
+    [<item:minecraft:copper_ingot>],
+    [<item:minecraft:copper_ingot>]]);
 
 craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_rod> * 2, [
-    [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>],
-    [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>]]);
+    [<item:minecraft:gold_ingot>],
+    [<item:minecraft:gold_ingot>]]);
 
 craftingTable.addShaped("ctgui/new/t1.lpe", <item:custommachinery:lustpulse_motor>, [
     [<item:create:brass_sheet>, <item:tfmg:brass_pipe>, <item:create:brass_sheet>],
@@ -111,9 +111,11 @@ craftingTable.addShaped("ctgui/new/t1.lpe", <item:custommachinery:lustpulse_moto
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"t":{"item":"minecraft:copper_ingot"}},"pattern":["ctc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"z":{"item":"minecraft:copper_ingot"}},"pattern":["czc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/bin/basic", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"r":{"tag":"mekanism:alloys/basic"},"i":{"item":"createaddition:iron_rod"}},"pattern":["c c","rir","c c"],"result":{"id":"mekanism:basic_bin","count":1},"category":"misc","type":"mekanism:mek_data"});
+
+craftingTable.addShapeless("ctgui/new/t1.sawdust", <item:mekanism:sawdust> * 2, [<item:minecraft:stick>, <item:minecraft:stick>]);
 

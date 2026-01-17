@@ -22,15 +22,10 @@ StartupEvents.registry("fluid",e=>{
         .stillTexture('kubejs:fluid/lewd_basic_still')
         .flowingTexture('kubejs:fluid/lewd_basic_flow')
         .displayName('粗质淫液')
-    
-    e.create("example_fluid")
-        .displayName("非常好流体！（中文。。？）来自 .displayName/测试kjs #1092")
-    
-    e.create("example_fluid_eng")
-        .displayName("awesome fluid from .displayName/测试kjs #1092")
 })
 
 StartupEvents.registry("block",e=>{
     e.create("custommachinery:lustpulse_motor", "custommachinery:custom_machine")
+    e.create("custommachinery:rift_generator", "custommachinery:custom_machine")
     e.create("dimrift")
 })

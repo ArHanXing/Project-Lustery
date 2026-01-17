@@ -8,6 +8,9 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "tfmg:cast_iron_fluid_tank"
+                    },
                     c: {
                         item: "tfmg:cast_iron_truss"
                     },
@@ -19,14 +22,11 @@
                     },
                     r: {
                         item: "justarod:redstone_rod"
-                    },
-                    u: {
-                        item: "tfmg:cast_iron_fluid_tank"
                     }
                 },
                 pattern: [
                     "crc",
-                    "fuf",
+                    "fbf",
                     "i i"
                 ],
                 result: {
@@ -213,17 +213,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    j: {
+                    d: {
                         item: "create:copper_sheet"
                     },
-                    k: {
+                    g: {
                         item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c j",
-                    " k ",
-                    "c j"
+                    "c d",
+                    " g ",
+                    "c d"
                 ],
                 result: {
                     count: 1,
@@ -744,18 +744,18 @@
                     f: {
                         item: "kubejs:fusion_normal_lust_crystal"
                     },
+                    g: {
+                        item: "tfmg:brass_pipe"
+                    },
                     r: {
                         item: "justarod:redstone_rod"
                     },
                     s: {
                         item: "create:shaft"
-                    },
-                    u: {
-                        item: "tfmg:brass_pipe"
                     }
                 },
                 pattern: [
-                    "bub",
+                    "bgb",
                     "srs",
                     "fbf"
                 ],
@@ -804,12 +804,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    s: {
+                    x: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "csc",
+                    "cxc",
                     "   ",
                     "   "
                 ],
@@ -877,6 +877,28 @@
             },
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.sawdust",
+            recipe: {
+                category: "misc",
+                ingredients: [
+                    {
+                        item: "minecraft:stick"
+                    },
+                    {
+                        item: "minecraft:stick"
+                    }
+                ],
+                result: {
+                    count: 2,
+                    id: "mekanism:sawdust"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shapeless",
             type: "ADDED"
         }
     ]

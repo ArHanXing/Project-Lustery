@@ -46,8 +46,8 @@ ServerEvents.recipes(e => {
         });
     }
 
-    console.log(`[LPE] 配置：每天 ${cyclesPerDay} 个周期，共 ${totalRecipes} 个配方`);
-    console.log(`[LPE] 周期长度：${cycleLength} ticks`);
+    //console.log(`[LPE] 配置：每天 ${cyclesPerDay} 个周期，共 ${totalRecipes} 个配方`);
+    //console.log(`[LPE] 周期长度：${cycleLength} ticks`);
 
     recipes.forEach((recipe, index) => {
         mmc.custom_machine("custommachinery:lustpulse_motor", 200)
