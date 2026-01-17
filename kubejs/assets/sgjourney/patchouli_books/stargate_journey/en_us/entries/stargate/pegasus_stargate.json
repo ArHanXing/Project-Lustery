@@ -1,0 +1,20 @@
+{
+	"name": "飞马座星门",
+	"icon": "sgjourney:pegasus_stargate",
+	"sortnum": 4,
+	"category": "sgjourney:stargates",
+	"pages":
+	[
+		{
+			"title": "飞马座星门",
+			"type": "patchouli:image",
+			"images": ["sgjourney:textures/gui/patchouli/pegasus_stargate.png"],
+			"text": "第3代星门，拥有36个符号。"
+		},
+		{
+			"title": "特性",
+			"type": "patchouli:text",
+			"text": "此星门无法手动拨号。尽管环上只显示36个符号，但该星门本身可以拨号48个符号。"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "硫磺星",
+	"icon": "sgjourney:sulfur_sand",
+	"sortnum": 3,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "一颗被硫磺沙构成的沙漠所覆盖的星球。"
+		}
+	]
+}

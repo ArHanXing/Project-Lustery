@@ -1,0 +1,13 @@
+{
+	"name": "Abydos 阿拜多斯",
+	"icon": "minecraft:sand",
+	"sortnum": 1,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "在Ra领域中的一颗沙漠星球。"
+		}
+	]
+}

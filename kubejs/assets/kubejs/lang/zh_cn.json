@@ -1,11 +1,19 @@
 {
+    "jaopca.material.cneko": "水晶猫猫",
+	"jaopca.material.dimensaurum": "万界金",
+	"jaopca.material.copper_alloy":"硅铜合金",
+	"jaopca.material.infused_entro":"恩特罗",
+	"jaopca.material.plastic": "塑料",
+	"jaopca.material.draconium": "龙素",
+	"jaopca.material.draconium_awakened": "觉醒龙素",
+    "jaopca.material.constantan": "白铜",
+    "create.goggles.fluid_storage":"流体存储",
     "item.kubejs.defective_lust_crystal": "缺陷的欲望宝石",
     "item.kubejs.normal_lust_crystal": "欲望宝石",
     "item.kubejs.exquisite_lust_crystal": "精致的欲望宝石",
     "item.kubejs.fusion_defective_lust_crystal": "缺陷的聚合欲望宝石",
     "item.kubejs.fusion_normal_lust_crystal": "聚合欲望宝石",
     "item.kubejs.fusion_exquisite_lust_crystal": "精致的聚合欲望宝石",
-
     "item.kubejs.sifted_ore":"§a主世界§r裂缝贫矿团",
 
     "item.kubejs.lewd_basic_bucket":"粗质淫液桶",
@@ -14,5 +22,6 @@
     "fluid_type.kubejs.lewd_basic":"粗质淫液",
 
     "block.kubejs.dimrift":"§9半稳定§r维度裂隙",
-    "item.kubejs.rift_cataclyst":"裂隙触媒"
+    "item.kubejs.rift_cataclyst":"裂隙触媒",
+    "item.kubejs.wood_plate":"木方板"
 }

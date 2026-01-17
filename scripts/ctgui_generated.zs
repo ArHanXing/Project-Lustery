@@ -111,11 +111,42 @@ craftingTable.addShaped("ctgui/new/t1.lpe", <item:custommachinery:lustpulse_moto
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"z":{"item":"minecraft:copper_ingot"}},"pattern":["czc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"x":{"item":"minecraft:copper_ingot"}},"pattern":["cxc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/bin/basic", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"r":{"tag":"mekanism:alloys/basic"},"i":{"item":"createaddition:iron_rod"}},"pattern":["c c","rir","c c"],"result":{"id":"mekanism:basic_bin","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShapeless("ctgui/new/t1.sawdust", <item:mekanism:sawdust> * 2, [<item:minecraft:stick>, <item:minecraft:stick>]);
+
+<recipetype:minecraft:crafting>.removeByName("create:crafting/kinetics/belt_connector");
+craftingTable.addShaped("ctgui/new/uni.create/crafting/kinetics/belt_connector", <item:create:belt_connector>, [
+    [<item:kubejs:wood_plate>, <item:kubejs:wood_plate>, <item:kubejs:wood_plate>],
+    [<item:kubejs:wood_plate>, <item:kubejs:wood_plate>, <item:kubejs:wood_plate>]]);
+
+<recipetype:minecraft:crafting>.removeByName("create:crafting/logistics/andesite_funnel");
+craftingTable.addShaped("ctgui/new/uni.create/crafting/logistics/andesite_funnel", <item:create:andesite_funnel> * 2, [
+    [<item:create:andesite_alloy>],
+    [<item:kubejs:wood_plate>]]);
+
+<recipetype:minecraft:crafting>.removeByName("create:crafting/logistics/brass_funnel");
+craftingTable.addShaped("ctgui/new/uni.create/crafting/logistics/brass_funnel", <item:create:brass_funnel> * 2, [
+    [<item:create:electron_tube>],
+    [<tag:item:c:ingots/brass>],
+    [<item:kubejs:wood_plate>]]);
+
+<recipetype:minecraft:crafting>.removeByName("create:crafting/logistics/andesite_tunnel");
+craftingTable.addShaped("ctgui/new/uni.create/crafting/logistics/andesite_tunnel", <item:create:andesite_tunnel> * 2, [
+    [<item:create:andesite_alloy>, <item:create:andesite_alloy>],
+    [<item:kubejs:wood_plate>, <item:kubejs:wood_plate>]]);
+
+<recipetype:minecraft:crafting>.removeByName("create:crafting/logistics/brass_tunnel");
+craftingTable.addShaped("ctgui/new/uni.create/crafting/logistics/brass_tunnel", <item:create:brass_tunnel> * 2, [
+    [<item:create:electron_tube>, IIngredientEmpty.getInstance()],
+    [<tag:item:c:ingots/brass>, <tag:item:c:ingots/brass>],
+    [<item:kubejs:wood_plate>, <item:kubejs:wood_plate>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/t1.wood_plate", <item:kubejs:wood_plate>, [
+    [<item:mekanism:sawdust>, IIngredientEmpty.getInstance()],
+    [IIngredientEmpty.getInstance(), <item:mekanism:sawdust>]]);
 

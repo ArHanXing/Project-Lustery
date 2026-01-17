@@ -8,9 +8,6 @@
             recipe: {
                 category: "misc",
                 key: {
-                    b: {
-                        item: "tfmg:cast_iron_fluid_tank"
-                    },
                     c: {
                         item: "tfmg:cast_iron_truss"
                     },
@@ -22,11 +19,14 @@
                     },
                     r: {
                         item: "justarod:redstone_rod"
+                    },
+                    s: {
+                        item: "tfmg:cast_iron_fluid_tank"
                     }
                 },
                 pattern: [
                     "crc",
-                    "fbf",
+                    "fsf",
                     "i i"
                 ],
                 result: {
@@ -213,17 +213,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    d: {
-                        item: "create:copper_sheet"
-                    },
-                    g: {
+                    q: {
                         item: "tfmg:copper_frame"
+                    },
+                    v: {
+                        item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c d",
-                    " g ",
-                    "c d"
+                    "c v",
+                    " q ",
+                    "c v"
                 ],
                 result: {
                     count: 1,
@@ -744,7 +744,7 @@
                     f: {
                         item: "kubejs:fusion_normal_lust_crystal"
                     },
-                    g: {
+                    p: {
                         item: "tfmg:brass_pipe"
                     },
                     r: {
@@ -755,7 +755,7 @@
                     }
                 },
                 pattern: [
-                    "bgb",
+                    "bpb",
                     "srs",
                     "fbf"
                 ],
@@ -804,12 +804,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    x: {
+                    q: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cxc",
+                    "cqc",
                     "   ",
                     "   "
                 ],
@@ -899,6 +899,276 @@
             },
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shapeless",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.create/crafting/kinetics/belt_connector",
+            originalId: "create:crafting/kinetics/belt_connector",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    }
+                },
+                pattern: [
+                    "ddd",
+                    "ddd",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:belt_connector"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    w: {
+                        item: "kubejs:wood_plate"
+                    }
+                },
+                pattern: [
+                    "www",
+                    "www",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "create:belt_connector"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.create/crafting/logistics/andesite_funnel",
+            originalId: "create:crafting/logistics/andesite_funnel",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_alloy"
+                    },
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    }
+                },
+                pattern: [
+                    "a  ",
+                    "d  ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:andesite_funnel"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_alloy"
+                    },
+                    w: {
+                        item: "kubejs:wood_plate"
+                    }
+                },
+                pattern: [
+                    "a  ",
+                    "w  ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:andesite_funnel"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.create/crafting/logistics/brass_funnel",
+            originalId: "create:crafting/logistics/brass_funnel",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        tag: "c:ingots/brass"
+                    },
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    }
+                },
+                pattern: [
+                    "e  ",
+                    "b  ",
+                    "d  "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:brass_funnel"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        tag: "c:ingots/brass"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    },
+                    w: {
+                        item: "kubejs:wood_plate"
+                    }
+                },
+                pattern: [
+                    "e  ",
+                    "b  ",
+                    "w  "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:brass_funnel"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.create/crafting/logistics/andesite_tunnel",
+            originalId: "create:crafting/logistics/andesite_tunnel",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_alloy"
+                    },
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    }
+                },
+                pattern: [
+                    "aa ",
+                    "dd ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:andesite_tunnel"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_alloy"
+                    },
+                    w: {
+                        item: "kubejs:wood_plate"
+                    }
+                },
+                pattern: [
+                    "aa ",
+                    "ww ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:andesite_tunnel"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/uni.create/crafting/logistics/brass_tunnel",
+            originalId: "create:crafting/logistics/brass_tunnel",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        tag: "c:ingots/brass"
+                    },
+                    d: {
+                        item: "minecraft:dried_kelp"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    }
+                },
+                pattern: [
+                    "e  ",
+                    "bb ",
+                    "dd "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:brass_tunnel"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        tag: "c:ingots/brass"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    },
+                    w: {
+                        item: "kubejs:wood_plate"
+                    }
+                },
+                pattern: [
+                    "e  ",
+                    "bb ",
+                    "ww "
+                ],
+                result: {
+                    count: 2,
+                    id: "create:brass_tunnel"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/t1.wood_plate",
+            recipe: {
+                category: "misc",
+                key: {
+                    s: {
+                        item: "mekanism:sawdust"
+                    }
+                },
+                pattern: [
+                    "s  ",
+                    " s ",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "kubejs:wood_plate"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
             type: "ADDED"
         }
     ]

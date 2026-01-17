@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:10.0
 graphicsMode:0
-guiScale:2
+guiScale:3
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/AE2 GUI.zip"]
-incompatibleResourcePacks:["openloader/D:\\cppjr\\MinGW-7.3.0-Windows\\mingw64\\x86_64-w64-mingw32\\exec\\.minecraft\\versions\\Lustful Sky\\config\\openloader\\packs\\langadd"]
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -75,7 +75,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false

@@ -62,6 +62,7 @@ mmr: Modular Machine Reborn
 	"jaopca.material.plastic": "塑料",
 	"jaopca.material.draconium": "龙素",
 	"jaopca.material.draconium_awakened": "觉醒龙素",
+    "jaopca.material.constantan": "康铜",
 ```
 ## tools
 ```cpp

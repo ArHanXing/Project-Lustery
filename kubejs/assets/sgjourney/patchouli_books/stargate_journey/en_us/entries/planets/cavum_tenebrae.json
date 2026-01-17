@@ -1,0 +1,13 @@
+{
+	"name": "深渊星",
+	"icon": "minecraft:deepslate_diamond_ore",
+	"sortnum": 5,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "一颗因其轨道危险地接近黑洞而被潮汐力撕裂的星球。"
+		}
+	]
+}

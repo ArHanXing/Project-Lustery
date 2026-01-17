@@ -41,7 +41,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','无限无消耗地产出一些石头','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:lustpulse_motor',
-            ['Tier-§c1','每5s消耗10mB§d粗质淫液§r，同时§b产出高达32~96RPM和256su！§r']
+            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时§b产出高达96~256RPM和256su！§r']
         ],[
             'kubejs:sifted_ore',
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
@@ -51,6 +51,9 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             'custommachinery:rift_generator',
             ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r。']
+        ],[
+            'kubejs:dimrift',
+            ['请使用§b裂隙生成器§r在世界中生成']
         ]
     ]
 

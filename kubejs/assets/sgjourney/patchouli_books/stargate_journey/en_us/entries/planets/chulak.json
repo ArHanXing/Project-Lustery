@@ -1,0 +1,13 @@
+{
+	"name": "楚拉克",
+	"icon": "sgjourney:matok",
+	"sortnum": 2,
+	"category": "sgjourney:planets",
+	"pages":
+	[
+		{
+			"type": "patchouli:text",
+			"text": "阿波菲斯统治下的一个森林星球。"
+		}
+	]
+}

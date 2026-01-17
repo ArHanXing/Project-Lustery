@@ -6,8 +6,8 @@ ServerEvents.recipes(e => {
     const config = {
         cyclesPerDay: 240,     // 一天内的循环次数
         recipesPerCycle: 10,  // 每个周期的配方数量
-        suMin: 32,           // 最小SU值
-        suMax: 96,           // 最大SU值
+        suMin: 96,           // 最小SU值
+        suMax: 256,           // 最大SU值
         phaseOffset: -Math.PI/2 // 相位偏移，-π/2确保从最低值开始
     };
 
@@ -51,7 +51,7 @@ ServerEvents.recipes(e => {
 
     recipes.forEach((recipe, index) => {
         mmc.custom_machine("custommachinery:lustpulse_motor", 200)
-            .requireFluid(Fluid.of("kubejs:lewd_basic",1), "input")
+            .requireFluid(Fluid.of("kubejs:lewd_basic",3), "input")
             .produceSU(recipe.suOutput,256)
             //.requireEntities(1,10,"toneko:adventurer_neko",true)
             .hide()

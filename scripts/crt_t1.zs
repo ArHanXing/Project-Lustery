@@ -32,3 +32,42 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
 <recipetype:create:filling>.addJsonRecipe("t1.create.filling/blaze_burner", {type: "create:filling", 
     results: [{id: "create:blaze_burner"}], 
     ingredients: [{item: "create:empty_blaze_burner"}, {type: "neoforge:single", fluid: "minecraft:lava", amount: 1000}]});
+
+//没有废料了！
+<recipetype:create:sequenced_assembly>.removeByName("create:sequenced_assembly/precision_mechanism");
+<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/precision_mechanism", {type: "create:sequenced_assembly", sequence: [
+    {
+        ingredients: [
+            {$$wrapped$$: [{item: "create:incomplete_precision_mechanism"}, {tag: "c:plates/gold"}]},
+            {item: "create:cogwheel"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}], 
+            type: "create:deploying"
+    },
+
+    {
+        ingredients: [
+            {item: "create:incomplete_precision_mechanism"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}], 
+            type: "create:deploying"
+    },
+
+    {
+        ingredients: [
+            {item: "create:incomplete_precision_mechanism"}, 
+            {item: "minecraft:iron_ingot"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}],
+            type: "create:deploying"
+    }], 
+    loops: 3, 
+    transitional_item: {id: "create:incomplete_precision_mechanism"}, 
+    results: [
+        {id: "create:precision_mechanism", chance: 200.0}
+    ]
+    ingredient:
+        {tag: "c:plates/gold"}});
