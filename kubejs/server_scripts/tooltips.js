@@ -53,7 +53,10 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r。']
         ],[
             'kubejs:dimrift',
-            ['请使用§b裂隙生成器§r在世界中生成']
+            ['请使用§b裂隙生成器§r在世界中生成','拉开的维度之缝并不大']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_fusion_array"]',
+            ['Tier-§c1','§o更高级的淫能技艺，从这里开始！','流体输入仓能且仅能放在结构中两边衍架向下第2格的位置','出产§d凝聚态的欲望宝石§r，以及更多','运行凝聚配方时，周边每有一个猫娘具有0.8x耗时与0.9x流体消耗','至多减少至原耗时的0.4096x (即有4个猫娘生效)','如果你要运行加速配方，务必安装一个§e实体检测器§r！']
         ]
     ]
 
@@ -68,7 +71,7 @@ ItemEvents.modifyTooltips(e =>{
             [easyforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
             'Fe'
         ],[
-            ['tfmg:cast_iron_block','tfmg:cast_iron_ingot'],
+            ['tfmg:cast_iron_block','tfmg:cast_iron_ingot','tfmg:cast_iron_sheet'],
             'Fe100C'
         ],[
             ['create:andesite_alloy','create:andesite_alloy_block'],

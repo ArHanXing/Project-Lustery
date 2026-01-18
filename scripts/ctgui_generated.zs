@@ -111,7 +111,7 @@ craftingTable.addShaped("ctgui/new/t1.lpe", <item:custommachinery:lustpulse_moto
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"x":{"item":"minecraft:copper_ingot"}},"pattern":["cxc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"e":{"item":"minecraft:copper_ingot"}},"pattern":["cec","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -149,4 +149,13 @@ craftingTable.addShaped("ctgui/new/uni.create/crafting/logistics/brass_tunnel", 
 craftingTable.addShaped("ctgui/new/crafting/t1.wood_plate", <item:kubejs:wood_plate>, [
     [<item:mekanism:sawdust>, IIngredientEmpty.getInstance()],
     [IIngredientEmpty.getInstance(), <item:mekanism:sawdust>]]);
+
+<recipetype:minecraft:crafting>.removeByName("create_connected:crafting/kinetics/kinetic_battery");
+craftingTable.addShaped("ctgui/new/t1.c_cd/kinetic_battery", <item:create_connected:kinetic_battery> * 8, [
+    [IIngredientEmpty.getInstance(), <item:create:precision_mechanism>, IIngredientEmpty.getInstance()],
+    [IIngredientEmpty.getInstance(), <item:create:brass_casing>, IIngredientEmpty.getInstance()],
+    [<tag:item:c:plates/iron>, <item:create:flywheel>, <tag:item:c:plates/iron>]]);
+
+<recipetype:minecraft:crafting>.removeByName("mekanism:structural_glass");
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/structural_glass", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"g":{"tag":"c:glass_blocks/cheap"},"i":{"item":"create:iron_sheet"}},"pattern":[" c "," g "," i "],"result":{"id":"mekanism:structural_glass","count":4},"category":"misc","type":"mekanism:mek_data"});
 

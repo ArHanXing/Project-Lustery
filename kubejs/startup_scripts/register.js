@@ -15,6 +15,7 @@ StartupEvents.registry("item",e=>{
     e.create("kubejs:sifted_ore")
     e.create('kubejs:rift_cataclyst')
     e.create('kubejs:wood_plate')
+    e.create('kubejs:unfinished_controller')
 })
 
 StartupEvents.registry("fluid",e=>{

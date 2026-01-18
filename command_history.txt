@@ -1,10 +1,3 @@
-/time query daytime
-/time set midnight
-/weather clear
-/effect give VMHanXing justarod:estrus
-/effect give VMHanXing justarod:orgasm
-/kjs reload server-scripts
-/reload
 /kjs hand
 /kjs reload server-scripts
 /reload
@@ -47,4 +40,11 @@
 /kjs hand
 /ponder index
 /weather clear
+/reload
+/crafttweaker reload
+/reload
+/kjs hand
+/summon toneko:ravenn
+/reload
+/kjs hand
 /reload

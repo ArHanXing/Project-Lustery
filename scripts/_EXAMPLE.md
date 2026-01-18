@@ -2,6 +2,7 @@
 我的水平就到这了。
 
 ## 序列组装
+似乎用不了，因此只能轮回一次。
 ```ZenScript
 <recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/precision_mechanism", {type: "create:sequenced_assembly", sequence: [
     {

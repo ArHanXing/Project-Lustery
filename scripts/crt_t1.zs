@@ -35,26 +35,24 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
 
 //没有废料了！
 <recipetype:create:sequenced_assembly>.removeByName("create:sequenced_assembly/precision_mechanism");
-<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/precision_mechanism", {type: "create:sequenced_assembly", sequence: [
+<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/precision_mechanism", {type: "create:sequenced_assembly", sequence:[
     {
         ingredients: [
-            {$$wrapped$$: [{item: "create:incomplete_precision_mechanism"}, {tag: "c:plates/gold"}]},
+            {tag: "c:plates/gold"},
             {item: "create:cogwheel"}
         ], 
         results: 
             [{id: "create:incomplete_precision_mechanism"}], 
             type: "create:deploying"
     },
-
     {
         ingredients: [
             {item: "create:incomplete_precision_mechanism"}
         ], 
         results: 
             [{id: "create:incomplete_precision_mechanism"}], 
-            type: "create:deploying"
+            type: "create:pressing"
     },
-
     {
         ingredients: [
             {item: "create:incomplete_precision_mechanism"}, 
@@ -64,10 +62,10 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
             [{id: "create:incomplete_precision_mechanism"}],
             type: "create:deploying"
     }], 
-    loops: 3, 
+    loops: 1, 
     transitional_item: {id: "create:incomplete_precision_mechanism"}, 
     results: [
         {id: "create:precision_mechanism", chance: 200.0}
-    ]
+    ],
     ingredient:
         {tag: "c:plates/gold"}});

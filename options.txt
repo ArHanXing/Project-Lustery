@@ -27,7 +27,7 @@ simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
-operatorItemsTab:false
+operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric"]
+resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/AE2 GUI.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

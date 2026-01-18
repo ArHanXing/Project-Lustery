@@ -20,13 +20,13 @@
                     r: {
                         item: "justarod:redstone_rod"
                     },
-                    y: {
+                    s: {
                         item: "tfmg:cast_iron_fluid_tank"
                     }
                 },
                 pattern: [
                     "crc",
-                    "fyf",
+                    "fsf",
                     "i i"
                 ],
                 result: {
@@ -210,20 +210,20 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "tfmg:copper_frame"
-                    },
                     c: {
                         tag: "c:plates/copper"
                     },
-                    k: {
+                    q: {
+                        item: "tfmg:copper_frame"
+                    },
+                    v: {
                         item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c k",
-                    " a ",
-                    "c k"
+                    "c v",
+                    " q ",
+                    "c v"
                 ],
                 result: {
                     count: 1,
@@ -744,7 +744,7 @@
                     f: {
                         item: "kubejs:fusion_normal_lust_crystal"
                     },
-                    k: {
+                    p: {
                         item: "tfmg:brass_pipe"
                     },
                     r: {
@@ -755,7 +755,7 @@
                     }
                 },
                 pattern: [
-                    "bkb",
+                    "bpb",
                     "srs",
                     "fbf"
                 ],
@@ -804,12 +804,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    o: {
+                    q: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "coc",
+                    "cqc",
                     "   ",
                     "   "
                 ],
@@ -908,13 +908,14 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    D: {
+                    d: {
                         item: "minecraft:dried_kelp"
                     }
                 },
                 pattern: [
-                    "DDD",
-                    "DDD"
+                    "ddd",
+                    "ddd",
+                    "   "
                 ],
                 result: {
                     count: 1,
@@ -949,16 +950,17 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    A: {
+                    a: {
                         item: "create:andesite_alloy"
                     },
-                    K: {
+                    d: {
                         item: "minecraft:dried_kelp"
                     }
                 },
                 pattern: [
-                    "A",
-                    "K"
+                    "a  ",
+                    "d  ",
+                    "   "
                 ],
                 result: {
                     count: 2,
@@ -996,20 +998,20 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    A: {
+                    b: {
                         tag: "c:ingots/brass"
                     },
-                    E: {
-                        item: "create:electron_tube"
-                    },
-                    K: {
+                    d: {
                         item: "minecraft:dried_kelp"
+                    },
+                    e: {
+                        item: "create:electron_tube"
                     }
                 },
                 pattern: [
-                    "E",
-                    "A",
-                    "K"
+                    "e  ",
+                    "b  ",
+                    "d  "
                 ],
                 result: {
                     count: 2,
@@ -1050,16 +1052,17 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    A: {
+                    a: {
                         item: "create:andesite_alloy"
                     },
-                    K: {
+                    d: {
                         item: "minecraft:dried_kelp"
                     }
                 },
                 pattern: [
-                    "AA",
-                    "KK"
+                    "aa ",
+                    "dd ",
+                    "   "
                 ],
                 result: {
                     count: 2,
@@ -1097,20 +1100,20 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    A: {
+                    b: {
                         tag: "c:ingots/brass"
                     },
-                    E: {
-                        item: "create:electron_tube"
-                    },
-                    K: {
+                    d: {
                         item: "minecraft:dried_kelp"
+                    },
+                    e: {
+                        item: "create:electron_tube"
                     }
                 },
                 pattern: [
-                    "E ",
-                    "AA",
-                    "KK"
+                    "e  ",
+                    "bb ",
+                    "dd "
                 ],
                 result: {
                     count: 2,

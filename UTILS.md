@@ -51,19 +51,9 @@ mmr: Modular Machine Reborn
 | pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
 | lpe | 淫能脉冲引擎 | cm |
-| lrt | 淫液精炼塔 | mmr |
+| lrt | 欲望液化塔 | mmr |
 | rg | 裂隙发生机 | cm |
-## jaopca的`zh_cn.json`常常被改
-```json
-	"jaopca.material.cneko": "水晶猫猫",
-	"jaopca.material.dimensaurum": "万界金",
-	"jaopca.material.copper_alloy":"硅铜合金",
-	"jaopca.material.infused_entro":"恩特罗",
-	"jaopca.material.plastic": "塑料",
-	"jaopca.material.draconium": "龙素",
-	"jaopca.material.draconium_awakened": "觉醒龙素",
-    "jaopca.material.constantan": "康铜",
-```
+| pfa | 原始淫能凝聚阵列 | mmr |
 ## tools
 ```cpp
 //JAOPCA的色号转换

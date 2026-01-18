@@ -23,5 +23,8 @@
 
     "block.kubejs.dimrift":"§9半稳定§r维度裂隙",
     "item.kubejs.rift_cataclyst":"裂隙触媒",
-    "item.kubejs.wood_plate":"木方板"
+    "item.kubejs.wood_plate":"木方板",
+
+    "block.factory_blocks.sturdy":"基础工业外壳",
+    "block.modular_machinery_reborn.entity_detector":"实体检测器"
 }

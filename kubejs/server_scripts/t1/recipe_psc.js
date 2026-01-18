@@ -10,7 +10,7 @@ ServerEvents.recipes(e =>{
             .height(180)
             .requireItem(Item.of("minecraft:"+element,1),0,10,10)
             .produceItem(Item.of("minecraft:"+element,2),100,10)
-            .id("t0.mmr.psc."+element)
+            .id("t1.mmr.psc."+element)
     });
 
 });

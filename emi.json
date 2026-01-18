@@ -16,6 +16,9 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lewd_refining_tower\"}"
     },
     {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}"
+    },
+    {
       "stack": "item:mekanism:basic_fluid_tank",
       "recipe": "mekanism:fluid_tank/basic"
     },
@@ -25,12 +28,49 @@
     }
   ],
   "lookup_history": [
+    "item:modular_machinery_reborn:energyoutputhatch_tiny",
+    "item:modular_machinery_reborn:energyinputhatch_small",
+    "item:factory_blocks:sturdy",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
+    "item:kubejs:lewd_basic_bucket",
+    {
+      "type": "fluid",
+      "id": "kubejs:lewd_basic",
+      "amount": 100
+    },
+    {
+      "type": "item",
+      "id": "kubejs:defective_lust_crystal",
+      "amount": 2
+    },
+    "item:modular_machinery_reborn:entity_detector",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lewd_refining_tower\"}",
+    "item:mekanism:structural_glass",
+    "item:mekanism:ingot_steel",
+    "item:tfmg:heavy_plate",
+    "item:tfmg:blast_furnace_reinforcement",
+    "item:minecraft:glass",
     "item:factory_blocks:old_vents",
+    "item:tfmg:cast_iron_block",
+    "item:create:industrial_iron_block",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
     "item:create:precision_mechanism",
-    "item:createaddition:electrum_sheet",
-    "item:create_connected:kinetic_battery",
-    "item:tfmg:constantan_ingot",
+    "item:create:golden_sheet",
+    "item:minecraft:iron_ingot",
+    "item:create:cogwheel",
+    "item:tfmg:glass_insulator_segment",
+    "item:create:electron_tube",
+    "item:create:deployer",
+    "item:create:polished_rose_quartz",
     "item:kubejs:wood_plate",
+    "item:create:crushing_wheel",
+    "item:create:flywheel",
+    "item:create_connected:kinetic_battery",
+    "item:create_connected:overstress_clutch",
+    "item:tfmg:magnetic_alloy_ingot",
+    "item:tfmg:unfinished_electromagnetic_coil",
+    "item:createaddition:electrum_sheet",
+    "item:tfmg:constantan_ingot",
     "item:minecraft:dried_kelp",
     "item:mekanism:sawdust",
     "item:minecraft:stick",
@@ -110,16 +150,6 @@
       "id": "kubejs:sifted_ore",
       "amount": 2
     },
-    {
-      "type": "item",
-      "id": "kubejs:defective_lust_crystal",
-      "amount": 4
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:lewd_basic",
-      "amount": 0
-    },
     "item:mekanism:creative_fluid_tank",
     "item:mekanism:basic_fluid_tank",
     "item:tfmg:cast_iron_ingot",
@@ -191,7 +221,6 @@
     "item:createaddition:electrum_rod",
     "item:createaddition:electrum_nugget",
     "item:jaopca:rods.end_steel",
-    "item:minecraft:iron_ingot",
     "item:tfmg:brass_frame",
     "item:tfmg:zinc_frame",
     "item:tfmg:copper_frame",
@@ -216,7 +245,6 @@
       "id": "tfmg:molten_steel",
       "amount": 144
     },
-    "item:mekanism:ingot_steel",
     "item:mekanism:nugget_steel",
     "item:mekanism:dust_steel",
     "item:mekanism_extras:alloy_spectrum",
@@ -224,7 +252,6 @@
     "item:tfmg:oil_hammer",
     "item:jaopca:gears.copper",
     "item:create:fluid_pipe",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lewd_refining_tower\"}",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
     "item:tfmg:aluminum_ingot",
     "item:tfmg:aluminum_cogwheel",
@@ -244,7 +271,6 @@
     "item:minecraft:netherrack",
     "item:create:mechanical_mixer",
     "item:create:cinder_flour",
-    "item:kubejs:lewd_basic_bucket",
     {
       "type": "fluid",
       "id": "minecraft:lava",
@@ -257,9 +283,7 @@
     "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"minecraft:water\"}]}}",
     "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"minecraft:water\"}]}}",
     "item:create:water_wheel",
-    "item:create:industrial_iron_block",
     "item:tfmg:cast_iron_nugget",
-    "item:tfmg:cast_iron_block",
     "item:create:copper_sheet",
     {
       "type": "item",
@@ -337,12 +361,10 @@
     "item:minecraft:netherite_ingot",
     "item:create:millstone",
     "item:create:encased_fan",
-    "item:create:cogwheel",
     "item:create:portable_storage_interface",
     "item:create:mechanical_harvester",
     "item:create:mechanical_roller",
     "item:create:transmitter",
-    "item:create:electron_tube",
     "item:create:dough",
     "#item:enderio:grinding_balls",
     "item:create:powdered_obsidian",

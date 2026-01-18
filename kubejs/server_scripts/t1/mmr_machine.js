@@ -44,7 +44,7 @@ MMREvents.machines(e =>{
             }))
 
     e.create("mmr:t1.lewd_refining_tower")
-        .name("淫液精炼塔")
+        .name("欲望液化塔")
         .structure(
             MMRStructureBuilder.create()
             .pattern([
@@ -68,6 +68,34 @@ MMREvents.machines(e =>{
                 "d":["#modular_machinery_reborn:fluidoutputhatch"]
             }))
     
-    e.create("mmr:t1.")
+    e.create("mmr:t1.primitive_fusion_array")
+        .name("原始淫能凝聚阵列")
+        .structure(
+            MMRStructureBuilder.create()
+            .pattern([
+                ["  xxx  ","b xxx b","  aaa  "],
+                ["  xmx  ","d c c d","  aca  "],
+                ["  aca  ","e c c e","  aca  "],
+                ["  aca  ","ffc cff","  aca  "],
+                ["  aca  ","  c c  ","  aca  "]
+            ])
+            .keys({
+                "x":[
+                    "factory_blocks:sturdy",
+                    "#modular_machinery_reborn:inputbus",
+                    "#modular_machinery_reborn:outputbus",
+                    "#modular_machinery_reborn:fluidoutputhatch",
+                    "modular_machinery_reborn:entity_detector"
+                ],
+                "a":["factory_blocks:sturdy"],
+                "b":[
+                    "create:fluid_tank",
+                    "#modular_machinery_reborn:fluidinputhatch"
+                ],
+                "c":["mekanism:structural_glass"],
+                "d":["create:fluid_tank"],
+                "e":["tfmg:brass_truss"],
+                "f":["tfmg:brass_frame"]
+        }))
 })
 
