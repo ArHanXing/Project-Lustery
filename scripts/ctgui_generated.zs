@@ -5,11 +5,6 @@
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredient;
 
-craftingTable.addShaped("ctgui/new/t1.lewd_refining_tower", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.lewd_refining_tower"), [
-    [<item:tfmg:cast_iron_truss>, <item:justarod:redstone_rod>, <item:tfmg:cast_iron_truss>],
-    [<item:create:fluid_pipe>, <item:tfmg:cast_iron_fluid_tank>, <item:create:fluid_pipe>],
-    [<item:create:industrial_iron_block>, IIngredientEmpty.getInstance(), <item:create:industrial_iron_block>]]);
-
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.infwater", {"key":{"d":{"item":"kubejs:defective_lust_crystal"},"i":{"item":"minecraft:iron_ingot"},"w":{"item":"minecraft:water_bucket"}},"pattern":["did","iwi"," i "],"result":{"id":"mekanism:creative_fluid_tank","count":1,"components":{"mekanism:fluids":{"fluid_tanks":[{"id":"minecraft:water","amount":2147483647}]}}},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("create:crafting/kinetics/empty_blaze_burner");
@@ -104,20 +99,13 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
     [<item:minecraft:gold_ingot>],
     [<item:minecraft:gold_ingot>]]);
 
-craftingTable.addShaped("ctgui/new/t1.lpe", <item:custommachinery:lustpulse_motor>, [
-    [<item:create:brass_sheet>, <item:tfmg:brass_pipe>, <item:create:brass_sheet>],
-    [<item:create:shaft>, <item:justarod:redstone_rod>, <item:create:shaft>],
-    [<item:kubejs:fusion_normal_lust_crystal>, <item:create:brass_sheet>, <item:kubejs:fusion_normal_lust_crystal>]]);
-
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"e":{"item":"minecraft:copper_ingot"}},"pattern":["cec","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"l":{"item":"minecraft:copper_ingot"}},"pattern":["clc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/bin/basic", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"r":{"tag":"mekanism:alloys/basic"},"i":{"item":"createaddition:iron_rod"}},"pattern":["c c","rir","c c"],"result":{"id":"mekanism:basic_bin","count":1},"category":"misc","type":"mekanism:mek_data"});
-
-craftingTable.addShapeless("ctgui/new/t1.sawdust", <item:mekanism:sawdust> * 2, [<item:minecraft:stick>, <item:minecraft:stick>]);
 
 <recipetype:minecraft:crafting>.removeByName("create:crafting/kinetics/belt_connector");
 craftingTable.addShaped("ctgui/new/uni.create/crafting/kinetics/belt_connector", <item:create:belt_connector>, [
@@ -157,5 +145,10 @@ craftingTable.addShaped("ctgui/new/t1.c_cd/kinetic_battery", <item:create_connec
     [<tag:item:c:plates/iron>, <item:create:flywheel>, <tag:item:c:plates/iron>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:structural_glass");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/structural_glass", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"g":{"tag":"c:glass_blocks/cheap"},"i":{"item":"create:iron_sheet"}},"pattern":[" c "," g "," i "],"result":{"id":"mekanism:structural_glass","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/structural_glass", {"key":{"c":{"item":"tfmg:cast_iron_sheet"},"g":{"tag":"c:glass_blocks/cheap"},"i":{"item":"create:iron_sheet"}},"pattern":["c  ","g  ","i  "],"result":{"id":"mekanism:structural_glass","count":4},"category":"misc","type":"mekanism:mek_data"});
+
+craftingTable.addShaped("ctgui/new/crafting/t1.fb.basic_casing", <item:factory_blocks:sturdy>, [
+    [<item:create:industrial_iron_block>],
+    [<item:create:iron_sheet>],
+    [<item:tfmg:cast_iron_sheet>]]);
 

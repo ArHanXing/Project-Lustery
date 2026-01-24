@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "toneko:item/neko_ingot"
+      "layer0": "toneko:item/neko_ingot",
+      "layer1": "toneko:item/neko_ingot_overlay",
+      "layer2": "toneko:item/neko_ingot_secondary"
   }
 }

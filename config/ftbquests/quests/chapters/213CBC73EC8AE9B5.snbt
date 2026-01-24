@@ -35,8 +35,8 @@
 				id: "5C05F60F0810F600"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1020AF69968E1C14"]
@@ -89,8 +89,8 @@
 				item: { count: 1, id: "justarod:primitive_rod" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73B99B599999B9A9"]
@@ -151,8 +151,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -171,8 +171,8 @@
 				id: "529E45A940B2FCAB"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["304082115F880753"]
@@ -207,8 +207,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 4.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["78920A0D30298E13"]
@@ -227,8 +227,8 @@
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["304082115F880753"]
@@ -254,8 +254,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51554E7F74A31424"]
@@ -276,8 +276,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_stone_crusher" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51554E7F74A31424"]
@@ -288,8 +288,8 @@
 				item: { count: 1, id: "justarod:redstone_rod" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4777334215341177"]
@@ -307,11 +307,13 @@
 				}
 			]
 			x: 2.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7A954BF2218F5DE3"]
 			id: "0320E4693A9BC209"
+			shape: "octagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "6EF60AB2DE504779"
@@ -324,8 +326,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -340,8 +342,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["63683924CD91301A"]
@@ -351,7 +353,7 @@
 				item: { count: 1, id: "kubejs:lewd_basic_bucket" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
@@ -362,7 +364,7 @@
 				item: { count: 1, id: "minecraft:netherrack" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -373,7 +375,7 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -384,30 +386,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["605E632A46B3EBD9"]
-			id: "4070C185C5B9C1FB"
-			tasks: [{
-				id: "04AF182AB3366E4E"
-				item: { count: 1, id: "custommachinery:lustpulse_motor" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0320E4693A9BC209"]
-			id: "0558BC9554C9A56F"
-			tasks: [{
-				id: "7158FBC71B8A1AA1"
-				item: { count: 1, id: "tfmg:coke_oven" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0320E4693A9BC209"]

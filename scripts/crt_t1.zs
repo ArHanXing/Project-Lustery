@@ -69,3 +69,9 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     ],
     ingredient:
         {tag: "c:plates/gold"}});
+
+<recipetype:create:mixing>.addJsonRecipe("t1.sawdust", {
+    type: "create:mixing",
+    results: [{id:"mekanism:sawdust"}],
+    ingredients: [{tag:"minecraft:planks"}]
+});

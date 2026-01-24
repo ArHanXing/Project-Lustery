@@ -1,4 +1,4 @@
-# Lustful Sky
+# Project Lustery
 upcoming a fucking huge industrial pack with shits filled
 
 ## 协议
@@ -10,8 +10,7 @@ using GPLv3 for using of JustARod.
 - MMR、CM的作者，方糕组的KJS教程
 
 ## 部分材质来源
-- GT Refreshed
+- GT Refreshed(their texture used in GTModern) 杂项物品材质、material_set材质
 
 ## 本项目修改并使用了以下项目的代码
 - [BlueSheep2804/JAOPCAExtras](https://github.com/BlueSheep2804/JAOPCAExtras)
-- 

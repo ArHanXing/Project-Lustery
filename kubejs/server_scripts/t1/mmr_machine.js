@@ -44,29 +44,25 @@ MMREvents.machines(e =>{
             }))
 
     e.create("mmr:t1.lewd_refining_tower")
-        .name("欲望液化塔")
+        .name("欲望炼化塔")
         .structure(
-            MMRStructureBuilder.create()
-            .pattern([
-                ["aaa","aaa","aaa"],
-                ["bmb","b b","aaa"],
-                ["cdc","c c","ccc"],
-                ["cdc","c c","ccc"],
-                ["cdc","c c","ccc"],
-                ["cdc","c c","ccc"],
-                ["cdc","c c","ccc"]
-            ])
-            .keys({
-                "a":["create:industrial_iron_block"],
-                "b":[
+        MMRStructureBuilder.create()
+        .pattern([
+            ["aaaaa","abbba","abbba","abbba","aaaaa"],
+            ["ddmdd","c   c","c   c","c   c","ccccc"],
+            [" ddd ","b   b","b   b","b   b"," bbb "]])
+        .keys({
+            "a":["create:industrial_iron_block"],
+            "b":["create:copper_casing"],
+            "c":["create:andesite_alloy_block"],
+            "d":[
                     "modular_machinery_reborn:casing_plain",     
                     "#modular_machinery_reborn:inputbus",
                     "#modular_machinery_reborn:outputbus",
-                    "#modular_machinery_reborn:fluidinputhatch"
-                ],
-                "c":["create:copper_casing"],
-                "d":["#modular_machinery_reborn:fluidoutputhatch"]
-            }))
+                    "#modular_machinery_reborn:fluidoutputhatch",
+                    "#modular_machinery_reborn:fluidinputhatch",
+                ]
+        }))
     
     e.create("mmr:t1.primitive_fusion_array")
         .name("原始淫能凝聚阵列")
@@ -74,14 +70,14 @@ MMREvents.machines(e =>{
             MMRStructureBuilder.create()
             .pattern([
                 ["  xxx  ","b xxx b","  aaa  "],
-                ["  xmx  ","d c c d","  aca  "],
+                ["  ama  ","d c c d","  aca  "],
                 ["  aca  ","e c c e","  aca  "],
                 ["  aca  ","ffc cff","  aca  "],
                 ["  aca  ","  c c  ","  aca  "]
             ])
             .keys({
                 "x":[
-                    "factory_blocks:sturdy",
+                    "modular_machinery_reborn:casing_plain",
                     "#modular_machinery_reborn:inputbus",
                     "#modular_machinery_reborn:outputbus",
                     "#modular_machinery_reborn:fluidoutputhatch",

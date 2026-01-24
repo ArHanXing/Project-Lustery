@@ -4,45 +4,6 @@
     changes: [
         {
             exported: 1b,
-            id: "ctgui/new/t1.lewd_refining_tower",
-            recipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "tfmg:cast_iron_truss"
-                    },
-                    f: {
-                        item: "create:fluid_pipe"
-                    },
-                    i: {
-                        item: "create:industrial_iron_block"
-                    },
-                    r: {
-                        item: "justarod:redstone_rod"
-                    },
-                    s: {
-                        item: "tfmg:cast_iron_fluid_tank"
-                    }
-                },
-                pattern: [
-                    "crc",
-                    "fsf",
-                    "i i"
-                ],
-                result: {
-                    components: {
-                        "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower"
-                    },
-                    count: 1,
-                    id: "modular_machinery_reborn:controller"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
             id: "ctgui/new/t1.infwater",
             recipe: {
                 category: "misc",
@@ -213,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    q: {
-                        item: "tfmg:copper_frame"
-                    },
-                    v: {
+                    e: {
                         item: "create:copper_sheet"
+                    },
+                    i: {
+                        item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c v",
-                    " q ",
-                    "c v"
+                    "c e",
+                    " i ",
+                    "c e"
                 ],
                 result: {
                     count: 1,
@@ -734,42 +695,6 @@
         },
         {
             exported: 1b,
-            id: "ctgui/new/t1.lpe",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "create:brass_sheet"
-                    },
-                    f: {
-                        item: "kubejs:fusion_normal_lust_crystal"
-                    },
-                    p: {
-                        item: "tfmg:brass_pipe"
-                    },
-                    r: {
-                        item: "justarod:redstone_rod"
-                    },
-                    s: {
-                        item: "create:shaft"
-                    }
-                },
-                pattern: [
-                    "bpb",
-                    "srs",
-                    "fbf"
-                ],
-                result: {
-                    count: 1,
-                    id: "custommachinery:lustpulse_motor"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
             id: "ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic",
             recipe: {
                 category: "misc",
@@ -804,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    q: {
+                    d: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cqc",
+                    "cdc",
                     "   ",
                     "   "
                 ],
@@ -1165,6 +1090,147 @@
                 result: {
                     count: 1,
                     id: "kubejs:wood_plate"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.c_cd/kinetic_battery",
+            originalId: "create_connected:crafting/kinetics/kinetic_battery",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    i: {
+                        tag: "c:plates/iron"
+                    },
+                    p: {
+                        item: "create:precision_mechanism"
+                    },
+                    r: {
+                        item: "minecraft:redstone"
+                    }
+                },
+                pattern: [
+                    " p ",
+                    " b ",
+                    "iri"
+                ],
+                result: {
+                    count: 8,
+                    id: "create_connected:kinetic_battery"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    f: {
+                        item: "create:flywheel"
+                    },
+                    i: {
+                        tag: "c:plates/iron"
+                    },
+                    p: {
+                        item: "create:precision_mechanism"
+                    }
+                },
+                pattern: [
+                    " p ",
+                    " b ",
+                    "ifi"
+                ],
+                result: {
+                    count: 8,
+                    id: "create_connected:kinetic_battery"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/t1.mekanism/structural_glass",
+            originalId: "mekanism:structural_glass",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        tag: "c:glass_blocks/cheap"
+                    },
+                    i: {
+                        tag: "c:ingots/steel"
+                    }
+                },
+                pattern: [
+                    " i ",
+                    "igi",
+                    " i "
+                ],
+                result: {
+                    count: 4,
+                    id: "mekanism:structural_glass"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_sheet"
+                    },
+                    g: {
+                        tag: "c:glass_blocks/cheap"
+                    },
+                    i: {
+                        item: "create:iron_sheet"
+                    }
+                },
+                pattern: [
+                    "c  ",
+                    "g  ",
+                    "i  "
+                ],
+                result: {
+                    count: 4,
+                    id: "mekanism:structural_glass"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 0b,
+            id: "ctgui/new/crafting/t1.fb.basic_casing",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_sheet"
+                    },
+                    i: {
+                        item: "create:industrial_iron_block"
+                    },
+                    x: {
+                        item: "create:iron_sheet"
+                    }
+                },
+                pattern: [
+                    "i  ",
+                    "x  ",
+                    "c  "
+                ],
+                result: {
+                    count: 1,
+                    id: "factory_blocks:sturdy"
                 }
             },
             recipeType: "minecraft:crafting",

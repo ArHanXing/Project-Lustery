@@ -2,6 +2,7 @@
     "jaopca.material.cneko": "水晶猫猫",
 	"jaopca.material.dimensaurum": "万界金",
 	"jaopca.material.copper_alloy":"硅铜合金",
+    "jaopca.material.conductive_alloy":"导电合金",
 	"jaopca.material.infused_entro":"恩特罗",
 	"jaopca.material.plastic": "塑料",
 	"jaopca.material.draconium": "龙素",
@@ -15,6 +16,8 @@
     "item.kubejs.fusion_normal_lust_crystal": "聚合欲望宝石",
     "item.kubejs.fusion_exquisite_lust_crystal": "精致的聚合欲望宝石",
     "item.kubejs.sifted_ore":"§a主世界§r裂缝贫矿团",
+    "item.kubejs.cneko_dust":"水晶猫猫粉",
+    "item.kubejs.unfinished_controller":"未完成的多方块控制器主机",
 
     "item.kubejs.lewd_basic_bucket":"粗质淫液桶",
     "fluid.kubejs.lewd_basic":"粗质淫液",

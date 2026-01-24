@@ -1,6 +1,7 @@
 
 ServerEvents.recipes(e =>{
     const mme = e.recipes.modular_machinery_reborn;
+    const ec = e.recipes.create;
     e.shaped("minecraft:end_rod",[
         ' A ',
         ' B ',
@@ -89,6 +90,5 @@ ServerEvents.recipes(e =>{
         .requireItem(Item.of("kubejs:defective_lust_crystal",4),10,10)
         .produceFluid(Fluid.of("kubejs:lewd_basic",100),100,10)
         .id("t1.mmr.lrt.lewd.t1_nofusion")
-    
     
 });

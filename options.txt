@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/AE2 GUI.zip"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -197,7 +197,7 @@ key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.modernui.openCenter:key.keyboard.k:CONTROL
 key_key.modernui.zoom:key.keyboard.c
 key_key.nbtedit.shortcut:key.keyboard.n
-soundCategory_master:0.5198675496688742
+soundCategory_master:0.42549668874172186
 soundCategory_music:0.0
 soundCategory_record:0.6056338028169014
 soundCategory_weather:0.0

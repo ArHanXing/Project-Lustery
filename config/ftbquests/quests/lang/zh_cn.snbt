@@ -1,7 +1,8 @@
 {
 	chapter.213CBC73EC8AE9B5.chapter_subtitle: ["“但我也发现，生命的冲动本身就是一种高能燃料。”"]
 	chapter.213CBC73EC8AE9B5.title: "初始化"
-	file.0000000000000001.title: "无名之旅，欲能之空"
+	chapter_group.529A1E37DFD06913.title: "方入巨渊初探勘"
+	file.0000000000000001.title: "&dProject Lustery"
 	quest.1020AF69968E1C14.quest_desc: [
 		"如果你玩了这个包，你的脑子一定是有冰"
 		""
@@ -10,7 +11,6 @@
 	quest.1020AF69968E1C14.title: "欢迎"
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
 	quest.304082115F880753.title: "古法安山岩"
-	quest.4070C185C5B9C1FB.quest_desc: ["你最好合成一个动力电池"]
 	quest.4730A3DF49F47455.title: "粗质淫液"
 	quest.4777334215341177.quest_desc: ["仅仅是小小杯的应力量"]
 	quest.4777334215341177.title: "过去的花"

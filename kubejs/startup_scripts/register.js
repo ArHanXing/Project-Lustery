@@ -16,6 +16,9 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:rift_cataclyst')
     e.create('kubejs:wood_plate')
     e.create('kubejs:unfinished_controller')
+
+    e.create('kubejs:cneko_dust')
+        .tag('c:dusts/cneko')
 })
 
 StartupEvents.registry("fluid",e=>{

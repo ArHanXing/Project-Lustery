@@ -4,45 +4,6 @@
     changes: [
         {
             exported: 1b,
-            id: "ctgui/new/t1.lewd_refining_tower",
-            recipe: {
-                category: "misc",
-                key: {
-                    a: {
-                        item: "tfmg:cast_iron_fluid_tank"
-                    },
-                    c: {
-                        item: "tfmg:cast_iron_truss"
-                    },
-                    f: {
-                        item: "create:fluid_pipe"
-                    },
-                    i: {
-                        item: "create:industrial_iron_block"
-                    },
-                    r: {
-                        item: "justarod:redstone_rod"
-                    }
-                },
-                pattern: [
-                    "crc",
-                    "faf",
-                    "i i"
-                ],
-                result: {
-                    components: {
-                        "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower"
-                    },
-                    count: 1,
-                    id: "modular_machinery_reborn:controller"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
             id: "ctgui/new/t1.infwater",
             recipe: {
                 category: "misc",
@@ -210,20 +171,20 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "tfmg:copper_frame"
-                    },
                     c: {
                         tag: "c:plates/copper"
                     },
-                    h: {
+                    w: {
+                        item: "tfmg:copper_frame"
+                    },
+                    z: {
                         item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c h",
-                    " a ",
-                    "c h"
+                    "c z",
+                    " w ",
+                    "c z"
                 ],
                 result: {
                     count: 1,
@@ -734,42 +695,6 @@
         },
         {
             exported: 1b,
-            id: "ctgui/new/t1.lpe",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "create:brass_sheet"
-                    },
-                    f: {
-                        item: "kubejs:fusion_normal_lust_crystal"
-                    },
-                    k: {
-                        item: "tfmg:brass_pipe"
-                    },
-                    r: {
-                        item: "justarod:redstone_rod"
-                    },
-                    s: {
-                        item: "create:shaft"
-                    }
-                },
-                pattern: [
-                    "bkb",
-                    "srs",
-                    "fbf"
-                ],
-                result: {
-                    count: 1,
-                    id: "custommachinery:lustpulse_motor"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
             id: "ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic",
             recipe: {
                 category: "misc",
@@ -804,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    t: {
+                    k: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "ctc",
+                    "ckc",
                     "   ",
                     "   "
                 ],
@@ -877,28 +802,6 @@
             },
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/t1.sawdust",
-            recipe: {
-                category: "misc",
-                ingredients: [
-                    {
-                        item: "minecraft:stick"
-                    },
-                    {
-                        item: "minecraft:stick"
-                    }
-                ],
-                result: {
-                    count: 2,
-                    id: "mekanism:sawdust"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shapeless",
             type: "ADDED"
         },
         {
@@ -1238,17 +1141,17 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    G: {
+                    g: {
                         tag: "c:glass_blocks/cheap"
                     },
-                    S: {
+                    i: {
                         tag: "c:ingots/steel"
                     }
                 },
                 pattern: [
-                    " S ",
-                    "SGS",
-                    " S "
+                    " i ",
+                    "igi",
+                    " i "
                 ],
                 result: {
                     count: 4,
@@ -1269,9 +1172,9 @@
                     }
                 },
                 pattern: [
-                    " c ",
-                    " g ",
-                    " i "
+                    "c  ",
+                    "g  ",
+                    "i  "
                 ],
                 result: {
                     count: 4,
@@ -1283,7 +1186,7 @@
             type: "CHANGED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/crafting/t1.fb.basic_casing",
             recipe: {
                 category: "misc",
@@ -1294,14 +1197,14 @@
                     i: {
                         item: "create:industrial_iron_block"
                     },
-                    y: {
+                    w: {
                         item: "create:iron_sheet"
                     }
                 },
                 pattern: [
-                    " i ",
-                    " y ",
-                    " c "
+                    "i  ",
+                    "w  ",
+                    "c  "
                 ],
                 result: {
                     count: 1,
