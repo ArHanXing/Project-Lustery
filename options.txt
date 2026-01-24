@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:10.0
 graphicsMode:0
-guiScale:3
+guiScale:2
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -196,6 +196,7 @@ key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.modernui.openCenter:key.keyboard.k:CONTROL
 key_key.modernui.zoom:key.keyboard.c
+key_key.nbtedit.shortcut:key.keyboard.n
 soundCategory_master:0.5198675496688742
 soundCategory_music:0.0
 soundCategory_record:0.6056338028169014
