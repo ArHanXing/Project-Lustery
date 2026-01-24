@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    p: {
-                        item: "create:copper_sheet"
-                    },
-                    s: {
+                    d: {
                         item: "tfmg:copper_frame"
+                    },
+                    f: {
+                        item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c p",
-                    " s ",
-                    "c p"
+                    "c f",
+                    " d ",
+                    "c f"
                 ],
                 result: {
                     count: 1,
@@ -726,15 +726,15 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "minecraft:copper_ingot"
+                    },
                     c: {
                         item: "tfmg:cast_iron_ingot"
-                    },
-                    j: {
-                        item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cjc",
+                    "cbc",
                     "   ",
                     "   "
                 ],
@@ -1191,19 +1191,19 @@
             recipe: {
                 category: "misc",
                 key: {
-                    b: {
-                        item: "create:iron_sheet"
-                    },
                     c: {
                         item: "tfmg:cast_iron_sheet"
                     },
                     i: {
                         item: "create:industrial_iron_block"
+                    },
+                    r: {
+                        item: "create:iron_sheet"
                     }
                 },
                 pattern: [
                     "i  ",
-                    "b  ",
+                    "r  ",
                     "c  "
                 ],
                 result: {
@@ -1270,7 +1270,7 @@
                     c: {
                         item: "create:copper_casing"
                     },
-                    n: {
+                    r: {
                         item: "tfmg:cast_iron_sheet"
                     },
                     s: {
@@ -1279,7 +1279,7 @@
                 },
                 pattern: [
                     "aca",
-                    "nsn",
+                    "rsr",
                     "   "
                 ],
                 result: {
@@ -1300,9 +1300,6 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "justarod:redstone_rod"
-                    },
                     b: {
                         item: "create:brass_casing"
                     },
@@ -1312,6 +1309,9 @@
                     e: {
                         item: "create:electron_tube"
                     },
+                    q: {
+                        item: "justarod:redstone_rod"
+                    },
                     r: {
                         item: "jaopca:rods.cast_iron"
                     }
@@ -1319,7 +1319,7 @@
                 pattern: [
                     " b ",
                     "cec",
-                    "rar"
+                    "rqr"
                 ],
                 result: {
                     count: 1,
@@ -1342,7 +1342,7 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    d: {
+                    j: {
                         item: "createaddition:brass_rod"
                     },
                     s: {
@@ -1351,8 +1351,8 @@
                 },
                 pattern: [
                     " b ",
-                    "cdc",
-                    "dsd"
+                    "cjc",
+                    "jsj"
                 ],
                 result: {
                     components: {
@@ -1376,17 +1376,17 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
-                    f: {
-                        item: "minecraft:chest"
-                    },
                     h: {
                         item: "minecraft:hopper"
+                    },
+                    x: {
+                        item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "h  ",
                     "c  ",
-                    "f  "
+                    "x  "
                 ],
                 result: {
                     count: 1,
@@ -1399,13 +1399,13 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
-                    t: {
+                    z: {
                         item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "c  ",
-                    "t  ",
+                    "z  ",
                     "   "
                 ],
                 result: {
