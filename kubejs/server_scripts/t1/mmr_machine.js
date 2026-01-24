@@ -93,5 +93,33 @@ MMREvents.machines(e =>{
                 "e":["tfmg:brass_truss"],
                 "f":["tfmg:brass_frame"]
         }))
+    
+    e.create('mmr:t1.dimrift_mining_station')
+        .name("维度裂隙采矿站 WIP")
+    
+    e.create('mmr:t1.dimprobe_station')
+        .name("维度探针站")
+        .structure(
+            MMRStructureBuilder.create()
+            .pattern([
+                ["zzz","zzz","zzz"],
+                ["a a","   ","a a"],
+                ["bmb","bbb","bbb"],
+                [" c ","cbc"," c "],
+                [" c ","cbc"," c "],
+                ["   "," c ","   "],
+                ["   "," c ","   "]])
+            .keys({
+                "a":["tfmg:brass_truss"],
+                "b":["factory_blocks:sturdy",
+                    "#modular_machinery_reborn:inputbus",
+                    "#modular_machinery_reborn:outputbus",
+                    "#modular_machinery_reborn:fluidoutputhatch",
+                    "#modular_machinery_reborn:fluidinputhatch",
+                    '#modular_machinery_reborn:energyhatch'
+                ],
+                "c":["tfmg:brass_frame"],
+                "z":['kubejs:dimrift']
+            }))
 })
 

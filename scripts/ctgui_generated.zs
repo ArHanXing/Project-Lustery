@@ -152,3 +152,54 @@ craftingTable.addShaped("ctgui/new/crafting/t1.fb.basic_casing", <item:factory_b
     [<item:create:iron_sheet>],
     [<item:tfmg:cast_iron_sheet>]]);
 
+<recipetype:minecraft:crafting>.removeByName("create:crafting/materials/rose_quartz");
+
+craftingTable.addShaped("ctgui/new/crafting/t1.mmr.refinetower", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.lewd_refining_tower"), [
+    [<item:create:andesite_alloy>, <item:create:copper_casing>, <item:create:andesite_alloy>],
+    [<item:tfmg:cast_iron_sheet>, <item:factory_blocks:sturdy>, <item:tfmg:cast_iron_sheet>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/t1.rift_generator", <item:custommachinery:rift_generator>, [
+    [IIngredientEmpty.getInstance(), <item:create:brass_casing>, IIngredientEmpty.getInstance()],
+    [<item:tfmg:cast_iron_ingot>, <item:create:electron_tube>, <item:tfmg:cast_iron_ingot>],
+    [<item:jaopca:rods.cast_iron>, <item:justarod:redstone_rod>, <item:jaopca:rods.cast_iron>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/t1.pfa", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.primitive_fusion_array"), [
+    [IIngredientEmpty.getInstance(), <item:create:brass_hand>, IIngredientEmpty.getInstance()],
+    [<item:tfmg:cast_iron_ingot>, <item:createaddition:brass_rod>, <item:tfmg:cast_iron_ingot>],
+    [<item:createaddition:brass_rod>, <item:factory_blocks:sturdy>, <item:createaddition:brass_rod>]]);
+
+<recipetype:minecraft:crafting>.removeByName("modular_machinery_reborn:item_input_tiny");
+craftingTable.addShaped("ctgui/new/modular_machinery_reborn/item_input_tiny_0", <item:modular_machinery_reborn:inputbus_tiny>, [
+    [<item:modular_machinery_reborn:casing_plain>],
+    [<item:minecraft:chest>]]);
+
+<recipetype:minecraft:crafting>.removeByName("modular_machinery_reborn:item_input_small");
+craftingTable.addShaped("ctgui/new/modular_machinery_reborn/item_input_small_0", <item:modular_machinery_reborn:inputbus_small>, [
+    [<item:mekanism:structural_glass>],
+    [<item:modular_machinery_reborn:inputbus_tiny>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/inputbus_normal_0", <item:modular_machinery_reborn:inputbus_normal>, [
+    [<item:mekanism:structural_glass>],
+    [<item:modular_machinery_reborn:inputbus_small>],
+    [<item:minecraft:chest>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/inputbus_huge_0", <item:modular_machinery_reborn:inputbus_huge>, [
+    [<item:mekanism:structural_glass>],
+    [<item:modular_machinery_reborn:inputbus_big>],
+    [<item:mekanism:basic_bin>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/inputbus_reinforced_0", <item:modular_machinery_reborn:inputbus_reinforced>, [
+    [<item:mekanism:structural_glass>],
+    [<item:modular_machinery_reborn:inputbus_normal>],
+    [<item:minecraft:chest>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/inputbus_ludicrous_0", <item:modular_machinery_reborn:inputbus_ludicrous>, [
+    [<item:mekanism:structural_glass>, IIngredientEmpty.getInstance(), <item:mekanism:structural_glass>],
+    [IIngredientEmpty.getInstance(), <item:modular_machinery_reborn:inputbus_huge>, IIngredientEmpty.getInstance()],
+    [<item:mekanism:structural_glass>, <item:mekanism:advanced_bin>, <item:mekanism:structural_glass>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/inputbus_big_0", <item:modular_machinery_reborn:inputbus_big>, [
+    [<item:mekanism:structural_glass>],
+    [<item:modular_machinery_reborn:inputbus_reinforced>],
+    [<item:mekanism:basic_bin>]]);
+

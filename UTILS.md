@@ -54,3 +54,5 @@ mmr: Modular Machine Reborn
 | lrt | 欲望液化塔 | mmr |
 | rg | 裂隙发生机 | cm |
 | pfa | 原始淫能凝聚阵列 | mmr |
+| dps | 维度探针站 | mmr |
+| dms | 维度裂隙采矿站 | mmr |

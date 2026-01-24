@@ -100,7 +100,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wool",
+          "name": "minecraft:white_wool",
           "weight": 8
         },
         {
@@ -167,11 +167,6 @@
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
           "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 2
         }
       ]
     }

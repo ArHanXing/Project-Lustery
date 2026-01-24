@@ -75,3 +75,46 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     results: [{id:"mekanism:sawdust"}],
     ingredients: [{tag:"minecraft:planks"}]
 });
+
+<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/hand", {type: "create:sequenced_assembly", sequence:[
+    {
+        ingredients: [
+            {item:"create:brass_sheet"},
+            {item: "create:andesite_alloy"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}], 
+            type: "create:deploying"
+    },
+    {
+        ingredients: [
+            {item: "create:incomplete_precision_mechanism"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}], 
+            type: "create:pressing"
+    },
+    {
+        ingredients: [
+            {item: "create:incomplete_precision_mechanism"}
+        ], 
+        results: 
+            [{id: "create:incomplete_precision_mechanism"}], 
+            type: "create:pressing"
+    },
+    ], 
+    loops: 1, 
+    transitional_item: {id: "create:incomplete_precision_mechanism"}, 
+    results: [
+        {id: "create:brass_hand", chance: 200.0}
+    ],
+    ingredient:
+        {item:"create:brass_sheet"}});
+craftingTable.removeByName("create:crafting/kinetics/brass_hand");
+
+  <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/rose_quartz", {type: "create:mixing", 
+    results: [{id: "create:rose_quartz"}], 
+    ingredients: [
+        {item:"minecraft:quartz"}, 
+        {type: "neoforge:single", fluid: "kubejs:lewd_basic", amount: 100}
+    ]});

@@ -91,4 +91,15 @@ ServerEvents.recipes(e =>{
         .produceFluid(Fluid.of("kubejs:lewd_basic",100),100,10)
         .id("t1.mmr.lrt.lewd.t1_nofusion")
     
+    mme.machine_recipe("mmr:t1.dimprobe_station",100)
+        .width(150)
+        .height(180)
+        .requireItem(Item.of("kubejs:basic_probe",1),0,10,10)
+        .requireItem(Item.of("minecraft:dirt",4),0.1,10,50)
+        .requireItem(Item.of("kubejs:fusion_defective_lust_crystal",3),0.1,30,10)
+        .lootTable('mmr:t1_dimprobe_overworld',2,100,10)
+        .lootTable('mmr:t1_dimprobe_overworld',2,120,10)
+        .lootTable('mmr:t1_dimprobe_overworld',2,100,30)
+        .lootTable('mmr:t1_dimprobe_overworld',2,120,30)
+        .id("t1.mmr.dps.t1_basicprobe_overworld")
 });

@@ -1,50 +1,11 @@
-/kjs hand
-/kjs reload server-scripts
 /reload
-/kjs dump events
-/kjs dump registry
-/kjs dump registry neoforge:fluid_type
-/kjs dump registry neoforge:fluid_ingredient_type
-/kjs dump registry minecraft:fluid
-/kjs dump registry minecraft:item
-/kjs dump registry minecraft:fluid
-/kjs help
-/execute in minecraft:the_end run tp VMHanXing 0 100 0
-/execute in minecraft:the_nether run tp VMHanXing 0 100 0
-/locate biome tbm_nether:forests/wailing_forest
-/tp @s 712 93 -1321
-/reload
-/mmr reload
-/reload
-/kjs reload server-scripts
-/reload
-/kjs persistent-data entity
-/kjs persistent-data entity VMHanXing
-/kjs persistent-data entity VMHanXing get
-/kjs persistent-data entity VMHanXing get *
-/kjs dump registry minecraft:attribute
-/crafttweaker recipes
-/kjs hand
+/loot give VMHanXing loot mmr:raw_ores_overworld
+/loot give VMHanXing loot mmr:t1_dimprobe_overworld
+/loot insert 2 38 5 loot ae2:blocks/16k_crafting_storage
+/loot insert 6 37 6 loot ae2:blocks/16k_crafting_storage
+/loot insert 6 37 6 loot enderio:blocks/clear_glass_d_green
 /reload
 /kjs hand
-/reload
-/mmr reload
-/cm create
-/cm reload
-/reload
-/cm create
-/effect clear
-/cm create
-/kjs hand
-/reload
-/kjs hand
-/ponder index
-/weather clear
-/reload
-/crafttweaker reload
-/reload
-/kjs hand
-/summon toneko:ravenn
 /reload
 /kjs hand
 /reload

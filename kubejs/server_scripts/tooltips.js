@@ -50,13 +50,19 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','回归原体吧!']
         ],[
             'custommachinery:rift_generator',
-            ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r。']
+            ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r','其实并不耗电']
         ],[
             'kubejs:dimrift',
             ['请使用§b裂隙生成器§r在世界中生成','拉开的维度之缝并不大']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_fusion_array"]',
             ['Tier-§c1','§o更高级的淫能技艺，从这里开始！','流体输入仓能且仅能放在结构中两边衍架向下第2格的位置','出产§d凝聚态的欲望宝石§r，以及更多','运行凝聚配方时，周边每有一个猫娘具有0.8x耗时与0.9x流体消耗','至多减少至原耗时的0.4096x (即有4个猫娘生效)','如果你要运行加速配方，务必安装一个§e实体检测器§r！']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimprobe_station"]',
+            ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r','发射小型探测器来获得你需要的资源']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
+            ['Tier-§c1','从维度裂缝中取得矿物']
         ]
     ]
 
@@ -71,17 +77,20 @@ ItemEvents.modifyTooltips(e =>{
             [easyforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
             'Fe'
         ],[
-            ['tfmg:cast_iron_block','tfmg:cast_iron_ingot','tfmg:cast_iron_sheet'],
+            ['tfmg:cast_iron_block','tfmg:cast_iron_ingot','tfmg:cast_iron_sheet','jaopca:gears.cast_iron','jaopca:rods.cast_iron'],
             'Fe100C'
         ],[
             ['create:andesite_alloy','create:andesite_alloy_block'],
             'Fe3Al2Si2O7'
+        ],[
+            ['create:brass_ingot','jaopca:gears.brass','createaddition:brass_rod'],
+            'CuZn'
         ]
     ]
     //他妈的 这才是ChemicalHelper（？
     elementPairs.forEach(prr=>{
         prr[0].forEach(item => {
-            e.add(item,chemicalFormat(prr[1]))
+                e.add(item,chemicalFormat(prr[1]))
         })
     })
 }

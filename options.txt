@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

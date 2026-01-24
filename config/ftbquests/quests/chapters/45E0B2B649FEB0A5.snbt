@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45E0B2B649FEB0A5"
+	group: "529A1E37DFD06913"
+	icon: {
+		id: "mekanism:ingot_steel"
+	}
+	id: "45E0B2B649FEB0A5"
+	order_index: 0
+	quest_links: [{
+		id: "4055CBF264D448D1"
+		linked_quest: "0320E4693A9BC209"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0320E4693A9BC209"]
+			id: "1AD29D19D83401F3"
+			tasks: [{
+				id: "2EC45DEC70656147"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_fusion_array" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AD29D19D83401F3"]
+			id: "2E95C9729B52CFA4"
+			tasks: [{
+				id: "3865733B06786BD9"
+				item: { count: 1, id: "kubejs:fusion_defective_lust_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AD29D19D83401F3"]
+			id: "3EF3364EEC3AE5DD"
+			tasks: [{
+				id: "114A07BDE2E3C36C"
+				item: { count: 1, id: "kubejs:normal_lust_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

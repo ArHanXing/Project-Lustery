@@ -11,14 +11,13 @@ StartupEvents.registry("item",e=>{
     e.create("kubejs:fusion_defective_lust_crystal")
     e.create("kubejs:fusion_normal_lust_crystal")
     e.create("kubejs:fusion_exquisite_lust_crystal")
-
     e.create("kubejs:sifted_ore")
     e.create('kubejs:rift_cataclyst')
     e.create('kubejs:wood_plate')
     e.create('kubejs:unfinished_controller')
-
     e.create('kubejs:cneko_dust')
         .tag('c:dusts/cneko')
+    e.create('kubejs:basic_probe')
 })
 
 StartupEvents.registry("fluid",e=>{
@@ -26,6 +25,14 @@ StartupEvents.registry("fluid",e=>{
         .stillTexture('kubejs:fluid/lewd_basic_still')
         .flowingTexture('kubejs:fluid/lewd_basic_flow')
         .displayName('粗质淫液')
+    e.create("focused_mine_fluid")
+        .stillTexture('kubejs:fluid/minefluid')
+        .flowingTexture('kubejs:fluid/minefluid_flow')
+        .displayName('采矿聚焦液')
+    e.create("dirty_focused_mine_fluid")
+        .stillTexture('kubejs:fluid/dirty_minefluid')
+        .flowingTexture('kubejs:fluid/dirty_minefluid_flow')
+        .displayName('污浊的采矿聚焦液')
 })
 
 StartupEvents.registry("block",e=>{
