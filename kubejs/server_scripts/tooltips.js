@@ -46,8 +46,8 @@ ItemEvents.modifyTooltips(e =>{
             'kubejs:sifted_ore',
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
         ],[
-            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.lewd_refining_tower"]',
-            ['Tier-§c1','回归原体吧!']
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.vaginaldew_refining_tower"]',
+            ['Tier-§c1','回归原体吧!','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:rift_generator',
             ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r','其实并不耗电']

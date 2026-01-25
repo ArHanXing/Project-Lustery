@@ -51,8 +51,10 @@ mmr: Modular Machine Reborn
 | pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
 | lpe | 淫能脉冲引擎 | cm |
-| lrt | 欲望液化塔 | mmr |
+| vrt | 欲望液化塔 | mmr |
 | rg | 裂隙发生机 | cm |
 | pfa | 原始淫能凝聚阵列 | mmr |
 | dps | 维度探针站 | mmr |
 | dms | 维度裂隙采矿站 | mmr |
+| lo | 淫能方尖碑 | mmr |
+| vss | 淫液固化阵列 | mmr |

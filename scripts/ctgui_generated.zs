@@ -154,7 +154,7 @@ craftingTable.addShaped("ctgui/new/crafting/t1.fb.basic_casing", <item:factory_b
 
 <recipetype:minecraft:crafting>.removeByName("create:crafting/materials/rose_quartz");
 
-craftingTable.addShaped("ctgui/new/crafting/t1.mmr.refinetower", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.lewd_refining_tower"), [
+craftingTable.addShaped("ctgui/new/crafting/t1.mmr.refinetower", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.vaginaldew_refining_tower"), [
     [<item:create:andesite_alloy>, <item:create:copper_casing>, <item:create:andesite_alloy>],
     [<item:tfmg:cast_iron_sheet>, <item:factory_blocks:sturdy>, <item:tfmg:cast_iron_sheet>]]);
 

@@ -69,27 +69,20 @@ ServerEvents.recipes(e =>{
         ' A ',
         'CBC'
     ],{
-        A:'jaopca:rods.osmium',
+        A:'minecraft:iron_ingot',
         B:'justarod:primitive_rod',
         C:'tfmg:cast_iron_ingot'
     }).id('t1.jar.redstone_rod');
 
     //由于作者回心转意（被/ct recipes诱惑） 所以除了MMR和CM配方之外的都不会再用KJS写 哈哈哈（
 
-    mme.machine_recipe("mmr:t1.lewd_refining_tower",60)
-        .width(150)
-        .height(180)
-        .requireFluid(Fluid.of("kubejs:lewd_basic",3000),10,10)
-        .requireItem(Item.of("kubejs:fusion_defective_lust_crystal",10),30,10)
-        .produceFluid(Fluid.of("minecraft:lava",500),100,10)
-        .id("t1.mmr.lrt.lava")
 
-    mme.machine_recipe("mmr:t1.lewd_refining_tower",10)
+    mme.machine_recipe("mmr:t1.vaginaldew_refining_tower",5)
         .width(150)
         .height(180)
-        .requireItem(Item.of("kubejs:defective_lust_crystal",4),10,10)
-        .produceFluid(Fluid.of("kubejs:lewd_basic",100),100,10)
-        .id("t1.mmr.lrt.lewd.t1_nofusion")
+        .requireItem(Item.of("kubejs:defective_lust_crystal",8),10,10)
+        .produceFluid(Fluid.of("kubejs:vaginaldew_basic",200),100,10)
+        .id("t1.mmr.vrt.vaginaldew.t1_nofusion")
     
     mme.machine_recipe("mmr:t1.dimprobe_station",100)
         .width(150)
@@ -102,4 +95,37 @@ ServerEvents.recipes(e =>{
         .lootTable('mmr:t1_dimprobe_overworld',2,100,30)
         .lootTable('mmr:t1_dimprobe_overworld',2,120,30)
         .id("t1.mmr.dps.t1_basicprobe_overworld")
+
+    let incomp='kubejs:basic_probe'
+    ec.sequenced_assembly(
+        [   
+            CreateItem.of('kubejs:basic_probe',0.8),
+            CreateItem.of('kubejs:defective_lust_crystal',0.2)
+        ],
+        'kubejs:fusion_normal_lust_crystal',
+        [
+            ec.deploying(incomp,[incomp,'justarod:redstone_rod'])
+                .keepHeldItem(),
+            ec.pressing(incomp,incomp),
+            ec.filling(incomp,[incomp,Fluid.of('kubejs:vaginaldew_basic')])
+        ]
+    )
+        .transitionalItem(incomp)
+        .loops(3)
+    
+    incomp = 'kubejs:unfinished_controller'
+    ec.sequenced_assembly(
+        'custommachinery:lustpulse_motor',
+        'create:brass_casing',
+        [
+            ec.cutting(incomp,incomp),
+            ec.deploying(incomp,[incomp,'create:iron_sheet']),
+            ec.deploying(incomp,[incomp,'tfmg:cast_iron_sheet']),
+            ec.pressing(incomp,incomp),
+            ec.deploying(incomp,[incomp,'create:shaft']),
+            ec.deploying(incomp,[incomp,'justarod:redstone_rod']),
+            ec.deploying(incomp,[incomp,'kubejs:fusion_normal_lust_crystal'])
+        ]
+    )
+        .transitionalItem(incomp)
 });

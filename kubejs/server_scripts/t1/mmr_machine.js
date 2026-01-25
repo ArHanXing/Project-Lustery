@@ -43,7 +43,7 @@ MMREvents.machines(e =>{
                 "a":["minecraft:smooth_stone"]
             }))
 
-    e.create("mmr:t1.lewd_refining_tower")
+    e.create("mmr:t1.vaginaldew_refining_tower")
         .name("欲望炼化塔")
         .structure(
         MMRStructureBuilder.create()
@@ -61,6 +61,7 @@ MMREvents.machines(e =>{
                     "#modular_machinery_reborn:outputbus",
                     "#modular_machinery_reborn:fluidoutputhatch",
                     "#modular_machinery_reborn:fluidinputhatch",
+                    "#modular_machinery_reborn:parallelhatch"
                 ]
         }))
     
@@ -121,5 +122,11 @@ MMREvents.machines(e =>{
                 "c":["tfmg:brass_frame"],
                 "z":['kubejs:dimrift']
             }))
+    
+    e.create("mmr:t1.lust_obelisk")
+        .name("α-淫能方尖碑 WIP")
+    
+    e.create("mmr:t1.vaginaldew_solidific_array")
+        .name("淫能固化阵列 WIP")
 })
 

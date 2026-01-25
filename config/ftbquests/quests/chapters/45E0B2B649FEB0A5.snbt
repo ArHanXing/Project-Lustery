@@ -48,5 +48,16 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["2E95C9729B52CFA4"]
+			id: "4610639ACA8D7D06"
+			tasks: [{
+				id: "7D2F24AF7CA09DE6"
+				item: { count: 1, id: "custommachinery:lustpulse_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 }

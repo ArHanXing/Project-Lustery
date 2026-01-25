@@ -58,16 +58,8 @@ ServerEvents.recipes(e =>{
         .checkEntitiesAmountInRadius(10,4,nekos)
         .id("t1.mmr.pfa."+output+".4")
     }
-    fusion('kubejs:defective_lust_crystal','kubejs:fusion_defective_lust_crystal','kubejs:lewd_basic',60,60);
-    fusion('kubejs:normal_lust_crystal','kubejs:fusion_normal_lust_crystal','kubejs:lewd_basic',100,80);
-    fusion('kubejs:exquisite_lust_crystal','kubejs:fusion_exquisite_lust_crystal','kubejs:lewd_basic',200,120);
+    fusion('kubejs:defective_lust_crystal','kubejs:fusion_defective_lust_crystal','kubejs:vaginaldew_basic',60,60);
+    fusion('kubejs:normal_lust_crystal','kubejs:fusion_normal_lust_crystal','kubejs:vaginaldew_basic',100,80);
+    fusion('kubejs:exquisite_lust_crystal','kubejs:fusion_exquisite_lust_crystal','kubejs:vaginaldew_basic',200,120);
     const mme = e.recipes.modular_machinery_reborn;
-    mme.machine_recipe("mmr:t1.primitive_fusion_array",20)
-        .width(150)
-        .height(180)
-        .requireItem(Item.of('kubejs:defective_lust_crystal',2),10,10)
-        .requireItem(Item.of('tfmg:cast_iron_nugget',1),30,10)
-        .produceItem(Item.of('kubejs:normal_lust_crystal',1),100,10)
-        .id("t1.mmr.pfa.normal")
-    //temp
 });

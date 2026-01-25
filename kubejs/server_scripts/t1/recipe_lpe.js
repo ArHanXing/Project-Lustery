@@ -51,7 +51,7 @@ ServerEvents.recipes(e => {
 
     recipes.forEach((recipe, index) => {
         mmc.custom_machine("custommachinery:lustpulse_motor", 200)
-            .requireFluid(Fluid.of("kubejs:lewd_basic",3), "input")
+            .requireFluid(Fluid.of("kubejs:vaginaldew_basic",3), "input")
             .produceSU(recipe.suOutput,256)
             //.requireEntities(1,10,"toneko:adventurer_neko",true)
             .hide()
@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
     
     /*
     mmc.custom_machine("custommachinery:lustpulse_motor", 200)
-        .requireFluid(Fluid.of("kubejs:lewd_basic",10), "input")
+        .requireFluid(Fluid.of("kubejs:vaginaldew_basic",10), "input")
         .produceSU(recipe.suOutput,256)
         .resetOnError()
         .requireFunctionOnStart("_lpe_func")

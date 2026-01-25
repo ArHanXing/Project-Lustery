@@ -21,9 +21,20 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     results: [{id: "tfmg:cast_iron_ingot"}], 
     ingredients: [{tag: "c:ingots/iron"}, {item: "minecraft:coal"}]
 });
-
+//淫液
+<recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/vaginaldew", {type: "create:mixing", 
+    processing_time: 300,
+    results: [{amount: 50, id: "kubejs:vaginaldew_basic"}], 
+    ingredients: [
+    {item:"kubejs:defective_lust_crystal"},
+    {item:"kubejs:defective_lust_crystal"},
+    {item:"kubejs:defective_lust_crystal"},
+    {item:"kubejs:defective_lust_crystal"}]});
 //下界岩
 <recipetype:create:mixing>.removeByName("createaddition:mixing/netherrack");
+<recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/lava", {type: "create:mixing", 
+    results: [{amount: 50, id: "minecraft:lava"}], 
+    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:tag", amount: 100, tag: "kubejs:vaginaldew_basic"}]});
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/netherrack", {type: "create:mixing", 
     results: [{id: "minecraft:netherrack"}], 
     ingredients: [{tag: "c:cobblestones"}, {type: "neoforge:tag", amount: 100, tag: "minecraft:lava"}]});
@@ -112,9 +123,11 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
         {item:"create:brass_sheet"}});
 craftingTable.removeByName("create:crafting/kinetics/brass_hand");
 
-  <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/rose_quartz", {type: "create:mixing", 
+<recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/rose_quartz", {type: "create:mixing", 
     results: [{id: "create:rose_quartz"}], 
     ingredients: [
         {item:"minecraft:quartz"}, 
-        {type: "neoforge:single", fluid: "kubejs:lewd_basic", amount: 100}
+        {type: "neoforge:single", fluid: "kubejs:vaginaldew_basic", amount: 100}
     ]});
+
+furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:toneko:neko_ingot>, 0.1, 100);

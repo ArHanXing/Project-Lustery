@@ -21,9 +21,9 @@ StartupEvents.registry("item",e=>{
 })
 
 StartupEvents.registry("fluid",e=>{
-    e.create("lewd_basic")
-        .stillTexture('kubejs:fluid/lewd_basic_still')
-        .flowingTexture('kubejs:fluid/lewd_basic_flow')
+    e.create("vaginaldew_basic")
+        .stillTexture('kubejs:fluid/vaginaldew_basic_still')
+        .flowingTexture('kubejs:fluid/vaginaldew_basic_flow')
         .displayName('粗质淫液')
     e.create("focused_mine_fluid")
         .stillTexture('kubejs:fluid/minefluid')

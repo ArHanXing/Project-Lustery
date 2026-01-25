@@ -13,17 +13,13 @@
       "recipe": "kubejs:kjs/modular_machinery_reborn_controller_2"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lewd_refining_tower\"}"
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
-      "recipe": "crafttweaker:ctgui/new/crafting/t1.pfa"
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}"
     },
     {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimprobe_station\"}"
-    },
-    {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}"
     },
     {
       "stack": "item:mekanism:basic_fluid_tank",
@@ -38,19 +34,66 @@
     },
     {
       "stack": "item:modular_machinery_reborn:outputbus_ludicrous"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_solidific_array\"}"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lust_obelisk\"}"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}"
+    },
+    {
+      "stack": "item:custommachinery:lustpulse_motor",
+      "recipe": "toomanyrecipeviewers:/create/kjs/custommachinery_lustpulse_motor"
     }
   ],
   "lookup_history": [
+    "item:create:rose_quartz",
+    "item:justarod:player_scanner",
+    {
+      "type": "fluid",
+      "id": "kubejs:vaginaldew_basic",
+      "amount": 200
+    },
+    "item:minecraft:iron_nugget",
+    "item:create:andesite_alloy",
+    "item:justarod:redstone_rod",
+    "item:custommachinery:lustpulse_motor",
+    "item:minecraft:netherrack",
+    "item:modular_machinery_reborn:parallel_hatch_basic",
+    "item:jaopca:storage_blocks.cneko",
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    "item:create:brass_casing",
+    "item:kubejs:basic_probe",
+    "item:enderio:pulsating_alloy_ingot",
+    "item:mekanism:configurator",
+    "item:tfmg:screwdriver",
+    "item:minecraft:sand",
+    "item:create:sand_paper",
+    "item:create:polished_rose_quartz",
+    "item:create:electron_tube",
+    "item:mekanism:basic_universal_cable",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:energy\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:enhanced_energy\"}",
+    "item:sgjourney:ancient_gene_detector",
+    "item:toneko:neko_ingot",
+    "item:mekanism:dust_bronze",
+    "item:tfmg:segmented_display",
+    "item:kubejs:normal_lust_crystal",
     "item:create:precision_mechanism",
     "item:tfmg:rebar",
-    "item:tfmg:screwdriver",
     "item:tfmg:electric_motor",
     "item:tfmg:electrical_switch",
     "item:tfmg:large_pumpjack_hammer_connector",
     "item:tfmg:deepslate_lithium_ore",
     "item:tfmg:winding_machine",
     "item:create:mechanical_drill",
-    "item:kubejs:normal_lust_crystal",
     {
       "type": "item",
       "id": "kubejs:fusion_normal_lust_crystal",
@@ -61,12 +104,8 @@
     "item:draconicevolution:entity_detector",
     "item:modular_machinery_reborn:entity_damager",
     "item:minecraft:quartz",
-    "item:create:rose_quartz",
     "item:factory_blocks:sturdy",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lewd_refining_tower\"}",
-    "item:create:polished_rose_quartz",
-    "item:create:electron_tube",
     "item:custommachinery:rift_generator",
     "item:modular_machinery_reborn:inputbus_big",
     "item:modular_machinery_reborn:inputbus_huge",
@@ -79,16 +118,10 @@
     "item:mekanism:advanced_bin",
     "item:mekanism:basic_bin",
     "item:modular_machinery_reborn:energyinputhatch_tiny",
-    "item:kubejs:basic_probe",
     {
       "type": "item",
       "id": "kubejs:fusion_defective_lust_crystal",
       "amount": 10
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:lewd_basic",
-      "amount": 0
     },
     {
       "type": "fluid",
@@ -123,7 +156,6 @@
     "item:create:limestone",
     "item:mekanism:ingot_steel",
     "item:mekanism:basic_logistical_transporter",
-    "item:mekanism:basic_universal_cable",
     "item:create:andesite_casing",
     "item:create:industrial_iron_block",
     "item:tfmg:cast_iron_block",
@@ -132,12 +164,6 @@
     "item:jaopca:plates.refined_obsidian",
     "item:jaopca:plates.tin",
     "item:jaopca:plates.naquadah_alloy",
-    {
-      "type": "item",
-      "id": "toneko:neko_ingot",
-      "amount": 9
-    },
-    "item:jaopca:storage_blocks.cneko",
     {
       "type": "fluid",
       "id": "tfmg:molten_plastic",
@@ -154,7 +180,7 @@
     "item:minecraft:bamboo_mosaic_stairs",
     "item:modular_machinery_reborn:energyoutputhatch_tiny",
     "item:modular_machinery_reborn:energyinputhatch_small",
-    "item:kubejs:lewd_basic_bucket",
+    "item:kubejs:vaginaldew_basic_bucket",
     {
       "type": "item",
       "id": "kubejs:defective_lust_crystal",
@@ -187,7 +213,6 @@
     "item:draconicevolution:module_core",
     "item:draconicevolution:item_wyvern_flight",
     "item:create:shaft",
-    "item:custommachinery:lustpulse_motor",
     "item:sgjourney:syringe{\"sgjourney:syringe_contents\":\"ata\"}",
     "item:sgjourney:naquadah_alloy",
     "item:sgjourney:advanced_crystallizer",
@@ -197,7 +222,6 @@
     "item:enderio:sag_mill",
     "item:create:raw_zinc",
     "item:create:zinc_ingot",
-    "item:mekanism:configurator",
     "item:tfmg:steel_truss",
     "item:tfmg:pumpjack_hammer",
     "item:tfmg:large_pumpjack_hammer_head",
@@ -254,7 +278,6 @@
     "item:mekanism:logistical_sorter",
     "item:mekanism:basic_control_circuit",
     "item:mekanism:advanced_fluid_tank",
-    "item:create:brass_casing",
     "item:minecraft:coal",
     "item:mekanism:basic_pressurized_tube",
     "item:mekanism:basic_mechanical_pipe",
@@ -282,7 +305,6 @@
       "amount": 0
     },
     "item:enderio:basic_capacitor",
-    "item:enderio:pulsating_alloy_ingot",
     "item:minecraft:gold_ingot",
     "item:createaddition:gold_rod",
     "item:minecraft:copper_ingot",
@@ -325,7 +347,6 @@
     "item:tfmg:aluminum_ingot",
     "item:tfmg:aluminum_cogwheel",
     "item:create:andesite_alloy_block",
-    "item:create:andesite_alloy",
     "item:minecraft:nether_brick",
     "item:enderio:nethercotta",
     "item:enderio:alloy_smelter",
@@ -336,14 +357,8 @@
     "item:enderio:enderios",
     "item:enderio:clayed_glowstone",
     "item:enderio:cake_base",
-    "item:minecraft:netherrack",
     "item:create:mechanical_mixer",
     "item:create:cinder_flour",
-    {
-      "type": "fluid",
-      "id": "minecraft:lava",
-      "amount": 1000
-    },
     "item:create:copper_casing",
     "item:tfmg:cast_iron_truss",
     "item:minecraft:obsidian",
@@ -464,7 +479,7 @@
     "item:jaopca:plates.bronze",
     "item:jaopca:plates.draconium",
     "item:jaopca:gears.naquadah_alloy",
-    "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"kubejs:lewd_basic\"}]}}",
+    "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"kubejs:vaginaldew_basic\"}]}}",
     "item:avaritia:infinity_singularity",
     "item:enderio:fluid_tank",
     "item:enderio:pressurized_fluid_tank",

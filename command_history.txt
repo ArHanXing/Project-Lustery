@@ -9,3 +9,8 @@
 /reload
 /kjs hand
 /reload
+/data get entity VMHanXing
+/effect clear
+/effect give VMHanXing justarod:estrus
+/kjs hand
+/reload

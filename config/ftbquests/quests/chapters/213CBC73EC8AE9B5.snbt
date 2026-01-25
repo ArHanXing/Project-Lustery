@@ -280,7 +280,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["51554E7F74A31424"]
+			dependencies: [
+				"51554E7F74A31424"
+				"0320E4693A9BC209"
+			]
 			id: "51F43D0531613403"
 			size: 1.0d
 			tasks: [{
@@ -326,20 +329,18 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"51F43D0531613403"
-				"0320E4693A9BC209"
-			]
+			dependencies: ["51F43D0531613403"]
 			id: "63683924CD91301A"
+			optional: true
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "7A84C2FCCF7AA095"
-				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.lewd_refining_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.vaginaldew_refining_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -350,11 +351,11 @@
 			id: "4730A3DF49F47455"
 			tasks: [{
 				id: "754D836734A7EDEC"
-				item: { count: 1, id: "kubejs:lewd_basic_bucket" }
+				item: { count: 1, id: "kubejs:vaginaldew_basic_bucket" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4730A3DF49F47455"]
@@ -427,7 +428,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 4.0d
 		}
 	]

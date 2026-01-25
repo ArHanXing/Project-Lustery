@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:10.0
 graphicsMode:0
-guiScale:2
+guiScale:3
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
+resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/AE2 GUI.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
