@@ -14,3 +14,7 @@
 /effect give VMHanXing justarod:estrus
 /kjs hand
 /reload
+/mmr log
+/kjs reload server-scripts
+/reload
+/mmr log

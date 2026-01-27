@@ -36,7 +36,7 @@
       "stack": "item:modular_machinery_reborn:outputbus_ludicrous"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_solidific_array\"}"
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}"
     },
     {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lust_obelisk\"}"
@@ -47,16 +47,50 @@
     {
       "stack": "item:custommachinery:lustpulse_motor",
       "recipe": "toomanyrecipeviewers:/create/kjs/custommachinery_lustpulse_motor"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "kubejs:fusion_normal_lust_crystal",
+        "amount": 128
+      }
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:cobblestone",
+        "amount": 126
+      }
     }
   ],
   "lookup_history": [
-    "item:create:rose_quartz",
-    "item:justarod:player_scanner",
     {
       "type": "fluid",
       "id": "kubejs:vaginaldew_basic",
-      "amount": 200
+      "amount": 10000
     },
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}",
+    {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "amount": 126
+    },
+    "item:tfmg:brass_pipe",
+    "item:tfmg:brass_frame",
+    "item:tfmg:nickel_block",
+    "item:tfmg:constantan_block",
+    "item:tfmg:plastic_block",
+    "item:factory_blocks:gears",
+    "item:factory_blocks:small_pipes",
+    {
+      "type": "item",
+      "id": "kubejs:fusion_exquisite_lust_crystal",
+      "amount": 2
+    },
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
+    "item:create:brass_hand",
+    "item:create:rose_quartz",
+    "item:justarod:player_scanner",
     "item:minecraft:iron_nugget",
     "item:create:andesite_alloy",
     "item:justarod:redstone_rod",
@@ -94,18 +128,12 @@
     "item:tfmg:deepslate_lithium_ore",
     "item:tfmg:winding_machine",
     "item:create:mechanical_drill",
-    {
-      "type": "item",
-      "id": "kubejs:fusion_normal_lust_crystal",
-      "amount": 2
-    },
     "item:tfmg:cast_iron_nugget",
     "item:modular_machinery_reborn:entity_detector",
     "item:draconicevolution:entity_detector",
     "item:modular_machinery_reborn:entity_damager",
     "item:minecraft:quartz",
     "item:factory_blocks:sturdy",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
     "item:custommachinery:rift_generator",
     "item:modular_machinery_reborn:inputbus_big",
     "item:modular_machinery_reborn:inputbus_huge",
@@ -133,7 +161,6 @@
       "id": "kubejs:dirty_focused_mine_fluid",
       "amount": 0
     },
-    "item:create:brass_hand",
     "item:modular_machinery_reborn:energyinputhatch_ludicrous",
     "item:create:brass_ingot",
     "item:create:brass_sheet",
@@ -268,7 +295,6 @@
     },
     "item:mekanism:fluorite_ore",
     "#item:c:ores/fluorite",
-    "item:minecraft:cobblestone",
     "fluid:tfmg:creosote",
     "item:tfmg:coal_coke",
     "item:tfmg:blast_stove",
@@ -318,7 +344,6 @@
     "item:createaddition:electrum_rod",
     "item:createaddition:electrum_nugget",
     "item:jaopca:rods.end_steel",
-    "item:tfmg:brass_frame",
     "item:tfmg:zinc_frame",
     "item:tfmg:copper_frame",
     "item:tfmg:constantan_frame",
@@ -401,7 +426,6 @@
     "item:create:ornate_iron_window",
     "item:mekanism:ingot_osmium",
     "item:tfmg:copper_truss",
-    "item:tfmg:nickel_block",
     "item:tfmg:rebar_floor",
     "item:create:basin",
     "item:tfmg:constantan_nugget",

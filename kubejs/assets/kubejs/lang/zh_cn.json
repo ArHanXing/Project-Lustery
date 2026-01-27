@@ -38,5 +38,6 @@
     "item.kubejs.wood_plate":"木方板",
 
     "block.factory_blocks.sturdy":"基础工业外壳",
+    "block.factory_blocks.gears":"黄铜齿轮机械方块",
     "block.modular_machinery_reborn.entity_detector":"实体检测器"
 }

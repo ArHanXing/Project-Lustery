@@ -126,7 +126,106 @@ MMREvents.machines(e =>{
     e.create("mmr:t1.lust_obelisk")
         .name("α-淫能方尖碑 WIP")
     
-    e.create("mmr:t1.primitive_falling_tower_")
-        .name("原始坠星仪式台 WIP")
+    e.create("mmr:t1.primitive_falling_tower_ritual")
+        .name("原始坠星仪式台")
+        .structure(
+        MMRStructureBuilder.create()
+        .pattern([[
+            "    aaa    ",
+            "    aaa    ",
+            "   baaab   ",
+            "  baaaaab  ",
+            "aaaaaaaaaaa",
+            "aaaaaaaaaaa",
+            "aaaaaaaaaaa",
+            "  baaaaab  ",
+            "   baaab   ",
+            "    aaa    ",
+            "    aaa    "
+        ],[
+            "     c     ",
+            "           ",
+            "           ",
+            "     d     ",
+            "     d     ",
+            "c  ddadd  c",
+            "     d     ",
+            "     d     ",
+            "           ",
+            "           ",
+            "     c     "
+        ],[
+            "     c     ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "c   eae   c",
+            "     e     ",
+            "           ",
+            "           ",
+            "           ",
+            "     c     "
+        ],[
+            "     c     ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "c   eme   c",
+            "     e     ",
+            "           ",
+            "           ",
+            "           ",
+            "     c     "
+        ],[
+            "           ",
+            "     c     ",
+            "           ",
+            "           ",
+            "           ",
+            " c   d   c ",
+            "           ",
+            "           ",
+            "           ",
+            "     c     ",
+            "           "
+        ],[
+            "           ",
+            "           ",
+            "     c     ",
+            "           ",
+            "           ",
+            "  c  d  c  ",
+            "           ",
+            "           ",
+            "     c     ",
+            "           ",
+            "           "
+        ],[
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "     d     ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "           "]
+        ])
+        .keys({
+            "a":["factory_blocks:sturdy"],
+            "b":[
+                  "modular_machinery_reborn:casing_plain",
+                    "#modular_machinery_reborn:inputbus",
+                    "#modular_machinery_reborn:outputbus",
+                    "#modular_machinery_reborn:fluidoutputhatch",
+                    "#modular_machinery_reborn:fluidinputhatch",],
+            "c":["mekanism:structural_glass"],
+            "d":["factory_blocks:gears"],
+            "e":["tfmg:brass_frame"]
+        }))
 })
 

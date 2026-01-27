@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"l":{"item":"minecraft:copper_ingot"}},"pattern":["clc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"z":{"item":"minecraft:copper_ingot"}},"pattern":["czc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -202,4 +202,17 @@ craftingTable.addShaped("ctgui/new/crafting/inputbus_big_0", <item:modular_machi
     [<item:mekanism:structural_glass>],
     [<item:modular_machinery_reborn:inputbus_reinforced>],
     [<item:mekanism:basic_bin>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:player_scanner>, [
+    [IIngredientEmpty.getInstance(), <item:create:electron_tube>, IIngredientEmpty.getInstance()],
+    [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>],
+    [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
+
+<recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"s":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," s "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+
+craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
+    [IIngredientEmpty.getInstance(), <item:jaopca:gears.brass>],
+    [IIngredientEmpty.getInstance(), <item:create:brass_casing>],
+    [IIngredientEmpty.getInstance(), <item:create:andesite_alloy>]]);
 

@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    t: {
-                        item: "tfmg:copper_frame"
-                    },
-                    z: {
+                    i: {
                         item: "create:copper_sheet"
+                    },
+                    u: {
+                        item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c z",
-                    " t ",
-                    "c z"
+                    "c i",
+                    " u ",
+                    "c i"
                 ],
                 result: {
                     count: 1,
@@ -729,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    p: {
+                    h: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cpc",
+                    "chc",
                     "   ",
                     "   "
                 ],
@@ -1194,7 +1194,7 @@
                     c: {
                         item: "tfmg:cast_iron_sheet"
                     },
-                    f: {
+                    e: {
                         item: "create:iron_sheet"
                     },
                     i: {
@@ -1203,7 +1203,7 @@
                 },
                 pattern: [
                     "i  ",
-                    "f  ",
+                    "e  ",
                     "c  "
                 ],
                 result: {
@@ -1273,13 +1273,13 @@
                     s: {
                         item: "factory_blocks:sturdy"
                     },
-                    w: {
+                    x: {
                         item: "tfmg:cast_iron_sheet"
                     }
                 },
                 pattern: [
                     "aca",
-                    "wsw",
+                    "xsx",
                     "   "
                 ],
                 result: {
@@ -1309,7 +1309,7 @@
                     e: {
                         item: "create:electron_tube"
                     },
-                    k: {
+                    h: {
                         item: "justarod:redstone_rod"
                     },
                     r: {
@@ -1319,7 +1319,7 @@
                 pattern: [
                     " b ",
                     "cec",
-                    "rkr"
+                    "rhr"
                 ],
                 result: {
                     count: 1,
@@ -1342,7 +1342,7 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    p: {
+                    h: {
                         item: "createaddition:brass_rod"
                     },
                     s: {
@@ -1351,8 +1351,8 @@
                 },
                 pattern: [
                     " b ",
-                    "cpc",
-                    "psp"
+                    "chc",
+                    "hsh"
                 ],
                 result: {
                     components: {
@@ -1379,14 +1379,14 @@
                     h: {
                         item: "minecraft:hopper"
                     },
-                    r: {
+                    p: {
                         item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "h  ",
                     "c  ",
-                    "r  "
+                    "p  "
                 ],
                 result: {
                     count: 1,
@@ -1399,13 +1399,13 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
-                    w: {
+                    s: {
                         item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "c  ",
-                    "w  ",
+                    "s  ",
                     "   "
                 ],
                 result: {
@@ -1622,7 +1622,7 @@
             type: "ADDED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/crafting/player_scanner",
             recipe: {
                 category: "misc",
@@ -1652,7 +1652,7 @@
             type: "ADDED"
         },
         {
-            exported: 0b,
+            exported: 1b,
             id: "ctgui/new/mekanism/configurator",
             originalId: "mekanism:configurator",
             originalRecipe: {
@@ -1661,17 +1661,17 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    k: {
+                    s: {
                         tag: "c:ingots/steel"
                     },
-                    r: {
+                    z: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " r ",
-                    " k "
+                    " z ",
+                    " s "
                 ],
                 result: {
                     count: 1,
@@ -1687,13 +1687,13 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    u: {
+                    r: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " u ",
+                    " r ",
                     " c "
                 ],
                 result: {
@@ -1704,6 +1704,36 @@
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
             type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/t1.fb.gears",
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_alloy"
+                    },
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    g: {
+                        item: "jaopca:gears.brass"
+                    }
+                },
+                pattern: [
+                    "g  ",
+                    "b  ",
+                    "a  "
+                ],
+                result: {
+                    count: 1,
+                    id: "factory_blocks:gears"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
         }
     ]
 }

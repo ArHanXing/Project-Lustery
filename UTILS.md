@@ -43,9 +43,9 @@
 - t6b 击败混沌龙，无尽贪婪
 什么，科技包都有boss了？
 ## 缩写
-cm：Custom Machinery
-
-mmr: Modular Machine Reborn
+- cm：Custom Machinery
+- mmr: Modular Machine Reborn
+### Tier 1
 | 缩写 | 真名！ | 来源 |
 | ----- | ----- | ----- |
 | pow | 原始洗矿机 | mmr |
@@ -57,4 +57,4 @@ mmr: Modular Machine Reborn
 | dps | 维度探针站 | mmr |
 | dms | 维度裂隙采矿站 | mmr |
 | lo | 淫能方尖碑 | mmr |
-| vss | 淫液固化阵列 | mmr |
+| pftr | 原始坠星仪式台 | mmr |
