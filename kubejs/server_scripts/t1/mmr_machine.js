@@ -126,7 +126,7 @@ MMREvents.machines(e =>{
     e.create("mmr:t1.lust_obelisk")
         .name("α-淫能方尖碑 WIP")
     
-    e.create("mmr:t1.vaginaldew_solidific_array")
-        .name("淫能固化阵列 WIP")
+    e.create("mmr:t1.primitive_falling_tower_")
+        .name("原始坠星仪式台 WIP")
 })
 
