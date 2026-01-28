@@ -65,9 +65,9 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','从维度裂缝中取得矿物']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
-            ['Tier-§c1','§5引导群星的力量！§r，但是原始时代',
+            ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的肉体来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
-                '陨石将会生成在尖塔顶端的30格位置，半径为JEI中产出的方块总数量'
+                '配方结束后，陨石将会生成在尖塔顶端向上30格的位置，半径为JEI中产出的方块总数量'
             ]
         ]
     ]

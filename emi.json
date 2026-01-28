@@ -26,8 +26,7 @@
       "recipe": "mekanism:fluid_tank/basic"
     },
     {
-      "stack": "item:mekanism:configurator",
-      "recipe": "mekanism:configurator"
+      "stack": "item:mekanism:configurator"
     },
     {
       "stack": "item:modular_machinery_reborn:inputbus_ludicrous"
@@ -64,6 +63,10 @@
     }
   ],
   "lookup_history": [
+    "item:enderio:void_chassis",
+    "item:enderio:sag_mill",
+    "item:enderio:powdered_ender_pearl",
+    "#item:c:dusts/ender_pearl",
     {
       "type": "fluid",
       "id": "kubejs:vaginaldew_basic",
@@ -246,7 +249,6 @@
     "#item:sgjourney:naquadah",
     "item:enderio:grains_of_infinity",
     "item:enderio:iron_gear",
-    "item:enderio:sag_mill",
     "item:create:raw_zinc",
     "item:create:zinc_ingot",
     "item:tfmg:steel_truss",
@@ -375,7 +377,6 @@
     "item:minecraft:nether_brick",
     "item:enderio:nethercotta",
     "item:enderio:alloy_smelter",
-    "item:enderio:void_chassis",
     "item:enderio:end_steel_ingot",
     "item:enderio:end_steel_bars",
     "item:enderio:staff_of_travelling{\"enderio:energy\":100000}",

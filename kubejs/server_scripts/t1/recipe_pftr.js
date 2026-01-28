@@ -2,7 +2,7 @@
 ServerEvents.recipes(e =>{
     const mme = e.recipes.modular_machinery_reborn;
 
-    mme.machine_recipe("mmr:t1.primitive_falling_tower_ritual",600)
+    mme.machine_recipe("mmr:t1.primitive_falling_tower_ritual",1)
         .width(150)
         .height(180)
         .requireItem(Item.of('minecraft:cobblestone',64),10,10)
@@ -19,76 +19,81 @@ ServerEvents.recipes(e =>{
 
 });
 MMREvents.recipeFunction("ftr.t1.sand", e => {
-    //唉，Vibe Coding.
     const tile = e.tile;
-    var basePos = tile.blockPos.above(30);
+    const baseBlockPos = tile.blockPos.above(30);
+    const basePos = {
+        x: baseBlockPos.getX(),
+        y: baseBlockPos.getY(),
+        z: baseBlockPos.getZ()
+    };
     const world = tile.level;
-    var r = 3;
-    var blockList = [
+    const r = 3; // 半径（曼哈顿距离）
+
+    /** @type {Array<[string, number]>} */
+    const blockList = [
         ['minecraft:sand', 0.3],
         ['minecraft:stone', 0.4],
         ['minecraft:gravel', 0.3]
     ];
-
-    // 定义6个方向（上下左右前后）
+    
     const directions = [
         [1, 0, 0], [-1, 0, 0],
         [0, 1, 0], [0, -1, 0],
         [0, 0, 1], [0, 0, -1]
     ];
 
-    // 根据权重随机选择方块的函数
-    function chooseBlock(blockList) {
-        let totalWeight = 0;
-        for (const [block, weight] of blockList) {
-            totalWeight += weight;
+    function chooseBlock() {
+        var totalWeight = blockList.reduce((sum, [, w]) => sum + w, 0);
+        let rand = Math.random() * totalWeight;
+        for (var [block, weight] of blockList) {
+            rand -= weight;
+            if (rand <= 0) return block;
         }
-        let randomValue = Math.random() * totalWeight;
-        for (const [block, weight] of blockList) {
-            randomValue -= weight;
-            if (randomValue <= 0) {
-                return block;
-            }
-        }
-        return blockList[0][0]; // 安全回退
+        return blockList[0][0];
     }
+    /** @type {Array<{x: number, y: number, z: number}>} */
+    var queue = [];
 
-    // BFS初始化
-    let queue = [];
-    let visited = new Set(); // 用于记录已访问坐标
-
-    // 添加中心点
-    let centerStr = `${basePos.x},${basePos.y},${basePos.z}`;
+    /** @type {Set<string>} */
+    var visited = new Set();
+    
+    var centerKey = `${basePos.x},${basePos.y},${basePos.z}`;
     queue.push(basePos);
-    visited.add(centerStr);
+    visited.add(centerKey);
 
-    // 开始BFS遍历
     while (queue.length > 0) {
-        let currentPos = queue.shift();
+        var currentPos = queue.shift();
         
-        // 随机选择方块并放置
-        const blockName = chooseBlock(blockList);
-        const blockState = Block.of(blockName).defaultBlockState();
-        world.setBlock(currentPos, blockState, 3); // 3表示更新所有邻居
+        var blockName = chooseBlock();
+        var blockState = Block.getBlock(blockName).defaultBlockState();
 
-        // 检查6个方向的邻居
-        for (const [dx, dy, dz] of directions) {
-            const newPos = currentPos.add(dx, dy, dz);
-            // 计算到中心点的欧几里得距离平方
-            const dx2 = newPos.x - basePos.x;
-            const dy2 = newPos.y - basePos.y;
-            const dz2 = newPos.z - basePos.z;
-            const distSq = dx2 * dx2 + dy2 * dy2 + dz2 * dz2;
+        var pos = new BlockPos;
+        pos.setX(currentPos.x);
+        pos.setY(currentPos.y);
+        pos.setZ(currentPos.z);
+        world.setBlock(pos, blockState, 3);
 
-            // 如果在球内且未访问过
-            if (distSq <= r * r) {
-                const posStr = `${newPos.x},${newPos.y},${newPos.z}`;
-                if (!visited.has(posStr)) {
-                    visited.add(posStr);
-                    queue.push(newPos);
-                }
+        for (var [dx, dy, dz] of directions) {
+            var newPos = {
+                x: currentPos.x + dx,
+                y: currentPos.y + dy,
+                z: currentPos.z + dz
+            };
+            
+            var dist = Math.abs(newPos.x - basePos.x) + 
+                         Math.abs(newPos.y - basePos.y) + 
+                         Math.abs(newPos.z - basePos.z);
+            if (dist > r) continue;
+            
+            if (newPos.y < 0 || newPos.y > 255) continue;
+            
+            const posKey = `${newPos.x},${newPos.y},${newPos.z}`;
+            if (!visited.has(posKey)) {
+                visited.add(posKey);
+                queue.push(newPos);
             }
         }
     }
     e.success();
 });
+
