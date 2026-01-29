@@ -11,7 +11,7 @@ ServerEvents.recipes(e =>{
         .requireItem(Item.of("kubejs:fusion_normal_lust_crystal",64),30,30)
         .requireFluid(Fluid.of('kubejs:vaginaldew_basic',10000),10,50)
         .produceItem("minecraft:sand",100,10) // 占位用的 后面加
-        .produceItem("minecraft:stone",100,30)
+        .produceItem("create:limestone",100,30)
         .produceItem("minecraft:gravel",120,10)
         .requireFunctionOnEnd("ftr.t1.sand")
         .id("t1.mmr.pftr.sand")
@@ -31,9 +31,9 @@ MMREvents.recipeFunction("ftr.t1.sand", e => {
 
     /** @type {Array<[string, number]>} */
     const blockList = [
-        ['minecraft:sand', 0.3],
-        ['minecraft:stone', 0.4],
-        ['minecraft:gravel', 0.3]
+        ['minecraft:sand', 1],
+        ['create:limestone', 1],
+        ['minecraft:gravel', 1]
     ];
     
     const directions = [
@@ -60,6 +60,13 @@ MMREvents.recipeFunction("ftr.t1.sand", e => {
     var centerKey = `${basePos.x},${basePos.y},${basePos.z}`;
     queue.push(basePos);
     visited.add(centerKey);
+
+
+
+
+
+
+
 
     while (queue.length > 0) {
         var currentPos = queue.shift();

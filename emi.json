@@ -63,6 +63,14 @@
     }
   ],
   "lookup_history": [
+    "item:create:limestone",
+    "item:tfmg:limesand",
+    {
+      "type": "fluid",
+      "id": "tfmg:molten_steel",
+      "amount": 144
+    },
+    "item:mekanism:ingot_steel",
     "item:enderio:void_chassis",
     "item:enderio:sag_mill",
     "item:enderio:powdered_ender_pearl",
@@ -170,8 +178,6 @@
     "item:createaddition:electrum_sheet",
     "item:create:mechanical_crafter",
     "item:kubejs:rift_cataclyst",
-    "fluid:tfmg:molten_steel",
-    "item:tfmg:limesand",
     "item:create:crushed_raw_iron",
     "item:tfmg:casting_basin",
     "item:tfmg:cast_iron_ingot",
@@ -183,8 +189,6 @@
     "item:enderio:dark_steel_ingot",
     "item:kubejs:wood_plate",
     "item:mekanism:sawdust",
-    "item:create:limestone",
-    "item:mekanism:ingot_steel",
     "item:mekanism:basic_logistical_transporter",
     "item:create:andesite_casing",
     "item:create:industrial_iron_block",

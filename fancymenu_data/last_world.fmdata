@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = D:/cppjr/MinGW-7.3.0-Windows/mingw64/x86_64-w64-mingw32/exec/.minecraft/versions/Lustful Sky/saves/test #2
+  is_server = true
+  world = 172.13.7.238:8080
 }
 
