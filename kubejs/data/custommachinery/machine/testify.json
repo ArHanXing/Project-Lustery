@@ -1,0 +1,53 @@
+{
+  "name": {
+    "text": {
+      "translate": "Function测试机器"
+    }
+  },
+  "appearance": {},
+  "components": {
+    "type": "custommachinery:item",
+    "config": {
+      "TOP": "INPUT",
+      "BOTTOM": "INPUT",
+      "FRONT": "INPUT",
+      "RIGHT": "INPUT",
+      "BACK": "INPUT",
+      "LEFT": "INPUT"
+    },
+    "id": "input"
+  },
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 44,
+      "y": 109
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 115,
+      "y": 81
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 102,
+      "y": 68,
+      "text": {
+        "text": {
+          "translate": "测试在这里"
+        }
+      }
+    }
+  ],
+  "tooltips": {
+    "text": {
+      "translate": "你冯的MMR。"
+    }
+  }
+}

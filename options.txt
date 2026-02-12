@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:10.0
 graphicsMode:0
-guiScale:2
+guiScale:3
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -182,8 +182,6 @@ key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
-key_darksteel.upgrade.flight.keybind:key.keyboard.unknown
-key_darksteel.upgrade.nightvision.keybind:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt

@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    i: {
-                        item: "create:copper_sheet"
-                    },
-                    u: {
+                    m: {
                         item: "tfmg:copper_frame"
+                    },
+                    x: {
+                        item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c i",
-                    " u ",
-                    "c i"
+                    "c x",
+                    " m ",
+                    "c x"
                 ],
                 result: {
                     count: 1,
@@ -729,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    h: {
+                    f: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "chc",
+                    "cfc",
                     "   ",
                     "   "
                 ],
@@ -1194,16 +1194,16 @@
                     c: {
                         item: "tfmg:cast_iron_sheet"
                     },
-                    e: {
-                        item: "create:iron_sheet"
-                    },
                     i: {
                         item: "create:industrial_iron_block"
+                    },
+                    o: {
+                        item: "create:iron_sheet"
                     }
                 },
                 pattern: [
                     "i  ",
-                    "e  ",
+                    "o  ",
                     "c  "
                 ],
                 result: {
@@ -1270,16 +1270,16 @@
                     c: {
                         item: "create:copper_casing"
                     },
+                    d: {
+                        item: "tfmg:cast_iron_sheet"
+                    },
                     s: {
                         item: "factory_blocks:sturdy"
-                    },
-                    x: {
-                        item: "tfmg:cast_iron_sheet"
                     }
                 },
                 pattern: [
                     "aca",
-                    "xsx",
+                    "dsd",
                     "   "
                 ],
                 result: {
@@ -1306,11 +1306,11 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
+                    d: {
+                        item: "justarod:redstone_rod"
+                    },
                     e: {
                         item: "create:electron_tube"
-                    },
-                    h: {
-                        item: "justarod:redstone_rod"
                     },
                     r: {
                         item: "jaopca:rods.cast_iron"
@@ -1319,7 +1319,7 @@
                 pattern: [
                     " b ",
                     "cec",
-                    "rhr"
+                    "rdr"
                 ],
                 result: {
                     count: 1,
@@ -1342,17 +1342,17 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    h: {
-                        item: "createaddition:brass_rod"
-                    },
                     s: {
                         item: "factory_blocks:sturdy"
+                    },
+                    t: {
+                        item: "createaddition:brass_rod"
                     }
                 },
                 pattern: [
                     " b ",
-                    "chc",
-                    "hsh"
+                    "ctc",
+                    "tst"
                 ],
                 result: {
                     components: {
@@ -1376,17 +1376,17 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
+                    e: {
+                        item: "minecraft:chest"
+                    },
                     h: {
                         item: "minecraft:hopper"
-                    },
-                    p: {
-                        item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "h  ",
                     "c  ",
-                    "p  "
+                    "e  "
                 ],
                 result: {
                     count: 1,
@@ -1399,13 +1399,13 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
-                    s: {
+                    u: {
                         item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "c  ",
-                    "s  ",
+                    "u  ",
                     "   "
                 ],
                 result: {
@@ -1661,17 +1661,17 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    s: {
+                    p: {
                         tag: "c:ingots/steel"
                     },
-                    z: {
+                    r: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " z ",
-                    " s "
+                    " r ",
+                    " p "
                 ],
                 result: {
                     count: 1,
@@ -1684,16 +1684,16 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
+                    e: {
+                        tag: "c:ingots/osmium"
+                    },
                     i: {
                         tag: "c:ingots/iron"
-                    },
-                    r: {
-                        tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " r ",
+                    " e ",
                     " c "
                 ],
                 result: {

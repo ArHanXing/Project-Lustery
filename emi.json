@@ -60,11 +60,22 @@
         "id": "minecraft:cobblestone",
         "amount": 126
       }
+    },
+    {
+      "stack": "item:create:limestone",
+      "recipe": "kubejs:t1.mmr.pftr.sand"
     }
   ],
   "lookup_history": [
     "item:create:limestone",
     "item:tfmg:limesand",
+    "item:kubejs:basic_probe",
+    {
+      "type": "fluid",
+      "id": "kubejs:vaginaldew_basic",
+      "amount": 10000
+    },
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
     {
       "type": "fluid",
       "id": "tfmg:molten_steel",
@@ -75,17 +86,6 @@
     "item:enderio:sag_mill",
     "item:enderio:powdered_ender_pearl",
     "#item:c:dusts/ender_pearl",
-    {
-      "type": "fluid",
-      "id": "kubejs:vaginaldew_basic",
-      "amount": 10000
-    },
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}",
-    {
-      "type": "item",
-      "id": "minecraft:cobblestone",
-      "amount": 126
-    },
     "item:tfmg:brass_pipe",
     "item:tfmg:brass_frame",
     "item:tfmg:nickel_block",
@@ -115,7 +115,6 @@
       "amount": 0
     },
     "item:create:brass_casing",
-    "item:kubejs:basic_probe",
     "item:enderio:pulsating_alloy_ingot",
     "item:mekanism:configurator",
     "item:tfmg:screwdriver",
@@ -379,14 +378,11 @@
     "item:tfmg:aluminum_cogwheel",
     "item:create:andesite_alloy_block",
     "item:minecraft:nether_brick",
-    "item:enderio:nethercotta",
     "item:enderio:alloy_smelter",
     "item:enderio:end_steel_ingot",
     "item:enderio:end_steel_bars",
     "item:enderio:staff_of_travelling{\"enderio:energy\":100000}",
     "item:enderio:enderios",
-    "item:enderio:clayed_glowstone",
-    "item:enderio:cake_base",
     "item:create:mechanical_mixer",
     "item:create:cinder_flour",
     "item:create:copper_casing",
@@ -515,7 +511,6 @@
     "mekanism_chemical:mekmm:nutritional_paste",
     "item:draconicevolution:crafting_core",
     "item:draconicevolution:reactor_core",
-    "item:jaopca:gears.copper_alloy",
     "item:jaopca:gears.lead",
     "item:jaopca:gears.brass",
     "item:jaopca:gears.aluminum",
@@ -630,7 +625,7 @@
     "item:extendedae:concurrent_processor_print",
     "item:tfmg:steel_fluid_tank",
     "item:mekmm:ultimate_max_chemical_tank",
-    "item:enderio:copper_alloy_ingot",
+    "item:enderio:conductive_alloy_ingot",
     "item:mekanism:pellet_antimatter",
     "item:mekanism_extras:naquadah_reactor_casing",
     "item:sgjourney:naquadah_rod",

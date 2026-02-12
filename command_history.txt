@@ -18,3 +18,7 @@
 /kjs reload server-scripts
 /reload
 /mmr log
+/cm create
+/kjs reload
+/kjs reload server-scripts
+/reload
