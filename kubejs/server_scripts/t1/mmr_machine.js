@@ -1,6 +1,7 @@
 //tier 1
 MMREvents.machines(e => {
     e.create("mmr:t1.primitive_ore_washer")//POW
+        .color("#ff2ca9e1")
         .name("原始洗矿机")
         .structure(
             MMRStructureBuilder.create()
@@ -21,6 +22,7 @@ MMREvents.machines(e => {
                 }))
 
     e.create("mmr:t1.primitive_stone_crusher")//PSC
+        .color("#ff715c1f")
         .name("原始碎岩机")
         .structure(
             MMRStructureBuilder.create()
@@ -44,6 +46,7 @@ MMREvents.machines(e => {
                 }))
 
     e.create("mmr:t1.vaginaldew_refining_tower")
+    .color("#ffbb5548")
         .name("欲望炼化塔")
         .structure(
             MMRStructureBuilder.create()
@@ -67,6 +70,7 @@ MMREvents.machines(e => {
 
     e.create("mmr:t1.primitive_fusion_array")
         .name("原始淫能凝聚阵列")
+        .color("#fff39800")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
@@ -97,9 +101,11 @@ MMREvents.machines(e => {
 
     e.create('mmr:t1.dimrift_mining_station')
         .name("维度裂隙采矿站 WIP")
+        .color("#fff7b977")
 
     e.create('mmr:t1.dimprobe_station')
         .name("维度探针站")
+        .color("#ffefcd9a")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
@@ -125,9 +131,11 @@ MMREvents.machines(e => {
 
     e.create("mmr:t1.lust_obelisk")
         .name("α-淫能方尖碑 WIP")
+        .color("#ff884898")
 
     e.create("mmr:t1.primitive_falling_tower_ritual")
         .name("原始坠星仪式台")
+        .color("#ff884898")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([[
@@ -228,30 +236,51 @@ MMREvents.machines(e => {
                     "e": ["tfmg:brass_frame"]
                 }))
 
+    e.create("mmr:t1.thermal_air_infiltration_chamber")
+        .name("热力空气浸润室")
+        .color("#ff640125")
+        .structure(
+            MMRStructureBuilder.create()
+                .pattern([
+                    ["ccc", "cbc", "aba"],
+                    ["ama", "b b", "aba"], 
+                    ["aba", "b b", "aba"], 
+                    ["aba", "b b", "aba"], 
+                    ["aba", "b b", "aba"], 
+                    ["aaa", "a a", "aaa"]
+                ])
+                .keys({ 
+                    "a": ["factory_blocks:sturdy"], 
+                    "b": ["tfmg:fireproof_bricks"], 
+                    "c": ["modular_machinery_reborn:casing_plain",
+                        "#modular_machinery_reborn:fluidoutputhatch",
+                        "#modular_machinery_reborn:fluidinputhatch"
+                    ],
+                }))
 
-
-// Tier 2
+    // Tier 2
     e.create("mmr:t2.plenum")
         .name("集气室")
         .color("#ff9ea1a3")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["bbmbb", "aaaaa", "aaaaa", "aaaaa", "aaaaa"], 
-                    ["aaaaa", "a   a", "a   a", "a   a", "accca"], 
-                    ["aaaaa", "accca", "ac ca", "accca", "accca"], 
-                    ["     ", " dcd ", " c c ", " dcd ", "     "], 
+                    ["bbmbb", "aaaaa", "aaaaa", "aaaaa", "aaaaa"],
+                    ["aaaaa", "a   a", "a   a", "a   a", "accca"],
+                    ["aaaaa", "accca", "ac ca", "accca", "accca"],
+                    ["     ", " dcd ", " c c ", " dcd ", "     "],
                     ["     ", "  c  ", " c c ", "  c  ", "     "]])
-                .keys({ 
-                    "a":["factory_blocks:sturdy"],
-                    "b":[
-                        "modular_machinery_reborn:casing_plain",   
-                        "#modular_machinery_reborn:inputbus",                   
+                .keys({
+                    "a": ["factory_blocks:sturdy"],
+                    "b": [
+                        "modular_machinery_reborn:casing_plain",
+                        "#modular_machinery_reborn:inputbus",
                         "#modular_machinery_reborn:fluidoutputhatch",
-                        "#modular_machinery_reborn:energyhatch"], 
-                    "c":["mekanism:structural_glass"], 
-                    "d":["tfmg:cast_iron_pipe"]
+                        "#modular_machinery_reborn:energyhatch"],
+                    "c": ["mekanism:structural_glass"],
+                    "d": ["tfmg:cast_iron_pipe"]
                 }))
+
 
 })
 

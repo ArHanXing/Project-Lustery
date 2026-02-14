@@ -84,5 +84,11 @@
     "block.modular_machinery_reborn.fluidoutputhatch_big": "§b大型§r输出仓",
     "block.modular_machinery_reborn.fluidoutputhatch_huge": "§b巨型§r输出仓",
     "block.modular_machinery_reborn.fluidoutputhatch_ludicrous": "§c极巨§r输出仓",
-    "block.modular_machinery_reborn.fluidoutputhatch_vacuum": "§d终极§r输出仓"
+    "block.modular_machinery_reborn.fluidoutputhatch_vacuum": "§d终极§r输出仓",
+    "block.modular_machinery_reborn.fuel_tank_tiny": "§7微型§r燃料仓",
+    "block.modular_machinery_reborn.fuel_tank_small": "§7小型§r燃料仓",
+    "block.modular_machinery_reborn.fuel_tank_normal": "§a普通§r燃料仓",
+    "block.modular_machinery_reborn.fuel_tank_reinforced": "§a强化§r燃料仓",
+    "block.modular_machinery_reborn.fuel_tank_big": "§b大型§r燃料仓",
+    "block.modular_machinery_reborn.fuel_tank_huge": "§b巨型§r燃料仓"
 }

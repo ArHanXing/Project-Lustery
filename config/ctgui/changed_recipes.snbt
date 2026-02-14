@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    e: {
-                        item: "tfmg:copper_frame"
-                    },
-                    j: {
+                    u: {
                         item: "create:copper_sheet"
+                    },
+                    y: {
+                        item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c j",
-                    " e ",
-                    "c j"
+                    "c u",
+                    " y ",
+                    "c u"
                 ],
                 result: {
                     count: 1,
@@ -726,15 +726,15 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "minecraft:copper_ingot"
+                    },
                     c: {
                         item: "tfmg:cast_iron_ingot"
-                    },
-                    h: {
-                        item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "chc",
+                    "cbc",
                     "   ",
                     "   "
                 ],
@@ -1194,16 +1194,16 @@
                     c: {
                         item: "tfmg:cast_iron_sheet"
                     },
-                    d: {
-                        item: "create:iron_sheet"
-                    },
                     i: {
                         item: "create:industrial_iron_block"
+                    },
+                    x: {
+                        item: "create:iron_sheet"
                     }
                 },
                 pattern: [
                     "i  ",
-                    "d  ",
+                    "x  ",
                     "c  "
                 ],
                 result: {
@@ -1270,7 +1270,7 @@
                     c: {
                         item: "create:copper_casing"
                     },
-                    f: {
+                    o: {
                         item: "tfmg:cast_iron_sheet"
                     },
                     s: {
@@ -1279,7 +1279,7 @@
                 },
                 pattern: [
                     "aca",
-                    "fsf",
+                    "oso",
                     "   "
                 ],
                 result: {
@@ -1331,20 +1331,20 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        tag: "c:ingots/steel"
-                    },
-                    d: {
-                        tag: "c:ingots/osmium"
-                    },
                     i: {
                         tag: "c:ingots/iron"
+                    },
+                    w: {
+                        tag: "c:ingots/steel"
+                    },
+                    x: {
+                        tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " d ",
-                    " a "
+                    " x ",
+                    " w "
                 ],
                 result: {
                     count: 1,
@@ -1360,13 +1360,13 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    k: {
+                    t: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " k ",
+                    " t ",
                     " c "
                 ],
                 result: {
@@ -1465,15 +1465,15 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
+                    e: {
+                        item: "create:copper_casing"
+                    },
                     r: {
                         item: "minecraft:redstone_block"
-                    },
-                    x: {
-                        item: "create:copper_casing"
                     }
                 },
                 pattern: [
-                    "cxc",
+                    "cec",
                     " r ",
                     "   "
                 ],
@@ -1537,14 +1537,14 @@
                     h: {
                         item: "minecraft:hopper"
                     },
-                    u: {
+                    v: {
                         item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "h  ",
                     "c  ",
-                    "u  "
+                    "v  "
                 ],
                 result: {
                     count: 1,
@@ -1561,23 +1561,23 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "minecraft:repeater"
-                    },
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
+                    },
+                    l: {
+                        item: "minecraft:repeater"
                     },
                     r: {
                         tag: "c:dusts/redstone"
                     },
-                    u: {
+                    w: {
                         tag: "c:storage_blocks/redstone"
                     }
                 },
                 pattern: [
                     " r ",
                     "rcr",
-                    "aua"
+                    "lwl"
                 ],
                 result: {
                     count: 1,
@@ -1595,22 +1595,22 @@
                 category: "misc",
                 key: {
                     c: {
-                        item: "modular_machinery_reborn:casing_plain"
-                    },
-                    h: {
-                        tag: "c:dusts/redstone"
+                        tag: "c:storage_blocks/redstone"
                     },
                     r: {
                         item: "minecraft:repeater"
                     },
-                    u: {
-                        tag: "c:storage_blocks/redstone"
+                    s: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    z: {
+                        tag: "c:dusts/redstone"
                     }
                 },
                 pattern: [
-                    "rur",
-                    "hch",
-                    " h "
+                    "rcr",
+                    "zsz",
+                    " z "
                 ],
                 result: {
                     count: 1,
@@ -1687,23 +1687,23 @@
             recipe: {
                 category: "misc",
                 key: {
-                    c: {
-                        item: "minecraft:repeater"
-                    },
                     e: {
                         item: "modular_machinery_reborn:energyinputhatch_tiny"
+                    },
+                    j: {
+                        item: "minecraft:repeater"
                     },
                     r: {
                         tag: "c:dusts/redstone"
                     },
-                    w: {
+                    s: {
                         tag: "c:storage_blocks/redstone"
                     }
                 },
                 pattern: [
-                    "rcr",
-                    "wew",
-                    "rwr"
+                    "rjr",
+                    "ses",
+                    "rsr"
                 ],
                 result: {
                     count: 1,
@@ -1720,23 +1720,23 @@
             recipe: {
                 category: "misc",
                 key: {
-                    d: {
-                        tag: "c:storage_blocks/redstone"
-                    },
                     e: {
                         item: "modular_machinery_reborn:energyoutputhatch_tiny"
                     },
-                    j: {
-                        item: "minecraft:repeater"
-                    },
                     r: {
                         tag: "c:dusts/redstone"
+                    },
+                    t: {
+                        item: "minecraft:repeater"
+                    },
+                    v: {
+                        tag: "c:storage_blocks/redstone"
                     }
                 },
                 pattern: [
-                    "rdr",
-                    "ded",
-                    "rjr"
+                    "rvr",
+                    "vev",
+                    "rtr"
                 ],
                 result: {
                     count: 1,
@@ -2053,20 +2053,20 @@
                     c: {
                         item: "tfmg:cast_iron_pipe"
                     },
-                    d: {
+                    h: {
                         item: "tfmg:cast_iron_sheet"
-                    },
-                    r: {
-                        item: "factory_blocks:sturdy"
                     },
                     s: {
                         item: "mekanism:structural_glass"
+                    },
+                    w: {
+                        item: "factory_blocks:sturdy"
                     }
                 },
                 pattern: [
                     " s ",
-                    "rcr",
-                    "d d"
+                    "wcw",
+                    "h h"
                 ],
                 result: {
                     components: {

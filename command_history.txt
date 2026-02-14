@@ -27,3 +27,11 @@
 /reload
 /kjs hand
 /setblock ~ ~ ~ stone
+/weather clear
+/reload
+/kubejs reload lang
+/kubejs reload server-scripts
+/kubejs reload startup-scripts
+/reload
+/kill @e[type=minecraft:bat]
+/kjs hand

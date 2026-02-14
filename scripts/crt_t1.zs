@@ -34,7 +34,7 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
 <recipetype:create:mixing>.removeByName("createaddition:mixing/netherrack");
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/lava", {type: "create:mixing", 
     results: [{amount: 50, id: "minecraft:lava"}], 
-    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:tag", amount: 100, tag: "kubejs:vaginaldew_basic"}]});
+    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:single", amount: 100, tag: "kubejs:vaginaldew_basic"}]});
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/netherrack", {type: "create:mixing", 
     results: [{id: "minecraft:netherrack"}], 
     ingredients: [{tag: "c:cobblestones"}, {type: "neoforge:tag", amount: 100, tag: "minecraft:lava"}]});
@@ -140,7 +140,7 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
 
 <recipetype:create:crushing>.addJsonRecipe("t1.calcite_crushing", {type: "create:crushing", 
     processing_time: 150, 
-    results: [{id: "kubejs:calcite_dust", count: 3}, {id: "kubejs:calcite_dust", chance: 0.5}], 
+    results: [{id: "kubejs:calcite_dust", count: 2}, {id: "kubejs:calcite_dust", chance: 0.5}], 
     ingredients: [{item: "minecraft:calcite"}]});
 
 <recipetype:tfmg:hot_blast>.removeByName("tfmg:hot_blast/hot_air");

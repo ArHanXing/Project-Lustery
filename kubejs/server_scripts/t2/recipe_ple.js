@@ -7,7 +7,7 @@ ServerEvents.recipes(e =>{
         .height(180)
         //.requireHeight("[120,320]")
         .requireItem("kubejs:normal_lust_crystal",10,10)
-        .produceFluidPerTick(Fluid.of("tfmg:air",10),100,10)
+        .produceFluidPerTick(Fluid.of("tfmg:air",50),100,10)
         .id("t2.mmr.ple.t1air")
 
 

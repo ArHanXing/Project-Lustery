@@ -22,6 +22,15 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimprobe_station\"}"
     },
     {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t2.plenum\"}"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.thermal_air_infiltration_chamber\"}"
+    },
+    {
       "stack": "item:mekanism:basic_fluid_tank",
       "recipe": "mekanism:fluid_tank/basic"
     },
@@ -35,7 +44,12 @@
       "stack": "item:modular_machinery_reborn:outputbus_ludicrous"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}"
+      "stack": "item:modular_machinery_reborn:fluidinputhatch_vacuum",
+      "recipe": "crafttweaker:uni.mmr.fluidinputhatch_vacuum"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:fluidoutputhatch_vacuum",
+      "recipe": "crafttweaker:uni.mmr.fluidoutputhatch_vacuum.convert"
     },
     {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lust_obelisk\"}"
@@ -69,39 +83,92 @@
       "stack": "item:modular_machinery_reborn:modularium"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t2.plenum\"}"
+      "stack": {
+        "type": "fluid",
+        "id": "tfmg:hot_air",
+        "amount": 1200
+      },
+      "recipe": "kubejs:t1.mmr.taic.fluid"
     }
   ],
   "lookup_history": [
-    "item:minecraft:calcite",
+    "item:mekanism:structural_glass",
+    "item:mekanismgenerators:reactor_glass",
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 100
+    },
+    "item:minecraft:netherrack",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
+    "item:kubejs:defective_lust_crystal",
     "item:kubejs:calcite_dust",
     {
-      "type": "item",
-      "id": "tfmg:blast_stove",
-      "amount": 2
+      "type": "fluid",
+      "id": "tfmg:molten_steel",
+      "amount": 144
     },
-    "item:tfmg:cast_iron_pipe",
-    "item:tfmg:blast_furnace_output",
+    "item:mekanism:ingot_steel",
+    "item:modular_machinery_reborn:energyinputhatch_huge",
+    "item:ae2:entropy_manipulator",
+    "item:minecraft:obsidian",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
     {
-      "type": "tag",
-      "registry": "minecraft:fluid",
-      "id": "tfmg:blast_stove_fuel",
-      "amount": 5
+      "type": "fluid",
+      "id": "tfmg:hot_air",
+      "amount": 1200
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:vaginaldew_basic",
+      "amount": 200
+    },
+    {
+      "type": "item",
+      "id": "extendedae:entro_crystal",
+      "amount": 4
     },
     {
       "type": "fluid",
       "id": "tfmg:air",
       "amount": 1000
     },
+    "item:kubejs:rift_cataclyst",
+    "item:modular_machinery_reborn:fluidoutputhatch_vacuum",
+    "item:modular_machinery_reborn:fluidinputhatch_vacuum",
+    "item:modular_machinery_reborn:energyinputhatch_ludicrous",
+    "item:tfmg:blast_furnace_output",
+    "item:tfmg:hot_air_bucket",
+    "item:modular_machinery_reborn:fuel_tank_huge",
+    "item:tfmg:fireproof_brick_reinforcement",
+    "item:mekanism:thermal_evaporation_controller",
+    "item:minecraft:coarse_dirt",
+    "item:minecraft:dirt",
+    "item:tfmg:fireproof_bricks",
+    "item:tfmg:fireproof_brick",
+    {
+      "type": "item",
+      "id": "tfmg:fireclay_ball",
+      "amount": 4
+    },
+    "item:minecraft:cobblestone",
+    "item:minecraft:calcite",
+    {
+      "type": "item",
+      "id": "tfmg:blast_stove",
+      "amount": 2
+    },
+    "item:tfmg:cast_iron_pipe",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "tfmg:blast_stove_fuel",
+      "amount": 5
+    },
     "item:minecraft:gravel",
     "item:kubejs:normal_lust_crystal",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t2.plenum\"}",
-    "item:modular_machinery_reborn:energyinputhatch_huge",
     "item:tfmg:air_bucket",
-    "item:tfmg:fireproof_bricks",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimprobe_station\"}",
-    "item:minecraft:dirt",
-    "item:minecraft:coarse_dirt",
     "item:create:limestone",
     "item:create:layered_limestone",
     "item:mekanism_extras:enriched_shining",
@@ -110,7 +177,6 @@
     "item:jaopca:create_crushed.draconium",
     "item:jaopca:create_crushed.lithium",
     "item:tfmg:fireclay",
-    "item:tfmg:fireproof_brick",
     {
       "type": "fluid",
       "id": "tfmg:creosote",
@@ -126,7 +192,6 @@
     "item:tfmg:brick_smokestack",
     "item:tfmg:industrial_pipe",
     "item:tfmg:coke_oven",
-    "fluid:tfmg:molten_steel",
     "item:minecraft:clay",
     "item:minecraft:terracotta",
     "item:minecraft:clay_ball",
@@ -163,13 +228,11 @@
     "item:modular_machinery_reborn:inputbus_tiny",
     "item:modular_machinery_reborn:energyoutputhatch_tiny",
     "item:modular_machinery_reborn:energyinputhatch_tiny",
-    "item:ae2:entropy_manipulator{\"ae2:stored_energy\":200000.0d}",
     "item:enderio:vibrant_alloy_ingot",
     "item:enderio:pulsating_alloy_ingot",
     "item:create:iron_sheet",
     "item:jaopca:rods.conductive_alloy",
     "item:modular_machinery_reborn:casing_reinforced",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
     "item:enderio:conductive_alloy_ingot",
     "item:enderio:energetic_alloy_ingot",
     "item:enderio:double_layer_capacitor",
@@ -177,7 +240,6 @@
     "item:enderio:grains_of_infinity",
     "item:enderio:basic_capacitor",
     "item:enderio:alloy_smelter",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
     "item:create:copper_casing",
     "item:modular_machinery_reborn:casing_plain",
     "item:modular_machinery_reborn:modularium",
@@ -192,12 +254,6 @@
       "id": "factory_blocks:gears",
       "amount": 11
     },
-    {
-      "type": "fluid",
-      "id": "kubejs:vaginaldew_basic",
-      "amount": 10000
-    },
-    "item:mekanism:ingot_steel",
     "item:enderio:void_chassis",
     "item:enderio:sag_mill",
     "item:enderio:powdered_ender_pearl",
@@ -216,14 +272,8 @@
     "item:justarod:player_scanner",
     "item:minecraft:iron_nugget",
     "item:create:andesite_alloy",
-    "item:minecraft:netherrack",
     "item:modular_machinery_reborn:parallel_hatch_basic",
     "item:jaopca:storage_blocks.cneko",
-    {
-      "type": "fluid",
-      "id": "minecraft:lava",
-      "amount": 0
-    },
     "item:create:brass_casing",
     "item:mekanism:configurator",
     "item:tfmg:screwdriver",
@@ -262,17 +312,13 @@
       "id": "kubejs:dirty_focused_mine_fluid",
       "amount": 0
     },
-    "item:modular_machinery_reborn:energyinputhatch_ludicrous",
     "item:create:brass_ingot",
     "item:create:brass_sheet",
     "item:createaddition:electrum_sheet",
-    "item:kubejs:rift_cataclyst",
     "item:tfmg:casting_basin",
     "item:tfmg:cast_iron_ingot",
     "item:minecraft:iron_ingot",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
     "item:tfmg:cast_iron_sheet",
-    "item:mekanism:structural_glass",
     "item:enderio:dark_steel_ingot",
     "item:kubejs:wood_plate",
     "item:mekanism:sawdust",
@@ -299,16 +345,10 @@
     "item:kubejs:sifted_ore",
     "item:minecraft:bamboo_mosaic_stairs",
     "item:kubejs:vaginaldew_basic_bucket",
-    {
-      "type": "item",
-      "id": "kubejs:defective_lust_crystal",
-      "amount": 2
-    },
     "item:tfmg:heavy_plate",
     "item:tfmg:blast_furnace_reinforcement",
     "item:minecraft:glass",
     "item:factory_blocks:old_vents",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
     "item:create:golden_sheet",
     "item:create:cogwheel",
     "item:tfmg:glass_insulator_segment",
@@ -397,11 +437,6 @@
     "item:minecraft:raw_iron",
     "item:createaddition:electrum_ingot",
     "item:create:steam_engine",
-    {
-      "type": "fluid",
-      "id": "tfmg:hot_air",
-      "amount": 0
-    },
     "item:minecraft:gold_ingot",
     "item:createaddition:gold_rod",
     "item:minecraft:copper_ingot",
@@ -428,8 +463,6 @@
     "item:create_connected:fluid_vessel",
     "item:tfmg:cast_iron_fluid_tank",
     "item:tfmg:blast_furnace_hatch",
-    "item:tfmg:fireproof_brick_reinforcement",
-    "item:tfmg:fireclay_ball",
     "item:mekanism:nugget_steel",
     "item:mekanism:dust_steel",
     "item:mekanism_extras:alloy_spectrum",
@@ -448,7 +481,6 @@
     "item:create:mechanical_mixer",
     "item:create:cinder_flour",
     "item:tfmg:cast_iron_truss",
-    "item:minecraft:obsidian",
     "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"minecraft:water\"}]}}",
     "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"minecraft:water\"}]}}",
     "item:create:water_wheel",

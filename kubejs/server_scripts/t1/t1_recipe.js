@@ -128,4 +128,26 @@ ServerEvents.recipes(e =>{
         ]
     )
         .transitionalItem(incomp)
+
+    ec.sequenced_assembly(
+        'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_fusion_array"]',
+        'create:brass_casing',
+        [
+            ec.cutting(incomp,incomp),
+            ec.deploying(incomp,[incomp,'tfmg:cast_iron_sheet']),
+            ec.pressing(incomp,incomp),
+            ec.deploying(incomp,[incomp,'justarod:redstone_rod']),
+            ec.deploying(incomp,[incomp,'mekanism:structural_glass'])
+        ]
+    )
+        .transitionalItem(incomp)
+    
+    mme.machine_recipe("mmr:t1.thermal_air_infiltration_chamber",100)
+        .width(150)
+        .height(180)
+        .requireFluid(Fluid.of("kubejs:vaginaldew_basic",200),10,10)
+        .requireFluid(Fluid.of("tfmg:air",1000),30,10)
+        //.requireFuel(100)
+        .produceFluid(Fluid.of('tfmg:hot_air',1200),100,10)
+        .id("t1.mmr.taic.fluid")
 });

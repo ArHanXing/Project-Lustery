@@ -62,6 +62,7 @@
 				"44C5FBD9D00726A2"
 			]
 			id: "4610639ACA8D7D06"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "3AC158904F85761F"
@@ -203,6 +204,7 @@
 				"4610639ACA8D7D06"
 			]
 			id: "3D1D90661C81EF4D"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "63203A73A44FDD39"
@@ -223,6 +225,7 @@
 		{
 			dependencies: ["30D1092607F22380"]
 			id: "23F4077A54E16F57"
+			optional: true
 			tasks: [{
 				id: "613BDA485D55E462"
 				item: { count: 1, id: "justarod:player_scanner" }
@@ -275,6 +278,7 @@
 		{
 			dependencies: ["542A0DE8FF468537"]
 			id: "074B5E88EE9866C3"
+			optional: true
 			tasks: [{
 				id: "1EAA6F336F200A2E"
 				item: { count: 1, id: "create:crushed_raw_iron" }
@@ -382,7 +386,7 @@
 				}
 			]
 			x: 16.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3DE4A2A8539C4378"]
@@ -399,7 +403,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -411,8 +415,84 @@
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t2.plenum" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 2.0d
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5B529BD2AF1C54D2"
+				"2B602C23F3A7E6BF"
+			]
+			id: "4BF1F5F39B20C4F1"
+			rewards: [{
+				id: "7D9EA15CAA2D33F6"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:fuel_tank_small"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58782ECDFABE737D"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.thermal_air_infiltration_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BF1F5F39B20C4F1"]
+			id: "63A418A6EAF24D26"
+			tasks: [
+				{
+					id: "0BA82967C8672D23"
+					item: { count: 1, id: "tfmg:blast_furnace_output" }
+					type: "item"
+				}
+				{
+					id: "6618F5D8CBD91081"
+					item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+					type: "item"
+				}
+				{
+					id: "52A0CC187A431584"
+					item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"074B5E88EE9866C3"
+				"4C12E4CB90BF8341"
+				"0FBAB947B4FE4648"
+				"63A418A6EAF24D26"
+				"1FC29724350117AF"
+			]
+			id: "3DFF1998CBC16EB7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "48841AEA67D927C8"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B602C23F3A7E6BF"]
+			hide_dependency_lines: true
+			id: "1FC29724350117AF"
+			tasks: [{
+				id: "7478A459DD7273F5"
+				item: { count: 1, id: "tfmg:casting_basin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 }
