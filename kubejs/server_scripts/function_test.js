@@ -11,7 +11,7 @@ CustomMachineryEvents.recipeFunction("__ftr_test", e => {
     const tile = e.getTile();
     const baseBlockPos = tile.blockPos.above(30);
     
-    // 修复 1: 强制 Y 坐标在有效范围
+    // 强制 Y 坐标在有效范围
     const safeY = Math.max(0, Math.min(255, baseBlockPos.getY()));
     const CENTER = {
         x: baseBlockPos.getX(),

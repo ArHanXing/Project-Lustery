@@ -59,7 +59,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','§o更高级的淫能技艺，从这里开始！','流体输入仓能且仅能放在结构中两边衍架向下第2格的位置','出产§d凝聚态的欲望宝石§r，以及更多','运行凝聚配方时，周边每有一个猫娘具有0.8x耗时与0.9x流体消耗','至多减少至原耗时的0.4096x (即有4个猫娘生效)','如果你要运行加速配方，务必安装一个§e实体检测器§r！']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimprobe_station"]',
-            ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r','发射小型探测器来获得你需要的资源']
+            ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r，且必须同时安装流体输入输出仓、能源仓','发射小型探测器来获得你需要的资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
             ['Tier-§c1','从维度裂缝中取得矿物']
@@ -67,8 +67,11 @@ ItemEvents.modifyTooltips(e =>{
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的肉体来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
-                '配方结束后，陨石将会生成在尖塔顶端向上30格的位置，半径为JEI中产出的方块总数量'
+                '配方结束后，陨石将会生成在尖塔顶端向上10格的位置，半径为JEI中产出的方块总数量'
             ]
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
+            ['Tier-§72','部分配方不耗电，还请注意']
         ]
     ]
 

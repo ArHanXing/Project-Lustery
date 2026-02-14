@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/calcite_dust",
+    "layer1": "kubejs:item/calcite_dust_secondary"
+  }
+}

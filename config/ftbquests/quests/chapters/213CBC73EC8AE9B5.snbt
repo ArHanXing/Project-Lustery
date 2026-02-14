@@ -213,15 +213,26 @@
 		{
 			dependencies: ["78920A0D30298E13"]
 			id: "304082115F880753"
-			rewards: [{
-				count: 16
-				id: "649B9B7026A8E97E"
-				item: {
-					count: 1
-					id: "minecraft:andesite"
+			rewards: [
+				{
+					count: 16
+					id: "649B9B7026A8E97E"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "126B4C5D19FCE835"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "601AE7C875116604"
 				item: { count: 1, id: "minecraft:andesite" }
@@ -285,6 +296,14 @@
 				"0320E4693A9BC209"
 			]
 			id: "51F43D0531613403"
+			rewards: [{
+				id: "27F4FB15F91EC201"
+				item: {
+					count: 1
+					id: "justarod:lubricating_book"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "6BC00A2E598924BE"
@@ -315,6 +334,26 @@
 		{
 			dependencies: ["7A954BF2218F5DE3"]
 			id: "0320E4693A9BC209"
+			rewards: [
+				{
+					count: 32
+					id: "1F2F2696B8D9AD8A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7AAAA3ED6A03C5B3"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [
@@ -336,6 +375,15 @@
 			dependencies: ["51F43D0531613403"]
 			id: "63683924CD91301A"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "266EC7DA0A0DB9C4"
+				item: {
+					count: 1
+					id: "justarod:lubricating_book"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -382,6 +430,15 @@
 		{
 			dependencies: ["4C4300A3E506BBC3"]
 			id: "605E632A46B3EBD9"
+			rewards: [{
+				count: 32
+				id: "6436F93D2C065576"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F6540F9ABAF501E"
 				item: { count: 1, id: "create:brass_ingot" }

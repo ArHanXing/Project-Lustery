@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/AE2 GUI.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric","mod_resources","file/AE2 GUI.zip","file/Mekanism CTM-Fusion 1.0.zip"]
+incompatibleResourcePacks:["file/Mekanism CTM-Fusion 1.0.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0

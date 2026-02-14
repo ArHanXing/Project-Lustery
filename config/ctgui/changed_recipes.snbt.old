@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    m: {
+                    s: {
                         item: "tfmg:copper_frame"
                     },
-                    x: {
+                    w: {
                         item: "create:copper_sheet"
                     }
                 },
                 pattern: [
-                    "c x",
-                    " m ",
-                    "c x"
+                    "c w",
+                    " s ",
+                    "c w"
                 ],
                 result: {
                     count: 1,
@@ -729,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    f: {
+                    q: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "cfc",
+                    "cqc",
                     "   ",
                     "   "
                 ],
@@ -1191,19 +1191,19 @@
             recipe: {
                 category: "misc",
                 key: {
+                    a: {
+                        item: "create:iron_sheet"
+                    },
                     c: {
                         item: "tfmg:cast_iron_sheet"
                     },
                     i: {
                         item: "create:industrial_iron_block"
-                    },
-                    o: {
-                        item: "create:iron_sheet"
                     }
                 },
                 pattern: [
                     "i  ",
-                    "o  ",
+                    "a  ",
                     "c  "
                 ],
                 result: {
@@ -1270,7 +1270,7 @@
                     c: {
                         item: "create:copper_casing"
                     },
-                    d: {
+                    e: {
                         item: "tfmg:cast_iron_sheet"
                     },
                     s: {
@@ -1279,7 +1279,7 @@
                 },
                 pattern: [
                     "aca",
-                    "dsd",
+                    "ese",
                     "   "
                 ],
                 result: {
@@ -1288,333 +1288,6 @@
                     },
                     count: 1,
                     id: "modular_machinery_reborn:controller"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/t1.rift_generator",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "create:brass_casing"
-                    },
-                    c: {
-                        item: "tfmg:cast_iron_ingot"
-                    },
-                    d: {
-                        item: "justarod:redstone_rod"
-                    },
-                    e: {
-                        item: "create:electron_tube"
-                    },
-                    r: {
-                        item: "jaopca:rods.cast_iron"
-                    }
-                },
-                pattern: [
-                    " b ",
-                    "cec",
-                    "rdr"
-                ],
-                result: {
-                    count: 1,
-                    id: "custommachinery:rift_generator"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/t1.pfa",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "create:brass_hand"
-                    },
-                    c: {
-                        item: "tfmg:cast_iron_ingot"
-                    },
-                    s: {
-                        item: "factory_blocks:sturdy"
-                    },
-                    t: {
-                        item: "createaddition:brass_rod"
-                    }
-                },
-                pattern: [
-                    " b ",
-                    "ctc",
-                    "tst"
-                ],
-                result: {
-                    components: {
-                        "modular_machinery_reborn:machine": "mmr:t1.primitive_fusion_array"
-                    },
-                    count: 1,
-                    id: "modular_machinery_reborn:controller"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/modular_machinery_reborn/item_input_tiny_0",
-            originalId: "modular_machinery_reborn:item_input_tiny",
-            originalRecipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "modular_machinery_reborn:casing_plain"
-                    },
-                    e: {
-                        item: "minecraft:chest"
-                    },
-                    h: {
-                        item: "minecraft:hopper"
-                    }
-                },
-                pattern: [
-                    "h  ",
-                    "c  ",
-                    "e  "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_tiny"
-                }
-            },
-            recipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "modular_machinery_reborn:casing_plain"
-                    },
-                    u: {
-                        item: "minecraft:chest"
-                    }
-                },
-                pattern: [
-                    "c  ",
-                    "u  ",
-                    "   "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_tiny"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "CHANGED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/modular_machinery_reborn/item_input_small_0",
-            originalId: "modular_machinery_reborn:item_input_small",
-            originalRecipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "minecraft:chest"
-                    },
-                    h: {
-                        item: "minecraft:hopper"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_tiny"
-                    },
-                    m: {
-                        item: "modular_machinery_reborn:modularium"
-                    }
-                },
-                pattern: [
-                    " h ",
-                    "mim",
-                    "cmc"
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_small"
-                }
-            },
-            recipe: {
-                category: "misc",
-                key: {
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_tiny"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s  ",
-                    "i  ",
-                    "   "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_small"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "CHANGED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/inputbus_normal_0",
-            recipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "minecraft:chest"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_small"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s  ",
-                    "i  ",
-                    "c  "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_normal"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/inputbus_huge_0",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "mekanism:basic_bin"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_big"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s  ",
-                    "i  ",
-                    "b  "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_huge"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/inputbus_reinforced_0",
-            recipe: {
-                category: "misc",
-                key: {
-                    c: {
-                        item: "minecraft:chest"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_normal"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s  ",
-                    "i  ",
-                    "c  "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_reinforced"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/inputbus_ludicrous_0",
-            recipe: {
-                category: "misc",
-                key: {
-                    a: {
-                        item: "mekanism:advanced_bin"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_huge"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s s",
-                    " i ",
-                    "sas"
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_ludicrous"
-                }
-            },
-            recipeType: "minecraft:crafting",
-            serializer: "minecraft:crafting_shaped",
-            type: "ADDED"
-        },
-        {
-            exported: 1b,
-            id: "ctgui/new/crafting/inputbus_big_0",
-            recipe: {
-                category: "misc",
-                key: {
-                    b: {
-                        item: "mekanism:basic_bin"
-                    },
-                    i: {
-                        item: "modular_machinery_reborn:inputbus_reinforced"
-                    },
-                    s: {
-                        item: "mekanism:structural_glass"
-                    }
-                },
-                pattern: [
-                    "s  ",
-                    "i  ",
-                    "b  "
-                ],
-                result: {
-                    count: 1,
-                    id: "modular_machinery_reborn:inputbus_big"
                 }
             },
             recipeType: "minecraft:crafting",
@@ -1661,17 +1334,17 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    p: {
-                        tag: "c:ingots/steel"
-                    },
-                    r: {
+                    l: {
                         tag: "c:ingots/osmium"
+                    },
+                    t: {
+                        tag: "c:ingots/steel"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " r ",
-                    " p "
+                    " l ",
+                    " t "
                 ],
                 result: {
                     count: 1,
@@ -1682,19 +1355,19 @@
                 category: "misc",
                 key: {
                     c: {
-                        item: "tfmg:cast_iron_ingot"
-                    },
-                    e: {
                         tag: "c:ingots/osmium"
                     },
                     i: {
                         tag: "c:ingots/iron"
+                    },
+                    q: {
+                        item: "tfmg:cast_iron_ingot"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " e ",
-                    " c "
+                    " c ",
+                    " q "
                 ],
                 result: {
                     count: 1,
@@ -1734,6 +1407,642 @@
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
             type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/modular_machinery_reborn/casing_plain_andesite",
+            originalId: "modular_machinery_reborn:casing_plain",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    m: {
+                        item: "modular_machinery_reborn:modularium"
+                    },
+                    r: {
+                        tag: "c:storage_blocks/redstone"
+                    }
+                },
+                pattern: [
+                    " m ",
+                    "mrm",
+                    " m "
+                ],
+                result: {
+                    count: 2,
+                    id: "modular_machinery_reborn:casing_plain"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "create:andesite_casing"
+                    },
+                    r: {
+                        item: "minecraft:redstone"
+                    }
+                },
+                pattern: [
+                    "rar",
+                    " r ",
+                    "   "
+                ],
+                result: {
+                    count: 2,
+                    id: "modular_machinery_reborn:casing_plain"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/casing_plain_copper",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    },
+                    r: {
+                        item: "minecraft:redstone_block"
+                    },
+                    u: {
+                        item: "create:copper_casing"
+                    }
+                },
+                pattern: [
+                    "cuc",
+                    " r ",
+                    "   "
+                ],
+                result: {
+                    count: 8,
+                    id: "modular_machinery_reborn:casing_plain"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/controller_ds",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    },
+                    f: {
+                        item: "kubejs:fusion_normal_lust_crystal"
+                    },
+                    l: {
+                        item: "minecraft:lapis_lazuli"
+                    },
+                    r: {
+                        item: "justarod:redstone_rod"
+                    }
+                },
+                pattern: [
+                    "f f",
+                    "lrl",
+                    "cbc"
+                ],
+                result: {
+                    components: {
+                        "modular_machinery_reborn:machine": "mmr:t1.dimprobe_station"
+                    },
+                    count: 1,
+                    id: "modular_machinery_reborn:controller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:item_input_tiny",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    h: {
+                        item: "minecraft:hopper"
+                    },
+                    o: {
+                        item: "minecraft:chest"
+                    }
+                },
+                pattern: [
+                    "h  ",
+                    "c  ",
+                    "o  "
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:inputbus_tiny"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:energy_input_tiny",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    r: {
+                        tag: "c:dusts/redstone"
+                    },
+                    s: {
+                        item: "minecraft:repeater"
+                    },
+                    v: {
+                        tag: "c:storage_blocks/redstone"
+                    }
+                },
+                pattern: [
+                    " r ",
+                    "rcr",
+                    "svs"
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:energyinputhatch_tiny"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:energy_output_tiny",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        tag: "c:storage_blocks/redstone"
+                    },
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    m: {
+                        tag: "c:dusts/redstone"
+                    },
+                    r: {
+                        item: "minecraft:repeater"
+                    }
+                },
+                pattern: [
+                    "rbr",
+                    "mcm",
+                    " m "
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:energyoutputhatch_tiny"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:fluid_input_tiny",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:bucket"
+                    },
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    h: {
+                        item: "minecraft:hopper"
+                    }
+                },
+                pattern: [
+                    "h  ",
+                    "c  ",
+                    "b  "
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:fluidinputhatch_tiny"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:fluid_output_tiny",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:bucket"
+                    },
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    h: {
+                        item: "minecraft:hopper"
+                    }
+                },
+                pattern: [
+                    "b  ",
+                    "c  ",
+                    "h  "
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:fluidoutputhatch_tiny"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:energy_input_small",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "modular_machinery_reborn:energyinputhatch_tiny"
+                    },
+                    r: {
+                        tag: "c:dusts/redstone"
+                    },
+                    w: {
+                        tag: "c:storage_blocks/redstone"
+                    },
+                    z: {
+                        item: "minecraft:repeater"
+                    }
+                },
+                pattern: [
+                    "rzr",
+                    "wew",
+                    "rwr"
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:energyinputhatch_small"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:energy_output_small",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "modular_machinery_reborn:energyoutputhatch_tiny"
+                    },
+                    h: {
+                        item: "minecraft:repeater"
+                    },
+                    r: {
+                        tag: "c:dusts/redstone"
+                    },
+                    y: {
+                        tag: "c:storage_blocks/redstone"
+                    }
+                },
+                pattern: [
+                    "ryr",
+                    "yey",
+                    "rhr"
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:energyoutputhatch_small"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:item_input_small",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:chest"
+                    },
+                    h: {
+                        item: "minecraft:hopper"
+                    },
+                    i: {
+                        item: "modular_machinery_reborn:inputbus_tiny"
+                    },
+                    m: {
+                        item: "modular_machinery_reborn:modularium"
+                    }
+                },
+                pattern: [
+                    " h ",
+                    "mim",
+                    "cmc"
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:inputbus_small"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            originalId: "modular_machinery_reborn:item_output_small",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:chest"
+                    },
+                    h: {
+                        item: "minecraft:hopper"
+                    },
+                    m: {
+                        item: "modular_machinery_reborn:modularium"
+                    },
+                    o: {
+                        item: "modular_machinery_reborn:outputbus_tiny"
+                    }
+                },
+                pattern: [
+                    "cmc",
+                    "mom",
+                    " h "
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:outputbus_small"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "REMOVED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/t1.rift_generator",
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    c: {
+                        item: "tfmg:cast_iron_ingot"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    },
+                    l: {
+                        item: "custommachinery:lustpulse_motor"
+                    },
+                    r: {
+                        item: "jaopca:rods.cast_iron"
+                    }
+                },
+                pattern: [
+                    " b ",
+                    "cec",
+                    "rlr"
+                ],
+                result: {
+                    count: 1,
+                    id: "custommachinery:rift_generator"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/minecraft/enchanting_table",
+            originalId: "minecraft:enchanting_table",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    "#": {
+                        item: "minecraft:obsidian"
+                    },
+                    B: {
+                        item: "minecraft:book"
+                    },
+                    D: {
+                        tag: "c:gems/diamond"
+                    }
+                },
+                pattern: [
+                    " B ",
+                    "D#D",
+                    "###"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:enchanting_table"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    d: {
+                        item: "minecraft:diamond"
+                    },
+                    n: {
+                        item: "kubejs:normal_lust_crystal"
+                    },
+                    o: {
+                        item: "minecraft:obsidian"
+                    }
+                },
+                pattern: [
+                    " d ",
+                    "non",
+                    "ooo"
+                ],
+                result: {
+                    count: 1,
+                    id: "minecraft:enchanting_table"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/controller_pftr",
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "minecraft:enchanting_table"
+                    },
+                    f: {
+                        item: "kubejs:fusion_normal_lust_crystal"
+                    },
+                    i: {
+                        item: "create:iron_sheet"
+                    },
+                    r: {
+                        item: "justarod:redstone_rod"
+                    },
+                    s: {
+                        item: "factory_blocks:sturdy"
+                    }
+                },
+                pattern: [
+                    " e ",
+                    "frf",
+                    "sis"
+                ],
+                result: {
+                    components: {
+                        "modular_machinery_reborn:machine": "mmr:t1.primitive_falling_tower_ritual"
+                    },
+                    count: 1,
+                    id: "modular_machinery_reborn:controller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/create/crafting/kinetics/mechanical_crafter",
+            originalId: "create:crafting/kinetics/mechanical_crafter",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    B: {
+                        item: "create:electron_tube"
+                    },
+                    C: {
+                        item: "create:brass_casing"
+                    },
+                    R: {
+                        item: "minecraft:crafting_table"
+                    }
+                },
+                pattern: [
+                    "B",
+                    "C",
+                    "R"
+                ],
+                result: {
+                    count: 3,
+                    id: "create:mechanical_crafter"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "create:brass_casing"
+                    },
+                    c: {
+                        item: "minecraft:crafting_table"
+                    },
+                    e: {
+                        item: "create:electron_tube"
+                    }
+                },
+                pattern: [
+                    "e  ",
+                    "b  ",
+                    "c  "
+                ],
+                result: {
+                    count: 6,
+                    id: "create:mechanical_crafter"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/tfmg/crafting/materials/brick_smokestack",
+            originalId: "tfmg:crafting/materials/brick_smokestack",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    B: {
+                        item: "minecraft:bricks"
+                    },
+                    P: {
+                        item: "tfmg:industrial_pipe"
+                    }
+                },
+                pattern: [
+                    "BPB",
+                    "BPB",
+                    "BPB"
+                ],
+                result: {
+                    count: 4,
+                    id: "tfmg:brick_smokestack"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:bricks"
+                    },
+                    r: {
+                        item: "jaopca:rods.cast_iron"
+                    }
+                },
+                pattern: [
+                    "brb",
+                    "brb",
+                    "brb"
+                ],
+                result: {
+                    count: 2,
+                    id: "tfmg:brick_smokestack"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
         }
     ]
 }

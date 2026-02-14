@@ -18,6 +18,7 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:cneko_dust')
         .tag('c:dusts/cneko')
     e.create('kubejs:basic_probe')
+    e.create('kubejs:calcite_dust')
 })
 
 StartupEvents.registry("fluid",e=>{

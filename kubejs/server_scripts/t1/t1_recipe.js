@@ -88,7 +88,7 @@ ServerEvents.recipes(e =>{
         .width(150)
         .height(180)
         .requireItem(Item.of("kubejs:basic_probe",1),0,10,10)
-        .requireItem(Item.of("minecraft:dirt",4),0.1,10,50)
+        .requireItem(Item.of("minecraft:dirt",2),0.1,10,50)
         .requireItem(Item.of("kubejs:fusion_defective_lust_crystal",3),0.1,30,10)
         .lootTable('mmr:t1_dimprobe_overworld',2,100,10)
         .lootTable('mmr:t1_dimprobe_overworld',2,120,10)

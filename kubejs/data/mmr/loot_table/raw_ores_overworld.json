@@ -6,12 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_iron",
-          "weight": 12
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
-          "weight": 12
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -21,7 +21,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:raw_tin",
-          "weight": 7
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -31,7 +31,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:raw_lead",
-          "weight": 5
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -51,22 +51,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:quartz",
-          "weight": 6
+          "weight": 7
         },
         {
           "type": "minecraft:item",
           "name": "create:raw_zinc",
-          "weight": 5
+          "weight": 7
         },
         {
           "type": "minecraft:item",
           "name": "tfmg:raw_lithium",
-          "weight": 4
+          "weight": 3
         }
       ]
     }

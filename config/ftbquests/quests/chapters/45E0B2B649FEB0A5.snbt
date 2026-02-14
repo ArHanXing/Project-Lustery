@@ -11,13 +11,21 @@
 	quest_links: [{
 		id: "4055CBF264D448D1"
 		linked_quest: "0320E4693A9BC209"
-		x: 0.0d
-		y: 0.0d
+		x: 2.0d
+		y: -2.0d
 	}]
 	quests: [
 		{
 			dependencies: ["0320E4693A9BC209"]
 			id: "1AD29D19D83401F3"
+			rewards: [{
+				id: "435B22C94E0C8DA8"
+				item: {
+					count: 1
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EC45DEC70656147"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_fusion_array" }, count: 1, id: "modular_machinery_reborn:controller" }
@@ -49,8 +57,20 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2E95C9729B52CFA4"]
+			dependencies: [
+				"2E95C9729B52CFA4"
+				"44C5FBD9D00726A2"
+			]
 			id: "4610639ACA8D7D06"
+			rewards: [{
+				count: 16
+				id: "3AC158904F85761F"
+				item: {
+					count: 1
+					id: "tfmg:cast_iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D2F24AF7CA09DE6"
 				item: { count: 1, id: "custommachinery:lustpulse_motor" }
@@ -58,6 +78,341 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1AD29D19D83401F3"]
+			id: "44C5FBD9D00726A2"
+			rewards: [
+				{
+					count: 2
+					id: "25A7513B417A26C7"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0E13B88FC2C29039"
+					item: {
+						count: 1
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EC0CBE6EB06AB39"
+				item: { count: 1, id: "create:brass_hand" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EF3364EEC3AE5DD"]
+			id: "12FFD4025AC798FA"
+			rewards: [{
+				id: "5AC6627C85F49681"
+				item: {
+					count: 1
+					id: "create:red_sand_paper"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1606D84BBFC4FDD6"
+				item: { count: 1, id: "kubejs:fusion_normal_lust_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C5FBD9D00726A2"]
+			id: "6D7A8A8517327B86"
+			optional: true
+			rewards: [{
+				id: "26E32FC5C05D3D34"
+				item: {
+					count: 1
+					id: "create:clutch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A62DDFC19478E8"
+				item: { count: 1, id: "create_connected:kinetic_battery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12FFD4025AC798FA"]
+			id: "7A288DF7DFC9AF82"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "7B94A3B1BD3119F5"
+				item: {
+					count: 1
+					id: "kubejs:fusion_defective_lust_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F34410F3E6CB3DE"
+				item: { count: 1, id: "kubejs:basic_probe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7A288DF7DFC9AF82"
+				"3D1D90661C81EF4D"
+			]
+			id: "64785FDBDC6946F5"
+			optional: true
+			tasks: [{
+				id: "683B039601DFC016"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.dimprobe_station" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4730A3DF49F47455"]
+			id: "30D1092607F22380"
+			tasks: [{
+				id: "11BD0B84AA6A2EE3"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30D1092607F22380"
+				"4610639ACA8D7D06"
+			]
+			id: "3D1D90661C81EF4D"
+			rewards: [{
+				count: 4
+				id: "63203A73A44FDD39"
+				item: {
+					count: 1
+					id: "kubejs:rift_cataclyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F5AB7C2F1E3AC4"
+				item: { count: 1, id: "custommachinery:rift_generator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D1092607F22380"]
+			id: "23F4077A54E16F57"
+			tasks: [{
+				id: "613BDA485D55E462"
+				item: { count: 1, id: "justarod:player_scanner" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12FFD4025AC798FA"]
+			id: "7BA9BCCB3BDD80A7"
+			optional: true
+			tasks: [{
+				id: "440745B241E098A9"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_falling_tower_ritual" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7BA9BCCB3BDD80A7"
+				"64785FDBDC6946F5"
+			]
+			dependency_requirement: "one_completed"
+			id: "4C12E4CB90BF8341"
+			tasks: [{
+				id: "2E65C71B1306AF35"
+				item: { count: 1, id: "tfmg:limesand" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"542A0DE8FF468537"
+				"22D82E926991BF9B"
+			]
+			id: "0FBAB947B4FE4648"
+			tasks: [{
+				id: "7B461DB84F4D9F3D"
+				item: { count: 1, id: "tfmg:coal_coke_dust" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["542A0DE8FF468537"]
+			id: "074B5E88EE9866C3"
+			tasks: [{
+				id: "1EAA6F336F200A2E"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["605E632A46B3EBD9"]
+			id: "09C750A4CFCE84EB"
+			tasks: [{
+				id: "1E764528EABEE0A6"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09C750A4CFCE84EB"]
+			id: "542A0DE8FF468537"
+			tasks: [{
+				id: "5E96C280B77EE33A"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60C033D8096491A1"]
+			id: "22D82E926991BF9B"
+			rewards: [{
+				count: 16
+				id: "0FAED20EAF6CA0A7"
+				item: {
+					count: 1
+					id: "tfmg:coal_coke"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "440161FF863B109A"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["385D58B4580EBE5B"]
+			id: "60C033D8096491A1"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6C920236DB452FB3"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60C033D8096491A1"]
+			id: "444A1A98E496680A"
+			optional: true
+			tasks: [{
+				id: "7E91A3D99F21FF42"
+				item: { count: 1, id: "tfmg:brick_smokestack" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60C033D8096491A1"]
+			id: "4B6491636C92BD59"
+			tasks: [{
+				id: "5FDF5DC3DDC6AFF3"
+				item: { count: 1, id: "tfmg:creosote_bucket" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BA9BCCB3BDD80A7"
+				"64785FDBDC6946F5"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "3DE4A2A8539C4378"
+			tasks: [
+				{
+					id: "0AE1EB9017DC7EAC"
+					item: { count: 1, id: "minecraft:calcite" }
+					type: "item"
+				}
+				{
+					id: "163B49BBD0D2BEC6"
+					item: { count: 1, id: "kubejs:calcite_dust" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DE4A2A8539C4378"]
+			id: "2B602C23F3A7E6BF"
+			tasks: [
+				{
+					id: "33E98822B194ABCB"
+					item: { count: 1, id: "tfmg:fireclay_ball" }
+					type: "item"
+				}
+				{
+					id: "5F37FFCE75C56FB1"
+					item: { count: 1, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0320E4693A9BC209"]
+			hide_dependency_lines: true
+			id: "5B529BD2AF1C54D2"
+			tasks: [{
+				id: "5ED50A6B60D622D6"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t2.plenum" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
 		}
 	]
 }

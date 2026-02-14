@@ -131,3 +131,16 @@ craftingTable.removeByName("create:crafting/kinetics/brass_hand");
     ]});
 
 furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:toneko:neko_ingot>, 0.1, 100);
+
+<recipetype:create:mixing>.addJsonRecipe("t1.fireclay", {
+    type: "create:mixing",
+    results: [{id:"tfmg:fireclay_ball", count:4}],
+    ingredients: [{item:"minecraft:clay",count:4},{item:"kubejs:calcite_dust"},{type: "neoforge:single", fluid: "minecraft:water", amount: 100}]
+});
+
+<recipetype:create:crushing>.addJsonRecipe("t1.calcite_crushing", {type: "create:crushing", 
+    processing_time: 150, 
+    results: [{id: "kubejs:calcite_dust", count: 3}, {id: "kubejs:calcite_dust", chance: 0.5}], 
+    ingredients: [{item: "minecraft:calcite"}]});
+
+<recipetype:tfmg:hot_blast>.removeByName("tfmg:hot_blast/hot_air");

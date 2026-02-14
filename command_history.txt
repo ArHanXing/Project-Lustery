@@ -22,3 +22,8 @@
 /kjs reload
 /kjs reload server-scripts
 /reload
+/datapack list
+/nbtedit VMHanXing
+/reload
+/kjs hand
+/setblock ~ ~ ~ stone

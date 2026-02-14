@@ -58,3 +58,4 @@
 | dms | 维度裂隙采矿站 | mmr |
 | lo | 淫能方尖碑 | mmr |
 | pftr | 原始坠星仪式台 | mmr |
+| ple | 集气室 | mmr |

@@ -7,23 +7,22 @@ ServerEvents.recipes(e =>{
         .height(180)
         .requireItem(Item.of('minecraft:cobblestone',64),10,10)
         .requireItem(Item.of('minecraft:cobblestone',64),30,10)
-        .requireItem(Item.of("kubejs:fusion_normal_lust_crystal",64),10,30)
-        .requireItem(Item.of("kubejs:fusion_normal_lust_crystal",64),30,30)
-        .requireFluid(Fluid.of('kubejs:vaginaldew_basic',10000),10,50)
+        .requireItem(Item.of('kubejs:fusion_normal_lust_crystal',64),10,30)
+        .requireItem(Item.of('kubejs:fusion_normal_lust_crystal',64),30,30)
         .produceItem("minecraft:sand",0.0,100,10) // 占位用的 后面加
         .produceItem("create:limestone",0.0,100,30)
-        .produceItem("minecraft:gravel",0.0,120,10)
-        .requireFunctionOnEnd("ftr.t1.sand")
+        .produceItem("minecraft:calcite",0.0,120,10)
+        .produceItem("create:limestone",0.0,120,30)
+        .produceItem("minecraft:clay",0.0,100,50)
+        .requireFunctionOnStart("testify")
         .id("t1.mmr.pftr.sand")
+})
 
-
-});
-MMREvents.recipeFunction("ftr.t1.sand", e => {
+MMREvents.recipeFunction("testify", e => {
     const tile = e.getTile();
     const baseBlockPos = tile.blockPos.above(30);
-    
-    // 修复 1: 强制 Y 坐标在有效范围
-    const safeY = Math.max(0, Math.min(255, baseBlockPos.getY()));
+
+    const safeY = Math.max(-30, Math.min(255, baseBlockPos.getY()));
     const CENTER = {
         x: baseBlockPos.getX(),
         y: safeY,
@@ -34,11 +33,12 @@ MMREvents.recipeFunction("ftr.t1.sand", e => {
     //console.log(`[PFTR] 中心点: (${CENTER.x}, ${CENTER.y}, ${CENTER.z})`);
 
     const world = tile.level;
-    const r = 3;
+    const r = 5;
     const blockList = [
         ['minecraft:sand', 1],
-        ['create:limestone', 1],
-        ['minecraft:gravel', 1]
+        ['create:limestone', 2],
+        ['minecraft:calcite', 1],
+        ['minecraft:clay', 1]
     ];
     
     const directions = [
@@ -97,5 +97,4 @@ MMREvents.recipeFunction("ftr.t1.sand", e => {
     }
     //console.log(`[PFTR] 生成方块数: ${visited.size}`);
     e.success();
-});
-
+})
