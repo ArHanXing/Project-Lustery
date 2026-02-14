@@ -24,7 +24,7 @@ function chemicalFormat(str) {
   });
   return '§e'+result+'§r';
 }
-function easyforms(namesp,str){
+function mcforms(namesp,str){
     return [
         namesp+':'+str+'_ingot',
         namesp+':'+str+'_block',
@@ -71,7 +71,10 @@ ItemEvents.modifyTooltips(e =>{
             ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
-            ['Tier-§72','部分配方不耗电，还请注意']
+            ['Tier-§72','部分配方不耗电，这样的配方（Tier-1配方）需要在§by＞120§r处执行！']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.thermal_air_infiltration_chamber"]',
+            ['Tier-§c1','产出热空气，为高炉炼钢准备','需要§b燃料仓§r并投入燃料']
         ]
     ]
 
@@ -83,7 +86,7 @@ ItemEvents.modifyTooltips(e =>{
 
     const elementPairs = [
         [
-            [easyforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
+            [mcforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
             'Fe'
         ],[
             ['tfmg:cast_iron_block','tfmg:cast_iron_ingot','tfmg:cast_iron_sheet','jaopca:gears.cast_iron','jaopca:rods.cast_iron'],

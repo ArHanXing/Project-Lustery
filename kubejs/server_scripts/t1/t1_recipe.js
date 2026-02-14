@@ -147,7 +147,7 @@ ServerEvents.recipes(e =>{
         .height(180)
         .requireFluid(Fluid.of("kubejs:vaginaldew_basic",200),10,10)
         .requireFluid(Fluid.of("tfmg:air",1000),30,10)
-        //.requireFuel(100)
+        .requireFuel(100)
         .produceFluid(Fluid.of('tfmg:hot_air',1200),100,10)
         .id("t1.mmr.taic.fluid")
 });

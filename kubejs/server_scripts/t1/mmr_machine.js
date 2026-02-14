@@ -254,7 +254,8 @@ MMREvents.machines(e => {
                     "b": ["tfmg:fireproof_bricks"], 
                     "c": ["modular_machinery_reborn:casing_plain",
                         "#modular_machinery_reborn:fluidoutputhatch",
-                        "#modular_machinery_reborn:fluidinputhatch"
+                        "#modular_machinery_reborn:fluidinputhatch",
+                        "#modular_machinery_reborn:fueltank"
                     ],
                 }))
 

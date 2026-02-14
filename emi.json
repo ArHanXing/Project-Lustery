@@ -92,15 +92,29 @@
     }
   ],
   "lookup_history": [
-    "item:mekanism:structural_glass",
-    "item:mekanismgenerators:reactor_glass",
+    "item:tfmg:cast_iron_block",
+    "item:create:industrial_iron_block",
+    {
+      "type": "item",
+      "id": "factory_blocks:sturdy",
+      "amount": 46
+    },
+    {
+      "type": "fluid",
+      "id": "tfmg:hot_air",
+      "amount": 1200
+    },
+    "item:kubejs:normal_lust_crystal",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
+    "item:modular_machinery_reborn:fuel_tank_normal",
     {
       "type": "fluid",
       "id": "minecraft:lava",
       "amount": 100
     },
+    "item:mekanism:structural_glass",
+    "item:mekanismgenerators:reactor_glass",
     "item:minecraft:netherrack",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
     "item:kubejs:defective_lust_crystal",
     "item:kubejs:calcite_dust",
@@ -113,12 +127,6 @@
     "item:modular_machinery_reborn:energyinputhatch_huge",
     "item:ae2:entropy_manipulator",
     "item:minecraft:obsidian",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
-    {
-      "type": "fluid",
-      "id": "tfmg:hot_air",
-      "amount": 1200
-    },
     {
       "type": "fluid",
       "id": "kubejs:vaginaldew_basic",
@@ -167,7 +175,6 @@
       "amount": 5
     },
     "item:minecraft:gravel",
-    "item:kubejs:normal_lust_crystal",
     "item:tfmg:air_bucket",
     "item:create:limestone",
     "item:create:layered_limestone",
@@ -297,7 +304,6 @@
     "item:draconicevolution:entity_detector",
     "item:modular_machinery_reborn:entity_damager",
     "item:minecraft:quartz",
-    "item:factory_blocks:sturdy",
     "item:mekanism:ultimate_bin",
     "item:mekanism:elite_bin",
     "item:mekanism:advanced_bin",
@@ -324,8 +330,6 @@
     "item:mekanism:sawdust",
     "item:mekanism:basic_logistical_transporter",
     "item:create:andesite_casing",
-    "item:create:industrial_iron_block",
-    "item:tfmg:cast_iron_block",
     "item:minecraft:oak_planks",
     "item:jaopca:plates.conductive_alloy",
     "item:jaopca:plates.refined_obsidian",

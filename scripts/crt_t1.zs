@@ -34,7 +34,7 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
 <recipetype:create:mixing>.removeByName("createaddition:mixing/netherrack");
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/lava", {type: "create:mixing", 
     results: [{amount: 50, id: "minecraft:lava"}], 
-    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:single", amount: 100, tag: "kubejs:vaginaldew_basic"}]});
+    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:single", amount: 100, fluid: "kubejs:vaginaldew_basic"}]});
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/netherrack", {type: "create:mixing", 
     results: [{id: "minecraft:netherrack"}], 
     ingredients: [{tag: "c:cobblestones"}, {type: "neoforge:tag", amount: 100, tag: "minecraft:lava"}]});
