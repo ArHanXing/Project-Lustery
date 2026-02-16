@@ -74,7 +74,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§72','部分配方不耗电，这样的配方（Tier-1配方）需要在§by＞120§r处执行！']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.thermal_air_infiltration_chamber"]',
-            ['Tier-§c1','产出热空气，为高炉炼钢准备','需要§b燃料仓§r并投入燃料']
+            ['Tier-§c1','产出淫能浸润的热空气，为高炉炼钢准备','需要§b燃料仓§r并投入燃料']
         ]
     ]
 
@@ -95,11 +95,17 @@ ItemEvents.modifyTooltips(e =>{
             ['create:andesite_alloy','create:andesite_alloy_block'],
             'Fe3Al2Si2O7'
         ],[
-            ['create:brass_ingot','jaopca:gears.brass','createaddition:brass_rod'],
+            ['create:brass_ingot','create:brass_nugget','create:brass_sheet','jaopca:gears.brass','createaddition:brass_rod'],
             'CuZn'
-        ]
+        ],[
+            [mcforms('create','zinc'),'jaopca:dusts.zinc','jaopca:gears.zinc','jaopca:rods.zinc','createaddition:zinc_sheet'],
+            'Zn'
+        ],[
+            [mcforms('minecraft','copper'),'mekanism:dust_copper','jaopca:gears.copper','createaddition:copper_rod','create:copper_sheet'],
+            'Cu'
     ]
-    //他妈的 这才是ChemicalHelper（？
+    ]
+
     elementPairs.forEach(prr=>{
         prr[0].forEach(item => {
                 e.add(item,chemicalFormat(prr[1]))

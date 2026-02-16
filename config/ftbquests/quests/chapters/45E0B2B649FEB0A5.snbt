@@ -18,17 +18,10 @@
 		{
 			dependencies: ["0320E4693A9BC209"]
 			id: "1AD29D19D83401F3"
-			rewards: [{
-				id: "435B22C94E0C8DA8"
-				item: {
-					count: 1
-					id: "create:deployer"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2EC45DEC70656147"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_fusion_array" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 2.0d
@@ -413,6 +406,7 @@
 			tasks: [{
 				id: "5ED50A6B60D622D6"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t2.plenum" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 16.0d
@@ -435,6 +429,7 @@
 			tasks: [{
 				id: "58782ECDFABE737D"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.thermal_air_infiltration_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 14.0d

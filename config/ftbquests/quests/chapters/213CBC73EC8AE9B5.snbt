@@ -41,8 +41,28 @@
 		{
 			dependencies: ["1020AF69968E1C14"]
 			id: "60D6731F00C6EEBC"
+			rewards: [
+				{
+					count: 32
+					id: "2E4FEB1C15BFF034"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0AAAC4B2FE215A63"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				count: 16L
+				count: 8L
 				id: "0C6B4D6D2D70F616"
 				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
@@ -115,7 +135,7 @@
 					id: "315E890D371F0BD9"
 					item: {
 						count: 1
-						id: "modular_machinery_reborn:inputbus_tiny"
+						id: "modular_machinery_reborn:casing_plain"
 					}
 					type: "item"
 				}
@@ -135,6 +155,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "10E5CF874A422461"
+					item: {
+						count: 1
+						id: "wands:creative_wand"
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.0d
@@ -148,6 +176,7 @@
 				{
 					id: "66E7E0CBBCF4A63C"
 					item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_ore_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
+					match_components: "strict"
 					type: "item"
 				}
 			]
@@ -224,7 +253,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 16
 					id: "126B4C5D19FCE835"
 					item: {
 						count: 1
@@ -272,19 +301,39 @@
 			dependencies: ["51554E7F74A31424"]
 			id: "55F64209D8199AE7"
 			optional: true
-			rewards: [{
-				id: "5D278F2A933FECFB"
-				item: {
-					count: 1
-					id: "modular_machinery_reborn:parallel_hatch_medium"
+			rewards: [
+				{
+					id: "5D278F2A933FECFB"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:parallel_hatch_medium"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4EAE8D2473740171"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1BDFAEB8FE79ED92"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "3241F078C485F65C"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_stone_crusher" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 8.0d
@@ -389,13 +438,18 @@
 			tasks: [{
 				id: "7A84C2FCCF7AA095"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.vaginaldew_refining_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["63683924CD91301A"]
+			dependencies: [
+				"63683924CD91301A"
+				"51F43D0531613403"
+			]
+			dependency_requirement: "one_completed"
 			id: "4730A3DF49F47455"
 			tasks: [{
 				id: "754D836734A7EDEC"
@@ -408,6 +462,15 @@
 		{
 			dependencies: ["4730A3DF49F47455"]
 			id: "777420784254FFA5"
+			rewards: [{
+				count: 16
+				id: "63CC2E8C2534AFB7"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "323E8916A0BF9905"
 				item: { count: 1, id: "minecraft:netherrack" }
@@ -430,15 +493,25 @@
 		{
 			dependencies: ["4C4300A3E506BBC3"]
 			id: "605E632A46B3EBD9"
-			rewards: [{
-				count: 32
-				id: "6436F93D2C065576"
-				item: {
-					count: 1
-					id: "create:zinc_ingot"
+			rewards: [
+				{
+					count: 32
+					id: "6436F93D2C065576"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "63B3AB4D22B878D8"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F6540F9ABAF501E"
 				item: { count: 1, id: "create:brass_ingot" }
@@ -467,6 +540,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6E135C473668F050"
+					item: {
+						count: 1
+						id: "mekanism:configurator"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -487,6 +568,26 @@
 			]
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			id: "3CC31EDC2F40885D"
+			rewards: [{
+				count: 32
+				id: "053DF1A3F9583938"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1DF9126CCBD57D0C"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 }

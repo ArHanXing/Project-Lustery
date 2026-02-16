@@ -67,6 +67,16 @@
           "type": "minecraft:item",
           "name": "tfmg:raw_lithium",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_ore",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_ore",
+          "weight": 4
         }
       ]
     }

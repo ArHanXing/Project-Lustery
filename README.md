@@ -18,6 +18,7 @@ upcoming fucking huge industrial pack with shits filled.
 ## 部分材质来源
 - [GT Refreshed]()(in GTModern) 杂项物品材质、material_set材质
 - [GTLeisure](https://www.mcmod.cn/modpack/769.html) 纳米虫群；探测器
+- Mekanism
 
 ## 本项目修改并使用了以下项目的代码
 - [BlueSheep2804/JAOPCAExtras](https://github.com/BlueSheep2804/JAOPCAExtras)

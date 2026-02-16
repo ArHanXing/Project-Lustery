@@ -21,6 +21,11 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     results: [{id: "tfmg:cast_iron_ingot"}], 
     ingredients: [{tag: "c:ingots/iron"}, {item: "minecraft:coal"}]
 });
+<recipetype:create:compacting>.addJsonRecipe("t1.tfmg.compacting/cast_iron/blocky", {
+    type: "create:compacting", 
+    results: [{id: "tfmg:cast_iron_ingot",count:9}], 
+    ingredients: [{item:"minecraft:iron_block"}, {item: "minecraft:coal_block"}]
+});
 //淫液
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/vaginaldew", {type: "create:mixing", 
     processing_time: 300,
@@ -34,7 +39,7 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
 <recipetype:create:mixing>.removeByName("createaddition:mixing/netherrack");
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/lava", {type: "create:mixing", 
     results: [{amount: 50, id: "minecraft:lava"}], 
-    ingredients: [{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{item:"kubejs:defective_lust_crystal"},{type: "neoforge:single", amount: 100, fluid: "kubejs:vaginaldew_basic"}]});
+    ingredients: [{type: "neoforge:single", amount: 100, fluid: "kubejs:vaginaldew_basic"},{item:"minecraft:cobblestone"}]});
 <recipetype:create:mixing>.addJsonRecipe("t1.create.mixing/netherrack", {type: "create:mixing", 
     results: [{id: "minecraft:netherrack"}], 
     ingredients: [{tag: "c:cobblestones"}, {type: "neoforge:tag", amount: 100, tag: "minecraft:lava"}]});
@@ -94,28 +99,28 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
             {item: "create:andesite_alloy"}
         ], 
         results: 
-            [{id: "create:incomplete_precision_mechanism"}], 
+            [{id: "create:brass_hand"}], 
             type: "create:deploying"
     },
     {
         ingredients: [
-            {item: "create:incomplete_precision_mechanism"}
+            {item: "create:brass_hand"}
         ], 
         results: 
-            [{id: "create:incomplete_precision_mechanism"}], 
+            [{id: "create:brass_hand"}], 
             type: "create:pressing"
     },
     {
         ingredients: [
-            {item: "create:incomplete_precision_mechanism"}
+            {item: "create:brass_hand"}
         ], 
         results: 
-            [{id: "create:incomplete_precision_mechanism"}], 
+            [{id: "create:brass_hand"}], 
             type: "create:pressing"
     },
     ], 
     loops: 1, 
-    transitional_item: {id: "create:incomplete_precision_mechanism"}, 
+    transitional_item: {id: "create:brass_hand"}, 
     results: [
         {id: "create:brass_hand", chance: 200.0}
     ],

@@ -1,6 +1,7 @@
 {
 	chapter.213CBC73EC8AE9B5.chapter_subtitle: ["“但我也发现，生命的冲动本身就是一种高能燃料。”"]
 	chapter.213CBC73EC8AE9B5.title: "初始化"
+	chapter.3222029CF10F9B61.title: "存储同一化"
 	chapter.45E0B2B649FEB0A5.chapter_subtitle: ["\"善加引导，每一次战栗都能凝结成砖石，亦能驱动齿轮。\""]
 	chapter.45E0B2B649FEB0A5.title: "脚踏实地"
 	chapter_group.0220CFA146CE5D20.title: "缸中脑叶 &bTier-3"
@@ -15,11 +16,15 @@
 		"如果你玩了这个包，你的脑子一定是有冰"
 		""
 		"&c开局请使用空岛开局（世界类型最后一个），这里并不设计主世界内容&r"
+		""
+		"对的，跳舞树成长"
 	]
 	quest.1020AF69968E1C14.title: "欢迎"
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
 	quest.304082115F880753.title: "古法安山岩"
+	quest.3CC31EDC2F40885D.title: "回收木镐"
 	quest.3EF3364EEC3AE5DD.quest_desc: ["用坏大约2~3个红石末地烛叠开发度之后，加上润滑书即可"]
+	quest.44C5FBD9D00726A2.quest_desc: [""]
 	quest.4730A3DF49F47455.title: "粗质淫液"
 	quest.4777334215341177.quest_desc: ["仅仅是小小杯的应力量"]
 	quest.4777334215341177.title: "过去的花"

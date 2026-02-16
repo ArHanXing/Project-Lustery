@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3222029CF10F9B61"
+	group: "529A1E37DFD06913"
+	icon: {
+		id: "kubejs:basic_lust_bioware"
+	}
+	id: "3222029CF10F9B61"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"542A0DE8FF468537"
+			"7BA9BCCB3BDD80A7"
+		]
+		dependency_requirement: "one_completed"
+		id: "71DFDF0B6BC21697"
+		tasks: [{
+			id: "671FC4D946C495C1"
+			item: { count: 1, id: "kubejs:petri_dish" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

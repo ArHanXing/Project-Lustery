@@ -1,0 +1,15 @@
+{
+  "name": {
+    "text": {
+      "translate": "生物实验室"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "mekanismgenerators:bio_generator",
+    "custommachinery:item": "mekanismgenerators:bio_generator",
+    "idle": {
+      "custommachinery:block": "mekanismgenerators:bio_generator",
+      "custommachinery:item": "mekanismgenerators:bio_generator"
+    }
+  }
+}

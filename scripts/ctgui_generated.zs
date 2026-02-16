@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"y":{"item":"minecraft:copper_ingot"}},"pattern":["cyc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"u":{"item":"minecraft:copper_ingot"}},"pattern":["cuc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -164,7 +164,7 @@ craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:play
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"r":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," r "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"x":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," x "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
     [<item:jaopca:gears.brass>],
@@ -230,4 +230,29 @@ craftingTable.addShaped("ctgui/new/tfmg/crafting/materials/brick_smokestack", <i
     [<item:minecraft:bricks>, <item:jaopca:rods.cast_iron>, <item:minecraft:bricks>],
     [<item:minecraft:bricks>, <item:jaopca:rods.cast_iron>, <item:minecraft:bricks>],
     [<item:minecraft:bricks>, <item:jaopca:rods.cast_iron>, <item:minecraft:bricks>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/controller_ple", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t2.plenum"), [
+    [IIngredientEmpty.getInstance(), <item:mekanism:structural_glass>, IIngredientEmpty.getInstance()],
+    [<item:factory_blocks:sturdy>, <item:tfmg:cast_iron_pipe>, <item:factory_blocks:sturdy>],
+    [<item:tfmg:cast_iron_sheet>, IIngredientEmpty.getInstance(), <item:tfmg:cast_iron_sheet>]]);
+
+<recipetype:minecraft:crafting>.removeByName("minecraft:iron_trapdoor");
+craftingTable.addShaped("ctgui/new/minecraft/iron_trapdoor_0", <item:minecraft:iron_trapdoor>, [
+    [<tag:item:c:ingots/iron>, <tag:item:c:ingots/iron>],
+    [<tag:item:c:ingots/iron>, <item:minecraft:lever>]]);
+
+<recipetype:minecraft:crafting>.removeByName("tfmg:crafting/materials/cast_iron_block_from_compacting");
+craftingTable.addShaped("ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting", <item:tfmg:cast_iron_block>, [
+    [<tag:item:c:ingots/cast_iron>, <tag:item:c:ingots/cast_iron>],
+    [<item:tfmg:cast_iron_ingot>, <item:tfmg:cast_iron_ingot>]]);
+
+<recipetype:minecraft:crafting>.removeByName("tfmg:crafting/materials/cast_iron_ingot_from_decompacting");
+craftingTable.addShapeless("ctgui/new/tfmg/crafting/materials/cast_iron_ingot_from_decompacting_0", <item:tfmg:cast_iron_ingot> * 4, [<tag:item:c:storage_blocks/cast_iron>]);
+
+<recipetype:minecraft:crafting>.removeByName("minecraft:tuff");
+
+craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justarod:redstone_rod>, [
+    [IIngredientEmpty.getInstance(), <item:create:polished_rose_quartz>, IIngredientEmpty.getInstance()],
+    [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()],
+    [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 

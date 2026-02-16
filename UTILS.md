@@ -1,22 +1,22 @@
 ## 格式化代码
 | 代码 | 名称 | 前景色 | 背景色 |
 | :--- | :--- | :--- | :--- |
-| §0 | black | `#000000` | `#000000` |
-| §1 | dark_blue | `#0000AA` | `#00002A` |
-| §2 | dark_green | `#00AA00` | `#002A00` |
-| §3 | dark_aqua | `#00AAAA` | `#002A2A` |
-| §4 | dark_red | `#AA0000` | `#2A0000` |
-| §5 | dark_purple | `#AA00AA` | `#2A002A` |
-| §6 | gold | `#FFAA00` | `#402A00` |
-| §7 | gray | `#AAAAAA` | `#2A2A2A` |
-| §8 | dark_gray | `#555555` | `#151515` |
-| §9 | blue | `#5555FF` | `#15153F` |
-| §a | green | `#55FF55` | `#153F15` |
-| §b | aqua | `#55FFFF` | `#153F3F` |
-| §c | red | `#FF5555` | `#3F1515` |
-| §d | light_purple | `#FF55FF` | `#3F153F` |
-| §e | yellow | `#FFFF55` | `#3F3F15` |
-| §f | white | `#FFFFFF` | `#3F3F3F` |
+| §0 | black / 黑色 | `#000000` | `#000000` |
+| §1 | dark_blue / 暗蓝色 | `#0000AA` | `#00002A` |
+| §2 | dark_green / 暗绿色 | `#00AA00` | `#002A00` |
+| §3 | dark_aqua / 深水色 | `#00AAAA` | `#002A2A` |
+| §4 | dark_red / 暗红色 | `#AA0000` | `#2A0000` |
+| §5 | dark_purple / 暗紫色 | `#AA00AA` | `#2A002A` |
+| §6 | gold / 金色 | `#FFAA00` | `#402A00` |
+| §7 | gray / 灰色 | `#AAAAAA` | `#2A2A2A` |
+| §8 | dark_gray / 深灰色 | `#555555` | `#151515` |
+| §9 | blue / 蓝色 | `#5555FF` | `#15153F` |
+| §a | green / 绿色 | `#55FF55` | `#153F15` |
+| §b | aqua / 水色 | `#55FFFF` | `#153F3F` |
+| §c | red / 红色 | `#FF5555` | `#3F1515` |
+| §d | light_purple / 亮紫色 | `#FF55FF` | `#3F153F` |
+| §e | yellow / 黄色 | `#FFFF55` | `#3F3F15` |
+| §f | white / 白色 | `#FFFFFF` | `#3F3F3F` |
 
 | 代码 | 名称 | 在Java版可用 |
 | :--- | :--- | :--- |
