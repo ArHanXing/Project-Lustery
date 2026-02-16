@@ -48,7 +48,7 @@
 ### Tier 1
 | 缩写 | 真名！ | 来源 |
 | ----- | ----- | ----- |
-| **Tier-1** pow | 原始洗矿机 | mmr |
+| **Tier-1 §c** pow | 原始洗矿机 | mmr |
 | psc | 原始碎石机 | mmr |
 | lpe | 淫能脉冲引擎 | cm |
 | vrt | 欲望液化塔 | mmr |
@@ -59,5 +59,6 @@
 | lo | 淫能方尖碑 | mmr |
 | pftr | 原始坠星仪式台 | mmr |
 | taic | 热力空气浸润室 | mmr |
-| **Tier-2** ple | 集气室 | mmr |
+| **Tier-2 §7** ple | 集气室 | mmr |
+| **Tier-3 §b** blb | 生物试验台（Tier 1/3） | mmr |
 

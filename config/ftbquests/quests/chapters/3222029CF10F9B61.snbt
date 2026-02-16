@@ -9,19 +9,57 @@
 	id: "3222029CF10F9B61"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"542A0DE8FF468537"
-			"7BA9BCCB3BDD80A7"
-		]
-		dependency_requirement: "one_completed"
-		id: "71DFDF0B6BC21697"
-		tasks: [{
-			id: "671FC4D946C495C1"
-			item: { count: 1, id: "kubejs:petri_dish" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"542A0DE8FF468537"
+				"7BA9BCCB3BDD80A7"
+			]
+			dependency_requirement: "one_completed"
+			id: "71DFDF0B6BC21697"
+			tasks: [{
+				id: "671FC4D946C495C1"
+				item: { count: 1, id: "kubejs:petri_dish" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["542A0DE8FF468537"]
+			id: "7411CE65941602BB"
+			tasks: [{
+				id: "0F28C7E052EA05AA"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7411CE65941602BB"
+				"3DFF1998CBC16EB7"
+			]
+			id: "01797F1E3CA486CF"
+			tasks: [{
+				id: "1668D6FECF2674AE"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01797F1E3CA486CF"]
+			id: "28A9F2A3852446D6"
+			tasks: [{
+				id: "3E259B618549D998"
+				item: { count: 1, id: "mekanism:nutritional_liquifier" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
 }

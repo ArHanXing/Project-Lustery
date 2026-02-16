@@ -489,5 +489,16 @@
 			x: 6.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["4B6491636C92BD59"]
+			id: "5B18A37365002E5B"
+			tasks: [{
+				id: "5603044E03CB1F65"
+				item: { count: 1, id: "tfmg:hardened_planks" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
 	]
 }

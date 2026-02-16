@@ -62,7 +62,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r，且必须同时安装流体输入输出仓、能源仓','发射小型探测器来获得你需要的资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
-            ['Tier-§c1','从维度裂缝中取得矿物']
+            ['Tier-§c1','从维度裂缝中取得矿物','允许使用§b并行控制仓§r','允许你§b聚焦矿物§r，选择一种矿脉对其进行聚焦，产出指定的数种矿石']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的肉体来引导星辰吧',
@@ -75,6 +75,20 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.thermal_air_infiltration_chamber"]',
             ['Tier-§c1','产出淫能浸润的热空气，为高炉炼钢准备','需要§b燃料仓§r并投入燃料']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.lust_obelisk"]',
+            ['Tier-§c1','§d淫能力量投射！§r，§a大幅度增强§r范围内玩家的体力上限，还有其他Buff']
+        ],
+        [
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.biolab"]',
+            ['Tier-§c1§r/§b3§r -- 本机器同时在§b两个阶段§r使用，具体机制如下：',
+            '==========',
+            'Tier-§c1§r配方中：',
+            '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r',
+            '    - §a三种不同的培养基§r的不同配比将会影响配方成功的概率',
+            '==========',
+            '==========',
+        ]
         ]
     ]
 
