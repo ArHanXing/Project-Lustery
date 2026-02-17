@@ -174,17 +174,17 @@
                     c: {
                         tag: "c:plates/copper"
                     },
-                    n: {
+                    t: {
                         item: "create:copper_sheet"
                     },
-                    y: {
+                    z: {
                         item: "tfmg:copper_frame"
                     }
                 },
                 pattern: [
-                    "c n",
-                    " y ",
-                    "c n"
+                    "c t",
+                    " z ",
+                    "c t"
                 ],
                 result: {
                     count: 1,
@@ -729,12 +729,12 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    o: {
+                    q: {
                         item: "minecraft:copper_ingot"
                     }
                 },
                 pattern: [
-                    "coc",
+                    "cqc",
                     "   ",
                     "   "
                 ],
@@ -1197,13 +1197,13 @@
                     i: {
                         item: "create:industrial_iron_block"
                     },
-                    z: {
+                    x: {
                         item: "create:iron_sheet"
                     }
                 },
                 pattern: [
                     "i  ",
-                    "z  ",
+                    "x  ",
                     "c  "
                 ],
                 result: {
@@ -1270,16 +1270,16 @@
                     c: {
                         item: "create:copper_casing"
                     },
-                    s: {
+                    f: {
                         item: "tfmg:cast_iron_sheet"
                     },
-                    y: {
+                    s: {
                         item: "factory_blocks:sturdy"
                     }
                 },
                 pattern: [
                     "aca",
-                    "sys",
+                    "fsf",
                     "   "
                 ],
                 result: {
@@ -1331,20 +1331,20 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    f: {
+                    c: {
                         tag: "c:ingots/steel"
                     },
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    k: {
+                    l: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " k ",
-                    " f "
+                    " l ",
+                    " c "
                 ],
                 result: {
                     count: 1,
@@ -1360,13 +1360,13 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    o: {
+                    u: {
                         tag: "c:ingots/osmium"
                     }
                 },
                 pattern: [
                     "ii ",
-                    " o ",
+                    " u ",
                     " c "
                 ],
                 result: {
@@ -1465,16 +1465,16 @@
                     c: {
                         item: "tfmg:cast_iron_ingot"
                     },
-                    o: {
+                    r: {
                         item: "create:copper_casing"
                     },
-                    r: {
+                    s: {
                         item: "minecraft:redstone_block"
                     }
                 },
                 pattern: [
-                    "coc",
-                    " r ",
+                    "crc",
+                    " s ",
                     "   "
                 ],
                 result: {
@@ -1531,20 +1531,20 @@
             recipe: {
                 category: "misc",
                 key: {
+                    a: {
+                        item: "minecraft:chest"
+                    },
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
                     h: {
                         item: "minecraft:hopper"
-                    },
-                    q: {
-                        item: "minecraft:chest"
                     }
                 },
                 pattern: [
                     "h  ",
                     "c  ",
-                    "q  "
+                    "a  "
                 ],
                 result: {
                     count: 1,
@@ -1564,10 +1564,10 @@
                     c: {
                         item: "modular_machinery_reborn:casing_plain"
                     },
-                    d: {
+                    l: {
                         item: "minecraft:repeater"
                     },
-                    q: {
+                    o: {
                         tag: "c:storage_blocks/redstone"
                     },
                     r: {
@@ -1577,7 +1577,7 @@
                 pattern: [
                     " r ",
                     "rcr",
-                    "dqd"
+                    "lol"
                 ],
                 result: {
                     count: 1,
@@ -1595,22 +1595,22 @@
                 category: "misc",
                 key: {
                     c: {
-                        item: "modular_machinery_reborn:casing_plain"
-                    },
-                    j: {
                         tag: "c:storage_blocks/redstone"
                     },
-                    m: {
+                    q: {
                         tag: "c:dusts/redstone"
                     },
                     r: {
                         item: "minecraft:repeater"
+                    },
+                    t: {
+                        item: "modular_machinery_reborn:casing_plain"
                     }
                 },
                 pattern: [
-                    "rjr",
-                    "mcm",
-                    " m "
+                    "rcr",
+                    "qtq",
+                    " q "
                 ],
                 result: {
                     count: 1,
@@ -1687,23 +1687,23 @@
             recipe: {
                 category: "misc",
                 key: {
-                    d: {
-                        tag: "c:storage_blocks/redstone"
+                    c: {
+                        item: "modular_machinery_reborn:energyinputhatch_tiny"
                     },
                     e: {
-                        item: "modular_machinery_reborn:energyinputhatch_tiny"
+                        tag: "c:storage_blocks/redstone"
                     },
                     r: {
                         tag: "c:dusts/redstone"
                     },
-                    u: {
+                    y: {
                         item: "minecraft:repeater"
                     }
                 },
                 pattern: [
-                    "rur",
-                    "ded",
-                    "rdr"
+                    "ryr",
+                    "ece",
+                    "rer"
                 ],
                 result: {
                     count: 1,
@@ -1720,23 +1720,23 @@
             recipe: {
                 category: "misc",
                 key: {
-                    e: {
-                        item: "modular_machinery_reborn:energyoutputhatch_tiny"
-                    },
-                    j: {
+                    c: {
                         item: "minecraft:repeater"
+                    },
+                    e: {
+                        tag: "c:storage_blocks/redstone"
                     },
                     r: {
                         tag: "c:dusts/redstone"
                     },
-                    u: {
-                        tag: "c:storage_blocks/redstone"
+                    w: {
+                        item: "modular_machinery_reborn:energyoutputhatch_tiny"
                     }
                 },
                 pattern: [
-                    "rur",
-                    "ueu",
-                    "rjr"
+                    "rer",
+                    "ewe",
+                    "rcr"
                 ],
                 result: {
                     count: 1,
@@ -2050,14 +2050,14 @@
             recipe: {
                 category: "misc",
                 key: {
+                    b: {
+                        item: "factory_blocks:sturdy"
+                    },
                     c: {
                         item: "tfmg:cast_iron_pipe"
                     },
                     e: {
                         item: "tfmg:cast_iron_sheet"
-                    },
-                    q: {
-                        item: "factory_blocks:sturdy"
                     },
                     s: {
                         item: "mekanism:structural_glass"
@@ -2065,7 +2065,7 @@
                 },
                 pattern: [
                     " s ",
-                    "qcq",
+                    "bcb",
                     "e e"
                 ],
                 result: {
@@ -2152,13 +2152,13 @@
                     c: {
                         tag: "c:ingots/cast_iron"
                     },
-                    f: {
+                    w: {
                         item: "tfmg:cast_iron_ingot"
                     }
                 },
                 pattern: [
                     "cc ",
-                    "ff ",
+                    "ww ",
                     "   "
                 ],
                 result: {
@@ -2270,11 +2270,11 @@
             originalRecipe: {
                 category: "misc",
                 key: {
+                    e: {
+                        item: "tfmg:steel_casing"
+                    },
                     i: {
                         tag: "c:ingots/steel"
-                    },
-                    l: {
-                        item: "tfmg:steel_casing"
                     },
                     s: {
                         tag: "c:plates/obsidian"
@@ -2282,7 +2282,7 @@
                 },
                 pattern: [
                     "isi",
-                    "sls",
+                    "ses",
                     "isi"
                 ],
                 result: {
@@ -2293,11 +2293,11 @@
             recipe: {
                 category: "misc",
                 key: {
+                    c: {
+                        item: "tfmg:steel_casing"
+                    },
                     i: {
                         tag: "c:ingots/steel"
-                    },
-                    n: {
-                        item: "tfmg:steel_casing"
                     },
                     s: {
                         tag: "c:plates/obsidian"
@@ -2305,7 +2305,7 @@
                 },
                 pattern: [
                     "isi",
-                    "sns",
+                    "scs",
                     "isi"
                 ],
                 result: {
@@ -2327,19 +2327,19 @@
                     b: {
                         tag: "c:circuits/basic"
                     },
-                    k: {
-                        item: "minecraft:bowl"
-                    },
                     r: {
                         tag: "c:dusts/redstone"
                     },
                     s: {
                         item: "mekanism:steel_casing"
+                    },
+                    z: {
+                        item: "minecraft:bowl"
                     }
                 },
                 pattern: [
                     "rbr",
-                    "ksk",
+                    "zsz",
                     "rbr"
                 ],
                 result: {
@@ -2356,7 +2356,7 @@
                     g: {
                         item: "jaopca:gears.cast_iron"
                     },
-                    m: {
+                    h: {
                         item: "mekanism:structural_glass"
                     },
                     r: {
@@ -2371,7 +2371,7 @@
                 },
                 pattern: [
                     "rcr",
-                    "wsm",
+                    "wsh",
                     "rgr"
                 ],
                 result: {
@@ -2499,6 +2499,96 @@
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
             type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/crafting/entity_detector",
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "modular_machinery_reborn:casing_plain"
+                    },
+                    i: {
+                        item: "create:iron_sheet"
+                    },
+                    r: {
+                        item: "minecraft:redstone_torch"
+                    },
+                    w: {
+                        item: "createaddition:iron_rod"
+                    },
+                    y: {
+                        item: "minecraft:comparator"
+                    }
+                },
+                pattern: [
+                    "rir",
+                    " c ",
+                    "wyw"
+                ],
+                result: {
+                    count: 1,
+                    id: "modular_machinery_reborn:entity_detector"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "ADDED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/enderio/basic_capacitor",
+            originalId: "enderio:basic_capacitor",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        tag: "c:ingots/copper"
+                    },
+                    g: {
+                        tag: "c:nuggets/gold"
+                    },
+                    y: {
+                        tag: "c:dusts/grains_of_infinity"
+                    }
+                },
+                pattern: [
+                    " gy",
+                    "gcg",
+                    "yg "
+                ],
+                result: {
+                    count: 1,
+                    id: "enderio:basic_capacitor"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "create:copper_sheet"
+                    },
+                    g: {
+                        item: "minecraft:gold_ingot"
+                    },
+                    i: {
+                        item: "createaddition:iron_rod"
+                    }
+                },
+                pattern: [
+                    " g ",
+                    "cic",
+                    " g "
+                ],
+                result: {
+                    count: 1,
+                    id: "enderio:basic_capacitor"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
         }
     ]
 }

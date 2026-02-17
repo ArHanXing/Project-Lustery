@@ -1,3 +1,4 @@
+// priority: 800
 //tier 1
 MMREvents.machines(e => {
     e.create("mmr:t1.primitive_ore_washer")//POW
@@ -74,20 +75,21 @@ MMREvents.machines(e => {
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["  aaa  ", "b aaa b", "  aaa  "],
+                    ["  xxx  ", "b xxx b", "  aaa  "],
                     ["  ama  ", "d c c d", "  aca  "],
                     ["  aca  ", "e c c e", "  aca  "],
                     ["  aca  ", "ffc cff", "  aca  "],
                     ["  aca  ", "  c c  ", "  aca  "]
                 ])
                 .keys({
-                    "a": [
-                        "factory_blocks:sturdy",
+                    "x": [
+                        "modular_machinery_reborn:casing_plain",
                         "#modular_machinery_reborn:inputbus",
                         "#modular_machinery_reborn:outputbus",
                         "#modular_machinery_reborn:fluidoutputhatch",
                         "modular_machinery_reborn:entity_detector"
                     ],
+                    "a": ["factory_blocks:sturdy"],
                     "b": [
                         "create:fluid_tank",
                         "#modular_machinery_reborn:fluidinputhatch"
@@ -99,7 +101,7 @@ MMREvents.machines(e => {
                 }))
 
     e.create('mmr:t1.dimrift_mining_station')
-        .name("维度裂隙采矿站 WIP")
+        .name("维度裂隙采矿站 WIP")//TODO 矿站
         .color("#fff7b977")
 
     e.create('mmr:t1.dimprobe_station')
@@ -129,7 +131,7 @@ MMREvents.machines(e => {
                 }))
 
     e.create("mmr:t1.lust_obelisk")
-        .name("α-淫能方尖碑 WIP")
+        .name("α-淫能方尖碑 WIP")//TODO 方尖碑
         .color("#ff884898")
 
     e.create("mmr:t1.primitive_falling_tower_ritual")
@@ -140,13 +142,13 @@ MMREvents.machines(e => {
                 .pattern([[
                     "    aaa    ",
                     "    aaa    ",
-                    "    aaa    ",
-                    "   aaaaa   ",
+                    "   baaab   ",
+                    "  baaaaab  ",
                     "aaaaaaaaaaa",
                     "aaaaaaaaaaa",
                     "aaaaaaaaaaa",
-                    "   aaaaa   ",
-                    "    aaa    ",
+                    "  baaaaab  ",
+                    "   baaab   ",
                     "    aaa    ",
                     "    aaa    "
                 ], [
@@ -223,8 +225,9 @@ MMREvents.machines(e => {
                     "           "]
                 ])
                 .keys({
-                    "a": [
-                        "factory_blocks:sturdy",
+                    "a": ["factory_blocks:sturdy"],
+                    "b": [
+                        "modular_machinery_reborn:casing_plain",
                         "#modular_machinery_reborn:inputbus",
                         "#modular_machinery_reborn:outputbus",
                         "#modular_machinery_reborn:fluidoutputhatch",
@@ -263,7 +266,7 @@ MMREvents.machines(e => {
         .structure(
             MMRStructureBuilder.create()
                 .pattern([
-                    ["ccccc   ", "cdddc   ", "cdddc   ", "cdddc   ", "ccccc   ", "        ", "      aa", "aba   aa", "bbb     ", "aba     "], 
+                    ["eeeee   ", "eddde   ", "eddde   ", "cdddc   ", "ccccc   ", "        ", "      aa", "aba   aa", "bbb     ", "aba     "], 
                     ["llmll   ", "dbbbd   ", "dbbbd   ", "dbbbd   ", "cdddc   ", "   s    ", "   ssshh", "fff   hh", "fff     ", "fff     "], 
                     ["lllll   ", "dbbbd   ", "dbbbd   ", "dbbbd   ", "cdddc   ", " s      ", " s    hh", "fff   hh", "fff     ", "fff     "], 
                     ["ddddd   ", "dbbbd   ", "dbbbd   ", "dbbbd   ", "cdddc   ", "   s    ", "   ssshh", "fff   hh", "fff     ", "fff     "], 
@@ -273,42 +276,21 @@ MMREvents.machines(e => {
                 .keys({
                     "a": "tfmg:steel_truss", 
                     "b": "minecraft:air", 
-                    "c":[ "factory_blocks:sturdy",
+                    "c": "factory_blocks:sturdy", 
+                    "d": "kubejs:plascrete", 
+                    "e": [
+                        "modular_machinery_reborn:casing_plain",                        
                         "#modular_machinery_reborn:inputbus",
                         "#modular_machinery_reborn:outputbus",
                         "#modular_machinery_reborn:fluidoutputhatch",
                         "#modular_machinery_reborn:fluidinputhatch",
-                        "#modular_machinery_reborn:energyhatch"],
-                    "d": "kubejs:plascrete", 
+                        "#modular_machinery_reborn:energyhatch"
+                    ],
                     "f": "create:fluid_tank", 
                     "h": "mekanism:thermal_evaporation_block", 
                     "s": "tfmg:steel_pipe", 
                     "l": "mekanism:structural_glass", 
                     "r": "kubejs:filter_casing"
                 }))
-
-    // Tier 2
-    e.create("mmr:t2.plenum")
-        .name("集气室")
-        .color("#ff9ea1a3")
-        .structure(
-            MMRStructureBuilder.create()
-                .pattern([
-                    ["aamaa", "aaaaa", "aaaaa", "aaaaa", "aaaaa"],
-                    ["aaaaa", "a   a", "a   a", "a   a", "accca"],
-                    ["aaaaa", "accca", "ac ca", "accca", "accca"],
-                    ["     ", " dcd ", " c c ", " dcd ", "     "],
-                    ["     ", "  c  ", " c c ", "  c  ", "     "]])
-                .keys({
-                    "a": [
-                        "factory_blocks:sturdy",
-                        "#modular_machinery_reborn:inputbus",
-                        "#modular_machinery_reborn:fluidoutputhatch",
-                        "#modular_machinery_reborn:energyhatch"],
-                    "c": ["mekanism:structural_glass"],
-                    "d": ["tfmg:cast_iron_pipe"]
-                }))
-
-
 })
 

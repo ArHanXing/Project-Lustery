@@ -26,6 +26,8 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:failed_lustbio_petri_dish')
     //e.create('kubejs:cyanobacteria_petri_dish') //更多细菌后面写算了
     e.create('kubejs:petri_dish')
+
+    e.create('kubejs:small_bucket')
 })
 
 StartupEvents.registry("fluid",e=>{

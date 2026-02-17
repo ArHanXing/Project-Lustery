@@ -76,7 +76,7 @@ ServerEvents.recipes(e =>{
 
     //由于作者回心转意（被/ct recipes诱惑） 所以除了MMR和CM配方之外的都不会再用KJS写 哈哈哈（
 
-
+    //炼化塔
     mme.machine_recipe("mmr:t1.vaginaldew_refining_tower",5)
         .width(150)
         .height(180)
@@ -84,6 +84,7 @@ ServerEvents.recipes(e =>{
         .produceFluid(Fluid.of("kubejs:vaginaldew_basic",200),100,10)
         .id("t1.mmr.vrt.vaginaldew.t1_nofusion")
     
+    //探针站
     mme.machine_recipe("mmr:t1.dimprobe_station",100)
         .width(150)
         .height(180)
@@ -96,6 +97,7 @@ ServerEvents.recipes(e =>{
         .lootTable('mmr:t1_dimprobe_overworld',2,120,30)
         .id("t1.mmr.dps.t1_basicprobe_overworld")
 
+    //基础探测
     let incomp='kubejs:basic_probe'
     ec.sequenced_assembly(
         [   
@@ -113,6 +115,7 @@ ServerEvents.recipes(e =>{
         .transitionalItem(incomp)
         .loops(3)
     
+    //欲能脉冲引擎
     incomp = 'kubejs:unfinished_controller'
     ec.sequenced_assembly(
         'custommachinery:lustpulse_motor',
@@ -129,6 +132,7 @@ ServerEvents.recipes(e =>{
     )
         .transitionalItem(incomp)
 
+    //原始淫能凝聚
     ec.sequenced_assembly(
         'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_fusion_array"]',
         'create:brass_casing',
@@ -142,6 +146,7 @@ ServerEvents.recipes(e =>{
     )
         .transitionalItem(incomp)
     
+    //热力浸润的配方
     mme.machine_recipe("mmr:t1.thermal_air_infiltration_chamber",100)
         .width(150)
         .height(180)
@@ -151,5 +156,8 @@ ServerEvents.recipes(e =>{
         .produceFluid(Fluid.of('tfmg:hot_air',1200),100,10)
         .id("t1.mmr.taic.fluid")
     
+    //马达简化
+    e.remove({output:'createaddition:alternator'})
+    e.remove({output:'createaddition:electric_motor'})
     
 });

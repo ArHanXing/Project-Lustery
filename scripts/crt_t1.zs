@@ -149,6 +149,3 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
     ingredients: [{item: "minecraft:calcite"}]});
 
 <recipetype:tfmg:hot_blast>.removeByName("tfmg:hot_blast/hot_air");
-
-craftingTable.removeByName("createaddition:mechanical_crafting/alternator");
-craftingTable.removeByName("createaddition:mechanical_crafting/electric_motor");

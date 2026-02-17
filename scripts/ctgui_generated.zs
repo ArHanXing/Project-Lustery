@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"z":{"item":"minecraft:copper_ingot"}},"pattern":["czc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"n":{"item":"minecraft:copper_ingot"}},"pattern":["cnc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -164,7 +164,7 @@ craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:play
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"j":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," j "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"f":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," f "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
     [<item:jaopca:gears.brass>],
@@ -257,34 +257,33 @@ craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justar
     [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:steel_casing");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"l":{"item":"tfmg:steel_casing"}},"pattern":["isi","sls","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"d":{"item":"tfmg:steel_casing"}},"pattern":["isi","sds","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:nutritional_liquifier");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"x":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsx","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"y":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsy","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_1");
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_2");
 
-<recipetype:minecraft:crafting>.removeByName("createaddition:crafting/large_connector");
-craftingTable.addShaped("ctgui/new/createaddition/crafting/large_connector", <item:createaddition:large_connector> * 2, [
-    [IIngredientEmpty.getInstance(), <item:createaddition:electrum_rod>],
-    [IIngredientEmpty.getInstance(), <item:create:andesite_casing>],
-    [IIngredientEmpty.getInstance(), <item:tfmg:cast_iron_sheet>]]);
-
 craftingTable.addShaped("ctgui/new/crafting/large_connector_alt", <item:createaddition:large_connector>, [
-    [IIngredientEmpty.getInstance(), <item:jaopca:rods.conductive_alloy>],
-    [IIngredientEmpty.getInstance(), <item:create:andesite_casing>],
-    [IIngredientEmpty.getInstance(), <item:tfmg:cast_iron_sheet>]]);
-
-<recipetype:minecraft:crafting>.removeByName("createaddition:crafting/connector");
-craftingTable.addShaped("ctgui/new/createaddition/crafting/connector", <item:createaddition:connector> * 2, [
-    [IIngredientEmpty.getInstance(), <item:createaddition:copper_rod>],
-    [IIngredientEmpty.getInstance(), <item:create:andesite_alloy>],
-    [IIngredientEmpty.getInstance(), <item:create:iron_sheet>]]);
+    [<item:jaopca:rods.conductive_alloy>],
+    [<item:create:andesite_casing>],
+    [<item:tfmg:cast_iron_sheet>]]);
 
 craftingTable.addShaped("ctgui/new/crafting/hardened_planks_alt", <item:tfmg:hardened_planks> * 8, [
     [<tag:item:minecraft:planks>, <tag:item:minecraft:planks>, <tag:item:minecraft:planks>],
     [<tag:item:minecraft:planks>, <item:tfmg:creosote_bucket>, <tag:item:minecraft:planks>],
     [<tag:item:minecraft:planks>, <tag:item:minecraft:planks>, <tag:item:minecraft:planks>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/entity_detector", <item:modular_machinery_reborn:entity_detector>, [
+    [<item:minecraft:redstone_torch>, <item:create:iron_sheet>, <item:minecraft:redstone_torch>],
+    [IIngredientEmpty.getInstance(), <item:modular_machinery_reborn:casing_plain>, IIngredientEmpty.getInstance()],
+    [<item:createaddition:iron_rod>, <item:minecraft:comparator>, <item:createaddition:iron_rod>]]);
+
+<recipetype:minecraft:crafting>.removeByName("enderio:basic_capacitor");
+craftingTable.addShaped("ctgui/new/enderio/basic_capacitor", <item:enderio:basic_capacitor>, [
+    [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>, IIngredientEmpty.getInstance()],
+    [<item:create:copper_sheet>, <item:createaddition:iron_rod>, <item:create:copper_sheet>],
+    [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>, IIngredientEmpty.getInstance()]]);
 

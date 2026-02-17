@@ -56,7 +56,13 @@ ItemEvents.modifyTooltips(e =>{
             ['请使用§b裂隙生成器§r在世界中生成','拉开的维度之缝并不大']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_fusion_array"]',
-            ['Tier-§c1','§o更高级的淫能技艺，从这里开始！','流体输入仓能且仅能放在结构中两边衍架向下第2格的位置','出产§d凝聚态的欲望宝石§r，以及更多','运行凝聚配方时，周边每有一个猫娘具有0.8x耗时与0.9x流体消耗','至多减少至原耗时的0.4096x (即有4个猫娘生效)','如果你要运行加速配方，务必安装一个§e实体检测器§r！']
+            [
+                'Tier-§c1','§o更高级的淫能技艺，从这里开始！',
+                '流体输入仓能且仅能放在结构中两边衍架向下第2格的位置',
+                '出产§d凝聚态的欲望宝石§r，以及更多',
+                '- 运行凝聚配方时，周边每有一个猫娘具有§a0.8x耗时与0.9x流体消耗§r',
+                '  至多减少至原耗时的0.4096x (即有4个猫娘生效)','如果你要运行加速配方，务必安装一个§a实体检测器§r！'
+            ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimprobe_station"]',
             ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r，且必须同时安装流体输入输出仓、能源仓','发射小型探测器来获得你需要的资源']
@@ -65,9 +71,9 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','从维度裂缝中取得矿物','允许使用§b并行控制仓§r','允许你§b聚焦矿物§r，选择一种矿脉对其进行聚焦，产出指定的数种矿石']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
-            ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的肉体来引导星辰吧',
+            ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
-                '配方结束后，陨石将会生成在尖塔顶端向上10格的位置，半径为JEI中产出的方块总数量'
+                '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上10格的位置，陨石为§a菱形§r，半径为JEI中产出的方块总数量'
             ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
@@ -77,7 +83,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','产出淫能浸润的热空气，为高炉炼钢准备','需要§b燃料仓§r并投入燃料']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.lust_obelisk"]',
-            ['Tier-§c1','§d淫能力量投射！§r，§a大幅度增强§r范围内玩家的体力上限，还有其他Buff']
+            ['Tier-§c1','§d淫能力量投射！§r§a大幅度增强§r范围内玩家的体力上限，还有其他Buff']
         ],
         [
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.biolab"]',
@@ -87,7 +93,8 @@ ItemEvents.modifyTooltips(e =>{
             '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r',
             '    - §a三种不同的培养基§r的不同配比将会影响配方成功的概率',
             '==========',
-            '==========',
+            'Tier-§b3§r配方中：',
+            '    - §a敬请期待！§r'
         ]
         ]
     ]

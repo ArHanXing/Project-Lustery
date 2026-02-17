@@ -22,7 +22,7 @@
 				item: { count: 1, id: "kubejs:petri_dish" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -33,8 +33,8 @@
 				item: { count: 1, id: "create:sturdy_sheet" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -59,6 +59,49 @@
 				type: "item"
 			}]
 			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["542A0DE8FF468537"]
+			id: "74E559E7BA35558E"
+			tasks: [{
+				id: "202AB70F26E97E09"
+				item: { count: 1, id: "tfmg:concrete_mixture" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74E559E7BA35558E"]
+			id: "686CA0D4D77A06FC"
+			tasks: [{
+				id: "191A3115BA30BB3D"
+				item: { count: 1, id: "tfmg:liquid_concrete_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686CA0D4D77A06FC"]
+			icon: {
+				id: "tfmg:rebar_concrete"
+			}
+			id: "112F8F2A6ECA12B6"
+			tasks: [
+				{
+					id: "64018DD23CBF9AD5"
+					item: { count: 1, id: "tfmg:rebar_concrete" }
+					type: "item"
+				}
+				{
+					id: "3342EDE99537865C"
+					item: { count: 1, id: "tfmg:rebar_block" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 2.0d
 		}
 	]

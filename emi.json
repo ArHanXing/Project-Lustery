@@ -31,6 +31,9 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.thermal_air_infiltration_chamber\"}"
     },
     {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.biolab\"}"
+    },
+    {
       "stack": "item:mekanism:basic_fluid_tank",
       "recipe": "mekanism:fluid_tank/basic"
     },
@@ -56,14 +59,61 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.biolab\"}"
-    },
-    {
       "stack": "item:custommachinery:lustpulse_motor",
       "recipe": "toomanyrecipeviewers:/create/kjs/custommachinery_lustpulse_motor"
     }
   ],
   "lookup_history": [
+    "item:sgjourney:naquadah_power_cell",
+    "item:kubejs:failed_lustbio_petri_dish",
+    {
+      "type": "item",
+      "id": "enderio:photovoltaic_composite",
+      "amount": 3
+    },
+    "item:enderio:photovoltaic_plate",
+    "item:enderio:basic_capacitor",
+    "item:enderio:double_layer_capacitor",
+    "item:enderio:suspicious_seed",
+    [
+      "item:enderio:grains_of_infinity",
+      "item:enderio:suspicious_seed"
+    ],
+    "item:enderio:grains_of_infinity",
+    "item:createaddition:alternator",
+    "item:mekanism:nutritional_liquifier",
+    "item:tfmg:cement",
+    "item:minecraft:gravel",
+    "item:minecraft:sand",
+    "item:tfmg:concrete_mixture",
+    {
+      "type": "fluid",
+      "id": "tfmg:liquid_concrete",
+      "amount": 1000
+    },
+    "item:tfmg:liquid_concrete_bucket",
+    "item:tfmg:rebar_block",
+    "item:tfmg:rebar_floor",
+    "item:tfmg:rebar",
+    "item:tfmg:steel_scaffolding",
+    "item:dysoncubeproject:beam",
+    "item:dysoncubeproject:beam_package",
+    "item:tfmg:screwdriver",
+    "item:tfmg:steel_mechanism",
+    "item:tfmg:rebar_concrete_stairs",
+    "item:tfmg:white_concrete",
+    "item:tfmg:concrete",
+    "item:tfmg:concrete_smokestack",
+    "item:minecraft:white_concrete_powder",
+    "item:minecraft:bone",
+    "item:minecraft:white_dye",
+    "item:minecraft:white_concrete",
+    "item:custommachinery:rift_generator",
+    "item:modular_machinery_reborn:entity_detector",
+    "item:eidolon_repraised:tough_incense",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
+    "item:draconicevolution:entity_detector",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
     "item:create:deployer",
     {
       "type": "item",
@@ -90,23 +140,11 @@
     "item:eidolon_repraised:silver_ingot",
     "item:mekanismgenerators:reactor_glass",
     "item:extendedae:assembler_matrix_glass",
-    "item:minecraft:white_concrete",
     "item:tfmg:light_blue_rebar_concrete",
-    {
-      "type": "fluid",
-      "id": "tfmg:liquid_concrete",
-      "amount": 0
-    },
-    "item:tfmg:concrete_mixture",
-    "item:tfmg:liquid_concrete_bucket",
-    "item:tfmg:concrete",
     "item:tfmg:concrete_stairs",
     "item:tfmg:rebar_concrete",
-    "item:tfmg:white_concrete",
     "item:tfmg:hardened_planks",
     "item:tfmg:steel_casing",
-    "item:mekanism:nutritional_liquifier",
-    "item:createaddition:alternator",
     "item:createaddition:large_connector",
     "item:createaddition:connector",
     "item:createaddition:electric_motor",
@@ -118,7 +156,6 @@
     "item:tfmg:large_engine",
     "item:tfmg:heavy_plate",
     "item:mekanism:ingot_steel",
-    "item:tfmg:rebar",
     "item:enderio:dark_steel_ingot",
     "item:jaopca:plates.dark_steel",
     "item:mekanism:superheating_element",
@@ -213,7 +250,6 @@
     "item:justarod:player_scanner",
     "item:kubejs:vaginaldew_basic_bucket",
     "item:mekanism:basic_mechanical_pipe",
-    "item:minecraft:sand",
     "#item:minecraft:smelts_to_glass",
     "#item:c:glass_blocks/cheap",
     "item:tfmg:cast_iron_sheet",
@@ -280,7 +316,6 @@
     "item:create:shaft",
     "item:create:windmill_bearing",
     "item:kubejs:sifted_ore",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
     {
       "type": "item",
       "id": "minecraft:smooth_stone",
@@ -330,7 +365,6 @@
       "id": "tfmg:blast_stove_fuel",
       "amount": 5
     },
-    "item:minecraft:gravel",
     "item:tfmg:air_bucket",
     "item:create:limestone",
     "item:create:layered_limestone",
@@ -356,7 +390,6 @@
     "item:minecraft:clay",
     "item:minecraft:terracotta",
     "item:minecraft:clay_ball",
-    "item:custommachinery:rift_generator",
     "item:kubejs:dimrift",
     "item:kubejs:basic_probe",
     "item:create:flywheel",
@@ -381,10 +414,7 @@
     "item:modular_machinery_reborn:casing_reinforced",
     "item:enderio:conductive_alloy_ingot",
     "item:enderio:energetic_alloy_ingot",
-    "item:enderio:double_layer_capacitor",
     "item:enderio:octadic_capacitor",
-    "item:enderio:grains_of_infinity",
-    "item:enderio:basic_capacitor",
     "item:enderio:alloy_smelter",
     "item:modular_machinery_reborn:modularium",
     "item:enderio:void_chassis",
@@ -403,7 +433,6 @@
     },
     "item:modular_machinery_reborn:parallel_hatch_basic",
     "item:jaopca:storage_blocks.cneko",
-    "item:tfmg:screwdriver",
     "item:create:sand_paper",
     "item:mekanism:basic_universal_cable",
     "item:enderio:conduit{\"enderio:conduit\":\"enderio:energy\"}",
@@ -418,8 +447,6 @@
     "item:tfmg:deepslate_lithium_ore",
     "item:tfmg:winding_machine",
     "item:tfmg:cast_iron_nugget",
-    "item:modular_machinery_reborn:entity_detector",
-    "item:draconicevolution:entity_detector",
     "item:modular_machinery_reborn:entity_damager",
     "item:minecraft:quartz",
     "item:mekanism:ultimate_bin",
@@ -591,7 +618,6 @@
     "item:create:ornate_iron_window",
     "item:mekanism:ingot_osmium",
     "item:tfmg:copper_truss",
-    "item:tfmg:rebar_floor",
     "item:tfmg:constantan_nugget",
     "item:tfmg:aluminum_truss",
     "item:tfmg:white_rebar_concrete",
@@ -853,15 +879,15 @@
   ],
   "recipe_defaults": {
     "added": [
-      "crafttweaker:ctgui/new/minecraft/enchanting_table",
-      "minecraft:andesite",
-      "minecraft:diorite",
-      "create:crafting/kinetics/shaft",
-      "crafttweaker:ctgui/new/t1.mekanism/structural_glass",
       "toomanyrecipeviewers:/create/mixing/andesite_alloy",
+      "crafttweaker:ctgui/new/t1.mekanism/structural_glass",
       "jaopcaextras:gears.from_material.copper",
       "kubejs:t1.mc.primitive_end_rod",
-      "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing"
+      "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing",
+      "minecraft:andesite",
+      "create:crafting/kinetics/shaft",
+      "minecraft:diorite",
+      "crafttweaker:ctgui/new/minecraft/enchanting_table"
     ],
     "tags": {},
     "resolutions": {},
