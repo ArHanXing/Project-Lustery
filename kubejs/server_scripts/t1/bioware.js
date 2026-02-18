@@ -37,6 +37,22 @@ ServerEvents.recipes(e =>{
         100
     )
 
+    ec.mixing(
+        [Fluid.of('kubejs:others_powered_medium',10000)],
+        [Fluid.of('mekanism:nutritional_paste',1000),Fluid.of('minecraft:water',8000),Item.of("ae2:sky_dust",5)],
+        100
+    )
+
+    mme.machine_recipe("mmr:t1.primitive_fusion_array",100)
+        .width(150)
+        .height(180)
+        .requireFluid(Fluid.of('minecraft:water',8000),10,10)
+        .requireFluid(Fluid.of('mekanism:nutritional_paste',1000),10,30)
+        .requireItem('kubejs:fusion_defective_lust_crystal',30,10)
+        .produceFluid(Fluid.of('kubejs:lustery_powered_medium',10000),100,10)
+        .id("t1.mmr.pfa.lustery_medium")
+
+
     mme.machine_recipe("mmr:t1.biolab",100)
         .width(150)
         .height(180)
@@ -45,6 +61,17 @@ ServerEvents.recipes(e =>{
         .produceItem('kubejs:lustbio_petri_dish',0.0,100,10)
         .produceItem('kubejs:failed_lustbio_petri_dish',0.0,130,10)
         .id('t1.mmr.biolab.primitive')
+
+    mme.machine_recipe("mmr:t1.biolab",40)
+        .width(150)
+        .height(180)
+        .requireItem('kubejs:lustbio_petri_dish',10,10)
+        .produceItem('kubejs:basic_lust_bioware',100,10)
+        .produceItem('kubejs:basic_lust_bioware',0.75,100,30)
+        .produceItem('kubejs:basic_lust_bioware',0.5,120,10)
+        .produceItem('kubejs:basic_lust_bioware',0.25,120,30)
+        .produceItem('kubejs:petri_dish',100,50)
+        .id('t1.mmr.biolab.bioware')
 })
 
 MMREvents.recipeFunction("_biolab.primitive", e=>{
@@ -114,3 +141,4 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     m.removeFluid('kubejs:others_powered_medium');
     e.success();
 }) 
+

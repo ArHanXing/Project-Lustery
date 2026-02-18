@@ -116,6 +116,15 @@
 		{
 			dependencies: ["28A9F2A3852446D6"]
 			id: "7B961E6D4DE61491"
+			rewards: [{
+				count: 16
+				id: "7F20DACC04DF8432"
+				item: {
+					count: 1
+					id: "kubejs:rift_cataclyst"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C4C32AAC83200E2"
 				item: { count: 1, id: "mekanism:nutritional_paste_bucket" }
@@ -127,25 +136,133 @@
 		{
 			dependencies: ["7B961E6D4DE61491"]
 			id: "2620ECE6EBAAD0F3"
+			tasks: [{
+				id: "5B07F994C727DA13"
+				item: { count: 1, id: "kubejs:natural_powered_medium_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"542A0DE8FF468537"
+				"7BA9BCCB3BDD80A7"
+				"64785FDBDC6946F5"
+			]
+			dependency_requirement: "one_completed"
+			id: "094993011E64440D"
+			tasks: [{
+				id: "18302C66BF396B45"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7B961E6D4DE61491"
+				"094993011E64440D"
+			]
+			id: "209D15E9755236C8"
+			tasks: [{
+				id: "5EC238D97BD9294B"
+				item: { count: 1, id: "kubejs:others_powered_medium_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B961E6D4DE61491"]
+			id: "1FE90BA116F45649"
+			tasks: [{
+				id: "70C21695920B1D78"
+				item: { count: 1, id: "kubejs:lustery_powered_medium_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2620ECE6EBAAD0F3"
+				"209D15E9755236C8"
+				"1FE90BA116F45649"
+				"71DFDF0B6BC21697"
+				"1C6A6E1571946A0A"
+			]
+			id: "74257474C2F49716"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "401090587DE9997A"
+				item: { count: 1, id: "kubejs:lustbio_petri_dish" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74257474C2F49716"]
+			id: "1CC68749AA4BB3D5"
+			tasks: [{
+				id: "0B62C423F8373DDE"
+				item: { count: 1, id: "kubejs:basic_lust_bioware" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "21838EE28C351D7D"
+			tasks: [{
+				id: "589768B5E9DAA202"
+				item: { count: 1, id: "extendedae:quartz_blend" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21838EE28C351D7D"]
+			id: "577D0ABEBCAD9C03"
+			tasks: [{
+				id: "34669D5751A6B71C"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1CC68749AA4BB3D5"
+				"577D0ABEBCAD9C03"
+			]
+			id: "29C68D4BC3FD507D"
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
-					id: "5B07F994C727DA13"
-					item: { count: 1, id: "kubejs:natural_powered_medium_bucket" }
+					id: "44C169232E5FFC34"
+					item: { count: 1, id: "ae2:logic_processor" }
 					type: "item"
 				}
 				{
-					id: "2DFF71E613503610"
-					item: { count: 1, id: "kubejs:lustery_powered_medium_bucket" }
+					id: "37D20D9D5440FF17"
+					item: { count: 1, id: "ae2:calculation_processor" }
 					type: "item"
 				}
 				{
-					id: "3FF6643C68B8654D"
-					item: { count: 1, id: "kubejs:others_powered_medium_bucket" }
+					id: "0E35EA59B0C01B77"
+					item: { count: 1, id: "ae2:engineering_processor" }
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 4.0d
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 }

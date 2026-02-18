@@ -154,3 +154,27 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
 <recipetype:create:item_application>.addJsonRecipe("t1.it_appli.concrete", {type: "create:item_application", 
     results: [{id: "kubejs:plascrete"}], 
     ingredients: [{item: "tfmg:rebar_concrete"}, {item:"minecraft:white_dye"}]});
+
+//取消模板
+<recipetype:ae2:inscriber>.removeByName("ae2:inscriber/engineering_processor_print");
+<recipetype:ae2:inscriber>.removeByName("ae2:inscriber/logic_processor_print");
+<recipetype:ae2:inscriber>.removeByName("ae2:inscriber/calculation_processor_print");
+<recipetype:ae2:inscriber>.removeByName("ae2:inscriber/silicon_print");
+<recipetype:ae2:inscriber>.removeByName("ae2:inscriber/certus_quartz_dust");
+<recipetype:ae2:inscriber>.addJsonRecipe("t1.ae2.inscriber/engineering_processor_print", {type: "ae2:inscriber", mode: "inscribe", 
+    result: {id: "ae2:printed_engineering_processor", count: 1}, 
+    ingredients: {top:{item:"kubejs:basic_lust_bioware"}, middle: {tag: "c:gems/diamond"}}});
+<recipetype:ae2:inscriber>.addJsonRecipe("t1.ae2.inscriber/logic_processor_print", {type: "ae2:inscriber", mode: "inscribe", 
+    result: {id: "ae2:printed_logic_processor", count: 1},
+    ingredients: {top:{item:"kubejs:basic_lust_bioware"}, middle: {tag: "c:ingots/gold"}}});
+<recipetype:ae2:inscriber>.addJsonRecipe("t1.ae2.inscriber/calculation_processor_print", {type: "ae2:inscriber", mode: "inscribe", 
+    result: {id: "ae2:printed_calculation_processor", count: 1},
+    ingredients: {top:{item:"kubejs:basic_lust_bioware"}, middle: {item:"ae2:certus_quartz_crystal"}}});
+<recipetype:ae2:inscriber>.addJsonRecipe("t1.ae2.inscriber/silicon_print", {type: "ae2:inscriber", mode: "inscribe",
+    result: {id: "ae2:printed_silicon", count: 1},
+    ingredients: {middle: {tag: "c:silicon"}}});
+
+<recipetype:ae2:transform>.addJsonRecipe("t1.certus_crystal", {type: "ae2:transform", 
+    result: {id: "ae2:certus_quartz_crystal", count: 1}, 
+    circumstance: {type: "explosion"},
+    ingredients: [{item: "minecraft:quartz"}, {item:"kubejs:normal_lust_crystal"}]});

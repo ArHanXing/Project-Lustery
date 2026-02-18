@@ -47,7 +47,7 @@ ItemEvents.modifyTooltips(e =>{
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.vaginaldew_refining_tower"]',
-            ['Tier-§c1','回归原体吧!','允许使用§b并行控制仓§r']
+            ['Tier-§c1','回归原体吧!','更高效地产出§d粗质淫液§r','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:rift_generator',
             ['Tier-§c1','在配方结束之后，机器底部3x3的空间生成§5半稳定维度裂缝§r','其实并不耗电']
@@ -73,7 +73,8 @@ ItemEvents.modifyTooltips(e =>{
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
-                '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上10格的位置，陨石为§a菱形§r，半径为JEI中产出的方块总数量'
+                '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上10格的位置',
+                '  陨石为§a菱形§r，半径为JEI中产出的方块总数量'
             ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
@@ -130,6 +131,9 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             ['kubejs:magnetize_iron_ingot','kubejs:magnetize_iron_sheet','kubejs:magnetize_iron_rod'],
             'Fe'
+        ],[
+            ['kubejs:steel_plate','kubejs:steel_double_plate','mekanism:ingot_steel','mekanism:nugget_steel','mekanism:dust_steel'],
+            'Fe100C'
         ]
     ]
 

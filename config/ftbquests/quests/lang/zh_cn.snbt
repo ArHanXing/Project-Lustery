@@ -23,7 +23,9 @@
 	quest.1020AF69968E1C14.title: "欢迎"
 	quest.112F8F2A6ECA12B6.quest_desc: ["往钢筋方块中倒入混凝土"]
 	quest.1C6A6E1571946A0A.quest_desc: ["或许这是AE之前你吃的最大的一坨，但是忍一忍就过去了"]
-	quest.2620ECE6EBAAD0F3.title: "培养基"
+	quest.1CC68749AA4BB3D5.quest_desc: ["材质来自 GTM"]
+	quest.29C68D4BC3FD507D.quest_desc: ["这次不需要模板了"]
+	quest.29C68D4BC3FD507D.title: "处理器"
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
 	quest.304082115F880753.title: "古法安山岩"
 	quest.3CC31EDC2F40885D.title: "回收木镐"
@@ -49,6 +51,19 @@
 	quest.60D6731F00C6EEBC.quest_desc: [""]
 	quest.60D6731F00C6EEBC.title: "原石"
 	quest.63A418A6EAF24D26.title: "高炉"
+	quest.6CA86D1824C8155D.quest_desc: [
+		"&a多方块结构&r将会是本整合包的核心内容，接下来是对于它们搭建的一点教程。善用&b翻页功能&r，就在你屏幕的右下角！"
+		"{@pagebreak}"
+		"&l&a多方块结构的搭建&r可以左键多方块的主机方块后，在EMI中查看 3D 模型。而当你做出主机之后，点击主机GUI左上方的&d结构方块按钮&r，就可以实现&b自动搭建&r。"
+		""
+		"&l&a多方块结构的输入输出&r需要用到&a输入仓和输入总线&r。"
+		"- &a&l仓&r是用于输入输出&l流体&r的仓室。"
+		"- &a&l总线&r是用于输入输出&l物品&r的仓室。"
+		"- 其他仓室还有&a&l能源仓&r（&l向机器输入能源&r）、&a&l动力仓&r（&l从机器输出能源&r）、&a&l燃料仓&r（存储燃烧时间）等等。"
+		"- 每一个多方块结构上都有很多设置为&e机械外壳&r的位置，这些位置可以由仓室替代。"
+		"- 当你的配方不运行的时候，请先检查你的机器&l是否有足够的输出空间！&r例如，你是否漏装了输出仓、输出总线、..."
+	]
+	quest.6CA86D1824C8155D.title: "多方块如何搭建"
 	quest.73B99B599999B9A9.quest_desc: [
 		"&m想不到刚开局就&d被夺走了第一次&f吧（&r"
 		""

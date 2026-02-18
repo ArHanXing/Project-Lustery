@@ -63,6 +63,7 @@ StartupEvents.registry("block",e=>{
     e.create("custommachinery:lustpulse_motor", "custommachinery:custom_machine")
     e.create("custommachinery:rift_generator", "custommachinery:custom_machine")
     e.create("custommachinery:testify", "custommachinery:custom_machine")
+    e.create("custommachinery:polarizer", "custommachinery:custom_machine")
     e.create("dimrift")
         .noDrops()
     e.create("plascrete")

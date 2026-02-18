@@ -182,6 +182,10 @@
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
           "weight": 2
+        },{
+          "type": "minecraft:item",
+          "name": "ae2:sky_dust",
+          "weight": 6
         }
       ]
     }

@@ -525,6 +525,14 @@
 		{
 			dependencies: ["4E8F241B05B67C23"]
 			id: "1437E6B95AD62138"
+			rewards: [{
+				id: "7F809C8374B5DC6A"
+				item: {
+					count: 1
+					id: "createaddition:electric_motor"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -538,6 +546,14 @@
 		{
 			dependencies: ["4E8F241B05B67C23"]
 			id: "68B52FE53DDF3D70"
+			rewards: [{
+				id: "061EEAC06A4D8CB1"
+				item: {
+					count: 1
+					id: "createaddition:alternator"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

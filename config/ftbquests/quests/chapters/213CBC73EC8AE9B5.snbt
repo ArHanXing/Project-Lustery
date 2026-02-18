@@ -587,7 +587,49 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:t1.biolab"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "6CA86D1824C8155D"
+			rewards: [
+				{
+					count: 8
+					id: "32839C338511AEB1"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:casing_plain"
+					}
+					type: "item"
+				}
+				{
+					id: "009BD479603A2B5A"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:inputbus_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "3F6D28D9238F4B50"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:outputbus_reinforced"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "122351E34D768BBC"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 }

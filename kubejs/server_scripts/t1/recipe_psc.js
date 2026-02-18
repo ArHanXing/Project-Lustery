@@ -1,4 +1,3 @@
-//这里放统一的recipe
 
 //碎岩机？
 ServerEvents.recipes(e =>{
