@@ -4,6 +4,39 @@ ServerEvents.recipes(e =>{
 
     ec.pressing('kubejs:petri_dish','minecraft:glass');
 
+    let incomp = 'kubejs:filter_casing'
+    ec.sequenced_assembly(
+        'kubejs:filter_casing',
+        'kubejs:plascrete',
+        [
+            ec.deploying(incomp,[incomp,'create:iron_sheet']),
+            ec.pressing(incomp,incomp),
+            ec.cutting(incomp,incomp),
+            ec.deploying(incomp,[incomp,'minecraft:paper']),
+            ec.deploying(incomp,[incomp,'tfmg:screwdriver']).keepHeldItem()
+        ]
+    )
+        .transitionalItem(incomp)
+    
+    incomp = 'kubejs:unfinished_controller'
+    ec.sequenced_assembly(
+        'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.biolab"]',
+        'factory_blocks:sturdy',
+        [
+            ec.deploying(incomp,[incomp,'create:iron_sheet']),
+            ec.deploying(incomp,[incomp,'kubejs:filter_casing']),
+            ec.pressing(incomp,incomp),
+            ec.deploying(incomp,[incomp,'kubejs:filter_casing']),
+        ],
+    )
+        .transitionalItem(incomp)
+
+    ec.mixing(
+        [Fluid.of('kubejs:natural_powered_medium',10000)],
+        [Fluid.of('mekanism:nutritional_paste',1000),Fluid.of('minecraft:water',8000),Ingredient.of("#minecraft:saplings",10)],
+        100
+    )
+
     mme.machine_recipe("mmr:t1.biolab",100)
         .width(150)
         .height(180)
@@ -21,7 +54,7 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     const m=e.getMachine();
     const input=m.getFluidsStored(IOType.INPUT)
     const server=level.getServer();
-    const seed=998244353
+    const seed=_SEED;
 
     /**
     * @param {number} cur 目前配方的值
@@ -57,26 +90,25 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     let oth=0;
     //console.lof('[BioLab] 直接输出！'+input);
     input.forEach(cur =>{
+        console.log('[BioLab] current fluid is '+cur.getFluidType().toString()+' '+cur.amount.toString())
         if(cur.getFluidType() === 'kubejs:lustery_powered_medium') {
-            lus=Math.floor(cur.getAmount()/1000);
+            lus+=Math.floor(cur.getAmount()/1000);
             console.log('[BioLab] current Lust='+lus);
         }
-        else if(cur.getFluidType() === 'kubejs:others_powered_medium') {
-            oth=Math.floor(cur.getAmount()/1000);
+        if(cur.getFluidType() === 'kubejs:others_powered_medium') {
+            oth+=Math.floor(cur.getAmount()/1000);
             console.log('[BioLab] current Others='+oth);
         }
-        else if(cur.getFluidType() === 'kubejs:nature_powered_medium') {
-            nat=Math.floor(cur.getAmount()/1000);
+        if(cur.getFluidType() === 'kubejs:natural_powered_medium') {
+            nat+=Math.floor(cur.getAmount()/1000);
             console.log('[BioLab] current Natures='+nat);
         }
     })
-    let flagN = _judgement(nat,natN,0);
-    let flagL = _judgement(lus,lusN,1);
-    let flagO = _judgement(oth,othN,2)
-    if(flagN && flagL && flagO){
-        m.addItem(Item.of('kubejs:lustbio_petri_dish'))
-    }
-    else m.addItem(Item.of('kubejs:failed_lustbio_petri_dish'))
+
+    let base=1;//基础概率
+    if(_judgement(nat,natN,0)) base+=3;
+    if(_judgement(lus,lusN,1)) base+=3;
+    if(_judgement(oth,othN,2)) base+=3;
     m.removeFluid('kubejs:lustery_powered_medium');
     m.removeFluid('kubejs:natural_powered_medium');
     m.removeFluid('kubejs:others_powered_medium');

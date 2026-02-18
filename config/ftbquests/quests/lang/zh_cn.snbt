@@ -22,6 +22,8 @@
 	]
 	quest.1020AF69968E1C14.title: "欢迎"
 	quest.112F8F2A6ECA12B6.quest_desc: ["往钢筋方块中倒入混凝土"]
+	quest.1C6A6E1571946A0A.quest_desc: ["或许这是AE之前你吃的最大的一坨，但是忍一忍就过去了"]
+	quest.2620ECE6EBAAD0F3.title: "培养基"
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
 	quest.304082115F880753.title: "古法安山岩"
 	quest.3CC31EDC2F40885D.title: "回收木镐"
@@ -64,5 +66,7 @@
 		"由于MMR的限制，这个多方块不支持并行。不过它“自带4并行”&m（作者只是翻倍了产出）&r"
 	]
 	quest.78920A0D30298E13.title: "洗矿"
+	quest.79BA114FDAE93C4D.quest_desc: ["不是让你做GT超净间，这只是建材哦"]
+	quest.79BA114FDAE93C4D.title: "超净间"
 	reward_table.353F11161D78E8C4.title: "t0:建筑材料"
 }

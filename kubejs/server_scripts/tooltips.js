@@ -90,12 +90,15 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1§r/§b3§r -- 本机器同时在§b两个阶段§r使用，具体机制如下：',
             '==========',
             'Tier-§c1§r配方中：',
-            '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r',
-            '    - §a三种不同的培养基§r的不同配比将会影响配方成功的概率',
+            '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r培养基',
+            '    - 配方的基础成功概率为10%，§a三种不同的培养基§r中，每有一种输入量正确即增加30%配方成功率',
             '==========',
             'Tier-§b3§r配方中：',
             '    - §a敬请期待！§r'
         ]
+        ],[
+            'tfmg:generator',
+            ['§c这个物品被禁用了！§r制作它在流程上将没有任何意义。','其实作者也很想玩一玩这优雅的电力系统，可惜作者也没有玩懂呜呜呜。','§7§m§o让我们永远缅怀它。']
         ]
     ]
 
@@ -107,7 +110,7 @@ ItemEvents.modifyTooltips(e =>{
 
     const elementPairs = [
         [
-            [mcforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget'],
+            [mcforms('minecraft','iron'),'mekanism:dust_iron','minecraft:iron_nugget','create:iron_sheet','createaddition:iron_rod'],
             'Fe'
         ],[
             ['tfmg:cast_iron_block','tfmg:cast_iron_ingot','tfmg:cast_iron_sheet','jaopca:gears.cast_iron','jaopca:rods.cast_iron'],
@@ -124,7 +127,10 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             [mcforms('minecraft','copper'),'mekanism:dust_copper','jaopca:gears.copper','createaddition:copper_rod','create:copper_sheet'],
             'Cu'
-    ]
+        ],[
+            ['kubejs:magnetize_iron_ingot','kubejs:magnetize_iron_sheet','kubejs:magnetize_iron_rod'],
+            'Fe'
+        ]
     ]
 
     elementPairs.forEach(prr=>{

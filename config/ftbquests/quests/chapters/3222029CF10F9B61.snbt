@@ -22,36 +22,14 @@
 				item: { count: 1, id: "kubejs:petri_dish" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["542A0DE8FF468537"]
-			id: "7411CE65941602BB"
-			tasks: [{
-				id: "0F28C7E052EA05AA"
-				item: { count: 1, id: "create:sturdy_sheet" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"7411CE65941602BB"
-				"3DFF1998CBC16EB7"
+				"4E8F241B05B67C23"
+				"68B52FE53DDF3D70"
 			]
-			id: "01797F1E3CA486CF"
-			tasks: [{
-				id: "1668D6FECF2674AE"
-				item: { count: 1, id: "mekanism:steel_casing" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["01797F1E3CA486CF"]
 			id: "28A9F2A3852446D6"
 			tasks: [{
 				id: "3E259B618549D998"
@@ -59,7 +37,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["542A0DE8FF468537"]
@@ -69,8 +47,8 @@
 				item: { count: 1, id: "tfmg:concrete_mixture" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74E559E7BA35558E"]
@@ -80,7 +58,7 @@
 				item: { count: 1, id: "tfmg:liquid_concrete_bucket" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -102,7 +80,72 @@
 				}
 			]
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["112F8F2A6ECA12B6"]
+			id: "79BA114FDAE93C4D"
+			tasks: [
+				{
+					id: "7C277C2AE4EA5A8A"
+					item: { count: 1, id: "kubejs:plascrete" }
+					type: "item"
+				}
+				{
+					id: "55B6CC64B04BDF9F"
+					item: { count: 1, id: "kubejs:filter_casing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["79BA114FDAE93C4D"]
+			id: "1C6A6E1571946A0A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3D3C34615F88C69B"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.biolab" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28A9F2A3852446D6"]
+			id: "7B961E6D4DE61491"
+			tasks: [{
+				id: "1C4C32AAC83200E2"
+				item: { count: 1, id: "mekanism:nutritional_paste_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B961E6D4DE61491"]
+			id: "2620ECE6EBAAD0F3"
+			tasks: [
+				{
+					id: "5B07F994C727DA13"
+					item: { count: 1, id: "kubejs:natural_powered_medium_bucket" }
+					type: "item"
+				}
+				{
+					id: "2DFF71E613503610"
+					item: { count: 1, id: "kubejs:lustery_powered_medium_bucket" }
+					type: "item"
+				}
+				{
+					id: "3FF6643C68B8654D"
+					item: { count: 1, id: "kubejs:others_powered_medium_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
 		}
 	]
 }

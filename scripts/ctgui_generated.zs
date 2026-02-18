@@ -164,7 +164,7 @@ craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:play
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"f":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," f "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"g":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," g "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
     [<item:jaopca:gears.brass>],
@@ -257,10 +257,10 @@ craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justar
     [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:steel_casing");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"d":{"item":"tfmg:steel_casing"}},"pattern":["isi","sds","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"j":{"item":"tfmg:steel_casing"}},"pattern":["isi","sjs","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:nutritional_liquifier");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"y":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsy","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"t":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wst","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_1");
 
@@ -286,4 +286,24 @@ craftingTable.addShaped("ctgui/new/enderio/basic_capacitor", <item:enderio:basic
     [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>, IIngredientEmpty.getInstance()],
     [<item:create:copper_sheet>, <item:createaddition:iron_rod>, <item:create:copper_sheet>],
     [IIngredientEmpty.getInstance(), <item:minecraft:gold_ingot>, IIngredientEmpty.getInstance()]]);
+
+<recipetype:minecraft:crafting>.removeByName("mekanism:storage_blocks/steel");
+
+<recipetype:minecraft:crafting>.removeByName("mekanism:processing/steel/ingot/from_block");
+
+craftingTable.addShapeless("ctgui/new/crafting/magnetize_iron_ingot", <item:kubejs:magnetize_iron_ingot>, [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]);
+
+craftingTable.addShapeless("ctgui/new/crafting/magnetize_iron_rod_0", <item:kubejs:magnetize_iron_rod>, [<item:createaddition:iron_rod>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]);
+
+craftingTable.addShapeless("ctgui/new/crafting/magnetize_iron_sheet", <item:kubejs:magnetize_iron_sheet>, [<item:create:iron_sheet>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]);
+
+craftingTable.addShaped("ctgui/new/crafting/alternator", <item:createaddition:alternator>, [
+    [<item:kubejs:steel_plate>, <item:create:copper_sheet>, <item:kubejs:steel_plate>],
+    [<item:kubejs:magnetize_iron_sheet>, <item:create:brass_casing>, <item:kubejs:magnetize_iron_sheet>],
+    [<item:kubejs:steel_plate>, <item:create:copper_sheet>, <item:kubejs:steel_plate>]]);
+
+craftingTable.addShaped("ctgui/new/crafting/electric_motor", <item:createaddition:electric_motor>, [
+    [<item:kubejs:steel_plate>, <item:kubejs:magnetize_iron_sheet>, <item:create:brass_sheet>],
+    [<item:create:copper_sheet>, <item:create:shaft>, <item:create:copper_sheet>],
+    [<item:create:brass_sheet>, <item:kubejs:magnetize_iron_sheet>, <item:kubejs:steel_plate>]]);
 

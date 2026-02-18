@@ -149,3 +149,8 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
     ingredients: [{item: "minecraft:calcite"}]});
 
 <recipetype:tfmg:hot_blast>.removeByName("tfmg:hot_blast/hot_air");
+<recipetype:create:sequenced_assembly>.removeByName("tfmg:sequenced_assembly/heavy_plate");
+//塑料混凝土
+<recipetype:create:item_application>.addJsonRecipe("t1.it_appli.concrete", {type: "create:item_application", 
+    results: [{id: "kubejs:plascrete"}], 
+    ingredients: [{item: "tfmg:rebar_concrete"}, {item:"minecraft:white_dye"}]});

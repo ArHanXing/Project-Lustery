@@ -37,6 +37,8 @@
     "block.factory_blocks.sturdy": "基础工业外壳",
     "block.factory_blocks.gears": "黄铜齿轮机械方块",
     "item.kubejs.calcite_dust": "方解石粉",
+    "item.kubejs.steel_plate": "钢板",
+    "item.kubejs.steel_double_plate": "双层钢板",
 
     "item.kubejs.petri_dish": "空培养皿",
     "item.kubejs.failed_lustbio_petri_dish": "有已死亡的§d触手生物§r的培养皿",
@@ -54,6 +56,9 @@
     "fluid.kubejs.others_powered_medium": "§b异界灌注§r的培养基",
     "block.kubejs.others_powered_medium": "§b异界灌注§r的培养基",
     "fluid_type.kubejs.others_powered_medium": "§b异界灌注§r的培养基",
-    "block.kubejs.plascrete": "超净间塑料混凝土",
-    "block.kubejs.filter_casing": "超净间过滤器"
+    "block.kubejs.plascrete": "超净间混凝土",
+    "block.kubejs.filter_casing": "超净间过滤器",
+    "item.kubejs.magnetize_iron_sheet":"磁化铁板",
+    "item.kubejs.magnetize_iron_ingot":"磁化铁锭",
+    "item.kubejs.magnetize_iron_rod":"磁化铁棒"
 }

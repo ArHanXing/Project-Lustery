@@ -500,5 +500,53 @@
 			x: 16.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3DFF1998CBC16EB7"]
+			id: "0A56A17C701F8CAA"
+			tasks: [{
+				id: "4A4E90F1CB4B3337"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0A56A17C701F8CAA"]
+			id: "4E8F241B05B67C23"
+			tasks: [{
+				id: "1E45AF2D5AE762FE"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E8F241B05B67C23"]
+			id: "1437E6B95AD62138"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "322A7CDF96D6CD77"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E8F241B05B67C23"]
+			id: "68B52FE53DDF3D70"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1EA5477B64F44C0E"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
 	]
 }
