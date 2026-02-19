@@ -1,10 +1,6 @@
 {
   "favorites": [
     {
-      "stack": "item:minecraft:cobblestone",
-      "recipe": "toomanyrecipeviewers:/enderio/sag_milling/cobbled_deepslate"
-    },
-    {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_ore_washer\"}",
       "recipe": "kubejs:kjs/modular_machinery_reborn_controller"
     },
@@ -22,6 +18,9 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimprobe_station\"}"
     },
     {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}"
+    },
+    {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t2.plenum\"}"
     },
     {
@@ -32,6 +31,9 @@
     },
     {
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.biolab\"}"
+    },
+    {
+      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.slaughter_factory\"}"
     },
     {
       "stack": "item:mekanism:basic_fluid_tank",
@@ -56,42 +58,218 @@
       "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lust_obelisk\"}"
     },
     {
-      "stack": "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}"
-    },
-    {
       "stack": "item:custommachinery:lustpulse_motor",
       "recipe": "toomanyrecipeviewers:/create/kjs/custommachinery_lustpulse_motor"
     },
     {
       "stack": "item:custommachinery:rift_generator"
+    },
+    {
+      "stack": "item:minecraft:cobblestone",
+      "recipe": "toomanyrecipeviewers:/enderio/sag_milling/cobbled_deepslate"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "kubejs:fusion_normal_lust_crystal",
+        "amount": 2
+      },
+      "recipe": "t1.mmr.pfa.kubejs:fusion_normal_lust_crystal.4"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "modular_machinery_reborn:casing_plain",
+        "amount": 2
+      },
+      "recipe": "crafttweaker:ctgui/new/modular_machinery_reborn/casing_plain_andesite"
     }
   ],
   "lookup_history": [
-    "item:extendedae:circuit_cutter",
-    "item:extendedae:machine_frame",
-    "item:ae2:printed_engineering_processor",
-    "item:ae2:engineering_processor",
+    "item:mekanism_extras:ingot_naquadah",
+    "item:sgjourney:raw_naquadah",
+    "item:sgjourney:raw_naquadah_block",
+    "item:sgjourney:refined_naquadah",
+    "item:sgjourney:nether_naquadah_ore",
+    "item:sgjourney:deepslate_naquadah_ore",
+    "item:sgjourney:naquadah_ore",
+    "item:draconicevolution:draconium_ingot",
+    "item:draconicevolution:overworld_draconium_ore",
+    {
+      "type": "fluid",
+      "id": "kubejs:dirty_focused_mine_fluid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:focused_mine_fluid",
+      "amount": 0
+    },
+    "item:minecraft:flint_and_steel",
+    "item:enderio:cold_fire_igniter",
+    "item:minecraft:polished_blackstone",
+    "item:minecraft:blackstone",
+    "item:minecraft:cobbled_deepslate",
+    "item:minecraft:deepslate",
+    "item:minecraft:basalt",
+    "item:minecraft:cobbled_deepslate_stairs",
+    "item:tfmg:steel_frame",
+    "item:create:rose_quartz_lamp",
+    {
+      "type": "item",
+      "id": "tfmg:turbine_engine",
+      "amount": 2
+    },
+    "item:tfmg:heavy_machinery_casing",
+    "item:tfmg:rebar_block",
+    "item:tfmg:orange_rebar_concrete",
+    "item:tfmg:orange_rebar_concrete_wall",
+    "item:create:industrial_iron_block",
+    "item:create:andesite_casing",
+    "item:tfmg:rebar_concrete_stairs",
+    "item:tfmg:light_gray_concrete_stairs",
+    "item:tfmg:white_rebar_concrete_stairs",
+    "item:factory_blocks:sturdy",
+    "item:tfmg:concrete",
+    "item:tfmg:white_concrete",
+    "item:tfmg:blast_furnace_hatch",
+    "item:tfmg:fireproof_bricks",
+    "item:tfmg:blast_furnace_reinforcement",
+    "item:tfmg:copycat_cable_block",
+    "item:tfmg:pumpjack_crank",
+    "item:tfmg:rebar_pile",
+    "item:tfmg:hardened_planks",
+    "item:tfmg:cement",
+    "item:tfmg:aluminum_spool{\"tfmg:spool_amount\":1000}",
+    "item:tfmg:engine_gearbox",
+    "item:tfmg:fireproof_chemical_vat",
+    "item:tfmg:pumpjack_base",
+    "item:tfmg:large_pumpjack_hammer_head",
+    "item:tfmg:accumulator",
+    "item:tfmg:large_pumpjack_hammer_part",
+    "item:tfmg:air_intake",
+    "item:tfmg:coke_oven",
+    "item:tfmg:blast_furnace_output",
+    "item:tfmg:concrete_hose",
+    "item:tfmg:blast_stove",
+    "item:tfmg:steel_casing_cable_hub",
+    "item:tfmg:electrical_switch",
+    "item:tfmg:large_coil",
+    "item:tfmg:converter",
+    "item:tfmg:metal_smokestack",
+    "item:tfmg:exhaust",
+    "item:tfmg:flarestack",
+    "item:tfmg:gas_lamp",
+    "item:tfmg:aluminum_block",
+    "item:tfmg:cast_iron_block",
+    "item:tfmg:industrial_aluminum_casing",
+    "item:tfmg:industrial_pipe",
+    "item:create:limestone",
+    "item:minecraft:gravel",
+    "item:minecraft:sand",
+    "item:tfmg:limesand",
+    "item:tfmg:concrete_mixture",
+    {
+      "type": "fluid",
+      "id": "tfmg:liquid_concrete",
+      "amount": 1000
+    },
+    "item:tfmg:liquid_concrete_bucket",
+    "item:factory_blocks:gears",
+    "item:minecraft:chiseled_polished_blackstone",
+    "item:mekanismgenerators:fission_reactor_casing",
+    "item:mekanism_extras:reinforced_induction_casing",
+    "item:mekanism_extras:naquadah_reactor_casing",
+    "item:create:mechanical_drill",
+    "item:minecraft:orange_concrete",
+    "item:create:orange_valve_handle",
+    "item:tfmg:orange_caution_block",
+    "item:tfmg:steel_casing",
+    "item:tfmg:nickel_block",
+    "item:tfmg:constantan_block",
+    "item:tfmg:liquid_asphalt_bucket",
+    {
+      "type": "fluid",
+      "id": "tfmg:liquid_asphalt",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "tfmg:asphalt_mixture",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "tfmg:slag",
+      "amount": 2
+    },
+    "item:tfmg:slag_block",
+    "item:createaddition:biomass_pellet_block",
+    "item:minecraft:coal_block",
+    "item:modular_machinery_reborn:casing_plain",
+    "item:tfmg:coal_coke_dust",
+    "item:create:crushed_raw_iron",
+    "item:tfmg:fireproof_brick_reinforcement",
+    "item:tfmg:casting_basin",
+    "item:megacells:portable_item_cell_256m{\"ae2:stored_energy\":160000.0d}",
+    "item:megacells:portable_fluid_cell_256m{\"ae2:stored_energy\":160000.0d}",
+    "item:megacells:accumulation_processor_press",
+    "item:megacells:cell_dock",
+    "item:megacells:accumulation_processor",
+    "item:ae2:portable_item_cell_1k",
+    "item:ae2:drive",
+    "item:ae2:fluix_glass_cable",
+    "item:ae2:quartz_fiber",
+    "item:computercraft:cable",
+    "item:kubejs:fusion_normal_lust_crystal",
+    {
+      "type": "item",
+      "id": "ae2:silicon",
+      "amount": 6
+    },
+    "item:kubejs:lustbio_petri_dish",
     "item:kubejs:basic_lust_bioware",
-    "item:extendedae:quartz_blend",
-    "item:ae2:silicon",
-    "item:ae2:printed_silicon",
+    "item:minecraft:spider_eye",
+    "item:minecraft:ender_pearl",
+    "item:ae2:fluix_pearl",
+    "item:ae2:fluix_crystal",
+    "item:extendedae:fishbig",
+    "item:extendedae:circuit_cutter",
+    "item:extendedae:crystal_assembler",
+    "item:eidolon_repraised:pewter_ingot",
+    "item:eidolon_repraised:crucible",
+    "item:avaritia:infinity_ingot",
+    "item:avaritia:infinity_axe",
+    "#item:minecraft:axes",
+    {
+      "type": "item",
+      "id": "extendedae:quartz_blend",
+      "amount": 6
+    },
+    "item:mekanism:dust_quartz",
     "item:ae2:certus_quartz_crystal",
     {
       "type": "fluid",
       "id": "kubejs:vaginaldew_basic",
       "amount": 65
     },
-    {
-      "type": "item",
-      "id": "kubejs:fusion_normal_lust_crystal",
-      "amount": 64
-    },
     "item:ae2:charged_certus_quartz_crystal",
+    "item:create:millstone",
+    "item:mekanism:dust_quartz",
+    "item:enderio:powdered_quartz",
+    "item:ae2:portable_item_cell_256k{\"ae2:stored_energy\":20000.0d}",
+    "item:ae2:portable_fluid_cell_16k",
+    "item:ae2:spatial_cell_component_2",
+    "item:ae2:spatial_cell_component_128",
+    "item:ae2:spatial_storage_cell_128",
+    "item:ae2:engineering_processor",
+    "item:extendedae:machine_frame",
+    "item:ae2:printed_engineering_processor",
+    "item:ae2:printed_silicon",
     "item:enderio:silicon",
     "item:ae2:certus_quartz_dust",
     "item:ae2:calculation_processor_press",
     "item:jaopcaextras:extra_press",
-    "item:sgjourney:raw_naquadah",
     "item:enderio:silicon",
     "item:ae2:inscriber",
     "item:extendedae:ex_inscriber",
@@ -101,7 +279,6 @@
     "item:ae2:printed_logic_processor",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
     "item:justarod:redstone_rod",
-    "item:kubejs:lustbio_petri_dish",
     "item:ae2:sky_stone_block",
     "item:ae2:sky_dust",
     {
@@ -170,14 +347,9 @@
     "item:draconicevolution:medium_chaos_frag",
     "item:draconicevolution:item_chaotic_flight",
     "item:draconicevolution:creative_capacitor",
-    "item:tfmg:steel_casing",
-    "item:tfmg:hardened_planks",
-    "item:tfmg:converter",
     "item:tfmg:transformer",
     "item:tfmg:winding_machine",
-    "item:tfmg:heavy_machinery_casing",
     "item:tfmg:generator",
-    "item:tfmg:aluminum_spool{\"tfmg:spool_amount\":1000}",
     "item:tfmg:empty_spool",
     "item:tfmg:copper_spool{\"tfmg:spool_amount\":75}",
     {
@@ -232,7 +404,6 @@
     "item:minecraft:bone",
     "item:tfmg:cast_iron_ingot",
     "item:mekanism:thermal_evaporation_block",
-    "item:tfmg:concrete_mixture",
     "item:sgjourney:naquadah_power_cell",
     "item:kubejs:failed_lustbio_petri_dish",
     {
@@ -249,23 +420,10 @@
     ],
     "item:enderio:grains_of_infinity",
     "item:createaddition:alternator",
-    "item:tfmg:cement",
-    "item:minecraft:gravel",
-    "item:minecraft:sand",
-    {
-      "type": "fluid",
-      "id": "tfmg:liquid_concrete",
-      "amount": 1000
-    },
-    "item:tfmg:liquid_concrete_bucket",
-    "item:tfmg:rebar_block",
     "item:tfmg:rebar_floor",
     "item:tfmg:steel_scaffolding",
     "item:dysoncubeproject:beam",
     "item:dysoncubeproject:beam_package",
-    "item:tfmg:rebar_concrete_stairs",
-    "item:tfmg:white_concrete",
-    "item:tfmg:concrete",
     "item:tfmg:concrete_smokestack",
     "item:minecraft:white_concrete",
     "item:modular_machinery_reborn:entity_detector",
@@ -285,7 +443,6 @@
     "item:mekanism:thermal_evaporation_controller",
     "item:mekanism:boiler_casing",
     "item:mekanism:pressure_disperser",
-    "item:tfmg:accumulator",
     "item:mekanism:teleportation_core",
     "item:tfmg:steel_pipe",
     "mekanism_chemical:jaopca:mekanism_clean.silver",
@@ -314,14 +471,7 @@
       "amount": 0
     },
     "item:mekanismgenerators:bio_generator",
-    "item:create:industrial_iron_block",
     "item:minecraft:enchanting_table",
-    "item:factory_blocks:sturdy",
-    {
-      "type": "item",
-      "id": "factory_blocks:gears",
-      "amount": 11
-    },
     "item:create:brass_hand",
     "item:jaopca:rods.cast_iron",
     "item:create:electron_tube",
@@ -333,7 +483,6 @@
     "item:modular_machinery_reborn:fluidinputhatch_tiny",
     "item:modular_machinery_reborn:fluidoutputhatch_tiny",
     "item:modular_machinery_reborn:fluidoutputhatch_normal",
-    "item:modular_machinery_reborn:casing_plain",
     "item:modular_machinery_reborn:fluidinputhatch_small",
     "item:modular_machinery_reborn:fluidinputhatch_normal",
     "item:modular_machinery_reborn:fluidinputhatch_reinforced",
@@ -361,7 +510,6 @@
       "id": "tfmg:brass_truss",
       "amount": 2
     },
-    "item:tfmg:cast_iron_block",
     "item:custommachinery:lustpulse_motor",
     "item:create:mechanical_saw",
     "item:create:brass_casing",
@@ -371,7 +519,6 @@
     "item:mekanism:configurator",
     "item:create:spout",
     "item:mekanism:basic_fluid_tank",
-    "item:tfmg:coke_oven",
     "item:tfmg:cast_iron_truss",
     "fluid:minecraft:lava",
     "item:minecraft:netherrack",
@@ -399,11 +546,6 @@
     "item:minecraft:tuff",
     "item:minecraft:diorite",
     "item:minecraft:andesite",
-    {
-      "type": "item",
-      "id": "create:mechanical_drill",
-      "amount": 2
-    },
     "item:wands:netherite_wand",
     "item:enderio:redstone_alloy_ingot",
     "item:create:mechanical_press",
@@ -413,7 +555,6 @@
       "id": "tfmg:molten_plastic",
       "amount": 200
     },
-    "item:tfmg:casting_basin",
     "item:tfmg:fireproof_brick",
     {
       "type": "item",
@@ -477,17 +618,9 @@
     },
     "item:modular_machinery_reborn:fluidoutputhatch_vacuum",
     "item:modular_machinery_reborn:fluidinputhatch_vacuum",
-    "item:tfmg:blast_furnace_output",
     "item:tfmg:hot_air_bucket",
-    "item:tfmg:fireproof_brick_reinforcement",
     "item:minecraft:coarse_dirt",
     "item:minecraft:dirt",
-    "item:tfmg:fireproof_bricks",
-    {
-      "type": "item",
-      "id": "tfmg:blast_stove",
-      "amount": 2
-    },
     "item:tfmg:cast_iron_pipe",
     {
       "type": "tag",
@@ -496,11 +629,9 @@
       "amount": 5
     },
     "item:tfmg:air_bucket",
-    "item:create:limestone",
     "item:create:layered_limestone",
     "item:mekanism_extras:enriched_shining",
     "item:minecraft:stone",
-    "item:tfmg:limesand",
     "item:jaopca:create_crushed.draconium",
     "item:jaopca:create_crushed.lithium",
     "item:tfmg:fireclay",
@@ -509,14 +640,10 @@
       "id": "tfmg:creosote",
       "amount": 0
     },
-    "item:tfmg:metal_smokestack",
-    "item:tfmg:coal_coke_dust",
-    "item:create:crushed_raw_iron",
     "item:create:mechanical_crafter",
     "item:create:crushing_wheel",
     "item:tfmg:coal_coke",
     "item:tfmg:brick_smokestack",
-    "item:tfmg:industrial_pipe",
     "item:minecraft:clay",
     "item:minecraft:terracotta",
     "item:minecraft:clay_ball",
@@ -551,8 +678,6 @@
     "item:enderio:powdered_ender_pearl",
     "#item:c:dusts/ender_pearl",
     "item:tfmg:brass_pipe",
-    "item:tfmg:nickel_block",
-    "item:tfmg:constantan_block",
     "item:tfmg:plastic_block",
     "item:factory_blocks:small_pipes",
     {
@@ -569,7 +694,6 @@
     "item:toneko:neko_ingot",
     "item:mekanism:dust_bronze",
     "item:tfmg:segmented_display",
-    "item:tfmg:electrical_switch",
     "item:tfmg:large_pumpjack_hammer_connector",
     "item:tfmg:deepslate_lithium_ore",
     "item:tfmg:cast_iron_nugget",
@@ -579,19 +703,8 @@
     "item:mekanism:elite_bin",
     "item:mekanism:advanced_bin",
     "item:mekanism:basic_bin",
-    {
-      "type": "fluid",
-      "id": "kubejs:focused_mine_fluid",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:dirty_focused_mine_fluid",
-      "amount": 0
-    },
     "item:createaddition:electrum_sheet",
     "item:kubejs:wood_plate",
-    "item:create:andesite_casing",
     "item:minecraft:oak_planks",
     "item:jaopca:plates.conductive_alloy",
     "item:jaopca:plates.refined_obsidian",
@@ -600,7 +713,6 @@
     "item:mekanism:teleporter",
     "item:jaopca:rods.cneko",
     "item:minecraft:bamboo_mosaic_stairs",
-    "item:tfmg:blast_furnace_reinforcement",
     "item:factory_blocks:old_vents",
     "item:create:golden_sheet",
     "item:tfmg:glass_insulator_segment",
@@ -614,7 +726,6 @@
     "item:jaopca:plates.cneko",
     "item:draconicevolution:draconium_dust",
     "item:jaopca:mekanism_dirty_dusts.draconium",
-    "item:draconicevolution:draconium_ingot",
     "item:draconicevolution:module_core",
     "item:draconicevolution:item_wyvern_flight",
     "item:sgjourney:syringe{\"sgjourney:syringe_contents\":\"ata\"}",
@@ -625,8 +736,6 @@
     "item:create:zinc_ingot",
     "item:tfmg:steel_truss",
     "item:tfmg:pumpjack_hammer",
-    "item:tfmg:large_pumpjack_hammer_head",
-    "item:tfmg:pumpjack_crank",
     "item:tfmg:silicon_ingot",
     "item:tfmg:napalm_potato",
     "item:tfmg:n_semiconductor",
@@ -646,7 +755,6 @@
     },
     "item:sgjourney:raw_naquadah",
     "item:jaopca:create_crushed.naquadah",
-    "item:mekanism_extras:ingot_naquadah",
     "item:mekanismgenerators:turbine_casing",
     "item:mekanism:creative_fluid_tank",
     {
@@ -688,9 +796,7 @@
     "item:tfmg:nickel_frame",
     "item:tfmg:cast_iron_frame",
     "item:tfmg:aluminum_frame",
-    "item:tfmg:steel_frame",
     "item:tfmg:cast_iron_fluid_tank",
-    "item:tfmg:blast_furnace_hatch",
     "item:mekanism:nugget_steel",
     "item:mekanism:dust_steel",
     "item:mekanism_extras:alloy_spectrum",
@@ -731,7 +837,6 @@
     "mekanism_chemical:mekanism:pink",
     "mekanism_chemical:mekanism:purple",
     "mekanism_chemical:jaopca:mekanism_clean.draconium",
-    "item:mekanismgenerators:fission_reactor_casing",
     "item:create:industrial_iron_window",
     "item:create:ornate_iron_window",
     "item:mekanism:ingot_osmium",
@@ -740,9 +845,7 @@
     "item:tfmg:aluminum_truss",
     "item:tfmg:white_rebar_concrete",
     "item:tfmg:galena",
-    "item:mekanism_extras:reinforced_induction_casing",
     "item:tfmg:nickel_truss",
-    "item:tfmg:copycat_cable_block",
     "item:create:rose_quartz_tiles",
     "item:create_connected:copycat_box",
     "item:jaopca:mekanism_crystals.draconium",
@@ -759,7 +862,6 @@
     "item:jaopca:rods.lithium",
     "item:ae2wtlib:quantum_bridge_card",
     "item:minecraft:netherite_ingot",
-    "item:create:millstone",
     "item:create:encased_fan",
     "item:create:portable_storage_interface",
     "item:create:mechanical_harvester",
@@ -848,7 +950,6 @@
     "item:minecraft:iron_block",
     "item:minecraft:anvil",
     "item:create:large_water_wheel",
-    "item:enderio:cold_fire_igniter{\"enderio:item_fluid_content\":{amount:1000,id:\"enderio:fluid_vapor_of_levity_still\"}}",
     {
       "type": "fluid",
       "id": "tfmg:liquid_silicon",
@@ -862,8 +963,6 @@
       "amount": 250
     },
     "item:tfmg:etched_circuit_board",
-    "item:tfmg:fireproof_chemical_vat",
-    "item:tfmg:large_pumpjack_hammer_part",
     "item:tfmg:heavy_plated_door",
     "item:tfmg:constantan_truss",
     {
@@ -898,13 +997,11 @@
     "item:avaritia:amethyst_singularity",
     "item:tfmg:aluminum_sheet",
     "item:draconicevolution:crystal_binder",
-    "item:extendedae:crystal_assembler",
     "item:extendedae:crystal_fixer",
     "item:extendedae:concurrent_processor_print",
     "item:tfmg:steel_fluid_tank",
     "item:mekmm:ultimate_max_chemical_tank",
     "item:mekanism:pellet_antimatter",
-    "item:mekanism_extras:naquadah_reactor_casing",
     "item:sgjourney:naquadah_rod",
     "item:sgjourney:vial{\"sgjourney:fluid\":{amount:250,id:\"sgjourney:liquid_naquadah\"}}",
     "item:mekmm:basic_lathing_factory"
@@ -919,7 +1016,6 @@
     "mekanism:fluid_tank/basic",
     "minecraft:redstone_block",
     "tfmg:crafting/materials/brass_truss",
-    "crafttweaker:t1.create.industrial_iron_block",
     "create:crafting/kinetics/mechanical_saw",
     "minecraft:iron_nugget",
     "create:crafting/kinetics/mechanical_pump",
@@ -966,12 +1062,12 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jaopcaextras:gears.from_material.copper",
+      "minecraft:andesite",
       "create:crafting/kinetics/shaft",
       "kubejs:t1.mc.primitive_end_rod",
       "toomanyrecipeviewers:/create/mixing/andesite_alloy",
       "minecraft:diorite",
-      "minecraft:andesite"
+      "jaopcaextras:gears.from_material.copper"
     ],
     "tags": {},
     "resolutions": {},

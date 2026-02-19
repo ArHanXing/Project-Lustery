@@ -216,6 +216,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["51554E7F74A31424"]
 			id: "21838EE28C351D7D"
 			tasks: [{
 				id: "589768B5E9DAA202"
@@ -242,6 +243,14 @@
 				"577D0ABEBCAD9C03"
 			]
 			id: "29C68D4BC3FD507D"
+			rewards: [{
+				id: "03A40EF3EABEAD88"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -263,6 +272,102 @@
 			]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4730A3DF49F47455"]
+			id: "58A1A273219E135A"
+			tasks: [{
+				id: "18637C4FC563463B"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58A1A273219E135A"]
+			id: "5F21F8152F9A04CE"
+			tasks: [{
+				id: "07F74BD551E0EC9D"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F21F8152F9A04CE"]
+			id: "76EF7627A32EDCB1"
+			rewards: [{
+				count: 64
+				id: "454EA27AF463B001"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B738BFC2FEFD756"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"29C68D4BC3FD507D"
+				"76EF7627A32EDCB1"
+			]
+			id: "25B92A9AAC38DB7B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0EE6B1B019127ABC"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25B92A9AAC38DB7B"]
+			id: "4D21917350C01A74"
+			rewards: [
+				{
+					id: "358C8320AF398088"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "5BF2223BF8D01A88"
+					item: {
+						count: 1
+						id: "ae2peat:pattern_encoding_access_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "3106DBE00D8EF174"
+					item: {
+						count: 1
+						id: "extendedae:ex_pattern_access_part"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1D74088EFF0A637C"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 }

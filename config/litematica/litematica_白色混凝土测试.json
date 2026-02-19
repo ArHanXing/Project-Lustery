@@ -1,5 +1,7 @@
 {
-  "last_directories": {},
+  "last_directories": {
+    "schematic_load": "D:\\Games\\Minecraft\\.minecraft\\versions\\Lustful Sky\\schematics"
+  },
   "create_placement_on_load": true,
-  "config_gui_tab": "GENERIC"
+  "config_gui_tab": "HOTKEYS"
 }

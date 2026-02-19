@@ -12,67 +12,67 @@
 	#Defines the slots number of item bus
 	# Default: 1
 	# Range: > 1
-	slots = 1
+	slots = 4
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 2
 
 [small]
 	#Defines the slots number of item bus
 	# Default: 4
 	# Range: > 1
-	slots = 4
+	slots = 9
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 3
 
 [normal]
 	#Defines the slots number of item bus
 	# Default: 6
 	# Range: > 1
-	slots = 6
+	slots = 16
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 4
 
 [reinforced]
 	#Defines the slots number of item bus
 	# Default: 9
 	# Range: > 1
-	slots = 9
+	slots = 25
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 5
 
 [big]
 	#Defines the slots number of item bus
 	# Default: 12
 	# Range: > 1
-	slots = 12
+	slots = 36
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 6
 
 [huge]
 	#Defines the slots number of item bus
 	# Default: 16
 	# Range: > 1
-	slots = 16
+	slots = 49
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1
-	cols = 9
+	cols = 7
 
 [ludicrous]
 	#Defines the slots number of item bus
 	# Default: 32
 	# Range: > 1
-	slots = 32
+	slots = 81
 	#Defines the slot cols number of item bus
 	# Default: 9
 	# Range: > 1

@@ -101,9 +101,59 @@ MMREvents.machines(e => {
                 }))
 
     e.create('mmr:t1.dimrift_mining_station')
-        .name("维度裂隙采矿站 WIP")//TODO 矿站
+        .name("维度裂隙采矿站")
         .color("#fff7b977")
-
+        .structure(
+        MMRStructureBuilder.create()
+            .pattern([
+            ["      eee      ","      ebe      ","    aabbbaa    ","    abccbba    ","bbbbbcddccbbbbb","bbbbbcddddcbbbb","bbbbcddcddcbbbb","bbbbcddddcbbbbb","    bccddcbbbbb","    abbccba    ","    aabbbba    "],
+            ["      eme      ","      ebe      ","    aafffaa    ","    agaafga    ","aaaaiaaaaaiaaaa","jkaffaaaaaafakj","gkafaaaaaaafakg","jkafaaaaaaffakj","    iaaaaai    ","    agfaaga    ","    aafffaa    "],
+            ["      eee      ","      eee      ","               ","               ","aaaai     iaaaa","akkaa     aakka","fkkaa     aakgf","akkaa     aakka","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaai     iaaaa","ajkka  q  akkja","agkga  p  aggga","ajkka     akkja","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaai     iaaaa","aajka     akjaa","afgga  cq aggfa","aajka     akjaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaar     raaaa","aaakr     rkaaa","aaggr  c  rggaa","aaakr  q  rkaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka     akaaa","aaggr qc  rggaa","aaaka     akaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka  q  akaaa","aaggssscsssggaa","aaaka     akaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka     akaaa","aagga  cq aggaa","aaaka     akaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka     akaaa","aafga  c  agfaa","aaaka  q  akaaa","               ","               ","               "],
+            ["               ","               ","               ","     t   t     ","aaaaa     aaaaa","aaakk     kkaaa","aaagg  c  ggaaa","aaakk     kkaaa","               ","               ","               "],
+            ["               ","               ","               ","     v   v     ","aaaau     uaaaa","aaajk sxs kjaaa","aaagg xAx ggaaa","aaajk sxs kjaaa","    u     u    ","     v   v     ","      uuu      "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaak sxs kaaaa","aaafg xAx gfaaa","aaaak sxs kaaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaaa sxs aaaaa","aaaag xAx gaaaa","aaaaa sxs aaaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","aaaaa     aaaaa","aaaaa  D  aaaaa","aaaaf DxD faaaa","aaaaa  D  aaaaa","               ","               ","               "],
+            ["               ","               ","               ","               ","               ","       v       ","      vFv      ","       v       ","               ","               ","               "]
+            ])
+            .keys({
+            "a": "minecraft:air",
+            "b": "factory_blocks:sturdy",
+            "c": "tfmg:heavy_machinery_casing",
+            "d": "kubejs:dimrift",
+            "e": ["modular_machinery_reborn:casing_plain",                        
+                    "#modular_machinery_reborn:inputbus",
+                    "#modular_machinery_reborn:outputbus",
+                    "#modular_machinery_reborn:fluidoutputhatch",
+                    "#modular_machinery_reborn:fluidinputhatch",
+                    '#modular_machinery_reborn:energyinputhatch',
+                    "#modular_machinery_reborn:parallelhatch"],
+            "f": "tfmg:white_rebar_concrete_stairs",
+            "g": "tfmg:white_rebar_concrete",
+            "i": "tfmg:steel_truss",
+            "j": "minecraft:polished_deepslate_stairs",
+            "k": "minecraft:polished_deepslate",
+            "p": "create:mechanical_drill",
+            "q": "tfmg:steel_scaffolding",
+            "r": "tfmg:steel_frame",
+            "s": "tfmg:steel_bars",
+            "t": "create:rose_quartz_lamp",
+            "u": "tfmg:white_rebar_concrete_slab",
+            "v": "minecraft:polished_deepslate_slab",
+            "x": "mekanism:structural_glass",
+            "A": "kubejs:vaginaldew_basic[level=0]",
+            "D": "minecraft:lightning_rod",
+            "F": "minecraft:smooth_quartz"
+            })
+        )
+    
     e.create('mmr:t1.dimprobe_station')
         .name("维度探针站")
         .color("#ffefcd9a")
@@ -292,5 +342,37 @@ MMREvents.machines(e => {
                     "l": "mekanism:structural_glass", 
                     "r": "kubejs:filter_casing"
                 }))
+    
+    e.create("mmr:t1.slaughter_factory")
+        .name("屠宰场")
+        .color("#ff752100")
+        .structure(
+            MMRStructureBuilder.create()
+                .pattern([
+                    ["aaaaaaa","abbbbba","abbbbba","abbbbba","abbbbba","abbbbba","aaaaaaa"],
+                    ["accccca","cddeddc","cdddddc","cedddec","cdddddc","cddeddc","accccca"],
+                    ["aiiiiia","iddeddi","idddddi","iedddei","idddddi","iddeddi","aiiiiia"],
+                    ["aiiiiia","iddeddi","idddddi","iedddei","idddddi","iddeddi","aiiiiia"],
+                    ["aiiiiia","iddeddi","idjdjdi","iedddei","idjdjdi","iddeddi","aiiiiia"],
+                    ["aiiiiia","iddeddi","idjdjdi","iedddei","idjdjdi","iddeddi","aiiiiia"],
+                    ["aaaaaaa","akklkka","aklllka","allklla","aklllka","akklkka","aaaaaaa"],
+                    ["       ","       ","       ","   m   ","       ","       ","       "]])
+                .keys({
+                    "a":"factory_blocks:sturdy",
+                    "b":"tfmg:fireproof_bricks",
+                    "c":"tfmg:heavy_machinery_casing",
+                    "d":"minecraft:air",
+                    "e":"tfmg:cast_iron_bars",
+                    "i":"mekanism:structural_glass",
+                    "j":"tfmg:cast_iron_pipe",
+                    "k":"factory_blocks:gears",
+                    "l":[
+                        "modular_machinery_reborn:casing_plain",                        
+                        "#modular_machinery_reborn:inputbus",
+                        "#modular_machinery_reborn:outputbus",
+                        "#modular_machinery_reborn:fluidoutputhatch",
+                        "#modular_machinery_reborn:fluidinputhatch",
+                        "#modular_machinery_reborn:energyhatch"]})
+            )
 })
 

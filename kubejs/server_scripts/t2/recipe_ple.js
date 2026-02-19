@@ -10,5 +10,11 @@ ServerEvents.recipes(e =>{
         .produceFluidPerTick(Fluid.of("tfmg:air",50),100,10)
         .id("t2.mmr.ple.t1air")
 
+    mme.machine_recipe("mmr:t2.plenum",100)
+        .width(150)
+        .height(180)
+        .requireEnergy(1024)
+        .produceFluidPerTick(Fluid.of("tfmg:air",50),100,10)
+        .id("t2.mmr.ple.air")
 
 });

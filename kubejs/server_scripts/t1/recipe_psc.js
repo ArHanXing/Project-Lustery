@@ -2,7 +2,7 @@
 //碎岩机？
 ServerEvents.recipes(e =>{
     const mme = e.recipes.modular_machinery_reborn;
-    const stones = ["andesite","obsidian","stone","cobblestone","granite","diorite"]
+    const stones = ["andesite","obsidian","stone","cobblestone","granite","diorite","deepslate","cobbled_deepslate","basalt","blackstone"]
     stones.forEach(element => {
         mme.machine_recipe("mmr:t1.primitive_stone_crusher",10)
             .width(150)

@@ -59,6 +59,7 @@
 | lo | 淫能方尖碑 | mmr |
 | pftr | 原始坠星仪式台 | mmr |
 | taic | 热力空气浸润室 | mmr |
+| sff | 屠宰场 | mmr |
 | **Tier-2 §7** ple | 集气室 | mmr |
 | **Tier-3 §b** blb | 生物试验台（Tier 1/3） | mmr |
 

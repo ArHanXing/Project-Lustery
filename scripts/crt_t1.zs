@@ -174,7 +174,17 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
     result: {id: "ae2:printed_silicon", count: 1},
     ingredients: {middle: {tag: "c:silicon"}}});
 
-<recipetype:ae2:transform>.addJsonRecipe("t1.certus_crystal", {type: "ae2:transform", 
-    result: {id: "ae2:certus_quartz_crystal", count: 1}, 
-    circumstance: {type: "explosion"},
-    ingredients: [{item: "minecraft:quartz"}, {item:"kubejs:normal_lust_crystal"}]});
+//照抄（捂脸
+<recipetype:lychee:item_inside>.addJsonRecipe("t1.lych.certus",{ 
+    type: "lychee:item_inside",
+    item_in: {"item":"minecraft:quartz"},
+    block_in: {"blocks":"kubejs:vaginaldew_basic"},
+    post: [{"type":"drop_item","id":"ae2:certus_quartz_crystal"}]
+});
+
+<recipetype:lychee:block_clicking>.addJsonRecipe("t1.lych.endereye",{ 
+    type: "lychee:block_clicking",
+    item_in: {"item":"kubejs:fusion_normal_lust_crystal"},
+    block_in: {"blocks":"kubejs:dimrift"},
+    post: [{"type":"drop_item","id":"minecraft:ender_pearl"}]
+});

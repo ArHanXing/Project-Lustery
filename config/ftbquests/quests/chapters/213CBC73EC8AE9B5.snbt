@@ -131,31 +131,6 @@
 					type: "item"
 				}
 				{
-					count: 6
-					id: "315E890D371F0BD9"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:casing_plain"
-					}
-					type: "item"
-				}
-				{
-					id: "37F8CC31B150D2BA"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:inputbus_reinforced"
-					}
-					type: "item"
-				}
-				{
-					id: "300544E77719A279"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:outputbus_reinforced"
-					}
-					type: "item"
-				}
-				{
 					id: "10E5CF874A422461"
 					item: {
 						count: 1
@@ -303,14 +278,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "5D278F2A933FECFB"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:parallel_hatch_medium"
-					}
-					type: "item"
-				}
-				{
 					id: "4EAE8D2473740171"
 					item: {
 						count: 1
@@ -324,6 +291,14 @@
 					item: {
 						count: 1
 						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "1667971634C30761"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:parallel_hatch_basic"
 					}
 					type: "item"
 				}
@@ -345,14 +320,27 @@
 				"0320E4693A9BC209"
 			]
 			id: "51F43D0531613403"
-			rewards: [{
-				id: "27F4FB15F91EC201"
-				item: {
-					count: 1
-					id: "justarod:lubricating_book"
+			rewards: [
+				{
+					id: "27F4FB15F91EC201"
+					item: {
+						count: 1
+						id: "justarod:lubricating_book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "29CF546B45D4ABE0"
+					item: {
+						components: {
+							"ae2:stored_energy": 9.98244353E11d
+						}
+						count: 1
+						id: "megacells:portable_item_cell_256m"
+					}
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "6BC00A2E598924BE"

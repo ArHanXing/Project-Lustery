@@ -41,7 +41,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','无限无消耗地产出一些石头','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:lustpulse_motor',
-            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时§b产出高达96~256RPM和256su！§r']
+            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时§b产出高达96~192RPM和256su！§r']
         ],[
             'kubejs:sifted_ore',
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
@@ -68,7 +68,16 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','本多方块的§b输入输出端口§r可以替换任一§b基础工业外壳§r，且必须同时安装流体输入输出仓、能源仓','发射小型探测器来获得你需要的资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
-            ['Tier-§c1','从维度裂缝中取得矿物','允许使用§b并行控制仓§r','允许你§b聚焦矿物§r，选择一种矿脉对其进行聚焦，产出指定的数种矿石']
+            [
+                'Tier-§c1',
+                '从维度裂缝中取得矿物',
+                '允许使用§b并行控制仓§r',
+                '允许你§b聚焦矿物§r，产出指定的数种矿石',
+                '==========',
+                '- §a随机模式§r 默认§a32§r并行，耗能 256 FE/t，随机产生一种矿石原矿',
+                '               此时不允许安装并行控制仓',
+                '- §a聚焦模式§r 输入§a聚焦液§r时启动，还没写啊哈哈哈哈'
+            ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
@@ -90,7 +99,7 @@ ItemEvents.modifyTooltips(e =>{
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.biolab"]',
             ['Tier-§c1§r/§b3§r -- 本机器同时在§b两个阶段§r使用，具体机制如下：',
             '==========',
-            'Tier-§c1§r配方中：',
+            'Tier-§c1§r，产出触手生物的配方中：',
             '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r培养基',
             '    - 配方的基础成功概率为10%，§a三种不同的培养基§r中，每有一种输入量正确即增加30%配方成功率',
             '==========',
@@ -100,6 +109,14 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             'tfmg:generator',
             ['§c这个物品被禁用了！§r制作它在流程上将没有任何意义。','其实作者也很想玩一玩这优雅的电力系统，可惜作者也没有玩懂呜呜呜。','§7§m§o让我们永远缅怀它。']
+        ],[
+            'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.slaughter_factory"]',
+            ['Tier-§c1',
+                '自动在机器中生成§a怪物§r并§a将其杀死§r，掉落物会返回§a输出总线§r',
+                '这个多方块需要§a电力§r！记得插上你的§a能源仓§r！',
+                '==========',
+                '潜在Bug提示：如果你遇见了堆叠 >64 的掉落物，请务必手动进入机器将其捡出来',
+                '             否则无法正常回收输出总线']
         ]
     ]
 

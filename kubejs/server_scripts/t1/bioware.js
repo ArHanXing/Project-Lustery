@@ -72,6 +72,9 @@ ServerEvents.recipes(e =>{
         .produceItem('kubejs:basic_lust_bioware',0.25,120,30)
         .produceItem('kubejs:petri_dish',100,50)
         .id('t1.mmr.biolab.bioware')
+    
+    ec.milling('mekanism:dust_quartz','minecraft:quartz')
+
 })
 
 MMREvents.recipeFunction("_biolab.primitive", e=>{

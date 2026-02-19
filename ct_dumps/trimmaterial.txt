@@ -1,0 +1,10 @@
+<trimmaterial:minecraft:amethyst>
+<trimmaterial:minecraft:copper>
+<trimmaterial:minecraft:diamond>
+<trimmaterial:minecraft:emerald>
+<trimmaterial:minecraft:gold>
+<trimmaterial:minecraft:iron>
+<trimmaterial:minecraft:lapis>
+<trimmaterial:minecraft:netherite>
+<trimmaterial:minecraft:quartz>
+<trimmaterial:minecraft:redstone>

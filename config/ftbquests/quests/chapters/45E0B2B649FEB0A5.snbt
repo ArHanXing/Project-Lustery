@@ -18,6 +18,17 @@
 		{
 			dependencies: ["0320E4693A9BC209"]
 			id: "1AD29D19D83401F3"
+			rewards: [{
+				id: "3BE1674E5CA39A89"
+				item: {
+					components: {
+						"ae2:stored_energy": 5.5015E7d
+					}
+					count: 1
+					id: "megacells:portable_fluid_cell_4m"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EC45DEC70656147"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_fusion_array" }, count: 1, id: "modular_machinery_reborn:controller" }
@@ -563,6 +574,35 @@
 			}]
 			x: 12.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["605E632A46B3EBD9"]
+			id: "098F0AE6FC786C55"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "572AA17466B07D59"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["098F0AE6FC786C55"]
+			id: "1DDE77B5C1DEBFE9"
+			tasks: [
+				{
+					id: "390D135DA6338148"
+					item: { count: 1, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					id: "772A2B03E4A4BE95"
+					item: { count: 1, id: "minecraft:blackstone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
 		}
 	]
 }

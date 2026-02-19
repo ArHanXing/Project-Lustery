@@ -13,6 +13,7 @@
 	chapter_group.6D2F461E66E8259D.title: "欢愉的终焉 &bTier-5A"
 	file.0000000000000001.title: "&dProject Lustery"
 	quest.074B5E88EE9866C3.quest_desc: ["其实粗铁更好"]
+	quest.098F0AE6FC786C55.title: "下界探险"
 	quest.1020AF69968E1C14.quest_desc: [
 		"如果你玩了这个包，你的脑子一定是有冰"
 		""
@@ -24,6 +25,7 @@
 	quest.112F8F2A6ECA12B6.quest_desc: ["往钢筋方块中倒入混凝土"]
 	quest.1C6A6E1571946A0A.quest_desc: ["或许这是AE之前你吃的最大的一坨，但是忍一忍就过去了"]
 	quest.1CC68749AA4BB3D5.quest_desc: ["材质来自 GTM"]
+	quest.21838EE28C351D7D.quest_desc: ["使用石英粉配方"]
 	quest.29C68D4BC3FD507D.quest_desc: ["这次不需要模板了"]
 	quest.29C68D4BC3FD507D.title: "处理器"
 	quest.304082115F880753.quest_desc: ["使用下界石英+原石手动合成的方案"]
@@ -48,6 +50,7 @@
 		"&m“漂亮！略微有些先祖风范...什么叫动力钻头？”&r"
 	]
 	quest.55F64209D8199AE7.title: "原始碎岩机"
+	quest.58A1A273219E135A.quest_desc: ["丢入淫液中"]
 	quest.60D6731F00C6EEBC.quest_desc: [""]
 	quest.60D6731F00C6EEBC.title: "原石"
 	quest.63A418A6EAF24D26.title: "高炉"
@@ -73,6 +76,8 @@
 		"实际上用断这根末地烛至少可以获取12组欲望水晶碎片"
 	]
 	quest.73B99B599999B9A9.quest_subtitle: "你的第一份淫能"
+	quest.74257474C2F49716.quest_desc: ["注意：目前这个机器有Bug（To be fixed in MMR 3.0.8）。因此这里你必须创造掏"]
+	quest.76EF7627A32EDCB1.title: "ME线缆"
 	quest.777420784254FFA5.quest_desc: ["生产岩浆后搅拌制成"]
 	quest.78920A0D30298E13.quest_desc: [
 		"&b洗矿机&r！从你&d新鲜产出的淫能结晶&r中产出粗矿。"
