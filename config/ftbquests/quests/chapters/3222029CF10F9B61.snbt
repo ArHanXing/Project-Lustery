@@ -369,5 +369,21 @@
 			x: -2.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["4D21917350C01A74"]
+			id: "615D896BDF9E91C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1320A08F9F2E2280"
+				table_id: 8009765306492699401L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "5FB24F1E1FAF2C2D"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
 	]
 }

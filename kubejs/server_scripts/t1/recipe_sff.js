@@ -24,6 +24,7 @@ MMREvents.recipeFunction("_sff", e => {
     let mobs = [
             'minecraft:zombie',
             'minecraft:skeleton',
+            'minecraft:creeper',
             'minecraft:spider'//TODO 支持末影人，后续fix
     ];
     let randomValue = mobs[rd.nextInt(mobs.length)];

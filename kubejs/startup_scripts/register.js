@@ -29,6 +29,16 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:magnetize_iron_sheet')
     e.create('kubejs:magnetize_iron_ingot')
     e.create('kubejs:magnetize_iron_rod')
+
+    //我好原始啊。
+    for(let i=0;i<=32;i++){
+        e.create('kubejs:pcir'+i)
+            .texture("kubejs:item/programmed_circuit/"+i)
+        e.create('kubejs:infcell_pcir'+i,"extendedae:custom_infinity_cell")
+            .itemType('kubejs:pcir'+i)
+            .texture("kubejs:item/programmed_circuit/infinity_cell")
+            .tag('kubejs:infcells')
+    }
 })
 
 StartupEvents.registry("fluid",e=>{

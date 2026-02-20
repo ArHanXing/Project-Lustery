@@ -53,6 +53,8 @@
 	quest.58A1A273219E135A.quest_desc: ["丢入淫液中"]
 	quest.60D6731F00C6EEBC.quest_desc: [""]
 	quest.60D6731F00C6EEBC.title: "原石"
+	quest.615D896BDF9E91C2.quest_desc: ["在 T2 之后的配方为了防串会用到"]
+	quest.615D896BDF9E91C2.title: "编程电路"
 	quest.63A418A6EAF24D26.title: "高炉"
 	quest.6CA86D1824C8155D.quest_desc: [
 		"&a多方块结构&r将会是本整合包的核心内容，接下来是对于它们搭建的一点教程。善用&b翻页功能&r，就在你屏幕的右下角！"
@@ -89,4 +91,5 @@
 	quest.79BA114FDAE93C4D.quest_desc: ["不是让你做GT超净间，这只是建材哦"]
 	quest.79BA114FDAE93C4D.title: "超净间"
 	reward_table.353F11161D78E8C4.title: "t0:建筑材料"
+	reward_table.6F28671BD3BEC309.title: "t1:全编程电路"
 }

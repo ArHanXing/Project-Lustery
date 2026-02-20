@@ -52,9 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -71,13 +68,6 @@
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
   },
   "ftbquests": {
     "barrier": true
@@ -115,6 +105,26 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
   },
   "modular_machinery_reborn": {
     "machine_component_provider": true,

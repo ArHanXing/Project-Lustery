@@ -106,12 +106,12 @@ MMREvents.machines(e => {
         .structure(
         MMRStructureBuilder.create()
             .pattern([
-            ["      eee      ","      ebe      ","    aabbbaa    ","    abccbba    ","bbbbbcddccbbbbb","bbbbbcddddcbbbb","bbbbcddcddcbbbb","bbbbcddddcbbbbb","    bccddcbbbbb","    abbccba    ","    aabbbba    "],
+            ["      eee      ","      ebe      ","    aabbbaa    ","    abccbba    ","bbbbbcddccbbbbb","bbbbbcddddcbbbb","bbbbcddcddcbbbb","bbbbcddddcbbbbb","bbbbbccddcbbbbb","    abbccba    ","    aabbbba    "],
             ["      eme      ","      ebe      ","    aafffaa    ","    agaafga    ","aaaaiaaaaaiaaaa","jkaffaaaaaafakj","gkafaaaaaaafakg","jkafaaaaaaffakj","    iaaaaai    ","    agfaaga    ","    aafffaa    "],
-            ["      eee      ","      eee      ","               ","               ","aaaai     iaaaa","akkaa     aakka","fkkaa     aakgf","akkaa     aakka","               ","               ","               "],
-            ["               ","               ","               ","               ","aaaai     iaaaa","ajkka  q  akkja","agkga  p  aggga","ajkka     akkja","               ","               ","               "],
-            ["               ","               ","               ","               ","aaaai     iaaaa","aajka     akjaa","afgga  cq aggfa","aajka     akjaa","               ","               ","               "],
-            ["               ","               ","               ","               ","aaaar     raaaa","aaakr     rkaaa","aaggr  c  rggaa","aaakr  q  rkaaa","               ","               ","               "],
+            ["      eee      ","      eee      ","               ","               ","aaaai     iaaaa","akkaa     aakka","fkkaa     aakgf","akkaa     aakka","    i     i    ","               ","               "],
+            ["               ","               ","               ","               ","aaaai     iaaaa","ajkka  q  akkja","agkga  p  aggga","ajkka     akkja","    i     i    ","               ","               "],
+            ["               ","               ","               ","               ","aaaai     iaaaa","aajka     akjaa","afgga  cq aggfa","aajka     akjaa","    i     i    ","               ","               "],
+            ["               ","               ","               ","               ","aaaar     raaaa","aaakr     rkaaa","aaggr  c  rggaa","aaakr  q  rkaaa","    r     r    ","               ","               "],
             ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka     akaaa","aaggr qc  rggaa","aaaka     akaaa","               ","               ","               "],
             ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka  q  akaaa","aaggssscsssggaa","aaaka     akaaa","               ","               ","               "],
             ["               ","               ","               ","               ","aaaaa     aaaaa","aaaka     akaaa","aagga  cq aggaa","aaaka     akaaa","               ","               ","               "],

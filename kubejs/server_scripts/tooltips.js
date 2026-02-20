@@ -32,6 +32,8 @@ function mcforms(namesp,str){
     ]
 }
 ItemEvents.modifyTooltips(e =>{
+    // 善用 Ctrl+F
+
     const tooltipPairs = [
         [
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_ore_washer"]',
@@ -74,7 +76,7 @@ ItemEvents.modifyTooltips(e =>{
                 '允许使用§b并行控制仓§r',
                 '允许你§b聚焦矿物§r，产出指定的数种矿石',
                 '==========',
-                '- §a随机模式§r 默认§a32§r并行，耗能 256 FE/t，随机产生一种矿石原矿',
+                '- §a随机模式§r 默认§a16§r并行，耗能 256 FE/t，随机产生一种矿石原矿',
                 '               此时不允许安装并行控制仓',
                 '- §a聚焦模式§r 输入§a聚焦液§r时启动，还没写啊哈哈哈哈'
             ]
@@ -116,7 +118,13 @@ ItemEvents.modifyTooltips(e =>{
                 '这个多方块需要§a电力§r！记得插上你的§a能源仓§r！',
                 '==========',
                 '潜在Bug提示：如果你遇见了堆叠 >64 的掉落物，请务必手动进入机器将其捡出来',
-                '             否则无法正常回收输出总线']
+                '             否则无法正常回收到输出总线']
+        ],[
+            'megacells:cable_mega_interface',
+            ['请使用 EAE 的 ME 扩展接口']
+        ],[
+            'megacells:cable_mega_pattern_provider',
+            ['请使用 EAE 的 ME 扩展样板供应器']
         ]
     ]
 

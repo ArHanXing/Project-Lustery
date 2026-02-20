@@ -86,6 +86,28 @@
     }
   ],
   "lookup_history": [
+    "item:kubejs:infcell_pcir27",
+    "item:megacells:cable_mega_pattern_provider",
+    "item:megacells:cell_component_256m",
+    "item:megacells:cell_component_1m",
+    "item:megacells:mega_fluid_cell_housing",
+    "item:megacells:mega_item_cell_housing",
+    "item:megacells:compression_card",
+    "item:megacells:bulk_item_cell",
+    "item:megacells:mega_pattern_provider",
+    "item:megacells:cable_mega_interface",
+    "item:megacells:mega_interface",
+    "item:extendedae_plus:infinity_biginteger_cell",
+    {
+      "type": "fluid",
+      "id": "enderio:fluid_dew_of_the_void_still",
+      "amount": 1000
+    },
+    "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"enderio:fluid_dew_of_the_void_still\"}]}}",
+    "item:extendedae:ex_pattern_provider_part",
+    "item:extendedae_plus:network_pattern_controller",
+    "item:ae2peat:pattern_encoding_access_terminal",
+    "item:extendedae:infinity_cobblestone_cell",
     "item:mekanism_extras:ingot_naquadah",
     "item:sgjourney:raw_naquadah",
     "item:sgjourney:raw_naquadah_block",
@@ -1062,11 +1084,11 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:andesite",
-      "create:crafting/kinetics/shaft",
-      "kubejs:t1.mc.primitive_end_rod",
       "toomanyrecipeviewers:/create/mixing/andesite_alloy",
       "minecraft:diorite",
+      "kubejs:t1.mc.primitive_end_rod",
+      "minecraft:andesite",
+      "create:crafting/kinetics/shaft",
       "jaopcaextras:gears.from_material.copper"
     ],
     "tags": {},
