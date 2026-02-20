@@ -84,7 +84,6 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     const m=e.getMachine();
     const input=m.getFluidsStored(IOType.INPUT)
     const server=level.getServer();
-    const seed=_SEED;
 
     /**
     * @param {number} cur 目前配方的值
@@ -109,7 +108,7 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
         }
     }
     //生成目标值
-    let _rd = Utils.newRandom(seed);
+    let _rd = Utils.newRandom(_SEED);
     let lusN=_rd.nextInt(0,10);
     let natN=_rd.nextInt(0,10);
     let othN=_rd.nextInt(0,10);
@@ -139,9 +138,15 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     if(_judgement(nat,natN,0)) base+=3;
     if(_judgement(lus,lusN,1)) base+=3;
     if(_judgement(oth,othN,2)) base+=3;
-    m.removeFluid('kubejs:lustery_powered_medium');
-    m.removeFluid('kubejs:natural_powered_medium');
-    m.removeFluid('kubejs:others_powered_medium');
+
+    let _rd2 = Utils.newRandom(_SEED + Date.now());
+    if(_rd2.nextInt(0,10) <= base){
+        m.addItem('kubejs:lustbio_petri_dish');
+    }
+    else m.addItem('kubejs:failed_lustbio_petri_dish');
+    m.removeFluid(Fluid.of('kubejs:lustery_powered_medium',lus*1000));
+    m.removeFluid(Fluid.of('kubejs:natural_powered_medium',nat*1000));
+    m.removeFluid(Fluid.of('kubejs:others_powered_medium',oth*1000));
     e.success();
 }) 
 

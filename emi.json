@@ -91,6 +91,38 @@
   ],
   "lookup_history": [
     {
+      "type": "fluid",
+      "id": "tfmg:hot_air",
+      "amount": 1200
+    },
+    {
+      "type": "fluid",
+      "id": "tfmg:air",
+      "amount": 0
+    },
+    "item:kubejs:natural_powered_medium_bucket",
+    {
+      "type": "fluid",
+      "id": "kubejs:natural_powered_medium",
+      "amount": 0
+    },
+    "item:kubejs:others_powered_medium_bucket",
+    {
+      "type": "fluid",
+      "id": "kubejs:others_powered_medium",
+      "amount": 0
+    },
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.thermal_air_infiltration_chamber\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.biolab\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.slaughter_factory\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_fusion_array\"}",
+    "item:modular_machinery_reborn:energyinputhatch_ludicrous",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.lust_obelisk\"}",
+    "item:modular_machinery_reborn:energyinputhatch_small",
+    {
       "type": "item",
       "id": "kubejs:fusion_normal_lust_crystal",
       "amount": 2
@@ -125,8 +157,6 @@
     "item:mekanism:creative_fluid_tank{\"mekanism:fluids\":{fluid_tanks:[{amount:2147483647,id:\"kubejs:vaginaldew_basic\"}]}}",
     "item:tfmg:fireproof_bricks",
     "item:tfmg:fireclay",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_falling_tower_ritual\"}",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.biolab\"}",
     "item:tfmg:coal_coke_dust",
     "fluid:tfmg:creosote",
     {
@@ -156,13 +186,11 @@
     "item:mekanism_extras:infinite_injecting_factory",
     "item:create:powdered_obsidian",
     "item:modular_machinery_reborn:energyinputhatch_tiny",
-    "item:modular_machinery_reborn:energyinputhatch_small",
     "item:modular_machinery_reborn:energyinputhatch_normal",
     "item:modular_machinery_reborn:energyinputhatch_reinforced",
     "item:modular_machinery_reborn:energyinputhatch_big",
     "item:createaddition:alternator",
     "item:createaddition:electric_motor",
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.vaginaldew_refining_tower\"}",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.primitive_stone_crusher\"}",
     "item:kubejs:infcell_pcir14",
     "item:kubejs:infcell_pcir27",
@@ -371,17 +399,7 @@
     "item:ae2:sky_dust",
     {
       "type": "fluid",
-      "id": "kubejs:others_powered_medium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "kubejs:lustery_powered_medium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:natural_powered_medium",
       "amount": 0
     },
     "item:sgjourney:naquadah_alloy",
@@ -391,7 +409,6 @@
     "item:kubejs:lustery_powered_medium_bucket",
     "item:enderio:basic_capacitor",
     "item:custommachinery:polarizer",
-    "item:kubejs:natural_powered_medium_bucket",
     "item:kubejs:magnetize_iron_sheet",
     "item:custommachinery:custom_machine_item{\"custommachinery:machine\":\"custommachinery:polarizer\"}",
     "item:tfmg:polarizer",
@@ -508,7 +525,6 @@
     "item:eidolon_repraised:tough_incense",
     "item:draconicevolution:entity_detector",
     "item:create:deployer",
-    "item:modular_machinery_reborn:energyinputhatch_ludicrous",
     "item:enderio:fluid_tank",
     "item:create_connected:fluid_vessel",
     "item:mekanism:dynamic_tank",
@@ -659,11 +675,6 @@
       "amount": 27
     },
     "item:minecraft:flint",
-    {
-      "type": "fluid",
-      "id": "tfmg:hot_air",
-      "amount": 1200
-    },
     "item:modular_machinery_reborn:fuel_tank_normal",
     "item:modular_machinery_reborn:energyinputhatch_huge",
     "item:ae2:entropy_manipulator",
@@ -672,11 +683,6 @@
       "type": "item",
       "id": "extendedae:entro_crystal",
       "amount": 4
-    },
-    {
-      "type": "fluid",
-      "id": "tfmg:air",
-      "amount": 1000
     },
     "item:modular_machinery_reborn:fluidoutputhatch_vacuum",
     "item:modular_machinery_reborn:fluidinputhatch_vacuum",
@@ -1057,6 +1063,9 @@
     "item:mekmm:basic_lathing_factory"
   ],
   "craft_history": [
+    "kubejs:t1.mmr.taic.fluid",
+    "toomanyrecipeviewers:/tfmg/vat_machine_recipe/neon",
+    "kubejs:t2.mmr.ple.air",
     "t1.mmr.pfa.kubejs:fusion_normal_lust_crystal.4",
     "t1.mmr.pfa.kubejs:fusion_defective_lust_crystal.0",
     "t1.mmr.pfa.kubejs:fusion_defective_lust_crystal.4",
@@ -1116,12 +1125,12 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:diorite",
-      "minecraft:andesite",
       "kubejs:t1.mc.primitive_end_rod",
-      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
+      "minecraft:andesite",
+      "minecraft:diorite",
+      "create:crafting/kinetics/shaft",
       "jaopcaextras:gears.from_material.copper",
-      "create:crafting/kinetics/shaft"
+      "toomanyrecipeviewers:/create/mixing/andesite_alloy"
     ],
     "tags": {},
     "resolutions": {},

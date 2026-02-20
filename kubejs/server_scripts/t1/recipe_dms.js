@@ -26,5 +26,9 @@ ServerEvents.recipes(e =>{
         .lootTable('mmr:t1_dimrift_mining_station_random',2,100,10)
         .id("t1.mmr.psc.dms.gorandom") //是的 这里有16个LootTable
 
-    //TODO：聚焦模式
+    let oreTypes = [
+        'minecraft:iron_ore',
+        'minecraft:coal_ore',
+        'minecraft:copper_ore'
+    ]
 });
