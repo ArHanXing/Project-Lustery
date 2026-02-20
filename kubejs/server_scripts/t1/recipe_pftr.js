@@ -32,7 +32,7 @@ ServerEvents.recipes(e =>{
 
 MMREvents.recipeFunction("ftr_t1_clay", e => {
     const tile = e.getTile();
-    const r = 5;
+    const r = 10;
     const blockList = [
         ['minecraft:sand', 1],
         ['create:limestone', 2],
@@ -45,7 +45,7 @@ MMREvents.recipeFunction("ftr_t1_clay", e => {
 
 MMREvents.recipeFunction("ftr_t1_skystone", e => {
     const tile = e.getTile();
-    const r = 3;
+    const r = 6;
     const blockList = [
         ['ae2:sky_stone_block', 2],
         ['minecraft:calcite', 1],

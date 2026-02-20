@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"j":{"item":"minecraft:copper_ingot"}},"pattern":["cjc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"m":{"item":"minecraft:copper_ingot"}},"pattern":["cmc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -257,10 +257,10 @@ craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justar
     [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:steel_casing");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"q":{"item":"tfmg:steel_casing"}},"pattern":["isi","sqs","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"r":{"item":"tfmg:steel_casing"}},"pattern":["isi","srs","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:nutritional_liquifier");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"h":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsh","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"u":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsu","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_1");
 
@@ -326,4 +326,30 @@ craftingTable.addShapeless("ctgui/new/minecraft/flint_and_steel_0", <item:minecr
 <recipetype:minecraft:crafting>.removeByName("extendedae_plus:infinity_biginteger_cell");
 
 <recipetype:minecraft:crafting>.removeByName("megacells:network/mega_interface");
+
+<recipetype:minecraft:crafting>.removeByName("megacells:network/mega_interface_block");
+
+<recipetype:minecraft:crafting>.removeByName("megacells:network/mega_interface_part");
+
+<recipetype:minecraft:crafting>.removeByName("megacells:network/mega_pattern_provider_part");
+
+<recipetype:minecraft:crafting>.removeByName("megacells:network/mega_pattern_provider");
+
+<recipetype:minecraft:crafting>.removeByName("megacells:network/mega_pattern_provider_block");
+
+<recipetype:minecraft:crafting>.removeByName("modular_machinery_reborn:casing_reinforced");
+
+craftingTable.addShaped("ctgui/new/crafting/t1.controller_taic", <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mmr:t1.thermal_air_infiltration_chamber"), [
+    [IIngredientEmpty.getInstance(), <item:create:iron_sheet>, IIngredientEmpty.getInstance()],
+    [<item:tfmg:fireproof_bricks>, IIngredientEmpty.getInstance(), <item:tfmg:fireproof_bricks>],
+    [<item:create:iron_sheet>, <item:create:blaze_burner>, <item:create:iron_sheet>]]);
+
+<recipetype:minecraft:crafting>.removeByName("appflux:insulating_resin");
+craftingTable.addShapeless("ctgui/new/appflux/insulating_resin", <item:appflux:insulating_resin> * 3, [<item:minecraft:water_bucket>, <tag:item:c:silicon>, <item:kubejs:normal_lust_crystal>, <item:kubejs:basic_lust_bioware>]);
+
+<recipetype:minecraft:crafting>.removeByName("ae2:network/crafting/patterns_blank");
+craftingTable.addShaped("ctgui/new/ae2/network/crafting/patterns_blank", <item:ae2:blank_pattern> * 8, [
+    [<item:ae2:quartz_glass>, <item:kubejs:magnetize_iron_sheet>, <item:ae2:quartz_glass>],
+    [<item:kubejs:fusion_normal_lust_crystal>, <item:ae2:charged_certus_quartz_crystal>, <item:kubejs:fusion_normal_lust_crystal>],
+    [<item:kubejs:magnetize_iron_sheet>, <item:appflux:harden_insulating_resin>, <item:kubejs:magnetize_iron_sheet>]]);
 

@@ -151,7 +151,7 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
 <recipetype:tfmg:hot_blast>.removeByName("tfmg:hot_blast/hot_air");
 <recipetype:create:sequenced_assembly>.removeByName("tfmg:sequenced_assembly/heavy_plate");
 //塑料混凝土
-<recipetype:create:item_application>.addJsonRecipe("t1.it_appli.concrete", {type: "create:item_application", 
+<recipetype:create:item_application>.addJsonRecipe("t1.itemapp.concrete", {type: "create:item_application", 
     results: [{id: "kubejs:plascrete"}], 
     ingredients: [{item: "tfmg:rebar_concrete"}, {item:"minecraft:white_dye"}]});
 
@@ -188,3 +188,8 @@ furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:tone
     block_in: {"blocks":"kubejs:dimrift"},
     post: [{"type":"drop_item","id":"minecraft:ender_pearl"}]
 });
+
+//MMR 强化外壳
+<recipetype:create:item_application>.addJsonRecipe("t1.itemapp.reinforced_mmr_casing", {type: "create:item_application", 
+    results: [{id: "modular_machinery_reborn:casing_reinforced"}], 
+    ingredients: [{item: "modular_machinery_reborn:casing_plain"}, {item:"create:sturdy_sheet"}]});

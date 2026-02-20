@@ -48,7 +48,7 @@ MMREvents.machines(e => {
 
     e.create("mmr:t1.vaginaldew_refining_tower")
         .color("#ffbb5548")
-        .name("欲望炼化塔")
+        .name("欲望炼化池")
         .structure(
             MMRStructureBuilder.create()
                 .pattern([

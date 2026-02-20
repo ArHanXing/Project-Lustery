@@ -57,6 +57,7 @@ MMREvents.recipeFunction("_sff", e => {
             }
             if(cur.item !== null) {
                 machine.addItem(cur.item);
+                if(rd.nextInt(1,10)>=5) machine.addItem('minecraft:ender_pearl');//所以我偷鸡
                 cur.discard();
             }
         })

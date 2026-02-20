@@ -160,4 +160,20 @@ ServerEvents.recipes(e =>{
     e.remove({output:'createaddition:alternator'})
     e.remove({output:'createaddition:electric_motor'})
     
+    // 裂隙采矿
+    incomp = 'kubejs:unfinished_controller'
+    ec.sequenced_assembly(
+        'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
+        'tfmg:heavy_machinery_casing',
+        [
+            ec.cutting(incomp,incomp),
+            ec.deploying(incomp,[incomp,'kubejs:steel_plate']),
+            ec.pressing(incomp,incomp),
+            ec.deploying(incomp,[incomp,'justarod:redstone_rod']),
+            ec.deploying(incomp,[incomp,'custommachinery:lustpulse_motor']),
+            ec.deploying(incomp,[incomp,'kubejs:steel_plate']),
+            ec.pressing(incomp,incomp)
+        ]
+    )
+        .transitionalItem(incomp)
 });

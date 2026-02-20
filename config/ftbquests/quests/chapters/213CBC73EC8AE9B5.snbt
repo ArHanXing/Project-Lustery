@@ -294,14 +294,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "1667971634C30761"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:parallel_hatch_basic"
-					}
-					type: "item"
-				}
 			]
 			shape: "gear"
 			size: 1.5d

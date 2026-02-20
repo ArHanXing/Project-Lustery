@@ -604,5 +604,27 @@
 			x: 2.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["3DFF1998CBC16EB7"]
+			hide_dependency_lines: true
+			id: "5362D7A8B0D114D2"
+			rewards: [{
+				id: "577BDFAAE2ADF021"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:parallel_hatch_basic"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "600EA92C93652267"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.dimrift_mining_station" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
 	]
 }

@@ -385,5 +385,47 @@
 			x: -4.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["25B92A9AAC38DB7B"]
+			id: "14756789C97FDF39"
+			tasks: [{
+				id: "31C14F9DC555174F"
+				item: { count: 1, id: "appflux:fe_1k_cell" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25B92A9AAC38DB7B"]
+			id: "5C34B482F10B4FCB"
+			rewards: [{
+				count: 6
+				id: "037E2F26961AA381"
+				item: {
+					count: 1
+					id: "extendedae:ex_pattern_provider_part"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "608880A883FBCD7B"
+				item: { count: 1, id: "ae2:cable_pattern_provider" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25B92A9AAC38DB7B"]
+			id: "7368C571EEDF217A"
+			tasks: [{
+				id: "0B420C58BF1F91BD"
+				item: { count: 1, id: "ae2:blank_pattern" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
 	]
 }

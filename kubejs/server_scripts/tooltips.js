@@ -84,8 +84,8 @@ ItemEvents.modifyTooltips(e =>{
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
-                '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上10格的位置',
-                '  陨石为§a菱形§r，半径为JEI中产出的方块总数量'
+                '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上30格的位置',
+                '  陨石为§a菱形§r，半径为JEI中产出的方块总数量的 2 倍'
             ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
