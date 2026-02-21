@@ -133,14 +133,6 @@
 		}
 		{
 			count: 256
-			id: "1F6E24D502FACFD6"
-			item: {
-				count: 1
-				id: "tfmg:white_rebar_concrete"
-			}
-		}
-		{
-			count: 256
 			id: "7EE9803AA92C260A"
 			item: {
 				count: 1

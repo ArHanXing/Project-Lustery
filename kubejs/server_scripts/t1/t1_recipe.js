@@ -98,7 +98,7 @@ ServerEvents.recipes(e =>{
         .id("t1.mmr.dps.t1_basicprobe_overworld")
 
     //基础探测
-    let incomp='kubejs:basic_probe'
+    let incomp='kubejs:basic_probe'//TODO 未完成形态
     ec.sequenced_assembly(
         [   
             CreateItem.of('kubejs:basic_probe',0.8),

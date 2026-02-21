@@ -92,7 +92,7 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     ingredients: [{tag:"minecraft:planks"}]
 });
 
-<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/hand", {type: "create:sequenced_assembly", sequence:[
+<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/hand", {type: "create:sequenced_assembly", sequence:[//TODO 把这个写回KJS，然后注册未完成形态
     {
         ingredients: [
             {item:"create:brass_sheet"},

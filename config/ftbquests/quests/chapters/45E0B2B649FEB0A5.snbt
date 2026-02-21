@@ -159,15 +159,25 @@
 			dependencies: ["12FFD4025AC798FA"]
 			id: "7A288DF7DFC9AF82"
 			optional: true
-			rewards: [{
-				count: 32
-				id: "7B94A3B1BD3119F5"
-				item: {
-					count: 1
-					id: "kubejs:fusion_defective_lust_crystal"
+			rewards: [
+				{
+					count: 32
+					id: "7B94A3B1BD3119F5"
+					item: {
+						count: 1
+						id: "kubejs:fusion_defective_lust_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "623C2DC75236B696"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6F34410F3E6CB3DE"
 				item: { count: 1, id: "kubejs:basic_probe" }
@@ -242,6 +252,26 @@
 			dependencies: ["12FFD4025AC798FA"]
 			id: "7BA9BCCB3BDD80A7"
 			optional: true
+			rewards: [
+				{
+					count: 128
+					id: "5FA392BC6444D2B0"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B02981A7C30711D"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "440745B241E098A9"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:t1.primitive_falling_tower_ritual" }, count: 1, id: "modular_machinery_reborn:controller" }
