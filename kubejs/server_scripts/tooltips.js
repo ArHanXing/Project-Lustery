@@ -43,7 +43,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','无限无消耗地产出一些石头','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:lustpulse_motor',
-            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时§b产出高达96~192RPM和256su！§r']
+            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时周期性§b产出高达96~128RPM和256su！§r','但是每次旋转后将会暂停 1s']
         ],[
             'kubejs:sifted_ore',
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']

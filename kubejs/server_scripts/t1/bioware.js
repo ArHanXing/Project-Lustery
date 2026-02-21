@@ -112,25 +112,25 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
     let lusN=_rd.nextInt(0,10);
     let natN=_rd.nextInt(0,10);
     let othN=_rd.nextInt(0,10);
-    console.log('[BioLab] lusN='+lusN+' natN='+natN+' othN='+othN+' ');
+    //console.log('[BioLab] lusN='+lusN+' natN='+natN+' othN='+othN+' ');
     //检测对应的值
     let lus=0;
     let nat=0;
     let oth=0;
     //console.lof('[BioLab] 直接输出！'+input);
     input.forEach(cur =>{
-        console.log('[BioLab] current fluid is '+cur.getFluidType().toString()+' '+cur.amount.toString())
+        //console.log('[BioLab] current fluid is '+cur.getFluidType().toString()+' '+cur.amount.toString())
         if(cur.getFluidType() === 'kubejs:lustery_powered_medium') {
             lus+=Math.floor(cur.getAmount()/1000);
-            console.log('[BioLab] current Lust='+lus);
+            //console.log('[BioLab] current Lust='+lus);
         }
         if(cur.getFluidType() === 'kubejs:others_powered_medium') {
             oth+=Math.floor(cur.getAmount()/1000);
-            console.log('[BioLab] current Others='+oth);
+            //console.log('[BioLab] current Others='+oth);
         }
         if(cur.getFluidType() === 'kubejs:natural_powered_medium') {
             nat+=Math.floor(cur.getAmount()/1000);
-            console.log('[BioLab] current Natures='+nat);
+            //console.log('[BioLab] current Natures='+nat);
         }
     })
 

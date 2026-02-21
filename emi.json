@@ -90,6 +90,11 @@
     }
   ],
   "lookup_history": [
+    "item:create:copper_scaffolding",
+    "item:create:brass_scaffolding",
+    "item:create:andesite_scaffolding",
+    "item:justarod:stamina_draught",
+    "item:justarod:shenbao",
     "item:kubejs:fusion_normal_lust_crystal",
     "item:tfmg:cast_iron_sheet",
     "item:create:iron_sheet",
@@ -146,7 +151,6 @@
     "item:minecraft:iron_nugget",
     "item:minecraft:iron_ingot",
     "item:tfmg:cast_iron_ingot",
-    "item:justarod:shenbao",
     "item:kubejs:basic_probe",
     "item:minecraft:enchanting_table",
     "item:justarod:redstone_rod",
@@ -1180,16 +1184,16 @@
   ],
   "recipe_defaults": {
     "added": [
-      "create:crafting/kinetics/shaft",
-      "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing",
-      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
-      "kubejs:t1.mmr.vrt.vaginaldew.t1_nofusion",
       "crafttweaker:t1.create.industrial_iron_block",
+      "kubejs:t1.mmr.vrt.vaginaldew.t1_nofusion",
+      "kubejs:t1.mc.primitive_end_rod",
+      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
+      "minecraft:diorite",
+      "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing",
+      "minecraft:andesite",
       "jaopcaextras:gears.from_material.copper",
       "crafttweaker:ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting",
-      "minecraft:andesite",
-      "minecraft:diorite",
-      "kubejs:t1.mc.primitive_end_rod"
+      "create:crafting/kinetics/shaft"
     ],
     "tags": {},
     "resolutions": {},

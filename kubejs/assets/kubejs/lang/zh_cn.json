@@ -92,5 +92,7 @@
     "item.kubejs.pcir29": "编程电路 29 号",
     "item.kubejs.pcir30": "编程电路 30 号",
     "item.kubejs.pcir31": "编程电路 31 号",
-    "item.kubejs.pcir32": "编程电路 32 号"
+    "item.kubejs.pcir32": "编程电路 32 号",
+    "item.kubejs.unfinished_probe":"未装配完成的探测器",
+    "item.kubejs.unfinished_brass_hand":"未装配完成的黄铜手"
 }

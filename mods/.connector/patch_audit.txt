@@ -1,11 +1,7 @@
 ==== Connector Mixin Patch Audit Summary ====
 Successful: 0
 Partial: 0
-Failed: 1
-Success rate: .00%        Accuracy: .00%
-=============================================
-
-=============== Failed mixins ===============
-io/github/dimaskama/visualkeys/mixin/InGameHudMixin beforeDebugRender(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/client/DeltaTracker;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
+Failed: 0
+Success rate: NaN%        Accuracy: NaN%
 =============================================
 

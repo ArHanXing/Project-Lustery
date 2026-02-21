@@ -29,6 +29,26 @@ ServerEvents.recipes(e =>{
     let oreTypes = [
         'minecraft:iron_ore',
         'minecraft:coal_ore',
-        'minecraft:copper_ore'
-    ]
+        'minecraft:copper_ore',
+        'mekanism:tin_ore',
+        'tfmg:nickel_ore',
+        'mekanism:lead_ore',
+        'minecraft:gold_ore',
+        'minecraft:emerald_ore',
+        'mekanism:osmium_ore',
+        'mekanism:uranium_ore',
+        'minecraft:diamond_ore',
+        'minecraft:nether_quartz_ore',
+        'create:zinc_ore',
+        'tfmg:lithium_ore',
+        'minecraft:redstone_ore',
+        'minecraft:lapis_ore',
+        'eidolon_repraised:silver_ore',
+        'mekanism:fluorite_ore',
+        'sgjourney:naquadah_ore'
+    ];
+
+    oreTypes.forEach(cur =>{
+        //TODO
+    })
 });

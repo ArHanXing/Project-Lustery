@@ -30,7 +30,7 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:magnetize_iron_ingot')
     e.create('kubejs:magnetize_iron_rod')
 
-    //我好原始啊。
+    //我好原始啊
     for(let i=0;i<=32;i++){
         e.create('kubejs:pcir'+i)
             .texture("kubejs:item/programmed_circuit/"+i)
@@ -39,6 +39,9 @@ StartupEvents.registry("item",e=>{
             .texture("kubejs:item/programmed_circuit/infinity_cell")
             .tag('kubejs:infcells')
     }
+
+    e.create('kubejs:unfinished_brass_hand')
+    e.create('kubejs:unfinished_probe')
 })
 
 StartupEvents.registry("fluid",e=>{

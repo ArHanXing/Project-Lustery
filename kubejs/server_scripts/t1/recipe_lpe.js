@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
         cyclesPerDay: 240,     // 一天内的循环次数
         recipesPerCycle: 10,  // 每个周期的配方数量
         suMin: 96,           // 最小SU值
-        suMax: 192,           // 最大SU值
+        suMax: 128,           // 最大SU值
         phaseOffset: -Math.PI/2 // 相位偏移，-π/2确保从最低值开始
     };
 

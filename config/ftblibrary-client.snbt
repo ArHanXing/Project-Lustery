@@ -25,7 +25,7 @@
 			}
 			"ftbessentials:trash_can": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftbultimine:config": {
@@ -40,13 +40,18 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 4
+				x: 5
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
 				enabled: true
 				x: 1
 				y: 0
+			}
+			"createultimine:config": {
+				enabled: true
+				x: 3
+				y: 1
 			}
 			"ftblibrary:toggle/rain": {
 				enabled: true
