@@ -43,7 +43,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','无限无消耗地产出一些石头','允许使用§b并行控制仓§r']
         ],[
             'custommachinery:lustpulse_motor',
-            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时周期性§b产出高达96~128RPM和256su！§r','但是每次旋转后将会暂停 1s']
+            ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时周期性§b产出高达96~192RPM和256su！§r','但是每次旋转后将会暂停 1s，且有几率过载而被破坏']
         ],[
             'kubejs:sifted_ore',
             ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
@@ -85,7 +85,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
                 '本机器的JEI配方中，0%产出的物品仅提示产出方块',
                 '- 配方结束后，§a陨石§r将会生成在尖塔顶端向上30格的位置',
-                '  陨石为§a菱形§r，半径为JEI中产出的方块总数量的 2 倍'
+                '  陨石为§a菱形§r，半径为JEI中产出的方块总数量的 §a2§r 倍'
             ]
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t2.plenum"]',
@@ -104,6 +104,7 @@ ItemEvents.modifyTooltips(e =>{
             'Tier-§c1§r，产出触手生物的配方中：',
             '    - 使用§a自然的力量§r运行配方，产物§b不可知§r；配方成功后将可以产出§d触手生物§r培养基',
             '    - 配方的基础成功概率为10%，§a三种不同的培养基§r中，每有一种输入量正确即增加30%配方成功率',
+            '    - 三种培养基的正确输入量均§a至多 20 桶§r，我想你有方法最多5次就到解',
             '==========',
             'Tier-§b3§r配方中：',
             '    - §a敬请期待！§r'

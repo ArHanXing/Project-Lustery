@@ -202,3 +202,106 @@ for i, tier_name in bus_tier_names {
     craftingTable.addShapeless("uni.mmr.outputbus_"+tier_name+".convert", output_item, [input_item]);
     craftingTable.addShapeless("uni.mmr.inputbus_"+tier_name+".revconvert", input_item, [output_item]);
 }
+
+// =======================
+// 燃料仓
+// =======================
+// 定义材料
+val dropper = <item:minecraft:chest>;
+val smooth_stone = <item:minecraft:smooth_stone>;
+
+// 定义占位材料
+val ff_p1 = iron_sheet;
+val ff_p2 = cast_iron_sheet;
+val ff_p3 = basic_bin;
+
+val ff_tier_names = ["tiny", "small", "normal", "reinforced", "big", "huge"];
+
+for i, tier_name in ff_tier_names {
+    var input_id = "modular_machinery_reborn:fuel_tank_" + tier_name;
+    var input_item = <item:${input_id}>;
+
+    // 添加输入总线（主动方）配方
+    if (tier_name == "tiny") {
+        craftingTable.addShaped("uni.mmr.fuel_tank_tiny", input_item, [
+            [air, smooth_stone, air],
+            [air, casing_plain, air],
+            [air, dropper, air]
+        ]);
+    } else {
+        var prev_name = ff_tier_names[i - 1];
+        var prev_item = <item:modular_machinery_reborn:fuel_tank_${prev_name}>;
+        var recipe_name = "uni.mmr.fuel_tank_" + tier_name;
+        
+        if (tier_name == "small" || tier_name == "normal") {
+            craftingTable.addShaped(recipe_name, input_item, [
+                [air, ff_p1, air],
+                [air, prev_item, air],
+                [air, ff_p2, air]
+            ]);
+        } else if (tier_name == "reinforced" || tier_name == "big" || tier_name == "huge") {
+            craftingTable.addShaped(recipe_name, input_item, [
+                [air, ff_p1, air],
+                [air, prev_item, air],
+                [air, ff_p3, air]
+            ]);
+        }
+    }
+}
+
+// =======================
+// 动力仓
+// =======================
+// 定义材料
+val andcasing = <item:create:andesite_casing>;
+val brasheet = <item:create:brass_sheet>;
+val shaft = <item:create:shaft>;
+val steelplate = <item:kubejs:steel_plate>;
+// 定义占位材料
+val k_p1 = iron_sheet;
+val k_p2 = cast_iron_sheet;
+val k_p3 = brasheet;
+val k_p4 = steelplate;
+
+val k_tier_names = ["tiny", "small", "normal", "reinforced", "big", "huge", "ludicrous", "vacuum"];
+
+for i, tier_name in k_tier_names {
+    var input_id = "mmrcreate:kinetic_input_hatch_" + tier_name + "_slow";
+    var input_item = <item:${input_id}>;
+
+    // 添加输入总线（主动方）配方
+    if (tier_name == "tiny") {
+        craftingTable.addShaped("uni.mmr.c.kinetic_input_hatch_tiny", input_item, [
+            [air, shaft, air],
+            [air, casing_plain, air],
+            [air, andcasing, air]
+        ]);
+    } else {
+        var prev_name = k_tier_names[i - 1];
+        var prev_item = <item:mmrcreate:kinetic_input_hatch_${prev_name}_slow>;
+        var recipe_name = "uni.mmr.c.kinetic_input_hatch_" + tier_name;
+        
+        if (tier_name == "small" || tier_name == "normal") {
+            craftingTable.addShaped(recipe_name, input_item, [
+                [air, k_p1, air],
+                [air, prev_item, air],
+                [air, k_p2, air]
+            ]);
+        } else if (tier_name == "reinforced" || tier_name == "big" || tier_name == "huge") {
+            craftingTable.addShaped(recipe_name, input_item, [
+                [air, k_p2, air],
+                [air, prev_item, air],
+                [air, k_p3, air]
+            ]);
+        } else {
+            craftingTable.addShaped(recipe_name, input_item, [
+                [air, k_p2, air],
+                [air, prev_item, air],
+                [k_p4, k_p3, k_p4]
+            ]);
+        }
+    }
+    craftingTable.addShapeless("uni.mmr.c.kinetic_input_hatch_"+tier_name+".nexts2m", <item:mmrcreate:kinetic_input_hatch_${tier_name}_medium>, [<item:mmrcreate:kinetic_input_hatch_${tier_name}_slow>]);
+    craftingTable.addShapeless("uni.mmr.c.kinetic_input_hatch_"+tier_name+".nextm2f", <item:mmrcreate:kinetic_input_hatch_${tier_name}_fast>, [<item:mmrcreate:kinetic_input_hatch_${tier_name}_medium>]);
+    craftingTable.addShapeless("uni.mmr.c.kinetic_input_hatch_"+tier_name+".nextf2s", <item:mmrcreate:kinetic_input_hatch_${tier_name}_slow>, [<item:mmrcreate:kinetic_input_hatch_${tier_name}_fast>]);
+}

@@ -1,0 +1,42 @@
+{
+  "modular_machinery_reborn_create.jei.required_stress_capacity": "所需SU：%s",
+  "modular_machinery_reborn_create.jei.produce_stress_capacity": "产生SU：%s",
+  "modular_machinery_reborn_create.requirment.insufficient_stress": "SU不足",
+  "modular_machinery_reborn_create.component.missing.kinetic.input": "缺少动能输入仓",
+  "modular_machinery_reborn_create.component.missing.kinetic.output": "缺少动能输出仓",
+  "itemGroup.mmrcreate.all_items": "模块化机械：重置 机动附属",
+
+  "block.mmrcreate.kinetic_input_hatch_tiny_slow": "§7微型§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_tiny_medium": "§7微型§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_tiny_fast": "§7微型§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_small_slow": "§7小型§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_small_medium": "§7小型§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_small_fast": "§7小型§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_normal_slow": "§a普通§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_normal_medium": "§a普通§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_normal_fast": "§a普通§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_reinforced_slow": "§a强化§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_reinforced_medium": "§a强化§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_reinforced_fast": "§a强化§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_big_slow": "§b大型§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_big_medium": "§b大型§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_big_fast": "§b大型§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_huge_slow": "§b巨型§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_huge_medium": "§b巨型§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_huge_fast": "§b巨型§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_ludicrous_slow": "§c极巨§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_ludicrous_medium": "§c极巨§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_ludicrous_fast": "§c极巨§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_input_hatch_vacuum_slow": "§d终极§r动能输入仓（慢速）",
+  "block.mmrcreate.kinetic_input_hatch_vacuum_medium": "§d终极§r动能输入仓（中速）",
+  "block.mmrcreate.kinetic_input_hatch_vacuum_fast": "§d终极§r动能输入仓（快速）",
+
+  "block.mmrcreate.kinetic_output_hatch": "动能输出仓"
+}

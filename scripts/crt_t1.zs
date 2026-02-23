@@ -92,27 +92,27 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     ingredients: [{tag:"minecraft:planks"}]
 });
 
-<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/hand", {type: "create:sequenced_assembly", sequence:[//TODO 把这个写回KJS，然后注册未完成形态
+<recipetype:create:sequenced_assembly>.addJsonRecipe("t1.create.sa/hand", {type: "create:sequenced_assembly", sequence:[
     {
         ingredients: [
             {item:"create:brass_sheet"},
             {item: "create:andesite_alloy"}
         ], 
         results: 
-            [{id: "create:brass_hand"}], 
+            [{id: "kubejs:unfinished_brass_hand"}], 
             type: "create:deploying"
     },
     {
         ingredients: [
-            {item: "create:brass_hand"}
+            {item: "kubejs:unfinished_brass_hand"}
         ], 
         results: 
-            [{id: "create:brass_hand"}], 
+            [{id: "kubejs:unfinished_brass_hand"}], 
             type: "create:pressing"
     },
     {
         ingredients: [
-            {item: "create:brass_hand"}
+            {item: "kubejs:unfinished_brass_hand"}
         ], 
         results: 
             [{id: "create:brass_hand"}], 
@@ -120,7 +120,7 @@ stoneCutter.addRecipe("t1.create.wd_industrial_iron_block",
     },
     ], 
     loops: 1, 
-    transitional_item: {id: "create:brass_hand"}, 
+    transitional_item: {id: "kubejs:unfinished_brass_hand"}, 
     results: [
         {id: "create:brass_hand", chance: 200.0}
     ],
