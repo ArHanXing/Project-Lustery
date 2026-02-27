@@ -13,3 +13,11 @@ config - KubeJS config storage. This is also the only directory that scripts can
 exported - Data dumps like texture atlases end up here
 
 You can find type-specific logs in logs/kubejs/ directory
+
+我发现这个文件会被KJS一直创建
+
+fxxk 换个名字 tabastro 全崩了
+
+我的新雅呢
+
+哦还活着

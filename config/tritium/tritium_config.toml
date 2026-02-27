@@ -38,17 +38,6 @@ chest_rendering_optimization = false
 fastBlit = true
 
 
-[rendering.GpuPlus]
-## Gpu Plus
-gpuPlus = true
-
-## Gpu Plus Vbo
-gpuPlusVbo = true
-
-## Gpu Plus Index
-gpuPlusIndex = true
-
-
 [rendering.reflex]
 ## Enable Reflex
 enableReflex = true
@@ -98,11 +87,6 @@ enableFaceOcclusionCulling = true
 fastLanguageSwitch = true
 
 
-[clientOptimizations.FastResourcePack]
-## Resource Pack Cache
-resourcePackCache = true
-
-
 [clientOptimizations.dynamicFPS]
 ## Enable
 enable = false
@@ -118,22 +102,16 @@ minimizedFPS = 1
 enabled = false
 
 ## Position
-position = 0
+position = "TOP_LEFT"
 
 ## Display Mode
-displayMode = 1
-
-## Text Color
-textColor = "#FFFFFF"
+displayMode = "CURRENT_ONLY"
 
 ## Shadow
 shadow = true
 
 ## Background Opacity
 backgroundOpacity = 0.3
-
-## Decimal Places
-decimalPlaces = 1
 
 ## Show Unit
 showUnit = true
@@ -168,7 +146,7 @@ horizontalRange = 64
 verticalRange = 32
 
 ## Entity Whitelist
-entityWhitelist = ["minecraft:ender_dragon"]
+entityWhitelist = ["minecraft:ender_dragon", "draconicevolution:draconic_guardian"]
 
 
 [entities.entityStacking]
@@ -194,7 +172,7 @@ mergeDistance = 1.5
 stackCountColor = "#00FF00"
 
 ## List Mode
-listMode = 0
+listMode = "ALL"
 
 ## Item List
 itemList = ["minecraft:item"]
@@ -205,6 +183,74 @@ itemList = ["minecraft:item"]
 [techOptimizations.createOptimizations]
 ## Enable Rail Offloading
 enableRailOffloading = true
+
+
+
+[fastRandom]
+## Enable Fast Random
+enableFastRandom = false
+
+## Default Algorithm
+defaultAlgorithm = "L64X128MIXRANDOM"
+
+## Default Seed
+defaultSeed = 0
+
+## Default Stream Mode
+defaultStreamMode = "SHARED"
+
+## Default Split
+defaultSplit = 0
+
+[fastRandom.structurePoolWeightedSample]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
+
+
+[fastRandom.particleRejection]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
+
+
+[fastRandom.minecraftGlobal]
+## Enable
+enable = false
+
+## Algorithm
+algorithm = "DEFAULT"
+
+## Seed
+seed = 0
+
+## Stream Mode
+streamMode = "DEFAULT"
+
+## Split
+split = 0
 
 
 

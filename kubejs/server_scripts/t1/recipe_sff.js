@@ -11,10 +11,6 @@ ServerEvents.recipes(e =>{
 })
 let _tick=0;
 
-/**
- * @type $Entity
- */
-let _player;
 MMREvents.recipeFunction("_sff", e => {
     const machine = e.machine;
     const tile = e.getTile();
@@ -33,16 +29,6 @@ MMREvents.recipeFunction("_sff", e => {
     spawn.setPosition(pos.getX(),pos.getY(),pos.getZ());
     spawn.mergeNbt({ NoAI: true });
     spawn.spawn();
-
-    //得到最近的玩家
-    if(_player === undefined){
-        let entitiesTotal = level.getEntities()
-        entitiesTotal.forEach(cur =>{
-            if(cur.isPlayer()){
-                _player = cur;
-            }
-        })
-    }
 
     _tick++;
     if(_tick==20){

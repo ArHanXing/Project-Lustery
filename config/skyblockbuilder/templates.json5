@@ -26,6 +26,14 @@
       "west": [],
       "north": [],
       "east": []
+    },
+    "default_lustery": {
+      "south": [],
+      "west": [],
+      "north": [
+        [ 10, 8, 6 ]
+      ],
+      "east": []
     }
   },
   
@@ -49,17 +57,24 @@
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
-    "default": {}
+    "default": {
+      "margin": 1
+    }
   },
   
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
-      "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "name": "default_lustery",
+      "file": "default_lustery.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [
+          [ 10, 8, 6 ]
+        ],
+        "east": []
+      }
     }
   ]
 }

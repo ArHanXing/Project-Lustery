@@ -9,7 +9,7 @@ upcoming fucking huge industrial pack with shits filled.
 
 ## 开发
 还请各位手动忽略那个mods文件夹里的二进制文件，不会packwiz，咕咕咕。
-- 下载一个 1.21.1 + NeoForge 21.1.213 的客户端。
+- 下载一个 1.21.1 + NeoForge 21.1.219 的客户端。
 - 将这个仓库 copy 到 .minecraft 文件夹。
 ### 已知的 Bug
 - 机械动力的创造引擎、转速控制器、电力发动机不能调整转速，否则卡死。

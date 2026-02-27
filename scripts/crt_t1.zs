@@ -135,7 +135,7 @@ craftingTable.removeByName("create:crafting/kinetics/brass_hand");
         {type: "neoforge:single", fluid: "kubejs:vaginaldew_basic", amount: 100}
     ]});
 
-furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:kubejs:cneko_dust>, <item:toneko:neko_ingot>, 0.1, 100);
+furnace.addRecipe("t1.mcfurnace.neko_ingot",<item:toneko:neko_ingot>,<item:kubejs:cneko_dust>, 0.1, 100);
 
 <recipetype:create:mixing>.addJsonRecipe("t1.fireclay", {
     type: "create:mixing",

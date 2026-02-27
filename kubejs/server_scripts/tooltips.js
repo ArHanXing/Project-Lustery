@@ -46,7 +46,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1','每1s消耗3mB§d粗质淫液§r，同时周期性§b产出高达96~192RPM和256su！§r','但是每次旋转后将会暂停 1s，且有几率过载而被破坏']
         ],[
             'kubejs:sifted_ore',
-            ['灵智意识体的结晶','在能维护§d维度裂缝§r之前，你只能如此获得少得可怜的资源']
+            ['淫能与世界的的结晶','在能制造§d维度裂缝§r之前，你只能如此获得资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.vaginaldew_refining_tower"]',
             ['Tier-§c1','回归原体吧!','更高效地产出§d粗质淫液§r','允许使用§b并行控制仓§r']

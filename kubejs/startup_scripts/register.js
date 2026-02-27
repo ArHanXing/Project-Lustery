@@ -83,4 +83,6 @@ StartupEvents.registry("block",e=>{
         .tagBlock("minecraft:mineable/pickaxe")
     e.create("filter_casing")
         .tagBlock("minecraft:mineable/pickaxe")
+    e.create("lust_crystal_block")
+        .tagBlock("minecraft:mineable/pickaxe")
 })

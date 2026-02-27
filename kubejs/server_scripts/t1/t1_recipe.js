@@ -2,33 +2,6 @@
 ServerEvents.recipes(e =>{
     const mme = e.recipes.modular_machinery_reborn;
     const ec = e.recipes.create;
-    e.shaped("minecraft:end_rod",[
-        ' A ',
-        ' B ',
-        '   '
-    ],{
-        A:'minecraft:stick',
-        B:'minecraft:flint'
-    }).id('t1.mc.primitive_end_rod');
-
-    e.shaped(Item.of('minecraft:gravel',2),[
-        'AA ',
-        'AB ',
-        '   '
-    ],{
-        A:'minecraft:dirt',
-        B:'minecraft:stick'
-    }).id('t1.mc.gravel');
-
-    e.shaped('justarod:primitive_rod',[
-        ' A ',
-        ' A ',
-        'CBC'
-    ],{
-        A:'minecraft:stick',
-        B:'minecraft:end_rod',
-        C:'minecraft:flint'
-    }).id('t1.jar.primitive_rod');
 
     e.shapeless(Item.of('kubejs:sifted_ore',2),[
         'kubejs:defective_lust_crystal','#c:cobblestones'

@@ -7,14 +7,29 @@ ServerEvents.tags('item',e=>{
         "modular_machinery_reborn:fluidinputhatch",
         "modular_machinery_reborn:fluidoutputhatch"
     ];
-    lisCasingTags.forEach(thx =>{
-        //e.add(thx,'modular_machinery_reborn:casing_plain');
-    });
-    
     e.add("c:ingots","toneko:neko_ingot")
     e.add("c:ingots/cneko","toneko:neko_ingot")
 
-    e.remove("c:ingots/naquadah","sgjourney:naquadah")
+
+    const listLustCrystal = [
+        'kubejs:defective_lust_crystal',
+        'kubejs:normal_lust_crystal',
+        'kubejs:exquisite_lust_crystal',
+        'kubejs:fusion_defective_lust_crystal',
+        'kubejs:fusion_normal_lust_crystal',
+        'kubejs:fusion_exquisite_lust_crystal'
+    ]
+    listLustCrystal.forEach(cur => {
+        e.add("c:gems",cur);
+    })
+    e.add("c:gems/defective_lust_crystal","kubejs:defective_lust_crystal")
+    e.add("c:gems/defective_lust_crystal","kubejs:fusion_defective_lust_crystal")
+    e.add("c:gems/normal_lust_crystal","kubejs:normal_lust_crystal")
+    e.add("c:gems/normal_lust_crystal","kubejs:fusion_normal_lust_crystal")
+    e.add("c:gems/exquisite_lust_crystal","kubejs:exquisite_lust_crystal")
+    e.add("c:gems/exquisite_lust_crystal","kubejs:fusion_exquisite_lust_crystal")
+
+    e.add("c:gems/lust_crystal","kubejs:normal_lust_crystal")
 
     e.add("c:plates",'kubejs:steel_plate')
     e.add("c:plates/steel",'kubejs:steel_plate')

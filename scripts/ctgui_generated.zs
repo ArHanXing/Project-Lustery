@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"a":{"item":"minecraft:copper_ingot"}},"pattern":["cac","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"q":{"item":"minecraft:copper_ingot"}},"pattern":["cqc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -164,7 +164,7 @@ craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:play
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"a":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," a "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"w":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," w "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
     [<item:jaopca:gears.brass>],
@@ -243,18 +243,16 @@ craftingTable.addShaped("ctgui/new/tfmg/crafting/materials/cast_iron_block_from_
 <recipetype:minecraft:crafting>.removeByName("tfmg:crafting/materials/cast_iron_ingot_from_decompacting");
 craftingTable.addShapeless("ctgui/new/tfmg/crafting/materials/cast_iron_ingot_from_decompacting_0", <item:tfmg:cast_iron_ingot> * 4, [<tag:item:c:storage_blocks/cast_iron>]);
 
-<recipetype:minecraft:crafting>.removeByName("minecraft:tuff");
-
 craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justarod:redstone_rod>, [
     [IIngredientEmpty.getInstance(), <item:create:polished_rose_quartz>, IIngredientEmpty.getInstance()],
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()],
     [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:steel_casing");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"y":{"item":"tfmg:steel_casing"}},"pattern":["isi","sys","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"j":{"item":"tfmg:steel_casing"}},"pattern":["isi","sjs","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:nutritional_liquifier");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"b":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsb","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"k":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsk","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_1");
 
@@ -359,4 +357,22 @@ craftingTable.addShaped("ctgui/new/create/crafting/kinetics/mechanical_crafter",
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:logistical_sorter");
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/logistical_sorter", {"key":{"i":{"tag":"c:ingots/iron"},"p":{"item":"minecraft:piston"},"m":{"item":"kubejs:magnetize_iron_sheet"},"b":{"item":"mekanism:basic_logistical_transporter"}},"pattern":["ipi","mbm","iii"],"result":{"id":"mekanism:logistical_sorter","count":1},"category":"misc","type":"mekanism:mek_data"});
+
+craftingTable.addShapeless("ctgui/new/crafting/lust_crystal_block_decomp", <item:kubejs:normal_lust_crystal> * 9, [<item:kubejs:lust_crystal_block>]);
+
+craftingTable.addShaped("ctgui/new/crafting/lust_crystal_block", <item:kubejs:lust_crystal_block>, [
+    [<item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>],
+    [<item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>],
+    [<item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>, <item:kubejs:normal_lust_crystal>]]);
+
+craftingTable.addShapeless("ctgui/new/crafting/normal_lust_crystal_2", <item:kubejs:normal_lust_crystal> * 4, [<item:kubejs:exquisite_lust_crystal>]);
+
+craftingTable.addShapeless("ctgui/new/minecraft/dirt.to.gravel", <item:minecraft:gravel> * 2, [<item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:stick>]);
+
+craftingTable.addShaped("ctgui/new/kubejs/t1.jar.primitive_rod", <item:justarod:primitive_rod>, [
+    [IIngredientEmpty.getInstance(), <item:minecraft:stick>, IIngredientEmpty.getInstance()],
+    [IIngredientEmpty.getInstance(), <item:minecraft:stick>, IIngredientEmpty.getInstance()],
+    [<item:kubejs:normal_lust_crystal>, <item:minecraft:end_rod>, <item:kubejs:normal_lust_crystal>]]);
+
+craftingTable.addShapeless("ctgui/new/minecraft/end_rod_alt", <item:minecraft:end_rod>, [<item:minecraft:flint>, <item:minecraft:stick>]);
 
