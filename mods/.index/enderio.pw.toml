@@ -1,0 +1,17 @@
+filename = 'enderio-8.2.1-alpha.jar'
+name = 'Ender IO'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'v8.2.1-alpha'
+
+[download]
+hash = 'cbcc5130500bd8dc8c5c30c11ffc8d4811466ca8912740fdf165de38abe1ded25c4ff2b682bb19e39fdfee87c62dac4051da73cd7417b89d1b0e6dfc4ebd521b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/49ZofO4f/versions/a6PXkRkq/enderio-8.2.1-alpha.jar'
+
+[update.modrinth]
+mod-id = '49ZofO4f'
+version = 'a6PXkRkq'

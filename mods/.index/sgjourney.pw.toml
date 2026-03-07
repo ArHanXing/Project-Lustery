@@ -1,0 +1,17 @@
+filename = 'Stargate_Journey-1.21.1-0.6.44.jar'
+name = 'Stargate Journey'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.44'
+
+[download]
+hash = '9fae024ca0b1e304803fb5add89f5a1e2bb7072c7136328ff1f655909b7b20c41dcc95746069d6f58c6efe2cd94c789b134221001a45ce9bb1462e372585a93d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qlc8dxM6/versions/kwE9oTO8/Stargate Journey-1.21.1-0.6.44.jar'
+
+[update.modrinth]
+mod-id = 'qlc8dxM6'
+version = 'kwE9oTO8'

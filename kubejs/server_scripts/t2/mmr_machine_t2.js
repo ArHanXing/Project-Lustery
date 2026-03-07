@@ -17,7 +17,8 @@ MMREvents.machines(e => {
                         "modular_machinery_reborn:casing_plain",
                         "#modular_machinery_reborn:inputbus",
                         "#modular_machinery_reborn:fluidoutputhatch",
-                        "#modular_machinery_reborn:energyhatch"],
+                        "#modular_machinery_reborn:energyhatch",
+                        "modular_machinery_reborn:height_meter"],
                     "c": ["mekanism:structural_glass"],
                     "d": ["tfmg:cast_iron_pipe"]
                 }))

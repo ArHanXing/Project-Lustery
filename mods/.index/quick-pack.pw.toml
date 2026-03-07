@@ -1,0 +1,46 @@
+filename = 'quick-pack-neoforge-1.2.0+1.21.10.jar'
+name = 'quick pack'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11 rc2',
+    '1.21.11-rc2',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0+1.21.10'
+
+[download]
+hash = '5c6b3b63ba0cda369531dfdb77ea2380642e419e5ce6c21e6addccf3325a6ab0d1991ba1a823d3211ff8da7c942d79e4ed534ea909c4a7aa71bb6c43e6359adf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pSISfJ4O/versions/K6FpGNBw/quick-pack-neoforge-1.2.0%2B1.21.10.jar'
+
+[update.modrinth]
+mod-id = 'pSISfJ4O'
+version = 'K6FpGNBw'

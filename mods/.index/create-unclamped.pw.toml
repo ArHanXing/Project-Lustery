@@ -1,0 +1,17 @@
+filename = 'unclamped-neoforge-1.1.0.jar'
+name = 'Create: Unclamped'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '1bfe44bf0e269d5bb08f2d0c59444611731d98f792a86b2fe0f63336b5d557ec50fe6a783231fb856706195254484d6e9ed7e68703ec83cd7e28f2a31941ed8c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kfKiyEXs/versions/WKi2iewm/unclamped-neoforge-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'kfKiyEXs'
+version = 'WKi2iewm'

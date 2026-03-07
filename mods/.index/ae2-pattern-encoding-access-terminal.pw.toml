@@ -1,0 +1,17 @@
+filename = 'ae2-pattern-encoding-access-terminal-1.21.1-1.1.0-rc.4.jar'
+name = 'AE2 Pattern Encoding Access Terminal'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1.0-rc.4'
+
+[download]
+hash = '62bfabbe8093c038f6b50fbb6ce091256d2816cd0214b017ec3b5f0d5fc0f9b9c5c692bdb145b27485955499087829753339d762b667575c5b94fda1d382846f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qVB0pZyA/versions/ZKf2pUcC/ae2-pattern-encoding-access-terminal-1.21.1-1.1.0-rc.4.jar'
+
+[update.modrinth]
+mod-id = 'qVB0pZyA'
+version = 'ZKf2pUcC'

@@ -1,0 +1,17 @@
+filename = 'LibX-1.21.1-6.0.9.jar'
+name = 'LibX'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-6.0.9'
+
+[download]
+hash = '6d80cb2457454c9b4177bc0ce71769332e8da953c87eac1d86ee3b8c1a21fd5bf02e704ca70b1d7a5057800a278112d663d3384ce420240ba0833a5db45b7056'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qEH6GYul/versions/CLe8cTHs/LibX-1.21.1-6.0.9.jar'
+
+[update.modrinth]
+mod-id = 'qEH6GYul'
+version = 'CLe8cTHs'

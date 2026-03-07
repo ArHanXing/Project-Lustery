@@ -1,0 +1,36 @@
+filename = '!cfms-1.0.0.jar'
+name = 'Child Folder Mod Scanner'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '6f1f4f09ec5bdd5b77da357d8dc796a03d2b3e9ea222edfaa0f1074f22cf826075d9b36a4d9f583fa218e7f4aa533fc4ede4658662a2dbdd980b4f1b778e6f5d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qPtzxQTN/versions/EuC0Q3kW/cfms-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'qPtzxQTN'
+version = 'EuC0Q3kW'

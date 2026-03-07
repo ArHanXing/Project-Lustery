@@ -1,0 +1,17 @@
+filename = 'ldlib2-neoforge-1.21.1-2.2.4.a-all.jar'
+name = 'LowDragLib2'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'mc1.21.1-2.2.4.a-neoforge'
+
+[download]
+hash = '615861dc86a47a8287df0635eb8d0dab906c4b6362724531c41c097bd20cf6870c56f9ec54e7f9300aeb8cf6fb7537ea96173ade223aadb417d660f6db237d40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B1CBVXHX/versions/v6C3U2yc/ldlib2-neoforge-1.21.1-2.2.4.a-all.jar'
+
+[update.modrinth]
+mod-id = 'B1CBVXHX'
+version = 'v6C3U2yc'

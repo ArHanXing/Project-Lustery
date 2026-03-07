@@ -1,3 +1,5 @@
+//this one is abandoned
+
 ServerEvents.recipes(e => {
     const mmc = e.recipes.custommachinery
     
@@ -49,6 +51,7 @@ ServerEvents.recipes(e => {
     //console.log(`[LPE] 配置：每天 ${cyclesPerDay} 个周期，共 ${totalRecipes} 个配方`);
     //console.log(`[LPE] 周期长度：${cycleLength} ticks`);
 
+    /*
     recipes.forEach((recipe, index) => {
         mmc.custom_machine("custommachinery:lustpulse_motor", 200)
             .requireFluid(Fluid.of("kubejs:vaginaldew_basic",3), "input")
@@ -57,9 +60,12 @@ ServerEvents.recipes(e => {
             .hide()
             .resetOnError()
             .requireTime("("+recipe.startTime+","+recipe.endTime+"]");
+    
+            
         //console.log(`[LPE] 添加周期：${recipe.startTime} to ${recipe.endTime} with rpm ${recipe.suOutput}`);
     });
-    
+    */
+
     /*
     mmc.custom_machine("custommachinery:lustpulse_motor", 200)
         .requireFluid(Fluid.of("kubejs:vaginaldew_basic",10), "input")

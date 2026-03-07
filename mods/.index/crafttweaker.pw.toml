@@ -1,0 +1,17 @@
+filename = 'CraftTweaker-neoforge-1.21.1-21.0.35.jar'
+name = 'CraftTweaker'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.0.35'
+
+[download]
+hash = 'dd32d0ef99b6a94cf2efc1762b183aa87b3c6ee364464c096e144cf45c0b598387336b37c873ea32f6caa6457bc622d2ca4c09c4a0eaae0c48587aa5bd678e50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Xg35A4rS/versions/QaCXJ4O7/CraftTweaker-neoforge-1.21.1-21.0.35.jar'
+
+[update.modrinth]
+mod-id = 'Xg35A4rS'
+version = 'QaCXJ4O7'

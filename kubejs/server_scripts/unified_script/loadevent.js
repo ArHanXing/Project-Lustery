@@ -3,7 +3,6 @@
 // 这个事件在每次服务器加载完成（包括第一次进入世界）时触发
 let _SEED = 0;
 ServerEvents.loaded((event) => {
-
     //种子
     let server = event.server;
     // 尝试获取种子
@@ -18,3 +17,21 @@ ServerEvents.loaded((event) => {
         server.runCommandSilent('reload');
     }
 });
+
+//从 PersistentData 往全局变量里加载
+let _pss_dimriftminer_bonus_rate = 1;
+ServerEvents.loaded(e => {
+    let data = e.server.persistentData;
+    _pss_dimriftminer_bonus_rate = data.get("_pss_dimriftminer_bonus_rate")
+})
+
+ServerEvents.unloaded(e => {
+    let data = e.server.persistentData;
+
+    function save(string, newData) {
+        data.remove(string);
+        data.putInt(string,newData);
+    }
+
+    save("_pss_dimriftminer_bonus_rate",_pss_dimriftminer_bonus_rate);
+})

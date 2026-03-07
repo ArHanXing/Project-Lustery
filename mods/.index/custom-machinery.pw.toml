@@ -1,0 +1,17 @@
+filename = 'CustomMachinery-neoforge-1.21.1-0.10.58.jar'
+name = 'Custom Machinery'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-0.10.58'
+
+[download]
+hash = '9ce8589bccc8c4b1731bc4b07599c841849bdf0e329bbf6ddf84fcfb6e5b727f1f2185335638c4922151f9816cdb00c73a697ad279f0402ab17e78e0b23530e9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OrB5XFtI/versions/dNIS5HtG/CustomMachinery-neoforge-1.21.1-0.10.58.jar'
+
+[update.modrinth]
+mod-id = 'OrB5XFtI'
+version = 'dNIS5HtG'

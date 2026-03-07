@@ -375,4 +375,3 @@ MMREvents.machines(e => {
                         "#modular_machinery_reborn:energyhatch"]})
             )
 })
-

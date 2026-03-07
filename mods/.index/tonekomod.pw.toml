@@ -1,0 +1,17 @@
+filename = '[猫娘]toneko-fabric-1.7.2.jar'
+name = 'toNekoMod'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7.2'
+
+[download]
+hash = '94b6bf9816c257c57c9ababd8e8df95fb04b60f88a7aad2843a745117fd8dc421f46575204a6b8203c97c787053d0374fecf68c4d4be5ccfd55865e0afdefda4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QFxgeSVF/versions/fbjojRuP/toneko-fabric-1.7.2.jar'
+
+[update.modrinth]
+mod-id = 'QFxgeSVF'
+version = 'fbjojRuP'

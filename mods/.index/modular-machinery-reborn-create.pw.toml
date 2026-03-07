@@ -1,0 +1,17 @@
+filename = 'mmrcreate-0.1.0.jar'
+name = 'Modular Machinery Reborn Create'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'mmrcreate-0.1.0.jar'
+
+[download]
+hash = '654cbfffe37f0d7c0a1dafd9995d6c4458fbb671'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6488289
+project-id = 1257064
