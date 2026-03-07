@@ -42,6 +42,7 @@ StartupEvents.registry("item",e=>{
 
     e.create('kubejs:unfinished_brass_hand')
     e.create('kubejs:unfinished_probe')
+    e.create('kubejs:dimfragment')
 })
 
 StartupEvents.registry("fluid",e=>{

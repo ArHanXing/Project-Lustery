@@ -18,10 +18,8 @@ upcoming fucking huge industrial pack with shits filled.
 原因不明。
 - 坠星仪式台，输入的原石会被吞掉。
 原因不明。
-- 仓、总线的六面方块标识有几率错误。
-MMR issue
-- 编码终端不能转移 MMR 流体。
-MMR issue
+- 开局时 Fabric Mod 无法加载的提示没有消失。
+我猜是新雅的问题。
 
 ## 鸣谢
 - CrystalNeko 的原mod toNeko、JustARod 的代码付出！
@@ -37,5 +35,6 @@ MMR issue
 ## 本项目修改并使用了以下项目的代码
 - [BlueSheep2804/JAOPCAExtras](https://github.com/BlueSheep2804/JAOPCAExtras)
 
-### 暂时不要更新的mod
-信雅互联，Kiwi，Lychee，FerriteCore，FFAPI
+---
+## 摆烂日记
+![Alt](https://repobeats.axiom.co/api/embed/a380298d971279079c56e7e9d0080e5baa700d6e.svg "Repobeats analytics image")

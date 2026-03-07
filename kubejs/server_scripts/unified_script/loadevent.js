@@ -19,19 +19,23 @@ ServerEvents.loaded((event) => {
 });
 
 //从 PersistentData 往全局变量里加载
-let _pss_dimriftminer_bonus_rate = 1;
+// 要挂全局持久变量在这里修改
+// wheel 但是疑似不可用
+let _pss_test = 1;
 ServerEvents.loaded(e => {
-    let data = e.server.persistentData;
-    _pss_dimriftminer_bonus_rate = data.get("_pss_dimriftminer_bonus_rate")
+    let data = e.server.getLevel().persistentData;
+    
+    _pss_test = data.get("_pss_test")
 })
-
+/*
 ServerEvents.unloaded(e => {
-    let data = e.server.persistentData;
+    let data = e.server.getLevel().persistentData;
 
     function save(string, newData) {
         data.remove(string);
         data.putInt(string,newData);
     }
 
-    save("_pss_dimriftminer_bonus_rate",_pss_dimriftminer_bonus_rate);
+    save("_pss_test",_pss_test);
 })
+*/

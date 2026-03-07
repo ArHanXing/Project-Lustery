@@ -1,8 +1,9 @@
 {
     "include": [
         "./**/*.js",
-        "./**/*.ts"
-, "t1/recipe_lpe.js"    ],
+        "./**/*.ts",
+        "t1/recipe_lpe.js"
+    ],
     "compilerOptions": {
         "module": "none",
         "moduleResolution": "node",

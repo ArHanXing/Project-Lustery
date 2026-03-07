@@ -2,6 +2,6 @@ type = last_world
 
 last_world {
   is_server = false
-  world = /mnt/sda5/gms/PrismLauncher/instances/Project Lustery/minecraft/saves/testify
+  world = D:/Games/Minecraft/.minecraft/versions/Project Lustery/saves/白色混凝土测试
 }
 

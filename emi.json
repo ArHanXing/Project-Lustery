@@ -90,6 +90,17 @@
     }
   ],
   "lookup_history": [
+    "item:sgjourney:naquadah_ore",
+    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}",
+    "item:mekanism:gauge_dropper",
+    "item:tfmg:silicon_ingot",
+    {
+      "type": "fluid",
+      "id": "tfmg:liquid_silicon",
+      "amount": 1000
+    },
+    "item:custommachinery:rift_generator",
+    "item:kubejs:pcir1",
     {
       "type": "item",
       "id": "kubejs:normal_lust_crystal",
@@ -100,7 +111,6 @@
       "id": "kubejs:fusion_normal_lust_crystal",
       "amount": 2
     },
-    "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}",
     "item:kubejs:basic_lust_bioware",
     "item:mekanism:sawdust",
     "item:minecraft:paper",
@@ -195,7 +205,6 @@
     "item:mmrcreate:kinetic_input_hatch_vacuum_slow",
     "item:mmrcreate:kinetic_input_hatch_vacuum_fast",
     "item:create:shaft",
-    "item:tfmg:silicon_ingot",
     "item:tfmg:cast_iron_ingot",
     "item:tfmg:nickel_sheet",
     "item:tfmg:cast_iron_sheet",
@@ -207,7 +216,6 @@
     "item:minecraft:stone",
     "item:minecraft:cobblestone",
     "item:minecraft:infested_cobblestone",
-    "item:custommachinery:lustpulse_motor",
     "item:custommachinery:polarizer",
     "item:create:copper_scaffolding",
     "item:create:brass_scaffolding",
@@ -253,7 +261,6 @@
     "item:tfmg:plastic_pipe",
     "item:tfmg:brass_pipe",
     "item:mekanism_extras:infinite_logistical_transporter",
-    "item:mekanism:gauge_dropper",
     "item:mekanism_extras:supreme_logistical_transporter",
     "item:mekanism:basic_logistical_transporter",
     "item:mekanism:diversion_transporter",
@@ -262,7 +269,6 @@
     "#item:c:stones",
     "item:create:crushing_wheel",
     "item:minecraft:basalt",
-    "item:custommachinery:rift_generator",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimprobe_station\"}",
     "item:minecraft:iron_nugget",
     "item:minecraft:iron_ingot",
@@ -409,7 +415,6 @@
     "item:sgjourney:refined_naquadah",
     "item:sgjourney:nether_naquadah_ore",
     "item:sgjourney:deepslate_naquadah_ore",
-    "item:sgjourney:naquadah_ore",
     "item:draconicevolution:draconium_ingot",
     "item:draconicevolution:overworld_draconium_ore",
     {
@@ -1087,11 +1092,6 @@
     "item:mekanism_extras:polonium_containing_solution_bucket",
     "item:minecraft:iron_block",
     "item:minecraft:anvil",
-    {
-      "type": "fluid",
-      "id": "tfmg:liquid_silicon",
-      "amount": 144
-    },
     "item:tfmg:transistor_item",
     "item:tfmg:circuit_board",
     {
@@ -1242,15 +1242,15 @@
   ],
   "recipe_defaults": {
     "added": [
-      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
-      "crafttweaker:ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting",
-      "jaopcaextras:gears.from_material.copper",
+      "minecraft:andesite",
+      "kubejs:t1.mmr.vrt.vaginaldew.t1_nofusion",
       "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing",
       "create:crafting/kinetics/shaft",
-      "kubejs:t1.mmr.vrt.vaginaldew.t1_nofusion",
+      "jaopcaextras:gears.from_material.copper",
       "minecraft:diorite",
+      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
       "crafttweaker:t1.create.industrial_iron_block",
-      "minecraft:andesite"
+      "crafttweaker:ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting"
     ],
     "tags": {},
     "resolutions": {},
