@@ -54,7 +54,7 @@ ServerEvents.recipes(e =>{
             //.hide()
             .requireItem('kubejs:pcir2',0.0,10,10)
             .requireItem(cur,30,10)
-            .requireFunctionToStart("dms_check",cur)
+            .requireFunctionOnStart("dms_check",cur)
             .id("t1.mmr.dms.focus_"+cur);
         
         mme.machine_recipe("mmr:t1.dimrift_mining_station",100)
@@ -63,7 +63,7 @@ ServerEvents.recipes(e =>{
             //.hide()
             .requireItem('kubejs:pcir3',0.0,10,10)
             .requireItem(cur,0.0,30,10)
-            .requireFunctionToStart("dms_check",cur)
+            .requireFunctionOnStart("dms_check",cur)
             .id("t1.mmr.dms.focus_"+cur+'nodropore');
     })
 
