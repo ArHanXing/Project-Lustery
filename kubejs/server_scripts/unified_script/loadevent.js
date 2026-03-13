@@ -1,6 +1,7 @@
 // priority: 90
 //依旧Deepseek
 // 这个事件在每次服务器加载完成（包括第一次进入世界）时触发
+let IOType = Java.loadClass('es.degrassi.mmreborn.common.machine.IOType');
 let _SEED = 0;
 ServerEvents.loaded((event) => {
     //种子
@@ -21,12 +22,14 @@ ServerEvents.loaded((event) => {
 //从 PersistentData 往全局变量里加载
 // 要挂全局持久变量在这里修改
 // wheel 但是疑似不可用
+/*
 let _pss_test = 1;
 ServerEvents.loaded(e => {
     let data = e.server.getLevel().persistentData;
     
     _pss_test = data.get("_pss_test")
 })
+*/
 /*
 ServerEvents.unloaded(e => {
     let data = e.server.getLevel().persistentData;

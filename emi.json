@@ -90,8 +90,13 @@
     }
   ],
   "lookup_history": [
-    "item:sgjourney:naquadah_ore",
     "item:modular_machinery_reborn:controller{\"modular_machinery_reborn:machine\":\"mmr:t1.dimrift_mining_station\"}",
+    "item:extendedae:quartz_blend",
+    "item:appflux:insulating_resin",
+    "item:appflux:harden_insulating_resin",
+    "item:ae2:blank_pattern",
+    "item:kubejs:lustbio_petri_dish",
+    "item:sgjourney:naquadah_ore",
     "item:mekanism:gauge_dropper",
     "item:tfmg:silicon_ingot",
     {
@@ -340,9 +345,6 @@
     "item:eidolon_repraised:smooth_stone_bricks",
     "item:kubejs:sifted_ore",
     "#item:c:cobblestones",
-    "item:appflux:insulating_resin",
-    "item:appflux:harden_insulating_resin",
-    "item:ae2:blank_pattern",
     "item:tfmg:glass_insulator_segment",
     "item:minecraft:slime_ball",
     "item:appflux:fe_1k_cell",
@@ -527,7 +529,6 @@
       "id": "ae2:silicon",
       "amount": 6
     },
-    "item:kubejs:lustbio_petri_dish",
     "item:minecraft:spider_eye",
     "item:minecraft:ender_pearl",
     "item:ae2:fluix_pearl",
@@ -540,11 +541,6 @@
     "item:avaritia:infinity_ingot",
     "item:avaritia:infinity_axe",
     "#item:minecraft:axes",
-    {
-      "type": "item",
-      "id": "extendedae:quartz_blend",
-      "amount": 6
-    },
     "item:mekanism:dust_quartz",
     "item:ae2:certus_quartz_crystal",
     "item:ae2:charged_certus_quartz_crystal",
@@ -1242,15 +1238,15 @@
   ],
   "recipe_defaults": {
     "added": [
-      "minecraft:andesite",
+      "crafttweaker:ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting",
+      "crafttweaker:t1.create.industrial_iron_block",
       "kubejs:t1.mmr.vrt.vaginaldew.t1_nofusion",
       "crafttweaker:ctgui/new/crafting/t1.fb.basic_casing",
       "create:crafting/kinetics/shaft",
-      "jaopcaextras:gears.from_material.copper",
       "minecraft:diorite",
-      "toomanyrecipeviewers:/create/mixing/andesite_alloy",
-      "crafttweaker:t1.create.industrial_iron_block",
-      "crafttweaker:ctgui/new/tfmg/crafting/materials/cast_iron_block_from_compacting"
+      "jaopcaextras:gears.from_material.copper",
+      "minecraft:andesite",
+      "toomanyrecipeviewers:/create/mixing/andesite_alloy"
     ],
     "tags": {},
     "resolutions": {},

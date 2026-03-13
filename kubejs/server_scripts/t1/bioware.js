@@ -78,7 +78,7 @@ ServerEvents.recipes(e =>{
 })
 
 MMREvents.recipeFunction("_biolab.primitive", e=>{
-    const IOType = Java.loadClass('es.degrassi.mmreborn.common.machine.IOType');
+    
     const tile=e.getTile();
     const level=tile.getLevel();
     const m=e.getMachine();
@@ -96,14 +96,14 @@ MMREvents.recipeFunction("_biolab.primitive", e=>{
 
         let curPrep = mapPrep[prep];
         if(cur < goal){
-            server.tell(curPrep+"属性的浓度§b不足§r！")
+            server.tell("[§a生物§r实验室] "+curPrep+"属性的浓度§b不足§r！")
             return false;
         }
         else if(cur === goal){
             return true;
         }
         else {
-            server.tell(curPrep+"属性的浓度§b过高§r！")
+            server.tell("[§a生物§r实验室] "+curPrep+"属性的浓度§b过高§r！")
             return false;
         }
     }
