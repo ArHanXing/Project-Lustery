@@ -73,12 +73,12 @@ ServerEvents.recipes(e =>{
             
     })
 
-    mme.machine_recipe("mmr:t1.dimrift_mining_station",1)
+    mme.machine_recipe("mmr:t1.dimrift_mining_station",2)
         .priority(3)
         .hide()
         .requireItem('kubejs:pcir4')
         .requireFunctionOnStart("dms_check_stability")
-        .id("_dms_check_stability");
+        .id("dms_check_stability");
 });
 
 MMREvents.recipeFunction("dms_check",e=>{
@@ -132,7 +132,7 @@ MMREvents.recipeFunction("dms_check_stability",e=>{
     let tile = e.getTile();
     let stability = tile.persistentData.getFloat("_pss_dms_stability");
     let server = e.getTile().getLevel().getServer();
-    if(stability==null) server.tell("[§b维度裂隙§r采矿机] 当前的稳定性为 null （这是一个Bug！）");
+    if(stability===undefined) server.tell("[§b维度裂隙§r采矿机] 当前的稳定性为 undefined （这是一个Bug！）");
     else server.tell("[§b维度裂隙§r采矿机] 当前的稳定性为 "+stability);
     
     e.success();

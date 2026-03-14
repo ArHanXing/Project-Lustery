@@ -101,7 +101,7 @@ craftingTable.addShaped("ctgui/new/uni.cca/gold_rod", <item:createaddition:gold_
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/mechanical_pipe/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"b":{"item":"minecraft:bucket"}},"pattern":["cbc","   ","   "],"result":{"id":"mekanism:basic_mechanical_pipe","count":4},"category":"misc","type":"mekanism:mek_data"});
 
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"q":{"item":"minecraft:copper_ingot"}},"pattern":["cqc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/universal_cable/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"m":{"item":"minecraft:copper_ingot"}},"pattern":["cmc","   ","   "],"result":{"id":"mekanism:basic_universal_cable","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/t1.mekanism/transmitter/logistical_transporter/basic", {"key":{"c":{"item":"tfmg:cast_iron_ingot"},"g":{"tag":"c:gears"}},"pattern":["cgc","   ","   "],"result":{"id":"mekanism:basic_logistical_transporter","count":4},"category":"misc","type":"mekanism:mek_data"});
 
@@ -164,7 +164,7 @@ craftingTable.addShaped("ctgui/new/crafting/player_scanner", <item:justarod:play
     [IIngredientEmpty.getInstance(), <item:minecraft:iron_ingot>, IIngredientEmpty.getInstance()]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:configurator");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"w":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," w "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/configurator", {"key":{"i":{"tag":"c:ingots/iron"},"v":{"tag":"c:ingots/osmium"},"c":{"item":"tfmg:cast_iron_ingot"}},"pattern":["ii "," v "," c "],"result":{"id":"mekanism:configurator","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 craftingTable.addShaped("ctgui/new/crafting/t1.fb.gears", <item:factory_blocks:gears>, [
     [<item:jaopca:gears.brass>],
@@ -249,10 +249,10 @@ craftingTable.addShaped("ctgui/new/kubejs/t1.jar.redstone_rod_alt", <item:justar
     [<item:tfmg:cast_iron_sheet>, <item:jaopca:rods.cast_iron>, <item:tfmg:cast_iron_sheet>]]);
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:steel_casing");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"j":{"item":"tfmg:steel_casing"}},"pattern":["isi","sjs","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/steel_casing", {"key":{"i":{"tag":"c:ingots/steel"},"s":{"tag":"c:plates/obsidian"},"k":{"item":"tfmg:steel_casing"}},"pattern":["isi","sks","isi"],"result":{"id":"mekanism:steel_casing","count":4},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("mekanism:nutritional_liquifier");
-<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"k":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsk","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
+<recipetype:minecraft:crafting>.addJsonRecipe("ctgui/new/mekanism/nutritional_liquifier", {"key":{"r":{"tag":"c:dusts/redstone"},"c":{"item":"tfmg:cast_iron_sheet"},"w":{"item":"minecraft:water_bucket"},"s":{"item":"mekanism:steel_casing"},"d":{"item":"mekanism:structural_glass"},"g":{"item":"jaopca:gears.cast_iron"}},"pattern":["rcr","wsd","rgr"],"result":{"id":"mekanism:nutritional_liquifier","count":1},"category":"misc","type":"mekanism:mek_data"});
 
 <recipetype:minecraft:crafting>.removeByName("createaddition:crafting/capacitor_1");
 
@@ -375,4 +375,22 @@ craftingTable.addShaped("ctgui/new/kubejs/t1.jar.primitive_rod", <item:justarod:
     [<item:kubejs:normal_lust_crystal>, <item:minecraft:end_rod>, <item:kubejs:normal_lust_crystal>]]);
 
 craftingTable.addShapeless("ctgui/new/minecraft/end_rod_alt", <item:minecraft:end_rod>, [<item:minecraft:flint>, <item:minecraft:stick>]);
+
+<recipetype:minecraft:crafting>.removeByName("ae2:network/wireless_part");
+craftingTable.addShaped("ctgui/new/ae2/network/wireless_part", <item:ae2:wireless_receiver>, [
+    [IIngredientEmpty.getInstance(), <item:ae2:fluix_pearl>, IIngredientEmpty.getInstance()],
+    [<tag:item:c:ingots/iron>, <item:create:transmitter>, <tag:item:c:ingots/iron>],
+    [IIngredientEmpty.getInstance(), <tag:item:c:ingots/iron>, IIngredientEmpty.getInstance()]]);
+
+<recipetype:minecraft:crafting>.removeByName("ae2:network/blocks/pattern_providers_interface");
+craftingTable.addShaped("ctgui/new/ae2/network/blocks/pattern_providers_interface", <item:ae2:pattern_provider> * 2, [
+    [<item:create:iron_sheet>, <item:minecraft:crafting_table>, <item:create:iron_sheet>],
+    [<item:ae2:annihilation_core>, IIngredientEmpty.getInstance(), <item:ae2:formation_core>],
+    [<item:create:iron_sheet>, <item:minecraft:crafting_table>, <item:create:iron_sheet>]]);
+
+<recipetype:minecraft:crafting>.removeByName("ae2:materials/formationcore");
+craftingTable.addShapeless("ctgui/new/ae2/materials/formationcore", <item:ae2:formation_core> * 2, [<item:ae2:logic_processor>, <item:kubejs:magnetize_iron_sheet>]);
+
+<recipetype:minecraft:crafting>.removeByName("ae2:materials/annihilationcore");
+craftingTable.addShapeless("ctgui/new/ae2/materials/annihilationcore", <item:ae2:annihilation_core> * 2, [<item:ae2:logic_processor>, <item:kubejs:magnetize_iron_rod>, <item:ae2:fluix_dust>]);
 

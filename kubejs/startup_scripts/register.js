@@ -43,6 +43,10 @@ StartupEvents.registry("item",e=>{
     e.create('kubejs:unfinished_brass_hand')
     e.create('kubejs:unfinished_probe')
     e.create('kubejs:dimfragment')
+    e.create('kubejs:sap')
+    e.create('kubejs:treetap',"kubejs:shears")
+        .unstackable()
+        .maxDamage(64);
 })
 
 StartupEvents.registry("fluid",e=>{

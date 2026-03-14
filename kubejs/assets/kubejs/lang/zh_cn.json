@@ -100,5 +100,7 @@
     "item.kubejs.unfinished_probe":"未装配完成的探测器",
     "item.kubejs.unfinished_brass_hand":"未装配完成的黄铜手",
     "block.kubejs.lust_crystal_block": "淫能宝石块",
-    "item.kubejs.dimfragment":"维度碎块"
+    "item.kubejs.dimfragment":"维度碎块",
+    "item.kubejs.sap":"树脂",
+    "item.kubejs.treetap":"木龙头"
 }
