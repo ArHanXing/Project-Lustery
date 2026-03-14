@@ -46,7 +46,7 @@ ItemEvents.modifyTooltips(e =>{
             ['Tier-§c1，产生动力功能已经暂时被禁用','淫能催化的极强引擎..可惜它的稳定性§c不足以§a驱动普通的机械动力机器§r']
         ],[
             'kubejs:sifted_ore',
-            ['淫能与世界的的结晶','在能制造§d维度裂缝§r之前，你只能如此获得资源']
+            ['淫能与世界的的结晶','在能制造§d维度裂缝§r之前，你只能如此获得矿物资源']
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.vaginaldew_refining_tower"]',
             ['Tier-§c1','回归原体吧!','更高效地产出§d粗质淫液§r','允许使用§b并行控制仓§r']
@@ -72,24 +72,18 @@ ItemEvents.modifyTooltips(e =>{
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.dimrift_mining_station"]',
             [
                 'Tier-§c1',
-                '从维度裂缝中取得矿物',
-                '允许使用§b并行控制仓§r',
-                '允许你§b聚焦矿物§r，产出指定的数种矿石',
+                '从维度裂缝中取得普通矿物',
                 '==========',
                 '- §a随机模式§r 输入§a编程电路 1§r时启动',
-                '默认§a16§r并行，耗能 256 FE/t，每0.5s随机产生一种矿石原矿',
+                '               默认§a16§r并行，耗能 256 FE/t，每0.5s随机产生一种矿石原矿',
                 '               此时不允许安装并行控制仓',
-                '- §a聚焦模式§r 输入§a聚焦保护液、编程电路 2、§b需要聚焦的矿石本体（石头形态）§r时启动',
-                '               5s一次配方，耗能1024 FE/t，产出§b极为大量的指定矿石§r，但是或许需要比较特殊的维护',
-                '               §a聚焦保护液§r维护稳定性，当稳定性比较低时产量下降，但是产出了一些不明物质',
-                '               每投入1桶§a聚焦保护液§r会使得稳定性上升 §b1§r ；每次运行都会折损 §b0.5~1§r 的稳定性',
-                '               投入保护液并再次运行聚焦模式配方后，会输出当前稳定性',
-                '               输入不消耗，但输入的矿石原矿默认§a会被消耗§r；如果想要不消耗一直运行，切换到编程电路 3',
+                '- §a聚焦模式§r 输入§a编程电路 2、§b需要聚焦的矿石本体（石头形态）§r时启动',
+                '               一次配方耗时 §a5s§r，耗能 §a1024 FE/t§r，产出§b至多4组指定矿石§r，但是或许需要比较特殊的维护',
+                '               §l§a聚焦保护液§r维护稳定性，当稳定性比较低时产量下降，等量变成一些§b维度碎块§r和其他矿石',
+                '               每投入1桶§a聚焦保护液§r会使得稳定性上升 §b1§r ；每次运行都会折损 §b0.5§r 的稳定性',
+                '               投入保护液并再次运行聚焦模式配方§l或§r投入编程电路 4 后，会输出当前稳定性',
+                '               使用编程电路2时输入的矿石原矿§a会被消耗§r；如果想要§l不消耗§r一直运行，§a切换到编程电路 3§r'
             ]
-            /*
-                聚焦每次配方耗时 1s 并不耗能，总计产生 1024 个矿石
-                根据三种频谱的比率，决定这些矿石分为哪三个大类
-            */
         ],[
             'modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:t1.primitive_falling_tower_ritual"]',
             ['Tier-§c1','§5引导群星的力量！§r但是原始时代，使用你的§d肉体§r来引导星辰吧',
@@ -136,6 +130,9 @@ ItemEvents.modifyTooltips(e =>{
         ],[
             'megacells:cable_mega_pattern_provider',
             ['请使用 EAE 的 ME 扩展样板供应器']
+        ],[
+            'kubejs:treetap',
+            ['右击§a橡木原木§r时，有 30% 概率获得一个§a树脂§r']
         ]
     ]
 
