@@ -1,6 +1,7 @@
 # Collection
 TODO 基础体力药！！！
 TODO 更好的蒸汽引擎替代，或者重构脉冲
+TODO 移除MegaAE2，使用更优雅的ECO替代
 TODO 重平衡各种数值
 TODO 低优先度：淫能方尖碑 / 创造飞行
 TODO 低优先度：修复体力检测问题
