@@ -86,7 +86,7 @@ MMREvents.recipeFunction("dms_check",e=>{
     const tile=e.getTile();
     const server=tile.getLevel().getServer();
     const input=m.getFluidsStored(IOType.INPUT);
-    let total=256;
+    let total=192;
 
     //从100到0
     let stability = tile.persistentData.getFloat("_pss_dms_stability");

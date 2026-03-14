@@ -374,4 +374,8 @@ MMREvents.machines(e => {
                         "#modular_machinery_reborn:fluidinputhatch",
                         "#modular_machinery_reborn:energyhatch"]})
             )
+    
+    e.create("mmr:t1.large_lust_motor")
+        .name("大型淫能动力引擎 WIP")//TODO
+        .color("#ffcbb994")
 })
